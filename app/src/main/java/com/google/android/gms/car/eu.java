@@ -29,10 +29,10 @@ public final class eu extends com.google.android.gms.common.internal.l<fq> {
     private p o;
     private as p;
     private final AtomicBoolean q;
-    private final List<f> r;
+    public final List<f> r;
     private final ex s;
     private ew t;
-    private volatile c u;
+    public volatile c u;
     private ev v;
     private fq w;
 
@@ -52,7 +52,7 @@ public final class eu extends com.google.android.gms.common.internal.l<fq> {
         }
     }
 
-    private synchronized void r() {
+    public synchronized void r() {
         if (this.v == null) {
             this.v = new ev(this);
             try {

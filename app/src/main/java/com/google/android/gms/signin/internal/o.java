@@ -9,7 +9,7 @@ import java.util.concurrent.ExecutorService;
 final class o extends e {
 
     /* renamed from: a, reason: collision with root package name */
-    private final qg f6450a;
+    public final qg f6450a;
 
     /* renamed from: b, reason: collision with root package name */
     private final ExecutorService f6451b;

@@ -169,9 +169,9 @@ public class iz extends WebChromeClient {
                 editText.setText(str3);
                 linearLayout.addView(textView);
                 linearLayout.addView(editText);
-                builder.setView(linearLayout).setPositiveButton(R.string.ok, new jf(jsPromptResult, editText)).setNegativeButton(R.string.cancel, new je(jsPromptResult)).setOnCancelListener(new jd(jsPromptResult)).create().show();
+                builder.setView(linearLayout).setPositiveButton(android.R.string.ok, new jf(jsPromptResult, editText)).setNegativeButton(android.R.string.cancel, new je(jsPromptResult)).setOnCancelListener(new jd(jsPromptResult)).create().show();
             } else {
-                builder.setMessage(str2).setPositiveButton(R.string.ok, new jc(jsResult)).setNegativeButton(R.string.cancel, new jb(jsResult)).setOnCancelListener(new ja(jsResult)).create().show();
+                builder.setMessage(str2).setPositiveButton(android.R.string.ok, new jc(jsResult)).setNegativeButton(android.R.string.cancel, new jb(jsResult)).setOnCancelListener(new ja(jsResult)).create().show();
             }
         } catch (WindowManager.BadTokenException e) {
             com.google.android.gms.ads.internal.util.client.b.c("Fail to display Dialog.", e);

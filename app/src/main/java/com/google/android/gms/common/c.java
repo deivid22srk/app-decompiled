@@ -97,8 +97,8 @@ public final class c {
             if (e == -1) {
                 try {
                     PackageInfo packageInfo = packageManager.getPackageInfo("com.google.android.gms", 64);
-                    d.a();
-                    if (d.a(packageInfo, h.f5667b[1]) != null) {
+                    com.google.android.gms.common.d.a();
+                    if (d.a(packageInfo, com.google.android.gms.common.h.f5667b[1]) != null) {
                         e = 1;
                     } else {
                         e = 0;
@@ -206,13 +206,13 @@ public final class c {
         }
         try {
             PackageInfo packageInfo = packageManager.getPackageInfo("com.google.android.gms", 64);
-            d.a();
+            com.google.android.gms.common.d.a();
             if (!com.google.android.gms.common.cpkg.d.a(context)) {
                 try {
-                    i a2 = d.a(packageManager.getPackageInfo("com.deivid22srk.store", 8256), gb.f5657a);
+                    i a2 = com.google.android.gms.common.d.a(packageManager.getPackageInfo("com.deivid22srk.store", 8256), gb.f5657a);
                     if (a2 == null) {
                         Log.w("GooglePlayServicesUtil", "Google Play Store signature invalid.");
-                    } else if (d.a(packageInfo, a2) == null) {
+                    } else if (com.google.android.gms.common.d.a(packageInfo, a2) == null) {
                         Log.w("GooglePlayServicesUtil", "Google Play services signature invalid.");
                     }
                     return i2;
@@ -221,7 +221,7 @@ public final class c {
                     return i2;
                 }
             }
-            if (d.a(packageInfo, gb.f5657a) == null) {
+            if (com.google.android.gms.common.d.a(packageInfo, gb.f5657a) == null) {
                 Log.w("GooglePlayServicesUtil", "Google Play services signature invalid.");
                 return 9;
             }
@@ -250,8 +250,8 @@ public final class c {
     public static boolean a(Context context, int i2) {
         if (a(context, i2, "com.google.android.gms")) {
             PackageManager packageManager = context.getPackageManager();
-            d.a();
-            if (d.a(packageManager, "com.google.android.gms")) {
+            com.google.android.gms.common.d.a();
+            if (com.google.android.gms.common.d.a(packageManager, "com.google.android.gms")) {
                 return true;
             }
         }
@@ -348,7 +348,7 @@ public final class c {
 
     public static void a(Activity activity, DialogInterface.OnCancelListener onCancelListener, String str, Dialog dialog) {
         if (activity instanceof android.support.v4.app.t) {
-            e.a(dialog, onCancelListener).a(((android.support.v4.app.t) activity).d(), str);
+            com.google.android.gms.common.e.a(dialog, onCancelListener).a(((android.support.v4.app.t) activity).d(), str);
         } else {
             if (!com.google.android.gms.common.cpkg.g.a(11)) {
                 throw new RuntimeException("This Activity does not support Fragments.");

@@ -38,6 +38,6 @@ public class RecoveryDecision implements SafeParcelable {
 
     @Override // android.os.Parcelable
     public void writeToParcel(Parcel parcel, int i) {
-        f.a(this, parcel, i);
+        com.google.android.gms.auth.f.a(this, parcel, i);
     }
 }

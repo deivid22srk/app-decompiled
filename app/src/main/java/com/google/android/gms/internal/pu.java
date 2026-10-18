@@ -22,7 +22,7 @@ final class pu extends pk<com.google.android.gms.safetynet.e> {
 
     /* JADX INFO: Access modifiers changed from: protected */
     @Override // com.google.android.gms.internal.kt
-    public final /* synthetic */ com.google.android.gms.common.api.x a(Status status) {
+    public final com.google.android.gms.safetynet.e a(Status status) {
         return new pw(status, null);
     }
 }

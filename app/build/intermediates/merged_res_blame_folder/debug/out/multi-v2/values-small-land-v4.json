@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.deivid22srk.store.app-mergeDebugResources-3:/values-small-land-v4/values-small-land-v4.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-small-land-v4/dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,116,175,233,294",
+                        "endColumns": "60,58,57,60,72",
+                        "endOffsets": "111,170,228,289,362"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "232,293,352,410,471",
+                        "endColumns": "60,58,57,60,72",
+                        "endOffsets": "288,347,405,466,539"
+                    }
+                },
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-small-land-v4/bools.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,165",
+                        "endColumns": "63,45,66",
+                        "endOffsets": "114,160,227"
+                    }
+                },
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-small-land-v4/integers.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,112,169,225,279",
+                        "endColumns": "56,56,55,53,57",
+                        "endOffsets": "107,164,220,274,332"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "544,601,658,714,768",
+                        "endColumns": "56,56,55,53,57",
+                        "endOffsets": "596,653,709,763,821"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -665,7 +665,7 @@ public final class cw extends DefaultHandler2 {
                     if (this.i != null) {
                         this.h = false;
                         String sb = this.i.toString();
-                        a aVar = new a(g.screen);
+                        a aVar = new a(com.caverock.androidsvg.g.screen);
                         q qVar = this.f1354a;
                         e eVar = new e(sb);
                         eVar.d();
@@ -2172,7 +2172,7 @@ public final class cw extends DefaultHandler2 {
             z2 = z;
         }
         if (z2) {
-            g gVar = g.screen;
+            g gVar = com.caverock.androidsvg.g.screen;
             e eVar = new e(str);
             eVar.d();
             List<g> a2 = a.a(eVar);

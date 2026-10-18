@@ -6,7 +6,7 @@ import com.google.protobuf.nano.CodedOutputByteBufferNano;
 public final class dD extends com.google.protobuf.nano.c {
 
     /* renamed from: a, reason: collision with root package name */
-    public f[] f878a = f.b();
+    public f[] f878a = ba2.f.b();
 
     /* renamed from: b, reason: collision with root package name */
     public String[] f879b = com.google.protobuf.nano.e.f;

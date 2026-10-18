@@ -239,7 +239,7 @@ public final class b extends com.google.protobuf.nano.c {
                     this.r = aVar.f();
                     break;
                 default:
-                    if (!e.a(aVar, a2)) {
+                    if (!com.google.protobuf.nano.e.a(aVar, a2)) {
                         break;
                     } else {
                         break;

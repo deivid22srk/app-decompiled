@@ -7,7 +7,7 @@ import com.google.android.finsky.protos.jd;
 import com.google.android.finsky.utils.ParcelableProto;
 
 /* loaded from: classes.dex */
-public static class RedeemCodeResult implements Parcelable {
+public class RedeemCodeResult implements Parcelable {
     public static final Parcelable.Creator<RedeemCodeResult> CREATOR = new d();
 
     /* renamed from: a, reason: collision with root package name */

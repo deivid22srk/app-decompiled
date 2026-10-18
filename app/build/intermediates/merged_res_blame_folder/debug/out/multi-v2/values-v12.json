@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.deivid22srk.store.app-mergeDebugResources-3:/values-v12/values-v12.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-v12/dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    }
+                },
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-v12/styles.xml",
+                    "from": {
+                        "startLines": "7,10,5,6,2",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "475,706,245,372,55",
+                        "endLines": "9,12,5,6,4",
+                        "endColumns": "12,12,126,102,12",
+                        "endOffsets": "701,908,367,470,240"
+                    },
+                    "to": {
+                        "startLines": "3,6,9,10,11",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "119,350,557,683,785",
+                        "endLines": "5,8,9,10,13",
+                        "endColumns": "12,12,125,101,12",
+                        "endOffsets": "345,552,678,780,970"
+                    }
+                }
+            ]
+        }
+    ]
+}

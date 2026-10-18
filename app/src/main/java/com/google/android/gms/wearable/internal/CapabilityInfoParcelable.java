@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Set;
 
 /* loaded from: classes.dex */
-public static class CapabilityInfoParcelable implements SafeParcelable {
+public class CapabilityInfoParcelable implements SafeParcelable {
     public static final Parcelable.Creator<CapabilityInfoParcelable> CREATOR = new cv();
 
     /* renamed from: a, reason: collision with root package name */

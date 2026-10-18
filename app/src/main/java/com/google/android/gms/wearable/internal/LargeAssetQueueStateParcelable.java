@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Set;
 
 /* loaded from: classes.dex */
-public static final class LargeAssetQueueStateParcelable implements SafeParcelable, LargeAssetApi.QueueState {
+public final class LargeAssetQueueStateParcelable implements SafeParcelable, LargeAssetApi.QueueState {
     public static final Parcelable.Creator<LargeAssetQueueStateParcelable> CREATOR = new au();
 
     /* renamed from: a, reason: collision with root package name */

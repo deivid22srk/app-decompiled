@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.deivid22srk.store.app-mergeDebugResources-3:/values-sw540dp-v21/values-sw540dp-v21.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-sw540dp-v21/styles.xml",
+                    "from": {
+                        "startLines": "2,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,1100",
+                        "endLines": "13,26",
+                        "endColumns": "12,12",
+                        "endOffsets": "1095,2205"
+                    },
+                    "to": {
+                        "startLines": "11,23",
+                        "startColumns": "4,4",
+                        "startOffsets": "679,1724",
+                        "endLines": "22,35",
+                        "endColumns": "12,12",
+                        "endOffsets": "1719,2829"
+                    }
+                },
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-sw540dp-v21/dimens.xml",
+                    "from": {
+                        "startLines": "2,9,6,10,3,4,5,7,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,538,345,604,127,199,273,411,476",
+                        "endColumns": "71,65,65,74,71,73,71,64,61",
+                        "endOffsets": "122,599,406,674,194,268,340,471,533"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,127,193,259,334,406,480,552,617",
+                        "endColumns": "71,65,65,74,71,73,71,64,61",
+                        "endOffsets": "122,188,254,329,401,475,547,612,674"
+                    }
+                }
+            ]
+        }
+    ]
+}

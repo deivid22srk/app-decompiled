@@ -11,6 +11,10 @@ import com.google.android.gms.internal.dd;
 
 /* loaded from: classes.dex */
 public final class c extends ViewGroup {
+    public c(android.content.Context context) {
+        super(context);
+        this.f5255a = null;
+    }
 
     /* renamed from: a, reason: collision with root package name */
     public final x f5255a;

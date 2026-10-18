@@ -10,9 +10,9 @@ abstract class l {
     volatile long f6372a;
 
     /* renamed from: b, reason: collision with root package name */
-    private final ap f6373b;
+    public final ap f6373b;
     private final Runnable d;
-    private boolean e;
+    public boolean e;
 
     l(ap apVar) {
         com.google.android.gms.common.internal.av.a(apVar);

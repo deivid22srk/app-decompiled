@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class GetDataItemResponse implements SafeParcelable {
+public class GetDataItemResponse implements SafeParcelable {
     public static final Parcelable.Creator<GetDataItemResponse> CREATOR = new t();
 
     /* renamed from: a, reason: collision with root package name */

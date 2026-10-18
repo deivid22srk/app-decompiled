@@ -20,7 +20,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /* loaded from: classes.dex */
-public static class GoogleSignInAccount implements SafeParcelable {
+public class GoogleSignInAccount implements SafeParcelable {
     public static final Parcelable.Creator<GoogleSignInAccount> CREATOR = new b();
 
     /* renamed from: a, reason: collision with root package name */

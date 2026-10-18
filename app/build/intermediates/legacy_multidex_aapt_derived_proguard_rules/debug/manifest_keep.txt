@@ -1,0 +1,2 @@
+-keep class com.deivid22srk.store.VendingBackupAgent { <init>(); }
+-keep class com.google.android.finsky.FinskyApp { <init>(); }

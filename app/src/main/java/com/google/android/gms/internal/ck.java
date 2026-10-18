@@ -12,7 +12,7 @@ public final class ck extends Thread {
     /* renamed from: a, reason: collision with root package name */
     volatile boolean f5926a = false;
     private final BlockingQueue<jn<?>> c;
-    private final BlockingQueue<jn<?>> d;
+    public final BlockingQueue<jn<?>> d;
     private final bf e;
     private final kz f;
 

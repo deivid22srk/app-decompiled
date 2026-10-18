@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setup_wizard_im_form_start_end_margin">40.0dip</dimen>
+    <dimen name="setup_wizard_im_form_top_margin">36.0dip</dimen>
+    <dimen name="setup_wizard_im_title_icon_size">48.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_bottom_margin">24.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_end_margin">56.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_start_margin">56.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_top_margin">12.0dip</dimen>
+    <dimen name="setup_wizard_subtitle_text_size">30.0sp</dimen>
+    <dimen name="setup_wizard_title_text_size">34.0sp</dimen>
+    <style name="Theme.InstrumentManager.SetupWizard" parent="@style/Theme.InstrumentManager.SetupWizardCommon">
+        <item name="android:colorAccent">@color/setup_wizard_color_accent_dark</item>
+        <item name="imHideNegativeButtonText">true</item>
+        <item name="imNegativeButtonBarStyle">@style/FinskyInstrumentManagerNegativeButtonSetupWizard</item>
+        <item name="imPositiveButtonBarAlphaWhenDisabled">@dimen/setup_wizard_navbar_positive_button_disabled_alpha</item>
+        <item name="imPositiveButtonBarStyle">@style/FinskyInstrumentManagerPositiveButtonSetupWizard</item>
+        <item name="imTitleImageBackground">@drawable/setup_wizard_illustration_bg_tablet</item>
+        <item name="imTitleSeparatorStartEndMargin">0.0dip</item>
+        <item name="imTitleTextBackground">@drawable/setup_wizard_header_bg</item>
+        <item name="setup_wizard_navbar_bg_color">@color/setup_wizard_navbar_bg_dark</item>
+        <item name="setup_wizard_navbar_text_color">@color/setup_wizard_navbar_text_dark</item>
+    </style>
+    <style name="Theme.InstrumentManager.SetupWizard.Light" parent="@style/Theme.InstrumentManager.SetupWizardCommon.Light">
+        <item name="android:colorAccent">@color/setup_wizard_color_accent_light</item>
+        <item name="imHideNegativeButtonText">true</item>
+        <item name="imNegativeButtonBarStyle">@style/FinskyInstrumentManagerNegativeButtonSetupWizard</item>
+        <item name="imPositiveButtonBarAlphaWhenDisabled">@dimen/setup_wizard_navbar_positive_button_disabled_alpha</item>
+        <item name="imPositiveButtonBarStyle">@style/FinskyInstrumentManagerPositiveButtonSetupWizard</item>
+        <item name="imTitleIconType">light</item>
+        <item name="imTitleImageBackground">@drawable/setup_wizard_illustration_bg_tablet</item>
+        <item name="imTitleSeparatorStartEndMargin">0.0dip</item>
+        <item name="imTitleTextBackground">@drawable/setup_wizard_header_bg</item>
+        <item name="setup_wizard_navbar_bg_color">@color/setup_wizard_navbar_bg_light</item>
+        <item name="setup_wizard_navbar_text_color">@color/setup_wizard_navbar_text_light</item>
+    </style>
+</resources>

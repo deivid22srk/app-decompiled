@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static final class EnqueueLargeAssetResponse implements SafeParcelable {
+public final class EnqueueLargeAssetResponse implements SafeParcelable {
     public static final Parcelable.Creator<EnqueueLargeAssetResponse> CREATOR = new i();
 
     /* renamed from: a, reason: collision with root package name */
@@ -33,6 +33,6 @@ public static final class EnqueueLargeAssetResponse implements SafeParcelable {
 
     @Override // android.os.Parcelable
     public final void writeToParcel(Parcel parcel, int i) {
-        i.a(this, parcel, i);
+        com.google.android.gms.wearable.internal.i.a(this, parcel, i);
     }
 }

@@ -15,7 +15,7 @@ public final class zzfu extends zzg<gd> {
     /* renamed from: a, reason: collision with root package name */
     private static final zzfu f6265a = new zzfu();
 
-    final class zza extends Exception {
+    final static class zza extends Exception {
         public zza(String str) {
             super(str);
         }

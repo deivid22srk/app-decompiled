@@ -8,7 +8,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.Arrays;
 
 /* loaded from: classes.dex */
-public static final class Status implements x, SafeParcelable {
+public final class Status implements x, SafeParcelable {
     final int f;
     public final int g;
     public final String h;

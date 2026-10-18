@@ -33,6 +33,8 @@ final class af implements Runnable {
         int i2;
         OutputStream outputStream2;
         HttpURLConnection httpURLConnection2;
+        IOException e;
+        Throwable th;
         this.f6295a.d();
         try {
             byte[] a2 = this.f6295a.j().a(this.c);
@@ -42,9 +44,9 @@ final class af implements Runnable {
             }
             httpURLConnection = (HttpURLConnection) openConnection;
             httpURLConnection.setDefaultUseCaches(false);
-            i.u();
+            com.google.android.gms.measurement.internal.i.u();
             httpURLConnection.setConnectTimeout(60000);
-            i.v();
+            com.google.android.gms.measurement.internal.i.v();
             httpURLConnection.setReadTimeout(61000);
             httpURLConnection.setInstanceFollowRedirects(false);
             httpURLConnection.setDoInput(true);
@@ -64,8 +66,8 @@ final class af implements Runnable {
                             httpURLConnection.disconnect();
                         }
                         this.f6295a.k().a(new ae(this.d, i, null, a3, (byte) 0));
-                    } catch (IOException e) {
-                        e = e;
+                    } catch (IOException e0) {
+                        e = e0;
                         i2 = i;
                         httpURLConnection2 = httpURLConnection;
                         outputStream2 = null;

@@ -35,23 +35,23 @@ public final class b {
     private f i;
 
     private b() {
-        if (b() == e.f5782b) {
+        if (b() == com.google.android.gms.common.stats.e.f5782b) {
             this.c = Collections.EMPTY_LIST;
             this.d = Collections.EMPTY_LIST;
             this.e = Collections.EMPTY_LIST;
             this.f = Collections.EMPTY_LIST;
             return;
         }
-        String d = d.f5780b.d();
+        String d = com.google.android.gms.common.stats.d.f5780b.d();
         this.c = d == null ? Collections.EMPTY_LIST : Arrays.asList(d.split(","));
-        String d2 = d.c.d();
+        String d2 = com.google.android.gms.common.stats.d.c.d();
         this.d = d2 == null ? Collections.EMPTY_LIST : Arrays.asList(d2.split(","));
-        String d3 = d.d.d();
+        String d3 = com.google.android.gms.common.stats.d.d.d();
         this.e = d3 == null ? Collections.EMPTY_LIST : Arrays.asList(d3.split(","));
-        String d4 = d.e.d();
+        String d4 = com.google.android.gms.common.stats.d.e.d();
         this.f = d4 == null ? Collections.EMPTY_LIST : Arrays.asList(d4.split(","));
-        this.g = new f(d.f.d().longValue());
-        this.i = new f(d.f.d().longValue());
+        this.g = new f(com.google.android.gms.common.stats.d.f.d().longValue());
+        this.i = new f(com.google.android.gms.common.stats.d.f.d().longValue());
     }
 
     public static b a() {
@@ -94,17 +94,17 @@ public final class b {
         String str4;
         String str5;
         ServiceInfo serviceInfo;
-        if (!(!com.google.android.gms.common.internal.g.f5709a ? false : b() != e.f5782b) || this.g == null) {
+        if (!(!com.google.android.gms.common.internal.g.f5709a ? false : b() != com.google.android.gms.common.stats.e.f5782b) || this.g == null) {
             return;
         }
         if (i != 4 && i != 1) {
             List<ResolveInfo> queryIntentServices = context.getPackageManager().queryIntentServices(intent, 128);
             if (queryIntentServices == null || queryIntentServices.size() == 0) {
-                Log.w("ConnectionTracker", String.format("There are no handler of this intent: %s\n Stack trace: %s", intent.toUri(0), h.a(20)));
+                Log.w("ConnectionTracker", String.format("There are no handler of this intent: %s\n Stack trace: %s", intent.toUri(0), com.google.android.gms.common.cpkg.h.a(20)));
                 serviceInfo = null;
             } else {
                 if (queryIntentServices.size() > 1) {
-                    Log.w("ConnectionTracker", String.format("Multiple handlers found for this intent: %s\n Stack trace: %s", intent.toUri(0), h.a(20)));
+                    Log.w("ConnectionTracker", String.format("Multiple handlers found for this intent: %s\n Stack trace: %s", intent.toUri(0), com.google.android.gms.common.cpkg.h.a(20)));
                     Iterator<ResolveInfo> it = queryIntentServices.iterator();
                     if (it.hasNext()) {
                         Log.w("ConnectionTracker", it.next().serviceInfo.name);
@@ -119,8 +119,8 @@ public final class b {
             }
             str3 = serviceInfo.processName;
             str4 = serviceInfo.name;
-            str5 = h.a(context, Binder.getCallingPid());
-            if (!((this.c.contains(str5) || this.d.contains(str2) || this.e.contains(str3) || this.f.contains(str4) || (str3.equals(str5) && (b() & e.g) != 0)) ? false : true)) {
+            str5 = com.google.android.gms.common.cpkg.h.a(context, Binder.getCallingPid());
+            if (!((this.c.contains(str5) || this.d.contains(str2) || this.e.contains(str3) || this.f.contains(str4) || (str3.equals(str5) && (b() & com.google.android.gms.common.stats.e.g) != 0)) ? false : true)) {
                 return;
             } else {
                 this.g.a(str);
@@ -135,19 +135,19 @@ public final class b {
         }
         long currentTimeMillis = System.currentTimeMillis();
         String str6 = null;
-        if ((b() & e.f) != 0 && i != 13) {
-            str6 = h.a(5);
+        if ((b() & com.google.android.gms.common.stats.e.f) != 0 && i != 13) {
+            str6 = com.google.android.gms.common.cpkg.h.a(5);
         }
-        long nativeHeapAllocatedSize = (b() & e.h) != 0 ? Debug.getNativeHeapAllocatedSize() : 0L;
-        context.startService(new Intent().setComponent(e.f5781a).putExtra("com.google.android.gms.common.stats.EXTRA_LOG_EVENT", (i == 1 || i == 4 || i == 14) ? new ConnectionEvent(currentTimeMillis, i, null, null, null, null, str6, str, SystemClock.elapsedRealtime(), nativeHeapAllocatedSize) : new ConnectionEvent(currentTimeMillis, i, str5, str2, str3, str4, str6, str, SystemClock.elapsedRealtime(), nativeHeapAllocatedSize)));
+        long nativeHeapAllocatedSize = (b() & com.google.android.gms.common.stats.e.h) != 0 ? Debug.getNativeHeapAllocatedSize() : 0L;
+        context.startService(new Intent().setComponent(com.google.android.gms.common.stats.e.f5781a).putExtra("com.google.android.gms.common.stats.EXTRA_LOG_EVENT", (i == 1 || i == 4 || i == 14) ? new ConnectionEvent(currentTimeMillis, i, null, null, null, null, str6, str, SystemClock.elapsedRealtime(), nativeHeapAllocatedSize) : new ConnectionEvent(currentTimeMillis, i, str5, str2, str3, str4, str6, str, SystemClock.elapsedRealtime(), nativeHeapAllocatedSize)));
     }
 
     private static int b() {
         if (h == null) {
             try {
-                h = Integer.valueOf(com.google.android.gms.common.internal.g.f5709a && mp.b() && mp.a() == Process.myUid() ? d.f5779a.d().intValue() : e.f5782b);
+                h = Integer.valueOf(com.google.android.gms.common.internal.g.f5709a && mp.b() && mp.a() == Process.myUid() ? com.google.android.gms.common.stats.d.f5779a.d().intValue() : com.google.android.gms.common.stats.e.f5782b);
             } catch (SecurityException e) {
-                h = Integer.valueOf(e.f5782b);
+                h = Integer.valueOf(com.google.android.gms.common.stats.e.f5782b);
             }
         }
         return h.intValue();

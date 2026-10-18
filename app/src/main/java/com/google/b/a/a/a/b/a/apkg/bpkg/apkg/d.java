@@ -10,17 +10,17 @@ public final class d extends com.google.protobuf.nano.c {
 
     /* renamed from: b, reason: collision with root package name */
     public e f7566b = null;
-    public f[] c = f.b();
+    public f[] c = com.google.b.a.a.a.b.a.apkg.bpkg.apkg.f.b();
     public com.google.b.a.a.a.b.a.bpkg.p[] d = com.google.b.a.a.a.b.a.bpkg.p.b();
     public int e = -1;
     public int f = 0;
     public int[] g = com.google.protobuf.nano.e.f7878a;
     public int[] h = com.google.protobuf.nano.e.f7878a;
     public int i = 0;
-    public i[] j = i.b();
+    public i[] j = com.google.b.a.a.a.b.a.apkg.bpkg.apkg.i.b();
     public String k = "";
     public String l = "";
-    public h[] m = h.b();
+    public h[] m = com.google.b.a.a.a.b.a.apkg.bpkg.apkg.h.b();
 
     public d() {
         this.ar = -1;

@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.deivid22srk.store.app-mergeDebugResources-3:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-sw600dp-v13/integers.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,62",
+                        "endOffsets": "105,168"
+                    },
+                    "to": {
+                        "startLines": "17,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "1154,1209",
+                        "endColumns": "54,62",
+                        "endOffsets": "1204,1267"
+                    }
+                },
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-sw600dp-v13/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "239"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1272",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1456"
+                    }
+                },
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-sw600dp-v13/dimens.xml",
+                    "from": {
+                        "startLines": "6,2,7,8,5,3,4,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "335,55,407,484,273,128,202,563,626,699,773,848,909,970,1087",
+                        "endColumns": "71,72,76,78,61,73,70,62,72,73,74,60,60,116,66",
+                        "endOffsets": "402,123,479,558,330,197,268,621,694,768,843,904,965,1082,1149"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,127,200,277,356,418,492,563,626,699,773,848,909,970,1087",
+                        "endColumns": "71,72,76,78,61,73,70,62,72,73,74,60,60,116,66",
+                        "endOffsets": "122,195,272,351,413,487,558,621,694,768,843,904,965,1082,1149"
+                    }
+                }
+            ]
+        }
+    ]
+}

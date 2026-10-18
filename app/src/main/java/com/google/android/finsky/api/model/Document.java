@@ -48,7 +48,7 @@ import java.util.List;
 import java.util.Map;
 
 /* loaded from: classes.dex */
-public static class Document implements Parcelable {
+public class Document implements Parcelable {
 
     /* renamed from: a, reason: collision with root package name */
     public final gx f1963a;

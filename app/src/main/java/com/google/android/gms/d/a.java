@@ -10,7 +10,7 @@ import java.lang.reflect.Method;
 public final class a {
 
     /* renamed from: a, reason: collision with root package name */
-    private static final com.google.android.gms.common.b f5787a = com.google.android.gms.common.b.a();
+    public static final com.google.android.gms.common.b f5787a = com.google.android.gms.common.b.a();
 
     /* renamed from: b, reason: collision with root package name */
     private static final Object f5788b = new Object();

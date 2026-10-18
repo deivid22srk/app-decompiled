@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static final class OfflineSuggestion implements SafeParcelable {
+public final class OfflineSuggestion implements SafeParcelable {
     public static final Parcelable.Creator<OfflineSuggestion> CREATOR = new m();
 
     /* renamed from: a, reason: collision with root package name */

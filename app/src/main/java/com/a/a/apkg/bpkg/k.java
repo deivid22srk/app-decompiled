@@ -34,23 +34,23 @@ final class k implements okio2.y {
                 return -1L;
             }
             int i = this.c;
-            int a2 = j.a(this.f);
+            int a2 = com.a.a.apkg.bpkg.j.a(this.f);
             this.d = a2;
             this.f961a = a2;
             byte g = (byte) (this.f.g() & 255);
             this.f962b = (byte) (this.f.g() & 255);
-            logger = j.f959a;
+            logger = com.a.a.apkg.bpkg.j.f959a;
             if (logger.isLoggable(Level.FINE)) {
-                logger2 = j.f959a;
+                logger2 = com.a.a.apkg.bpkg.j.f959a;
                 logger2.fine(l.a(true, this.c, this.f961a, g, this.f962b));
             }
             this.c = this.f.i() & Integer.MAX_VALUE;
             if (g != 9) {
-                c = j.c("%s != TYPE_CONTINUATION", Byte.valueOf(g));
+                c = com.a.a.apkg.bpkg.j.c("%s != TYPE_CONTINUATION", Byte.valueOf(g));
                 throw c;
             }
             if (this.c != i) {
-                c2 = j.c("TYPE_CONTINUATION streamId changed", new Object[0]);
+                c2 = com.a.a.apkg.bpkg.j.c("TYPE_CONTINUATION streamId changed", new Object[0]);
                 throw c2;
             }
         }

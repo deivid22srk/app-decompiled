@@ -5,7 +5,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /* loaded from: classes.dex */
-public static class RestoreConfig implements Parcelable {
+public class RestoreConfig implements Parcelable {
     public static final Parcelable.Creator<RestoreConfig> CREATOR = new c();
 
     /* renamed from: a, reason: collision with root package name */

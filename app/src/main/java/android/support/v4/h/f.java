@@ -19,10 +19,10 @@ public final class f<E> implements Cloneable {
     public f(int i) {
         this.f286b = false;
         if (i == 0) {
-            this.d = c.f282b;
-            this.c = c.c;
+            this.d = android.support.v4.h.c.f282b;
+            this.c = android.support.v4.h.c.c;
         } else {
-            int b2 = c.b(i);
+            int b2 = android.support.v4.h.c.b(i);
             this.d = new long[b2];
             this.c = new Object[b2];
         }
@@ -47,7 +47,7 @@ public final class f<E> implements Cloneable {
     }
 
     public final void b(long j) {
-        int a2 = c.a(this.d, this.e, j);
+        int a2 = android.support.v4.h.c.a(this.d, this.e, j);
         if (a2 >= 0 && this.c[a2] != f285a) {
             this.c[a2] = f285a;
             this.f286b = true;
@@ -75,7 +75,7 @@ public final class f<E> implements Cloneable {
     }
 
     public final void a(long j, E e) {
-        int a2 = c.a(this.d, this.e, j);
+        int a2 = android.support.v4.h.c.a(this.d, this.e, j);
         if (a2 >= 0) {
             this.c[a2] = e;
             return;
@@ -88,10 +88,10 @@ public final class f<E> implements Cloneable {
         }
         if (this.f286b && this.e >= this.d.length) {
             d();
-            i = c.a(this.d, this.e, j) ^ (-1);
+            i = android.support.v4.h.c.a(this.d, this.e, j) ^ (-1);
         }
         if (this.e >= this.d.length) {
-            int b2 = c.b(this.e + 1);
+            int b2 = android.support.v4.h.c.b(this.e + 1);
             long[] jArr = new long[b2];
             Object[] objArr = new Object[b2];
             System.arraycopy(this.d, 0, jArr, 0, this.d.length);
@@ -133,7 +133,7 @@ public final class f<E> implements Cloneable {
         if (this.f286b) {
             d();
         }
-        return c.a(this.d, this.e, j);
+        return android.support.v4.h.c.a(this.d, this.e, j);
     }
 
     public final void b() {
@@ -156,7 +156,7 @@ public final class f<E> implements Cloneable {
         }
         int i = this.e;
         if (i >= this.d.length) {
-            int b2 = c.b(i + 1);
+            int b2 = android.support.v4.h.c.b(i + 1);
             long[] jArr = new long[b2];
             Object[] objArr = new Object[b2];
             System.arraycopy(this.d, 0, jArr, 0, this.d.length);
@@ -193,7 +193,7 @@ public final class f<E> implements Cloneable {
     }
 
     public final E a(long j) {
-        int a2 = c.a(this.d, this.e, j);
+        int a2 = android.support.v4.h.c.a(this.d, this.e, j);
         if (a2 < 0 || this.c[a2] == f285a) {
             return null;
         }

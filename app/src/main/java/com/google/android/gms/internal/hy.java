@@ -21,7 +21,7 @@ public final class hy {
         jt jtVar;
         synchronized (c) {
             if (f6042a == null) {
-                f6042a = c.a(context.getApplicationContext());
+                f6042a = com.google.android.gms.internal.c.a(context.getApplicationContext());
             }
             jtVar = f6042a;
         }

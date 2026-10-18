@@ -42,7 +42,7 @@ public final class bw extends Thread {
                 } else if (activity != null) {
                     View view = null;
                     if (activity.getWindow() != null && activity.getWindow().getDecorView() != null) {
-                        view = activity.getWindow().getDecorView().findViewById(R.id.content);
+                        view = activity.getWindow().getDecorView().findViewById(android.R.id.content);
                     }
                     if (view != null && view != null) {
                         view.post(new bx(this, view));

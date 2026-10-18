@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.deivid22srk.store.app-mergeDebugResources-3:/values-sw400dp-v13/values-sw400dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-sw400dp-v13/bools.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "61",
+                        "endOffsets": "112"
+                    }
+                },
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-sw400dp-v13/dimens.xml",
+                    "from": {
+                        "startLines": "5,3,4,2",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "274,125,188,55",
+                        "endColumns": "51,62,85,69",
+                        "endOffsets": "321,183,269,120"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "117,169,232,318",
+                        "endColumns": "51,62,85,69",
+                        "endOffsets": "164,227,313,383"
+                    }
+                }
+            ]
+        }
+    ]
+}

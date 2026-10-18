@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class GetFdForAssetResponse implements SafeParcelable {
+public class GetFdForAssetResponse implements SafeParcelable {
     public static final Parcelable.Creator<GetFdForAssetResponse> CREATOR = new u();
 
     /* renamed from: a, reason: collision with root package name */

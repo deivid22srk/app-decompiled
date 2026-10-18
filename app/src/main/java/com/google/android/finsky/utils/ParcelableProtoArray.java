@@ -8,7 +8,7 @@ import com.google.protobuf.nano.c;
 import java.lang.reflect.Array;
 
 /* loaded from: classes.dex */
-public static class ParcelableProtoArray<T extends com.google.protobuf.nano.c> implements Parcelable {
+public class ParcelableProtoArray<T extends com.google.protobuf.nano.c> implements Parcelable {
     public static final Parcelable.Creator<ParcelableProtoArray<com.google.protobuf.nano.c>> CREATOR = new en();
 
     /* renamed from: a, reason: collision with root package name */

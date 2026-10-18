@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="play_collection_edge_padding">24.0dip</dimen>
+    <dimen name="play_collection_edge_padding_minus_card_half_spacing">18.0dip</dimen>
+    <dimen name="play_header_list_tab_floating_padding">36.0dip</dimen>
+    <dimen name="play_header_list_tab_padding_side">24.0dip</dimen>
+    <style name="PlayAdLabel" parent="@style/PlayAdLabelBaseline">
+        <item name="android:textSize">@dimen/play_ad_label_text_size</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+    </style>
+</resources>

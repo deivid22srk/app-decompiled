@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class CarAudioConfiguration implements SafeParcelable {
+public class CarAudioConfiguration implements SafeParcelable {
     public static final Parcelable.Creator<CarAudioConfiguration> CREATOR = new be();
 
     /* renamed from: a, reason: collision with root package name */

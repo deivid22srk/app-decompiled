@@ -43,7 +43,7 @@ public final class lr extends com.google.android.gms.common.api.m implements mg 
     private volatile boolean o;
     private final lu r;
     private final com.google.android.gms.common.b s;
-    private com.google.android.gms.common.api.aa u;
+    public com.google.android.gms.common.api.aa u;
     private final ArrayList<kv> v;
     private Integer w;
     private mf l = null;

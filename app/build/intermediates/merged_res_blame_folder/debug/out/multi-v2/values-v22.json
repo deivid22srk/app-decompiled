@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.deivid22srk.store.app-mergeDebugResources-3:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-v22/styles.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,138,233,501",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "82,94,12,12",
+                        "endOffsets": "133,228,496,776"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,137,231,499",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "81,93,12,12",
+                        "endOffsets": "132,226,494,774"
+                    }
+                }
+            ]
+        }
+    ]
+}

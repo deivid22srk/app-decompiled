@@ -34,7 +34,7 @@ final class d extends o {
             vVar.a((GoogleHelp) this.f5832a.getParcelableExtra("EXTRA_GOOGLE_HELP"), this.f5833b, new e(this));
         } catch (Exception e) {
             Log.e("gH_GoogleHelpApiImpl", "Starting help failed!", e);
-            status = c.f5831a;
+            status = com.google.android.gms.googlehelp.internal.common.c.f5831a;
             b(status);
         }
     }

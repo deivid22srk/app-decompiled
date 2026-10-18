@@ -15,5 +15,8 @@ final class cf implements mj<Object> {
     @Override // com.google.android.gms.internal.mj
     public final void a() {
     }
+    @Override // com.google.android.gms.internal.mj
+    public final void a(Object obj) {
+    }
 
 }

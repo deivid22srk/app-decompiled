@@ -32,18 +32,17 @@ public abstract class kr<R extends com.google.android.gms.common.api.x, A extend
     }
 
     /* JADX WARN: Multi-variable type inference failed */
-    @Override // com.google.android.gms.internal.ks
 
     @Override // com.google.android.gms.internal.ly
     public final void b(Status status) {
         com.google.android.gms.common.internal.av.b(!status.a(), "Failed result must not be success");
-        a((kr<R, A>) a(status));
+        a(a(status));
     }
 
     @Override // com.google.android.gms.internal.ly
     public final void b(A a2) {
         try {
-            a((kr<R, A>) a2);
+            a(a2);
         } catch (DeadObjectException e) {
             a((RemoteException) e);
             throw e;

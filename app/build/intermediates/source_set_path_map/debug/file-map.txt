@@ -1,0 +1,8 @@
+com.deivid22srk.store.app-pngs-0 /home/z/my-project/repo-build/app/build/generated/res/pngs/debug
+com.deivid22srk.store.app-resValues-1 /home/z/my-project/repo-build/app/build/generated/res/resValues/debug
+com.deivid22srk.store.app-rs-2 /home/z/my-project/repo-build/app/build/generated/res/rs/debug
+com.deivid22srk.store.app-mergeDebugResources-3 /home/z/my-project/repo-build/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.deivid22srk.store.app-mergeDebugResources-4 /home/z/my-project/repo-build/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.deivid22srk.store.app-merged_res-5 /home/z/my-project/repo-build/app/build/intermediates/merged_res/debug
+com.deivid22srk.store.app-debug-6 /home/z/my-project/repo-build/app/src/debug/res
+com.deivid22srk.store.app-main-7 /home/z/my-project/repo-build/app/src/main/res

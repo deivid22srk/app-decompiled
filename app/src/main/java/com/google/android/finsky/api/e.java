@@ -185,7 +185,7 @@ public final class e {
     }
 
     public final String f() {
-        if (d.P.b().booleanValue() && com.google.android.gms.common.c.a(this.f1955a) == 0) {
+        if (com.google.android.finsky.api.d.P.b().booleanValue() && com.google.android.gms.common.c.a(this.f1955a) == 0) {
             try {
                 Context context = this.f1955a;
                 av.c("Calling this from your main thread can lead to deadlock.");

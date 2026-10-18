@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /* loaded from: classes.dex */
-public static class SecurePaymentsPayload implements Parcelable {
+public class SecurePaymentsPayload implements Parcelable {
     public static final Parcelable.Creator<SecurePaymentsPayload> CREATOR = new f();
 
     /* renamed from: a, reason: collision with root package name */

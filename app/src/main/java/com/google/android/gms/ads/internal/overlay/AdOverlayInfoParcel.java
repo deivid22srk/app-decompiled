@@ -161,6 +161,6 @@ public final class AdOverlayInfoParcel implements SafeParcelable {
 
     @Override // android.os.Parcelable
     public final void writeToParcel(Parcel parcel, int i) {
-        i.a(this, parcel, i);
+        com.google.android.gms.ads.internal.overlay.i.a(this, parcel, i);
     }
 }

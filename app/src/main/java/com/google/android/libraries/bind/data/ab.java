@@ -42,12 +42,12 @@ public abstract class ab implements Runnable {
             if (b2 != null && !this.j.get()) {
                 j[] jVarArr = new j[1];
                 if (this.g.f6684b == ac.f6683a) {
-                    jVarArr[0] = j.f6694b;
+                    jVarArr[0] = com.google.android.libraries.bind.data.j.f6694b;
                     z = true;
                 } else {
                     List<Data> list = this.g.f6684b;
                     if (b2.size() != list.size()) {
-                        jVarArr[0] = j.f6694b;
+                        jVarArr[0] = com.google.android.libraries.bind.data.j.f6694b;
                         z = true;
                     } else {
                         int size = list.size();
@@ -57,12 +57,12 @@ public abstract class ab implements Runnable {
                                 if (com.google.android.libraries.bind.dpkg.a.a(list.get(i).b(this.g.c), b2.get(i).b(this.i.f6696b))) {
                                     i++;
                                 } else {
-                                    jVarArr[0] = j.f6694b;
+                                    jVarArr[0] = com.google.android.libraries.bind.data.j.f6694b;
                                     z = true;
                                     break;
                                 }
                             } else {
-                                jVarArr[0] = j.c;
+                                jVarArr[0] = com.google.android.libraries.bind.data.j.c;
                                 int[] g = this.i.g();
                                 int i2 = 0;
                                 while (true) {

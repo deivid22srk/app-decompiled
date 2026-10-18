@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.deivid22srk.store.app-mergeDebugResources-3:/values-ldrtl-v23/values-ldrtl-v23.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-ldrtl-v23/styles.xml",
+                    "from": {
+                        "startLines": "3,13,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "173,917,55",
+                        "endLines": "12,22,2",
+                        "endColumns": "12,12,117",
+                        "endOffsets": "912,1674,168"
+                    },
+                    "to": {
+                        "startLines": "2,12,22",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,799,1561",
+                        "endLines": "11,21,22",
+                        "endColumns": "12,12,116",
+                        "endOffsets": "794,1556,1673"
+                    }
+                }
+            ]
+        }
+    ]
+}

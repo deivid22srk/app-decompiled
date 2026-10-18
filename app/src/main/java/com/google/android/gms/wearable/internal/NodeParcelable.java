@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class NodeParcelable implements SafeParcelable {
+public class NodeParcelable implements SafeParcelable {
     public static final Parcelable.Creator<NodeParcelable> CREATOR = new be();
 
     /* renamed from: a, reason: collision with root package name */

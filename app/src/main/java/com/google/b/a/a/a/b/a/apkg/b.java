@@ -15,7 +15,7 @@ public final class b extends com.google.protobuf.nano.c {
     public String d = "";
     public c e = null;
     public String f = "";
-    public f[] g = f.b();
+    public f[] g = com.google.b.a.a.a.b.a.apkg.f.b();
     public int h = 0;
     public String i = "";
     public String[] j = com.google.protobuf.nano.e.f;

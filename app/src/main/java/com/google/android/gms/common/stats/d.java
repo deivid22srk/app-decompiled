@@ -6,7 +6,7 @@ import com.google.android.gms.internal.mp;
 public final class d {
 
     /* renamed from: a, reason: collision with root package name */
-    public static mp<Integer> f5779a = mp.a("gms:common:stats:connections:level", Integer.valueOf(e.f5782b));
+    public static mp<Integer> f5779a = mp.a("gms:common:stats:connections:level", Integer.valueOf(com.google.android.gms.common.stats.e.f5782b));
 
     /* renamed from: b, reason: collision with root package name */
     public static mp<String> f5780b = mp.a("gms:common:stats:connections:ignored_calling_processes", "");

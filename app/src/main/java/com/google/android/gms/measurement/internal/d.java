@@ -100,7 +100,7 @@ public final class d extends ba {
         b();
         long b2 = super.h().b() + j;
         this.f6363a = true;
-        this.f6364b.setInexactRepeating(2, b2, Math.max(i.M(), j), o());
+        this.f6364b.setInexactRepeating(2, b2, Math.max(com.google.android.gms.measurement.internal.i.M(), j), o());
     }
 
     private PendingIntent o() {

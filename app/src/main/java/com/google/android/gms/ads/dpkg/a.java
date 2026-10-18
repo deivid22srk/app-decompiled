@@ -8,6 +8,10 @@ import com.google.android.gms.ads.internal.client.x;
 
 /* loaded from: classes.dex */
 public final class a extends ViewGroup {
+    public a(android.content.Context context) {
+        super(context);
+        this.f5278a = null;
+    }
 
     /* renamed from: a, reason: collision with root package name */
     public final x f5278a;

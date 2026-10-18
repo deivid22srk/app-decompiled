@@ -36,15 +36,15 @@ public abstract class l<T extends IInterface> implements com.google.android.gms.
     private final com.google.android.gms.common.b h;
     private final Object i;
     private am j;
-    private com.google.android.gms.common.api.t k;
+    public com.google.android.gms.common.api.t k;
     private T l;
-    private final ArrayList<o<?>> m;
+    public final ArrayList<o<?>> m;
     private l<T>.q n;
     private int o;
-    private final Set<Scope> p;
+    public final Set<Scope> p;
     private final Account q;
-    private final com.google.android.gms.common.api.p r;
-    private final com.google.android.gms.common.api.q s;
+    public final com.google.android.gms.common.api.p r;
+    public final com.google.android.gms.common.api.q s;
     private final int t;
 
     public l(Context context, Looper looper, int i, h hVar, com.google.android.gms.common.api.p pVar, com.google.android.gms.common.api.q qVar) {
@@ -70,7 +70,7 @@ public abstract class l<T extends IInterface> implements com.google.android.gms.
             if (this.o != i) {
                 z = false;
             } else {
-                a(i2, (int) t);
+                a(i2, t);
                 z = true;
             }
         }
@@ -96,7 +96,7 @@ public abstract class l<T extends IInterface> implements com.google.android.gms.
     @Override // com.google.android.gms.common.api.g
     public void a(com.google.android.gms.common.api.t tVar) {
         this.k = (com.google.android.gms.common.api.t) av.a(tVar, "Connection progress callbacks cannot be null.");
-        a(2, (int) null);
+        a(2, null);
     }
 
     @Override // com.google.android.gms.common.api.g
@@ -158,7 +158,7 @@ public abstract class l<T extends IInterface> implements com.google.android.gms.
             }
             this.m.clear();
         }
-        a(1, (int) null);
+        a(1, null);
     }
 
     public abstract String d();
@@ -202,7 +202,7 @@ public abstract class l<T extends IInterface> implements com.google.android.gms.
             a(new r(this));
             return;
         }
-        a(1, (int) null);
+        a(1, null);
         this.k = new r(this);
         this.c.sendMessage(this.c.obtainMessage(3, this.d.get(), a2));
     }

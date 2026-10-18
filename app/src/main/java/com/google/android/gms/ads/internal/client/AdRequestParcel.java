@@ -72,7 +72,7 @@ public final class AdRequestParcel implements SafeParcelable {
 
     @Override // android.os.Parcelable
     public final void writeToParcel(Parcel parcel, int i) {
-        g.a(this, parcel, i);
+        com.google.android.gms.ads.internal.client.g.a(this, parcel, i);
     }
 
     public final int hashCode() {

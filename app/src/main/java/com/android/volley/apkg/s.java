@@ -6,5 +6,5 @@ import android.graphics.Bitmap;
 public interface s {
     Bitmap a(String str);
 
-    void a(String str, Bitmap bitmap);
+    Bitmap a(String str, Bitmap bitmap);
 }

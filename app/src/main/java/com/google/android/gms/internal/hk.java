@@ -41,7 +41,7 @@ import org.json.JSONObject;
 @gw
 /* loaded from: classes.dex */
 public final class hk {
-    private String j;
+    public String j;
 
     /* renamed from: b, reason: collision with root package name */
     private static final String f6032b = com.google.android.gms.ads.d.class.getName();
@@ -53,7 +53,7 @@ public final class hk {
 
     /* renamed from: a, reason: collision with root package name */
     public static final Handler f6031a = new hd(Looper.getMainLooper());
-    private final Object h = new Object();
+    public final Object h = new Object();
     private boolean i = true;
     private boolean k = false;
 
@@ -217,7 +217,7 @@ public final class hk {
     public static int[] a(Activity activity) {
         View findViewById;
         Window window = activity.getWindow();
-        return (window == null || (findViewById = window.findViewById(R.id.content)) == null) ? d() : new int[]{findViewById.getWidth(), findViewById.getHeight()};
+        return (window == null || (findViewById = window.findViewById(android.R.id.content)) == null) ? d() : new int[]{findViewById.getWidth(), findViewById.getHeight()};
     }
 
     public static AlertDialog.Builder b(Context context) {
@@ -375,7 +375,7 @@ public final class hk {
     public static int[] c(Activity activity) {
         View findViewById;
         Window window = activity.getWindow();
-        int[] d2 = (window == null || (findViewById = window.findViewById(R.id.content)) == null) ? d() : new int[]{findViewById.getTop(), findViewById.getBottom()};
+        int[] d2 = (window == null || (findViewById = window.findViewById(android.R.id.content)) == null) ? d() : new int[]{findViewById.getTop(), findViewById.getBottom()};
         com.google.android.gms.ads.internal.client.j.a();
         com.google.android.gms.ads.internal.client.j.a();
         return new int[]{com.google.android.gms.ads.internal.util.client.a.b(activity, d2[0]), com.google.android.gms.ads.internal.util.client.a.b(activity, d2[1])};

@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public static final class GoogleHelp implements SafeParcelable {
+public final class GoogleHelp implements SafeParcelable {
     public static final Parcelable.Creator<GoogleHelp> CREATOR = new g();
 
     /* renamed from: a, reason: collision with root package name */
@@ -93,7 +93,7 @@ public static final class GoogleHelp implements SafeParcelable {
 
     @Override // android.os.Parcelable
     public final void writeToParcel(Parcel parcel, int i) {
-        g.a(this, parcel, i);
+        com.google.android.gms.googlehelp.g.a(this, parcel, i);
     }
 
     GoogleHelp(int i, String str, Account account, Bundle bundle, String str2, int i2, int i3, boolean z, boolean z2, List<String> list, Bundle bundle2, Bitmap bitmap, byte[] bArr, int i4, int i5, String str3, Uri uri, List<OverflowMenuItem> list2, int i6, ThemeSettings themeSettings, List<OfflineSuggestion> list3, boolean z3, ErrorReport errorReport, TogglingData togglingData, int i7, PendingIntent pendingIntent) {

@@ -14,17 +14,17 @@ import java.io.PrintWriter;
 
 /* loaded from: classes.dex */
 public final class mk extends Fragment implements DialogInterface.OnCancelListener {
-    private static final com.google.android.gms.common.b d = com.google.android.gms.common.b.a();
+    public static final com.google.android.gms.common.b d = com.google.android.gms.common.b.a();
 
     /* renamed from: a, reason: collision with root package name */
     public boolean f6163a;
 
     /* renamed from: b, reason: collision with root package name */
     public boolean f6164b;
-    private ConnectionResult f;
-    private me h;
-    private int e = -1;
-    private final Handler g = new Handler(Looper.getMainLooper());
+    public ConnectionResult f;
+    public me h;
+    public int e = -1;
+    public final Handler g = new Handler(Looper.getMainLooper());
     public final SparseArray<ml> c = new SparseArray<>();
 
     public static mk b(android.support.v4.app.t tVar) {

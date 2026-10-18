@@ -163,7 +163,7 @@ public final class b extends com.google.protobuf.nano.c {
                     this.g = aVar.b();
                     break;
                 case 74:
-                    int b2 = e.b(aVar, 74);
+                    int b2 = com.google.protobuf.nano.e.b(aVar, 74);
                     int length = this.h == null ? 0 : this.h.length;
                     String[] strArr = new String[b2 + length];
                     if (length != 0) {
@@ -190,7 +190,7 @@ public final class b extends com.google.protobuf.nano.c {
                     this.l = aVar.c();
                     break;
                 default:
-                    if (!e.a(aVar, a2)) {
+                    if (!com.google.protobuf.nano.e.a(aVar, a2)) {
                         break;
                     } else {
                         break;

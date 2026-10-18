@@ -7,7 +7,7 @@ import android.os.Parcelable;
 import com.google.protobuf.nano.c;
 
 /* loaded from: classes.dex */
-public static class ParcelableProto<T extends com.google.protobuf.nano.c> implements Parcelable {
+public class ParcelableProto<T extends com.google.protobuf.nano.c> implements Parcelable {
     public static final Parcelable.Creator<ParcelableProto<com.google.protobuf.nano.c>> CREATOR = new em();
 
     /* renamed from: a, reason: collision with root package name */

@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.deivid22srk.store.app-mergeDebugResources-3:/values-sw540dp-w800dp-v13/values-sw540dp-w800dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-sw540dp-w800dp-v13/styles.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,223",
+                        "endLines": "5,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "218,512"
+                    },
+                    "to": {
+                        "startLines": "10,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "514,682",
+                        "endLines": "13,19",
+                        "endColumns": "12,12",
+                        "endOffsets": "677,971"
+                    }
+                },
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-sw540dp-w800dp-v13/dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,111,168",
+                        "endColumns": "55,56,64",
+                        "endOffsets": "106,163,228"
+                    }
+                },
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-sw540dp-w800dp-v13/integers.xml",
+                    "from": {
+                        "startLines": "2,6,3,4,5",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,283,112,171,225",
+                        "endColumns": "56,52,58,53,57",
+                        "endOffsets": "107,331,166,220,278"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "233,290,343,402,456",
+                        "endColumns": "56,52,58,53,57",
+                        "endOffsets": "285,338,397,451,509"
+                    }
+                }
+            ]
+        }
+    ]
+}

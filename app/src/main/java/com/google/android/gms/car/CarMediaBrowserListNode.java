@@ -6,7 +6,7 @@ import com.google.android.gms.car.CarMediaBrowserSourceNode;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class CarMediaBrowserListNode implements SafeParcelable {
+public class CarMediaBrowserListNode implements SafeParcelable {
     public static final Parcelable.Creator<CarMediaBrowserListNode> CREATOR = new fe();
 
     /* renamed from: a, reason: collision with root package name */

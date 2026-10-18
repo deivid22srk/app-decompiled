@@ -5,7 +5,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /* loaded from: classes.dex */
-public static final class BinderWrapper implements Parcelable {
+public final class BinderWrapper implements Parcelable {
     public static final Parcelable.Creator<BinderWrapper> CREATOR = new a();
 
     /* renamed from: a, reason: collision with root package name */

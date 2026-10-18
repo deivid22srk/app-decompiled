@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class PredictedNetworkQuality implements SafeParcelable {
+public class PredictedNetworkQuality implements SafeParcelable {
     public static final Parcelable.Creator<PredictedNetworkQuality> CREATOR = new e();
 
     /* renamed from: a, reason: collision with root package name */
@@ -50,6 +50,6 @@ public static class PredictedNetworkQuality implements SafeParcelable {
 
     @Override // android.os.Parcelable
     public void writeToParcel(Parcel parcel, int i) {
-        e.a(this, parcel);
+        com.google.android.gms.herrevad.e.a(this, parcel);
     }
 }

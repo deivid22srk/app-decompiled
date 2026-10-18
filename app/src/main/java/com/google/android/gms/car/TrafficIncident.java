@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class TrafficIncident implements SafeParcelable {
+public class TrafficIncident implements SafeParcelable {
     public static final Parcelable.Creator<TrafficIncident> CREATOR = new er();
 
     /* renamed from: a, reason: collision with root package name */

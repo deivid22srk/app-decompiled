@@ -61,7 +61,7 @@ public abstract class h<K, V> {
             Map.Entry entry = (Map.Entry) obj;
             int a2 = h.this.a(entry.getKey());
             if (a2 >= 0) {
-                return c.a(h.this.a(a2, 1), entry.getValue());
+                return android.support.v4.h.c.a(h.this.a(a2, 1), entry.getValue());
             }
             return false;
         }
@@ -136,7 +136,7 @@ public abstract class h<K, V> {
         }
 
         @Override // java.util.Set, java.util.Collection
-        public final /* synthetic */ boolean add(Object obj) {
+        public final boolean add(Map.Entry<K, V> entry) {
             throw new UnsupportedOperationException();
         }
     }

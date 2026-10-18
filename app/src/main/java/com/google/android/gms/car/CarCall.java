@@ -7,7 +7,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public static class CarCall implements SafeParcelable {
+public class CarCall implements SafeParcelable {
     public static final Parcelable.Creator<CarCall> CREATOR = new es();
 
     /* renamed from: a, reason: collision with root package name */

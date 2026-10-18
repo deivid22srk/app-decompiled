@@ -10,7 +10,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public static class ErrorReport implements SafeParcelable {
+public class ErrorReport implements SafeParcelable {
     public static final Parcelable.Creator<ErrorReport> CREATOR = new b();
     public int A;
     public String B;

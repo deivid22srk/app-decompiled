@@ -97,7 +97,7 @@ public final class c extends gn implements ServiceConnection {
                                 z = false;
                             } else {
                                 com.google.android.gms.ads.internal.d.k();
-                                if (str.equals(g.a(stringExtra))) {
+                                if (str.equals(com.google.android.gms.ads.internal.purchase.g.a(stringExtra))) {
                                     if (iVar.f5346a != null) {
                                         String str2 = iVar.f5346a;
                                         if (TextUtils.isEmpty(stringExtra) || TextUtils.isEmpty(str2) || TextUtils.isEmpty(stringExtra2)) {

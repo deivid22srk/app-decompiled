@@ -26,7 +26,7 @@ public final class b extends c {
     public String n = "";
     public String o = "";
     public String p = "";
-    public String[] q = e.f;
+    public String[] q = com.google.protobuf.nano.e.f;
     public String r = "";
     public String s = "";
     public String t = "";
@@ -216,7 +216,7 @@ public final class b extends c {
                     this.l = aVar.c();
                     break;
                 case 114:
-                    int b2 = e.b(aVar, 114);
+                    int b2 = com.google.protobuf.nano.e.b(aVar, 114);
                     int length = this.q == null ? 0 : this.q.length;
                     String[] strArr = new String[b2 + length];
                     if (length != 0) {
@@ -261,7 +261,7 @@ public final class b extends c {
                     this.t = aVar.c();
                     break;
                 default:
-                    if (!e.a(aVar, a2)) {
+                    if (!com.google.protobuf.nano.e.a(aVar, a2)) {
                         break;
                     } else {
                         break;

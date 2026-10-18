@@ -6,7 +6,7 @@ import com.google.android.gms.common.data.DataHolder;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static final class LargeAssetQueueStateChangeParcelable implements SafeParcelable, com.google.android.gms.wearable.r {
+public final class LargeAssetQueueStateChangeParcelable implements SafeParcelable, com.google.android.gms.wearable.r {
     public static final Parcelable.Creator<LargeAssetQueueStateChangeParcelable> CREATOR = new at();
 
     /* renamed from: a, reason: collision with root package name */

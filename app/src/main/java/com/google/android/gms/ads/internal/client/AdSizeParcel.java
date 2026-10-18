@@ -71,7 +71,7 @@ public class AdSizeParcel implements SafeParcelable {
 
     @Override // android.os.Parcelable
     public void writeToParcel(Parcel parcel, int i) {
-        h.a(this, parcel, i);
+        com.google.android.gms.ads.internal.client.h.a(this, parcel, i);
     }
 
     /* JADX WARN: Removed duplicated region for block: B:24:0x0071  */

@@ -42,7 +42,7 @@ public class Fragment implements ComponentCallbacks, View.OnCreateContextMenuLis
     boolean O;
     int P;
     ViewGroup Q;
-    public View R;
+    public View R2;
     View S;
     boolean T;
     az V;
@@ -77,7 +77,7 @@ public class Fragment implements ComponentCallbacks, View.OnCreateContextMenuLis
     public cy ag = null;
     public cy ah = null;
 
-    public class InstantiationException extends RuntimeException {
+    public static class InstantiationException extends RuntimeException {
         public InstantiationException(String str, Exception exc) {
             super(str, exc);
         }
@@ -481,15 +481,15 @@ public class Fragment implements ComponentCallbacks, View.OnCreateContextMenuLis
             printWriter.print("mContainer=");
             printWriter.println(this.Q);
         }
-        if (this.R != null) {
+        if (this.R2 != null) {
             printWriter.print(str);
             printWriter.print("mView=");
-            printWriter.println(this.R);
+            printWriter.println(this.R2);
         }
         if (this.S != null) {
             printWriter.print(str);
             printWriter.print("mInnerView=");
-            printWriter.println(this.R);
+            printWriter.println(this.R2);
         }
         if (this.l != null) {
             printWriter.print(str);

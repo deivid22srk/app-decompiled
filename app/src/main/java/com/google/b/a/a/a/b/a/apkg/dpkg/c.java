@@ -11,7 +11,7 @@ public final class c extends com.google.protobuf.nano.c {
     public String f7616a = "";
 
     /* renamed from: b, reason: collision with root package name */
-    public byte[] f7617b = e.h;
+    public byte[] f7617b = com.google.protobuf.nano.e.h;
     public String c = "";
     public String d = "";
     public String e = "";
@@ -25,7 +25,7 @@ public final class c extends com.google.protobuf.nano.c {
         if (!this.f7616a.equals("")) {
             codedOutputByteBufferNano.a(1, this.f7616a);
         }
-        if (!Arrays.equals(this.f7617b, e.h)) {
+        if (!Arrays.equals(this.f7617b, com.google.protobuf.nano.e.h)) {
             codedOutputByteBufferNano.a(2, this.f7617b);
         }
         if (!this.c.equals("")) {
@@ -47,7 +47,7 @@ public final class c extends com.google.protobuf.nano.c {
         if (!this.f7616a.equals("")) {
             a2 += CodedOutputByteBufferNano.b(1, this.f7616a);
         }
-        if (!Arrays.equals(this.f7617b, e.h)) {
+        if (!Arrays.equals(this.f7617b, com.google.protobuf.nano.e.h)) {
             a2 += CodedOutputByteBufferNano.b(2, this.f7617b);
         }
         if (!this.c.equals("")) {

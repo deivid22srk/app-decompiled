@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static final class ConnectionEvent extends g implements SafeParcelable {
+public final class ConnectionEvent extends g implements SafeParcelable {
     public static final Parcelable.Creator<ConnectionEvent> CREATOR = new a();
 
     /* renamed from: a, reason: collision with root package name */

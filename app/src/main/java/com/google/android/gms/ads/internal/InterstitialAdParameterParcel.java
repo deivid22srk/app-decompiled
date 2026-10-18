@@ -35,6 +35,6 @@ public final class InterstitialAdParameterParcel implements SafeParcelable {
 
     @Override // android.os.Parcelable
     public final void writeToParcel(Parcel parcel, int i) {
-        c.a(this, parcel);
+        com.google.android.gms.ads.internal.c.a(this, parcel);
     }
 }

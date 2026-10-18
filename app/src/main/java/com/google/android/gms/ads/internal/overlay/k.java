@@ -4,6 +4,9 @@ import android.view.TextureView;
 
 /* loaded from: classes.dex */
 public abstract class k extends TextureView {
+    protected k() {
+        super((android.content.Context) null);
+    }
     public abstract String a();
 
     public abstract int getCurrentPosition();

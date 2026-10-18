@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 
 /* loaded from: classes.dex */
-public static class BitmapTeleporter implements SafeParcelable {
+public class BitmapTeleporter implements SafeParcelable {
     public static final Parcelable.Creator<BitmapTeleporter> CREATOR = new g();
 
     /* renamed from: a, reason: collision with root package name */

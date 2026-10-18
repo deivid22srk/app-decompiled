@@ -10,7 +10,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.ArrayList;
 
 /* loaded from: classes.dex */
-public static class FeedbackOptions implements SafeParcelable {
+public class FeedbackOptions implements SafeParcelable {
     public static final Parcelable.Creator<FeedbackOptions> CREATOR = new c();
 
     /* renamed from: a, reason: collision with root package name */
@@ -66,7 +66,7 @@ public static class FeedbackOptions implements SafeParcelable {
 
     @Override // android.os.Parcelable
     public void writeToParcel(Parcel parcel, int i) {
-        c.a(this, parcel, i);
+        com.google.android.gms.feedback.c.a(this, parcel, i);
     }
 
     public static /* synthetic */ FeedbackOptions a(FeedbackOptions feedbackOptions, Bitmap bitmap) {

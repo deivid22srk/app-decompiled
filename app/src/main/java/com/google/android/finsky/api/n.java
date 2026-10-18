@@ -96,7 +96,7 @@ public class n<T extends com.google.protobuf.nano.c> extends com.android.volley.
             FinskyLog.e("Empty DFE URL", new Object[0]);
         }
         this.e = !d.K.b().booleanValue();
-        this.g = new r(s.c(), eVar);
+        this.g = new r(com.google.android.finsky.api.s.c(), eVar);
         this.u = eVar;
         this.k = tVar;
         this.l = cls;
@@ -199,7 +199,7 @@ public class n<T extends com.google.protobuf.nano.c> extends com.android.volley.
             }
         }
         if (this.o != null) {
-            e.a(this.o, e);
+            com.google.android.finsky.api.e.a(this.o, e);
         }
         if (this.q) {
             e eVar2 = this.u;

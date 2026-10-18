@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class TogglingData implements SafeParcelable {
+public class TogglingData implements SafeParcelable {
     public static final Parcelable.Creator<TogglingData> CREATOR = new ag();
 
     /* renamed from: a, reason: collision with root package name */

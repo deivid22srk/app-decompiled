@@ -50,7 +50,7 @@ public abstract class zzam extends aq {
     protected static boolean k = false;
     protected static boolean l = false;
 
-    class zza extends Exception {
+    static class zza extends Exception {
         public zza() {
         }
 

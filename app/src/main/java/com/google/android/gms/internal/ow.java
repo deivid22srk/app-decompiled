@@ -36,7 +36,7 @@ final class ow extends com.google.android.gms.people.r<com.google.android.gms.pe
 
     /* JADX INFO: Access modifiers changed from: protected */
     @Override // com.google.android.gms.internal.kt
-    public final /* synthetic */ com.google.android.gms.common.api.x a(Status status) {
+    public final com.google.android.gms.people.g a(Status status) {
         return new ox(this, status);
     }
 }

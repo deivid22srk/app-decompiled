@@ -22,7 +22,7 @@ final class kg extends kf<Status> {
 
     /* JADX INFO: Access modifiers changed from: protected */
     @Override // com.google.android.gms.internal.kt
-    public final /* synthetic */ com.google.android.gms.common.api.x a(Status status) {
+    public final Status a(Status status) {
         return status;
     }
 

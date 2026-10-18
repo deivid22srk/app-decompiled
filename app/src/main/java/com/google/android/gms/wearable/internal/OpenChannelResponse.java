@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class OpenChannelResponse implements SafeParcelable {
+public class OpenChannelResponse implements SafeParcelable {
     public static final Parcelable.Creator<OpenChannelResponse> CREATOR = new bf();
 
     /* renamed from: a, reason: collision with root package name */

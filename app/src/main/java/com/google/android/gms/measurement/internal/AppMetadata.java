@@ -57,6 +57,6 @@ public class AppMetadata implements SafeParcelable {
 
     @Override // android.os.Parcelable
     public void writeToParcel(Parcel parcel, int i) {
-        h.a(this, parcel);
+        com.google.android.gms.measurement.internal.h.a(this, parcel);
     }
 }

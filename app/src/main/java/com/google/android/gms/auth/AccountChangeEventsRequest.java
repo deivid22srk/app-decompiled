@@ -7,7 +7,7 @@ import android.text.TextUtils;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class AccountChangeEventsRequest implements SafeParcelable {
+public class AccountChangeEventsRequest implements SafeParcelable {
     public static final Parcelable.Creator<AccountChangeEventsRequest> CREATOR = new k();
 
     /* renamed from: a, reason: collision with root package name */

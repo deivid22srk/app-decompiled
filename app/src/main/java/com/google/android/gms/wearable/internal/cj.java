@@ -4,6 +4,11 @@ import com.google.android.gms.internal.mj;
 
 /* loaded from: classes.dex */
 final class cj implements mj<Object> {
+    private final NodeParcelable fcj;
+
+    cj(NodeParcelable nodeParcelable) {
+        this.fcj = nodeParcelable;
+    }
 
     /* renamed from: a, reason: collision with root package name */
 

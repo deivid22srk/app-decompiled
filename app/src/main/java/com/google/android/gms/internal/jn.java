@@ -14,7 +14,7 @@ import java.util.Queue;
 public abstract class jn<T> implements Comparable<jn<T>> {
 
     /* renamed from: a, reason: collision with root package name */
-    private final ny f6090a;
+    public final ny f6090a;
 
     /* renamed from: b, reason: collision with root package name */
     private long f6091b;

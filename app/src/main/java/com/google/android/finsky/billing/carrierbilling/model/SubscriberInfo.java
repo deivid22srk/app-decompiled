@@ -8,7 +8,7 @@ import com.google.android.finsky.utils.jm;
 import java.util.Arrays;
 
 /* loaded from: classes.dex */
-public static class SubscriberInfo implements Parcelable {
+public class SubscriberInfo implements Parcelable {
     public static final Parcelable.Creator<SubscriberInfo> CREATOR = new a();
 
     /* renamed from: a, reason: collision with root package name */

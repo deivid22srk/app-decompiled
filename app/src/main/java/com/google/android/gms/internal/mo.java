@@ -42,7 +42,7 @@ public final class mo<R extends com.google.android.gms.common.api.x> extends com
                 a(r.b());
                 b(r);
             } else if (this.f6170a != null) {
-                com.google.android.gms.common.api.u<R> uVar = (com.google.android.gms.common.api.u<R>) this.f6170a.a();
+                com.google.android.gms.common.api.u<R> uVar = (com.google.android.gms.common.api.u<R>) (com.google.android.gms.common.api.u) this.f6170a.a();
                 if (uVar == null) {
                     a(new Status(13, "Transform returned null"));
                 } else {

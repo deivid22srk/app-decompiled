@@ -189,7 +189,7 @@ public abstract class l<T> implements Comparable<l<T>> {
 
 
     public /* synthetic */ int compareTo(l<T> another) {
-        l lVar = (l) obj;
+        l lVar = (l) another;
         n l = l();
         n l2 = lVar.l();
         return l == l2 ? this.c.intValue() - lVar.c.intValue() : l2.ordinal() - l.ordinal();

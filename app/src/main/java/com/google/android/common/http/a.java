@@ -8,14 +8,14 @@ import org.apache.http.entity.HttpEntityWrapper;
 public final class a extends HttpEntityWrapper {
 
     /* renamed from: a, reason: collision with root package name */
-    private final String f1427a;
+    public final String f1427a;
 
     /* renamed from: b, reason: collision with root package name */
-    private final int f1428b;
-    private final long c;
-    private final long d;
-    private final long e;
-    private final long f;
+    public final int f1428b;
+    public final long c;
+    public final long d;
+    public final long e;
+    public final long f;
 
     public a(HttpEntity httpEntity, String str, int i, long j, long j2, long j3, long j4) {
         super(httpEntity);

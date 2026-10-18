@@ -6,7 +6,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.Arrays;
 
 /* loaded from: classes.dex */
-public static class ConnectionConfiguration implements SafeParcelable {
+public class ConnectionConfiguration implements SafeParcelable {
     public static final Parcelable.Creator<ConnectionConfiguration> CREATOR = new au();
 
     /* renamed from: a, reason: collision with root package name */

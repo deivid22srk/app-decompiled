@@ -12,7 +12,7 @@ public final class g extends com.google.protobuf.nano.c {
 
     /* renamed from: b, reason: collision with root package name */
     public byte[] f7572b = com.google.protobuf.nano.e.h;
-    public c[] c = c.b();
+    public c[] c = com.google.b.a.a.a.b.a.apkg.bpkg.apkg.c.b();
     public String d = "";
 
     public static g[] b() {

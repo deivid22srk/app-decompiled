@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="cluster_with_notice_vertical_stack">false</bool>
+    <bool name="display_categories_in_two_columns">true</bool>
+    <bool name="stretch_happiness_survey_prompt">false</bool>
+    <bool name="use_wide_layout">true</bool>
+    <bool name="use_wide_layout_for_friend_review_cluster">true</bool>
+    <bool name="use_wide_layout_for_highlights_banner">true</bool>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="details_content_margin">16.0dip</dimen>
+    <dimen name="details_title_cover_padding">12.0dip</dimen>
+    <dimen name="finsky_fixed_tab_xpadding">24.0dip</dimen>
+    <dimen name="friend_review_card_bubble_offset">36.0dip</dimen>
+    <dimen name="highlight_banner_selected_item_elevation">12.0dip</dimen>
+    <dimen name="inline_app_dialog_minwidth">400.0dip</dimen>
+    <dimen name="listing_row_extra_margin">16.0dip</dimen>
+    <dimen name="onboard_open_button_min_width">160.0dip</dimen>
+    <dimen name="page_error_indicator_retry_button_top_margin">0.0dip</dimen>
+    <dimen name="play_collection_max_width">1120.0dip</dimen>
+    <dimen name="play_collection_max_width_plus_card_spacing">1132.0dip</dimen>
+    <dimen name="play_happiness_survey_v2_card_radius">2.0dip</dimen>
+    <dimen name="play_header_list_tab_floating_padding">48.0dip</dimen>
+    <dimen name="play_header_list_tab_padding_side">12.0dip</dimen>
+    <dimen name="play_onboard__onboard_simple_quiz_list_side_padding">8.0dip</dimen>
+    <dimen name="play_onboard__onboard_tutorial_page_peek_width">40.0dip</dimen>
+    <dimen name="play_onboard__onboard_v2_tutorial_page_text_bottom_margin">0.0dip</dimen>
+    <dimen name="rec_widget_portrait_width">80.0dip</dimen>
+    <dimen name="rec_widget_promo_width">240.0dip</dimen>
+    <dimen name="rec_widget_square_width">120.0dip</dimen>
+    <dimen name="searchbox_padding_from_highlight">16.0dip</dimen>
+    <dimen name="setup_wizard_im_form_start_end_margin">28.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_end_margin">28.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_start_margin">28.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_top_margin">8.0dip</dimen>
+    <item name="stream_intro_card_hmargin" type="dimen">@dimen/play_collection_edge_padding</item>
+    <item name="stream_intro_card_radius" type="dimen">@dimen/play_card_default_radius</item>
+    <dimen name="summary_thumbnail_app_size">80.0dip</dimen>
+    <dimen name="summary_thumbnail_app_size_three_lines">100.0dip</dimen>
+    <integer name="editorial_bucket_columns">2</integer>
+    <integer name="friend_review_card_bubble_position">0</integer>
+    <integer name="num_items_per_list_column">4</integer>
+    <integer name="play_featured_grid_width">3</integer>
+    <integer name="play_regular_grid_width">2</integer>
+    <integer name="related_items_per_row">4</integer>
+    <integer name="warm_welcome_card_columns">2</integer>
+    <item name="play_card_promo_cluster" type="layout">@layout/play_card_promo_cluster_wide</item>
+    <item name="play_newsstand_publisher_details" type="layout">@layout/play_newsstand_publisher_details_wide</item>
+    <style name="PlayOnboardV2TutorialPageBody" parent="@style/PlayOnboardV2TutorialPageBodyParent"/>
+    <style name="PlayOnboardV2TutorialPageText" parent="@style/PlayOnboardV2TutorialPageTextParent">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="PlayOnboardV2TutorialPageTitle" parent="@style/PlayOnboardV2TutorialPageTitleParent"/>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabMode">fixed</item>
+        <item name="tabGravity">center</item>
+    </style>
+</resources>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.deivid22srk.store.app-mergeDebugResources-3:/values-sw400dp-land-v13/values-sw400dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-sw400dp-land-v13/dimens.xml",
+                    "from": {
+                        "startLines": "4,5,2,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "195,258,55,127",
+                        "endColumns": "62,86,71,67",
+                        "endOffsets": "253,340,122,190"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,118,205,277",
+                        "endColumns": "62,86,71,67",
+                        "endOffsets": "113,200,272,340"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace 'com.deivid22srk.store'
     compileSdk 23
 
     defaultConfig {
@@ -25,8 +26,27 @@ android {
         checkReleaseBuilds false
         abortOnError false
     }
+
+    androidResources {
+        // Mantém os IDs de recursos idênticos aos do APK original (0x7f...):
+        // o bytecode original em app/libs/ tem constantes 0x7f inlineadas.
+        additionalParameters += ['--stable-ids', file('public-ids.txt').absolutePath]
+    }
+
+    sourceSets {
+        main {
+            // Código Java decompilado (jadx) mantido no repo para leitura/referência.
+            // Saída jadx não recompila como está (generics perdidos, accessors sintéticos,
+            // artefatos semânticos) — o código EXECUTÁVEL vem do bytecode original,
+            // preservado via pipeline apktool -> smali -> dex -> jar (app/libs/).
+            java {
+                exclude '**'
+            }
+        }
+    }
 }
 
 dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:multidex:1.0.3'
 }

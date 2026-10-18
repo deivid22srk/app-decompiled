@@ -21,7 +21,7 @@ final class oe extends oi<com.google.android.gms.herrevad.d> {
     }
 
     @Override // com.google.android.gms.internal.kt
-    public final /* synthetic */ com.google.android.gms.common.api.x a(Status status) {
+    public final com.google.android.gms.herrevad.d a(Status status) {
         return new og(status, null);
     }
 }

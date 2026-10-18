@@ -47,7 +47,7 @@ public final class q {
     static Bitmap b(Activity activity) {
         try {
             View rootView = activity.getWindow().getDecorView().getRootView();
-            View findViewById = rootView.findViewById(R.id.content);
+            View findViewById = rootView.findViewById(android.R.id.content);
             if (findViewById == null) {
                 return null;
             }

@@ -78,6 +78,6 @@ public class UserAttributeParcel implements SafeParcelable {
 
     @Override // android.os.Parcelable
     public void writeToParcel(Parcel parcel, int i) {
-        f.a(this, parcel);
+        com.google.android.gms.measurement.internal.f.a(this, parcel);
     }
 }

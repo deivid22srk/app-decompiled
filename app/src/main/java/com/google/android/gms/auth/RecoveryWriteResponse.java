@@ -29,6 +29,6 @@ public class RecoveryWriteResponse implements SafeParcelable {
 
     @Override // android.os.Parcelable
     public void writeToParcel(Parcel parcel, int i) {
-        i.a(this, parcel);
+        com.google.android.gms.auth.i.a(this, parcel);
     }
 }

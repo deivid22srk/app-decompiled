@@ -21,15 +21,15 @@ final class ai extends ba {
     public final aj d;
     public final aj e;
     public final aj f;
-    private SharedPreferences g;
+    public SharedPreferences g;
     private String j;
     private boolean k;
     private long l;
-    private final SecureRandom m;
+    public final SecureRandom m;
 
     ai(ap apVar) {
         super(apVar);
-        this.f6302b = new ak(this, "health_monitor", i.G(), (byte) 0);
+        this.f6302b = new ak(this, "health_monitor", com.google.android.gms.measurement.internal.i.G(), (byte) 0);
         this.c = new aj(this, "last_upload");
         this.d = new aj(this, "last_upload_attempt");
         this.e = new aj(this, "backoff");
@@ -100,7 +100,7 @@ final class ai extends ba {
         if (this.j != null && b2 < this.l) {
             return new Pair<>(this.j, Boolean.valueOf(this.k));
         }
-        this.l = b2 + i.w();
+        this.l = b2 + com.google.android.gms.measurement.internal.i.w();
         com.google.android.gms.ads.bpkg.b.a(true);
         try {
             com.google.android.gms.ads.bpkg.c a2 = com.google.android.gms.ads.bpkg.b.a(i());

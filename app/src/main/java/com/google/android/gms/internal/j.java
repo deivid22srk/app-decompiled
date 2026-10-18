@@ -17,8 +17,8 @@ public final class j extends aa<j> {
     public int f = 0;
     public int g = 0;
     public boolean h = false;
-    public h[] i = h.b();
-    public i[] j = i.b();
+    public h[] i = com.google.android.gms.internal.h.b();
+    public i[] j = com.google.android.gms.internal.i.b();
     public String[] k = ai.f;
     public long[] l = ai.f5869b;
     public float[] m = ai.c;

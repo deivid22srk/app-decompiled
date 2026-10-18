@@ -53,7 +53,7 @@ public final class aw implements Cloneable {
     public static aw a() {
         aw awVar = new aw();
         awVar.f1294a = -1L;
-        awVar.f1295b = w.f1401b;
+        awVar.f1295b = com.caverock.androidsvg.w.f1401b;
         awVar.c = ax.NonZero;
         awVar.d = Float.valueOf(1.0f);
         awVar.e = null;
@@ -65,7 +65,7 @@ public final class aw implements Cloneable {
         awVar.k = null;
         awVar.l = new ag(0.0f);
         awVar.m = Float.valueOf(1.0f);
-        awVar.n = w.f1401b;
+        awVar.n = com.caverock.androidsvg.w.f1401b;
         awVar.o = null;
         awVar.p = new ag(12.0f, cd.pt);
         awVar.q = 400;
@@ -80,7 +80,7 @@ public final class aw implements Cloneable {
         awVar.z = null;
         awVar.A = Boolean.TRUE;
         awVar.B = Boolean.TRUE;
-        awVar.C = w.f1401b;
+        awVar.C = com.caverock.androidsvg.w.f1401b;
         awVar.D = Float.valueOf(1.0f);
         awVar.E = null;
         awVar.F = ax.NonZero;

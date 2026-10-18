@@ -119,7 +119,7 @@ public final class bg extends ba {
     public void p() {
         super.e();
         this.e.a();
-        this.d.a(i.x());
+        this.d.a(com.google.android.gms.measurement.internal.i.x());
     }
 
     private void q() {
@@ -135,7 +135,7 @@ public final class bg extends ba {
                 super.l().g.a("State of service unknown");
                 super.e();
                 u();
-                if (i.B()) {
+                if (com.google.android.gms.measurement.internal.i.B()) {
                     z = true;
                 } else {
                     Intent intent = new Intent("com.google.android.gms.measurement.START");
@@ -221,7 +221,7 @@ public final class bg extends ba {
         if (b()) {
             runnable.run();
         } else {
-            if (this.f.size() >= i.F()) {
+            if (this.f.size() >= com.google.android.gms.measurement.internal.i.F()) {
                 super.l().f6388a.a("Discarding data. Max runnable queue size reached");
                 return;
             }
@@ -231,24 +231,24 @@ public final class bg extends ba {
         }
     }
 
-    static /* synthetic */ void a(bg bgVar, ComponentName componentName) {
-        super.e();
+    /* synthetic */ static void a(bg bgVar, ComponentName componentName) {
+        bgVar.e();
         if (bgVar.f6345b != null) {
             bgVar.f6345b = null;
-            super.l().g.a("Disconnected from device MeasurementService", componentName);
-            super.e();
+            bgVar.l().g.a("Disconnected from device MeasurementService", componentName);
+            bgVar.e();
             bgVar.q();
         }
     }
 
-    static /* synthetic */ void a(bg bgVar) {
-        super.e();
+    /* synthetic */ static void a(bg bgVar) {
+        bgVar.e();
         if (bgVar.b()) {
-            super.l().g.a("Inactivity, disconnecting from AppMeasurementService");
-            super.e();
+            bgVar.l().g.a("Inactivity, disconnecting from AppMeasurementService");
+            bgVar.e();
             bgVar.u();
             try {
-                com.google.android.gms.common.stats.b.a().a(super.i(), bgVar.f6344a);
+                com.google.android.gms.common.stats.b.a().a(bgVar.i(), bgVar.f6344a);
             } catch (IllegalArgumentException e) {
             } catch (IllegalStateException e2) {
             }

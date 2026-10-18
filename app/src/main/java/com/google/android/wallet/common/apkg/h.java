@@ -22,7 +22,7 @@ public final class h implements t<JSONObject> {
     @Override // com.android.volley.t
     public final /* synthetic */ void a_(JSONObject jSONObject) {
         JSONObject jSONObject2 = jSONObject;
-        String e = f.e(jSONObject2, this.d);
+        String e = com.google.android.wallet.common.apkg.f.e(jSONObject2, this.d);
         if (!TextUtils.isEmpty(e)) {
             a(e);
         } else {

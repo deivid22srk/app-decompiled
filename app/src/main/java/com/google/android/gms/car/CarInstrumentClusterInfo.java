@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class CarInstrumentClusterInfo implements SafeParcelable {
+public class CarInstrumentClusterInfo implements SafeParcelable {
     public static final Parcelable.Creator<CarInstrumentClusterInfo> CREATOR = new fd();
 
     /* renamed from: a, reason: collision with root package name */

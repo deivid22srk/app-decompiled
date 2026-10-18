@@ -175,7 +175,7 @@ public final class an extends aa<an> {
     }
 
     @Override // com.google.android.gms.internal.aa, com.google.android.gms.internal.af
-    protected final int a() {
+    public final int a() {
         int a2 = super.a();
         if (this.f5876a != 0) {
             a2 += zzaic.b(1, this.f5876a);

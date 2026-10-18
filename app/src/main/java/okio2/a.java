@@ -25,7 +25,7 @@ public class a extends z {
     }
 
     private static synchronized void a(a aVar, long j, boolean z) {
-        synchronized (okio2.class) {
+        synchronized (okio2.b.class) {
             if (f2a == null) {
                 f2a = new a();
                 new d().start();
@@ -48,7 +48,7 @@ public class a extends z {
             aVar.f = aVar2.f;
             aVar2.f = aVar;
             if (aVar2 == f2a) {
-                okio2.class.notify();
+                okio2.b.class.notify();
             }
         }
     }
@@ -126,15 +126,15 @@ public class a extends z {
     /* JADX INFO: Access modifiers changed from: private */
     public static synchronized a bB() {
         a aVar = null;
-        synchronized (okio2.class) {
+        synchronized (okio2.b.class) {
             a aVar2 = f2a.f;
             if (aVar2 == null) {
-                okio2.class.wait();
+                okio2.b.class.wait();
             } else {
                 long nanoTime = aVar2.g - System.nanoTime();
                 if (nanoTime > 0) {
                     long j = nanoTime / 1000000;
-                    okio2.class.wait(j, (int) (nanoTime - (1000000 * j)));
+                    okio2.b.class.wait(j, (int) (nanoTime - (1000000 * j)));
                 } else {
                     f2a.f = aVar2.f;
                     aVar2.f = null;

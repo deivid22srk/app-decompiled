@@ -8,7 +8,7 @@ import android.text.TextUtils;
 public final class as extends v {
 
     /* renamed from: a, reason: collision with root package name */
-    private final ap f6319a;
+    public final ap f6319a;
 
     /* renamed from: b, reason: collision with root package name */
     private final boolean f6320b;

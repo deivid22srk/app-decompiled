@@ -28,7 +28,7 @@ final class di extends ct<com.google.android.gms.wearable.i> {
 
     /* JADX INFO: Access modifiers changed from: protected */
     @Override // com.google.android.gms.internal.kt
-    public final /* synthetic */ com.google.android.gms.common.api.x a(Status status) {
+    public final com.google.android.gms.wearable.i a(Status status) {
         return new dk(status, 0);
     }
 }

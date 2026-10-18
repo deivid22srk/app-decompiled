@@ -13,7 +13,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /* loaded from: classes.dex */
-public static class FileTeleporter implements SafeParcelable {
+public class FileTeleporter implements SafeParcelable {
     public static final Parcelable.Creator<FileTeleporter> CREATOR = new d();
 
     /* renamed from: a, reason: collision with root package name */
@@ -82,6 +82,6 @@ public static class FileTeleporter implements SafeParcelable {
                 a(dataOutputStream);
             }
         }
-        d.a(this, parcel, i);
+        com.google.android.gms.feedback.d.a(this, parcel, i);
     }
 }

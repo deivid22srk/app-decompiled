@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class DataItemAssetParcelable implements SafeParcelable, com.google.android.gms.wearable.m {
+public class DataItemAssetParcelable implements SafeParcelable, com.google.android.gms.wearable.m {
     public static final Parcelable.Creator<DataItemAssetParcelable> CREATOR = new c();
 
     /* renamed from: a, reason: collision with root package name */
@@ -66,6 +66,6 @@ public static class DataItemAssetParcelable implements SafeParcelable, com.googl
 
     @Override // android.os.Parcelable
     public void writeToParcel(Parcel parcel, int i) {
-        c.a(this, parcel);
+        com.google.android.gms.wearable.internal.c.a(this, parcel);
     }
 }

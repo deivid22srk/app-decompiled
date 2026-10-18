@@ -8,7 +8,7 @@ import com.google.android.finsky.protos.mk;
 import com.google.android.finsky.utils.ParcelableProto;
 
 /* loaded from: classes.dex */
-public static class PurchaseParams implements Parcelable {
+public class PurchaseParams implements Parcelable {
     public static final Parcelable.Creator<PurchaseParams> CREATOR = new ag();
 
     /* renamed from: a, reason: collision with root package name */

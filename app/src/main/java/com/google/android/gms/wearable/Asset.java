@@ -8,7 +8,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.Arrays;
 
 /* loaded from: classes.dex */
-public static class Asset implements SafeParcelable {
+public class Asset implements SafeParcelable {
     public static final Parcelable.Creator<Asset> CREATOR = new at();
 
     /* renamed from: a, reason: collision with root package name */

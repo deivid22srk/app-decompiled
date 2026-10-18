@@ -7,7 +7,7 @@ import android.os.Parcelable;
 import java.util.ArrayList;
 
 /* loaded from: classes.dex */
-public static final class zza {
+public final class zza {
 
     /* renamed from: com.google.android.gms.common.internal.safeparcel.zza$zza, reason: collision with other inner class name */
     public static class C0000zza extends RuntimeException {

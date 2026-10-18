@@ -173,7 +173,7 @@ public class ap {
             e().f6388a.a("Not all components initialized", Integer.valueOf(this.f), Integer.valueOf(this.g));
         }
         this.u = true;
-        if (!i.B()) {
+        if (!com.google.android.gms.measurement.internal.i.B()) {
             if (!(this.f6315a.getApplicationContext() instanceof Application)) {
                 e().f6389b.a("Application context is not an Application");
             } else if (Build.VERSION.SDK_INT >= 14) {
@@ -199,7 +199,7 @@ public class ap {
         f().e();
         if (this.v == null) {
             this.v = Boolean.valueOf(g().b("android.permission.INTERNET") && g().b("android.permission.ACCESS_NETWORK_STATE") && AppMeasurementReceiver.a(this.f6315a) && AppMeasurementService.a(this.f6315a));
-            if (this.v.booleanValue() && !i.B()) {
+            if (this.v.booleanValue() && !com.google.android.gms.measurement.internal.i.B()) {
                 this.v = Boolean.valueOf(TextUtils.isEmpty(j().b()) ? false : true);
             }
         }
@@ -225,7 +225,7 @@ public class ap {
                 e().f6388a.a("AppMeasurementService not registered/enabled");
             }
             e().f6388a.a("Uploading is not possible. App measurement disabled");
-        } else if (!i.B() && !TextUtils.isEmpty(j().b())) {
+        } else if (!com.google.android.gms.measurement.internal.i.B() && !TextUtils.isEmpty(j().b())) {
             m().b();
         }
         l();
@@ -363,9 +363,9 @@ public class ap {
             return;
         }
         g();
-        g.a(userAttributeParcel.f6286b);
+        com.google.android.gms.measurement.internal.g.a(userAttributeParcel.f6286b);
         g();
-        Object b2 = g.b(userAttributeParcel.f6286b, userAttributeParcel.a());
+        Object b2 = com.google.android.gms.measurement.internal.g.b(userAttributeParcel.f6286b, userAttributeParcel.a());
         if (b2 != null) {
             e eVar = new e(appMetadata.f6280b, userAttributeParcel.f6286b, userAttributeParcel.c, b2);
             e().f.a("Setting user attribute", eVar.f6366b, b2);
@@ -386,7 +386,7 @@ public class ap {
         List<Pair<oo, Long>> list;
         f().e();
         a();
-        if (!i.B()) {
+        if (!com.google.android.gms.measurement.internal.i.B()) {
             Boolean q = d().q();
             if (q == null) {
                 e().f6389b.a("Upload data called on the client side before use of service was decided");
@@ -414,7 +414,7 @@ public class ap {
         if (TextUtils.isEmpty(q2)) {
             return;
         }
-        List<Pair<oo, Long>> a3 = h().a(q2, i.H(), i.I());
+        List<Pair<oo, Long>> a3 = h().a(q2, com.google.android.gms.measurement.internal.i.H(), com.google.android.gms.measurement.internal.i.I());
         if (a3.isEmpty()) {
             return;
         }
@@ -447,12 +447,12 @@ public class ap {
         for (int i3 = 0; i3 < onVar.f6210a.length; i3++) {
             onVar.f6210a[i3] = (oo) list.get(i3).first;
             arrayList.add(list.get(i3).second);
-            onVar.f6210a[i3].s = Long.valueOf(i.A());
+            onVar.f6210a[i3].s = Long.valueOf(com.google.android.gms.measurement.internal.i.A());
             onVar.f6210a[i3].d = Long.valueOf(a4);
-            onVar.f6210a[i3].A = Boolean.valueOf(i.B());
+            onVar.f6210a[i3].A = Boolean.valueOf(com.google.android.gms.measurement.internal.i.B());
         }
         byte[] a5 = g().a(onVar);
-        String J = i.J();
+        String J = com.google.android.gms.measurement.internal.i.J();
         try {
             URL url = new URL(J);
             com.google.android.gms.common.internal.av.b(arrayList.isEmpty() ? false : true);
@@ -478,8 +478,8 @@ public class ap {
             return;
         }
         long a2 = this.d.a();
-        long N = i.N();
-        long L = i.L();
+        long N = com.google.android.gms.measurement.internal.i.N();
+        long L = com.google.android.gms.measurement.internal.i.L();
         long a3 = d().c.a();
         long a4 = d().d.a();
         long a5 = h().a("select max(bundle_end_timestamp) from queue");
@@ -492,11 +492,11 @@ public class ap {
             if (a4 != 0 && a4 >= abs) {
                 int i2 = 0;
                 while (true) {
-                    if (i2 >= i.P()) {
+                    if (i2 >= com.google.android.gms.measurement.internal.i.P()) {
                         j = 0;
                         break;
                     }
-                    j2 += (1 << i2) * i.O();
+                    j2 += (1 << i2) * com.google.android.gms.measurement.internal.i.O();
                     if (j2 > a4) {
                         j = j2;
                         break;
@@ -528,7 +528,7 @@ public class ap {
             return;
         }
         long a6 = d().e.a();
-        long K = i.K();
+        long K = com.google.android.gms.measurement.internal.i.K();
         if (!g().a(a6, K)) {
             j = Math.max(j, a6 + K);
         }

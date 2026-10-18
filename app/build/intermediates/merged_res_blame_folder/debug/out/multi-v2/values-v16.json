@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.deivid22srk.store.app-mergeDebugResources-3:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-v16/bools.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,112,171",
+                        "endColumns": "56,58,59",
+                        "endOffsets": "107,166,226"
+                    }
+                },
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-v16/dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,118",
+                        "endColumns": "62,65",
+                        "endOffsets": "113,179"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "231,294",
+                        "endColumns": "62,65",
+                        "endOffsets": "289,355"
+                    }
+                },
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-v16/styles.xml",
+                    "from": {
+                        "startLines": "2,7,34,10,14,17,20",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,312,1648,430,588,698,802",
+                        "endLines": "6,9,40,13,16,19,33",
+                        "endColumns": "12,12,12,12,12,12,12",
+                        "endOffsets": "307,425,1978,583,693,797,1643"
+                    },
+                    "to": {
+                        "startLines": "7,12,15,22,26,29,32",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "360,617,735,1070,1228,1338,1442",
+                        "endLines": "11,14,21,25,28,31,45",
+                        "endColumns": "12,12,12,12,12,12,12",
+                        "endOffsets": "612,730,1065,1223,1333,1437,2283"
+                    }
+                }
+            ]
+        }
+    ]
+}

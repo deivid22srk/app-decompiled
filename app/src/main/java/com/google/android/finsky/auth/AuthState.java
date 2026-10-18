@@ -6,7 +6,7 @@ import com.deivid22srk.store.R;
 import com.google.android.finsky.apkg.o;
 
 /* loaded from: classes.dex */
-public static class AuthState implements Parcelable {
+public class AuthState implements Parcelable {
     public static final Parcelable.Creator<AuthState> CREATOR = new e();
 
     /* renamed from: a, reason: collision with root package name */

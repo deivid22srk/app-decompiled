@@ -11,13 +11,13 @@ import android.util.Log;
 public abstract class ae extends Service implements h, u {
 
     /* renamed from: a, reason: collision with root package name */
-    private String f6464a;
+    public String f6464a;
 
     /* renamed from: b, reason: collision with root package name */
-    private Handler f6465b;
+    public Handler f6465b;
     private IBinder c;
-    private final Object d = new Object();
-    private boolean e;
+    public final Object d = new Object();
+    public boolean e;
 
     public void a(k kVar) {
     }

@@ -13,11 +13,11 @@ import java.util.Map;
 final class j extends ba {
 
     /* renamed from: a, reason: collision with root package name */
-    private static final Map<String, String> f6369a;
+    public static final Map<String, String> f6369a;
 
     /* renamed from: b, reason: collision with root package name */
     private final k f6370b;
-    private final c c;
+    public final c c;
 
     static {
         android.support.v4.h.a aVar = new android.support.v4.h.a(5);
@@ -61,15 +61,9 @@ final class j extends ba {
     final long a(String str) {
         Cursor rawQuery;
         Cursor cursor = null;
-        try {
-            try {
-                rawQuery = w().rawQuery(str, null);
-            } catch (Throwable th) {
-                th = th;
-            }
-        } catch (SQLiteException e) {
-            e = e;
-        }
+        SQLiteException e;
+        Throwable th;
+        rawQuery = w().rawQuery(str, null);
         try {
             if (!rawQuery.moveToFirst()) {
                 if (rawQuery != null) {
@@ -109,11 +103,11 @@ final class j extends ba {
 
     /* JADX INFO: Access modifiers changed from: private */
     public String x() {
-        if (i.B() && !n().C()) {
+        if (com.google.android.gms.measurement.internal.i.B() && !n().C()) {
             l().c.a("Using secondary database");
-            return i.z();
+            return com.google.android.gms.measurement.internal.i.z();
         }
-        return i.y();
+        return com.google.android.gms.measurement.internal.i.y();
     }
 
     /* JADX WARN: Removed duplicated region for block: B:34:0x0088  */
@@ -338,7 +332,7 @@ final class j extends ba {
         com.google.android.gms.common.internal.av.a(ooVar.f);
         r();
         long a2 = h().a();
-        if (ooVar.f.longValue() < a2 - i.D() || ooVar.f.longValue() > i.D() + a2) {
+        if (ooVar.f.longValue() < a2 - com.google.android.gms.measurement.internal.i.D() || ooVar.f.longValue() > com.google.android.gms.measurement.internal.i.D() + a2) {
             l().f6389b.a("Storing bundle outside of the max uploading time span. now, timestamp", Long.valueOf(a2), ooVar.f);
         }
         try {
@@ -447,11 +441,11 @@ final class j extends ba {
         if (y()) {
             long a2 = m().f.a();
             long b2 = h().b();
-            if (Math.abs(b2 - a2) > i.E()) {
+            if (Math.abs(b2 - a2) > com.google.android.gms.measurement.internal.i.E()) {
                 m().f.a(b2);
                 e();
                 u();
-                if (!y() || (delete = w().delete("queue", "abs(bundle_end_timestamp - ?) > cast(? as integer)", new String[]{String.valueOf(h().a()), String.valueOf(i.D())})) <= 0) {
+                if (!y() || (delete = w().delete("queue", "abs(bundle_end_timestamp - ?) > cast(? as integer)", new String[]{String.valueOf(h().a()), String.valueOf(com.google.android.gms.measurement.internal.i.D())})) <= 0) {
                     return;
                 }
                 l().g.a("Deleted stale rows. rowsDeleted", Integer.valueOf(delete));

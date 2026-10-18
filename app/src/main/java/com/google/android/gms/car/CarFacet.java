@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class CarFacet implements SafeParcelable {
+public class CarFacet implements SafeParcelable {
     public static final Parcelable.Creator<CarFacet> CREATOR = new fa();
 
     /* renamed from: a, reason: collision with root package name */

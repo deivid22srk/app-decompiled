@@ -12,12 +12,12 @@ import java.util.HashMap;
 final class y extends x implements Handler.Callback {
 
     /* renamed from: b, reason: collision with root package name */
-    private final Context f5733b;
+    public final Context f5733b;
     private final Handler c;
 
     /* renamed from: a, reason: collision with root package name */
-    private final HashMap<z, aa> f5732a = new HashMap<>();
-    private final com.google.android.gms.common.stats.b d = com.google.android.gms.common.stats.b.a();
+    public final HashMap<z, aa> f5732a = new HashMap<>();
+    public final com.google.android.gms.common.stats.b d = com.google.android.gms.common.stats.b.a();
     private final long e = 5000;
 
     y(Context context) {

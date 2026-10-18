@@ -22,16 +22,16 @@ public final class a {
     public static final f d = new ka();
     public final f e;
     private final Context f;
-    private final String g;
-    private final int h;
-    private String i;
-    private int j;
-    private String k;
-    private String l;
-    private final boolean m;
-    private int n;
-    private final com.google.android.gms.common.cpkg.a o;
-    private e p;
+    public final String g;
+    public final int h;
+    public String i;
+    public int j;
+    public String k;
+    public String l;
+    public final boolean m;
+    public int n;
+    public final com.google.android.gms.common.cpkg.a o;
+    public e p;
 
     @Deprecated
     public a(Context context, String str) {

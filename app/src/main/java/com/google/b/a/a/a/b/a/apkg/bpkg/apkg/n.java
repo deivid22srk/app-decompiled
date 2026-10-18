@@ -10,8 +10,8 @@ public final class n extends com.google.protobuf.nano.c {
 
     /* renamed from: b, reason: collision with root package name */
     public String f7584b = "";
-    public m[] c = m.b();
-    public l[] d = l.b();
+    public m[] c = com.google.b.a.a.a.b.a.apkg.bpkg.apkg.m.b();
+    public l[] d = com.google.b.a.a.a.b.a.apkg.bpkg.apkg.l.b();
     public com.google.b.a.a.a.b.a.apkg.b e = null;
     public o f = null;
     public com.google.b.a.a.a.b.a.apkg.cpkg.e g = null;

@@ -1,0 +1,2241 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.deivid22srk.store"
+4    platformBuildVersionCode="23"
+5    platformBuildVersionName="6.0-2438415"
+6    android:versionCode="80620200"
+7    android:versionName="6.2.02-open" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="9"
+10-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml
+11        android:targetSdkVersion="23" />
+11-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml
+12
+13    <uses-feature
+13-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:2:5-86
+14        android:name="android.hardware.location"
+14-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:2:19-59
+15        android:required="false" />
+15-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:2:60-84
+16    <uses-feature
+16-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:3:5-90
+17        android:name="android.hardware.location.gps"
+17-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:3:19-63
+18        android:required="false" />
+18-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:3:64-88
+19    <uses-feature
+19-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:4:5-94
+20        android:name="android.hardware.location.network"
+20-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:4:19-67
+21        android:required="false" />
+21-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:4:68-92
+22    <uses-feature
+22-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:5:5-87
+23        android:name="android.hardware.telephony"
+23-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:5:19-60
+24        android:required="false" />
+24-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:5:61-85
+25    <uses-feature
+25-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:6:5-82
+26        android:name="android.hardware.wifi"
+26-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:6:19-55
+27        android:required="false" />
+27-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:6:56-80
+28    <uses-feature
+28-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:7:5-88
+29        android:name="android.hardware.touchscreen"
+29-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:7:19-62
+30        android:required="true" />
+30-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:7:63-86
+31
+32    <permission
+32-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:8:5-264
+33        android:name="com.deivid22srk.store.CHECK_LICENSE"
+33-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:8:120-170
+34        android:description="@string/perm_check_license_desc"
+34-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:8:17-70
+35        android:label="@string/perm_check_license_label"
+35-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:8:71-119
+36        android:permissionGroup="android.permission-group.NETWORK"
+36-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:8:171-229
+37        android:protectionLevel="normal" />
+37-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:8:230-262
+38    <permission
+38-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:9:5-246
+39        android:name="com.deivid22srk.store.BILLING"
+39-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:9:108-152
+40        android:description="@string/perm_billing_desc"
+40-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:9:17-64
+41        android:label="@string/perm_billing_label"
+41-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:9:65-107
+42        android:permissionGroup="android.permission-group.NETWORK"
+42-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:9:153-211
+43        android:protectionLevel="normal" />
+43-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:9:212-244
+44    <permission
+44-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:10:5-114
+45        android:name="com.deivid22srk.store.permission.C2D_MESSAGE"
+45-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:10:17-76
+46        android:protectionLevel="signature" />
+46-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:10:77-112
+47
+48    <uses-permission android:name="com.deivid22srk.store.permission.C2D_MESSAGE" />
+48-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:11:5-83
+48-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:11:22-81
+49
+50    <permission
+50-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:12:5-136
+51        android:name="com.deivid22srk.store.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE"
+51-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:12:17-98
+52        android:protectionLevel="signature" />
+52-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:12:99-134
+53    <permission
+53-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:13:5-131
+54        android:name="com.deivid22srk.store.billing.BILLING_ACCOUNT_SERVICE"
+54-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:13:17-85
+55        android:protectionLevel="signatureOrSystem" />
+55-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:13:86-129
+56    <permission
+56-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:14:5-123
+57        android:name="com.deivid22srk.store.billing.ADD_CREDIT_CARD"
+57-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:14:17-77
+58        android:protectionLevel="signatureOrSystem" />
+58-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:14:78-121
+59    <permission
+59-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:15:5-109
+60        android:name="com.deivid22srk.store.TOS_ACKED"
+60-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:15:17-63
+61        android:protectionLevel="signatureOrSystem" />
+61-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:15:64-107
+62    <permission
+62-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:16:5-124
+63        android:name="com.deivid22srk.store.setup.PLAY_SETUP_SERVICE"
+63-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:16:17-78
+64        android:protectionLevel="signatureOrSystem" />
+64-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:16:79-122
+65    <permission
+65-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:17:5-127
+66        android:name="com.deivid22srk.store.permission.GEARHEAD_SERVICE"
+66-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:17:17-81
+67        android:protectionLevel="signatureOrSystem" />
+67-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:17:82-125
+68
+69    <uses-permission android:name="com.deivid22srk.store.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE" />
+69-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:18:5-105
+69-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:18:22-103
+70    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+70-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:19:5-81
+70-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:19:22-79
+71    <uses-permission android:name="android.permission.GET_TASKS" />
+71-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:20:5-67
+71-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:20:22-65
+72    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+72-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:21:5-72
+72-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:21:22-70
+73    <uses-permission android:name="android.permission.INTERNET" />
+73-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:22:5-66
+73-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:22:22-64
+74    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+74-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:23:5-80
+74-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:23:22-78
+75    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+75-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:24:5-79
+75-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:24:22-77
+76    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+76-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:25:5-73
+76-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:25:22-71
+77    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+77-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:26:5-88
+77-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:26:22-86
+78    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+78-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:27:5-78
+78-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:27:22-76
+79    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+79-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:28:5-74
+79-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:28:22-72
+80    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+80-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:29:5-78
+80-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:29:22-76
+81    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+81-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:30:5-97
+81-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:30:22-95
+82    <uses-permission android:name="com.google.android.providers.gsf.permission.WRITE_GSERVICES" />
+82-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:31:5-98
+82-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:31:22-96
+83    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+83-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:32:5-81
+83-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:32:22-79
+84    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED" />
+84-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:33:5-90
+84-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:33:22-88
+85    <uses-permission android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" />
+85-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:34:5-89
+85-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:34:22-87
+86    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+86-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:35:5-74
+86-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:35:22-72
+87    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+87-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:36:5-73
+87-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:36:22-71
+88    <uses-permission android:name="android.permission.NFC" />
+88-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:37:5-61
+88-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:37:22-59
+89    <uses-permission android:name="com.deivid22srk.store.INTENT_VENDING_ONLY" />
+89-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:38:5-80
+89-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:38:22-78
+90    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+90-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:39:5-80
+90-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:39:22-78
+91    <uses-permission android:name="android.permission.SEND_SMS" />
+91-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:40:5-66
+91-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:40:22-64
+92    <uses-permission android:name="android.permission.SEND_SMS_NO_CONFIRMATION" />
+92-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:41:5-82
+92-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:41:22-80
+93    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+93-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:42:5-87
+93-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:42:22-85
+94    <uses-permission android:name="android.permission.STATUS_BAR" />
+94-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:43:5-68
+94-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:43:22-66
+95    <uses-permission android:name="com.deivid22srk.store.TOS_ACKED" />
+95-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:44:5-70
+95-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:44:22-68
+96    <uses-permission android:name="android.permission.WAKE_LOCK" />
+96-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:45:5-67
+96-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:45:22-65
+97    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+97-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:46:5-78
+97-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:46:22-76
+98    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+98-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:47:5-80
+98-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:47:22-78
+99    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+99-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:48:5-75
+99-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:48:22-73
+100    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+100-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:49:5-73
+100-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:49:22-71
+101    <uses-permission android:name="android.permission.GET_PACKAGE_IMPORTANCE" />
+101-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:50:5-80
+101-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:50:22-78
+102    <uses-permission
+102-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:51:5-97
+103        android:name="android.permission.GET_ACCOUNTS"
+103-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:51:49-95
+104        android:maxSdkVersion="22" />
+104-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:51:22-48
+105    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+105-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:52:5-73
+105-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:52:22-71
+106    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+106-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:53:5-79
+106-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:53:22-77
+107    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+107-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:54:5-73
+107-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:54:22-71
+108    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED" />
+108-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:55:5-81
+108-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:55:22-79
+109    <uses-permission android:name="android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS" />
+109-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:56:5-91
+109-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:56:22-89
+110    <uses-permission android:name="android.permission.GRANT_RUNTIME_PERMISSIONS" />
+110-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:57:5-83
+110-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:57:22-81
+111    <uses-permission android:name="android.permission.REVOKE_RUNTIME_PERMISSIONS" />
+111-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:58:5-84
+111-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:58:22-82
+112    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+112-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:59:5-77
+112-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:59:22-75
+113    <uses-permission android:name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST" />
+113-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:60:5-91
+113-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:60:22-89
+114    <uses-permission android:name="android.permission.BATTERY_STATS" />
+114-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:61:5-71
+114-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:61:22-69
+115    <uses-permission android:name="android.permission.PACKAGE_VERIFICATION_AGENT" />
+115-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:62:5-84
+115-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:62:22-82
+116    <uses-permission android:name="android.permission.MANAGE_USERS" />
+116-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:63:5-70
+116-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:63:22-68
+117    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+117-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:64:5-79
+117-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:64:22-77
+118    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+118-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:65:5-72
+118-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:65:22-70
+119    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+119-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:66:5-79
+119-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:66:22-77
+120    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+120-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:67:5-77
+120-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:67:22-75
+121    <uses-permission android:name="com.google.android.gms.permission.CAR" />
+121-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:68:5-76
+121-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:68:22-74
+122    <uses-permission android:name="com.google.android.gms.permission.AD_ID_NOTIFICATION" />
+122-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:69:5-91
+122-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:69:22-89
+123    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+123-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:70:5-74
+123-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:70:22-72
+124    <uses-permission android:name="com.google.android.gms.WRITE_VERIFY_APPS_CONSENT" />
+124-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:71:5-87
+124-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:71:22-85
+125    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+125-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:72:5-69
+125-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:72:22-67
+126    <uses-permission android:name="android.permission.READ_SMS" />
+126-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:73:5-66
+126-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:73:22-64
+127    <uses-permission android:name="android.permission.READ_CONTACTS" />
+127-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:74:5-71
+127-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:74:22-69
+128
+129    <uses-feature
+129-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:75:5-81
+130        android:name="android.hardware.nfc"
+130-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:75:19-54
+131        android:required="false" />
+131-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:75:55-79
+132
+133    <application
+133-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:76:5-556:19
+134        android:name="com.google.android.finsky.FinskyApp"
+134-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:76:233-283
+135        android:backupAgent="com.deivid22srk.store.VendingBackupAgent"
+135-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:76:18-80
+136        android:debuggable="true"
+137        android:hardwareAccelerated="true"
+137-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:76:81-115
+138        android:icon="@mipmap/ic_launcher_play_store"
+138-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:76:116-161
+139        android:killAfterRestore="false"
+139-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:76:162-194
+140        android:label="@string/app_long_name"
+140-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:76:195-232
+141        android:requiredForAllUsers="true"
+141-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:76:284-318
+142        android:restoreAnyVersion="true"
+142-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:76:319-351
+143        android:restoreNeedsApplication="true"
+143-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:76:352-390
+144        android:restrictedAccountType="com.google"
+144-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:76:391-433
+145        android:supportsRtl="@bool/is_rtl_enabled" >
+145-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:76:434-476
+146        <meta-data
+146-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:77:9-121
+147            android:name="com.google.android.gms.version"
+147-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:77:20-65
+148            android:value="@integer/google_play_services_version" />
+148-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:77:66-119
+149        <meta-data
+149-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:78:9-119
+150            android:name="com.google.android.gms.car.application"
+150-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:78:20-73
+151            android:resource="@xml/automotive_app_desc" />
+151-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:78:74-117
+152
+153        <activity
+153-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:79:9-88:20
+154            android:name="com.deivid22srk.store.AssetBrowserActivity"
+154-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:79:181-238
+155            android:enabled="true"
+155-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:79:19-41
+156            android:exported="true"
+156-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:79:42-65
+157            android:icon="@mipmap/ic_launcher_play_store"
+157-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:79:66-111
+158            android:label="@string/launcher_name"
+158-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:79:112-149
+159            android:launchMode="singleTop"
+159-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:79:150-180
+160            android:theme="@style/MainActivityTheme" >
+160-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:79:239-279
+161            <intent-filter>
+161-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:80:13-86:29
+162                <action android:name="android.intent.action.MAIN" />
+162-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:81:17-68
+162-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:81:25-66
+163                <action android:name="android.intent.action.SEARCH" />
+163-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:82:17-70
+163-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:82:25-68
+164
+165                <category android:name="android.intent.category.LAUNCHER" />
+165-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:83:17-76
+165-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:83:27-74
+166                <category android:name="android.intent.category.APP_MARKET" />
+166-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:84:17-78
+166-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:84:27-76
+167                <category android:name="android.intent.category.DEFAULT" />
+167-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+167-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+168            </intent-filter>
+169
+170            <meta-data
+170-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:87:13-126
+171                android:name="com.android.launcher.toolbar_icon"
+171-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:87:24-72
+172                android:resource="@drawable/ic_menu_shop_holo_dark" />
+172-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:87:73-124
+173        </activity>
+174        <activity
+174-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:89:9-192
+175            android:name="com.google.android.finsky.activities.onboard.EntertainmentOnboardHostActivity"
+175-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:89:62-154
+176            android:label="@string/onboard_play_title"
+176-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:89:19-61
+177            android:theme="@style/OnboardTheme" />
+177-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:89:155-190
+178        <activity
+178-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:90:9-134:20
+179            android:name="com.google.android.finsky.activities.MainActivity"
+179-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:90:113-177
+180            android:exported="true"
+180-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:90:19-42
+181            android:label="@string/launcher_name"
+181-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:90:43-80
+182            android:launchMode="singleTask"
+182-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:90:81-112
+183            android:theme="@style/MainActivityTheme" >
+183-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:90:178-218
+184            <intent-filter>
+184-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:91:13-94:29
+185                <action android:name="android.intent.action.SEARCH" />
+185-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:82:17-70
+185-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:82:25-68
+186
+187                <category android:name="android.intent.category.DEFAULT" />
+187-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+187-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+188            </intent-filter>
+189            <intent-filter>
+189-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:95:13-98:29
+190                <action android:name="com.google.android.gms.actions.SEARCH_ACTION" />
+190-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:96:17-86
+190-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:96:25-84
+191
+192                <category android:name="android.intent.category.DEFAULT" />
+192-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+192-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+193            </intent-filter>
+194            <intent-filter>
+194-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:99:13-109:29
+195                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+195-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:100:17-76
+195-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:100:25-74
+196
+197                <category android:name="android.intent.category.BROWSABLE" />
+197-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:101:17-77
+197-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:101:27-75
+198                <category android:name="android.intent.category.DEFAULT" />
+198-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+198-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+199
+200                <action android:name="android.intent.action.VIEW" />
+200-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:17-68
+200-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:25-66
+201
+202                <data
+202-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+203                    android:host="search"
+203-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:23-44
+204                    android:path=""
+204-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:45-60
+205                    android:scheme="market" />
+205-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+206                <data
+206-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+207                    android:host="market.android.com"
+207-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:23-44
+208                    android:path=""
+208-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:45-60
+209                    android:scheme="http" />
+209-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+210                <data
+210-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+211                    android:host="market.android.com"
+211-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:23-44
+212                    android:pathPrefix="/"
+212-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:106:57-79
+213                    android:scheme="http" />
+213-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+214                <data
+214-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+215                    android:host="market.android.com"
+215-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:23-44
+216                    android:path=""
+216-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:45-60
+217                    android:scheme="https" />
+217-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+218                <data
+218-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+219                    android:host="market.android.com"
+219-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:23-44
+220                    android:pathPrefix="/"
+220-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:106:57-79
+221                    android:scheme="https" />
+221-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+222            </intent-filter>
+223            <intent-filter>
+223-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:110:13-122:29
+224                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+224-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:100:17-76
+224-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:100:25-74
+225                <action android:name="android.intent.action.VIEW" />
+225-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:17-68
+225-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:25-66
+226                <action android:name="afwapp.android.intent.action.VIEW" />
+226-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:113:17-75
+226-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:113:25-73
+227
+228                <category android:name="android.intent.category.DEFAULT" />
+228-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+228-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+229                <category android:name="android.intent.category.BROWSABLE" />
+229-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:101:17-77
+229-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:101:27-75
+230
+231                <data
+231-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+232                    android:host="play.google.com"
+232-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:23-44
+233                    android:pathPrefix="/store"
+233-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:106:57-79
+234                    android:scheme="http" />
+234-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+235                <data
+235-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+236                    android:host="play.google.com"
+236-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:23-44
+237                    android:pathPrefix="/store"
+237-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:106:57-79
+238                    android:scheme="https" />
+238-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+239                <data
+239-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+240                    android:host="play.google.com"
+240-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:23-44
+241                    android:pathPrefix="/redeem"
+241-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:106:57-79
+242                    android:scheme="http" />
+242-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+243                <data
+243-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+244                    android:host="play.google.com"
+244-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:23-44
+245                    android:pathPrefix="/redeem"
+245-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:106:57-79
+246                    android:scheme="https" />
+246-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+247                <data
+247-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+248                    android:host="play.google.com"
+248-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:23-44
+249                    android:pathPrefix="/wishlist"
+249-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:106:57-79
+250                    android:scheme="http" />
+250-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+251                <data
+251-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+252                    android:host="play.google.com"
+252-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:23-44
+253                    android:pathPrefix="/wishlist"
+253-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:106:57-79
+254                    android:scheme="https" />
+254-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+255            </intent-filter>
+256            <intent-filter>
+256-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:123:13-128:29
+257                <action android:name="android.intent.action.VIEW" />
+257-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:17-68
+257-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:25-66
+258
+259                <category android:name="android.intent.category.DEFAULT" />
+259-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+259-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+260                <category android:name="android.intent.category.BROWSABLE" />
+260-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:101:17-77
+260-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:101:27-75
+261
+262                <data
+262-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+263                    android:host="webstoreredirect"
+263-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:23-44
+264                    android:scheme="market" />
+264-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+265            </intent-filter>
+266            <intent-filter>
+266-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:129:13-132:29
+267                <action android:name="com.google.android.finsky.DETAILS" />
+267-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:130:17-75
+267-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:130:25-73
+268
+269                <category android:name="android.intent.category.DEFAULT" />
+269-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+269-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+270            </intent-filter>
+271
+272            <meta-data
+272-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:87:13-126
+273                android:name="com.android.launcher.toolbar_icon"
+273-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:87:24-72
+274                android:resource="@drawable/ic_menu_shop_holo_dark" />
+274-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:87:73-124
+275        </activity>
+276        <activity
+276-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:135:9-195
+277            android:name="com.google.android.finsky.billing.lightpurchase.PurchaseActivity"
+277-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:135:36-115
+278            android:label=""
+278-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:135:19-35
+279            android:theme="@style/PurchaseDialog"
+279-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:135:116-153
+280            android:windowSoftInputMode="adjustPan" />
+280-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:135:154-193
+281        <activity
+281-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:136:9-222
+282            android:name="com.google.android.finsky.download.inlineappinstaller.InlineConsumptionAppInstallerActivity"
+282-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:136:36-142
+283            android:label=""
+283-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:136:19-35
+284            android:theme="@style/PurchaseDialog"
+284-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:136:143-180
+285            android:windowSoftInputMode="adjustPan" />
+285-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:136:181-220
+286        <activity
+286-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:137:9-202
+287            android:name="com.google.android.finsky.billing.lightpurchase.AgeVerificationActivity"
+287-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:137:36-122
+288            android:label=""
+288-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:137:19-35
+289            android:theme="@style/PurchaseDialog"
+289-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:137:123-160
+290            android:windowSoftInputMode="adjustPan" />
+290-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:137:161-200
+291        <activity
+291-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:138:9-175
+292            android:name="com.google.android.finsky.billing.lightpurchase.IabV3Activity"
+292-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:138:19-95
+293            android:theme="@style/PurchaseDialog"
+293-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:138:96-133
+294            android:windowSoftInputMode="adjustPan" />
+294-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:138:134-173
+295        <activity
+295-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:139:9-207
+296            android:name="com.google.android.finsky.billing.lightpurchase.billingprofile.BillingProfileActivity"
+296-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:139:59-159
+297            android:label="@string/payment_methods"
+297-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:139:19-58
+298            android:theme="@style/FinskyLightDialogTheme" />
+298-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:139:160-205
+299        <activity
+299-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:140:9-193
+300            android:name="com.google.android.finsky.billing.promptforfop.PromptForFopActivity"
+300-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:140:63-145
+301            android:label="@string/setup_account_title"
+301-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:140:19-62
+302            android:theme="@style/FinskyLightDialogTheme" />
+302-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:140:146-191
+303        <activity
+303-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:141:9-146:20
+304            android:name="com.google.android.finsky.billing.promptforfop.SetupWizardPromptForFopActivity"
+304-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:141:99-192
+305            android:exported="true"
+305-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:141:19-42
+306            android:label="@string/setup_wizard_play_add_fop_title"
+306-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:141:43-98
+307            android:permission="com.deivid22srk.store.billing.ADD_CREDIT_CARD"
+307-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:141:193-259
+308            android:screenOrientation="behind"
+308-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:141:260-294
+309            android:windowSoftInputMode="adjustResize" >
+309-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:141:295-337
+310            <intent-filter>
+310-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:142:13-145:29
+311                <action android:name="com.deivid22srk.store.billing.ADD_CREDIT_CARD" />
+311-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:143:17-87
+311-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:143:25-85
+312
+313                <category android:name="android.intent.category.DEFAULT" />
+313-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+313-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+314            </intent-filter>
+315        </activity>
+316        <activity
+316-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:147:9-152:20
+317            android:name="com.google.android.finsky.billing.lightpurchase.LightPurchaseFlowActivity"
+317-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:147:60-148
+318            android:exported="true"
+318-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:147:19-42
+319            android:label=""
+319-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:147:43-59
+320            android:theme="@style/Dialog_NoFrame" >
+320-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:147:149-186
+321            <intent-filter>
+321-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:148:13-151:29
+322                <action android:name="com.deivid22srk.store.billing.PURCHASE" />
+322-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:149:17-80
+322-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:149:25-78
+323
+324                <category android:name="android.intent.category.DEFAULT" />
+324-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+324-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+325            </intent-filter>
+326        </activity>
+327        <activity
+327-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:153:9-158:20
+328            android:name="com.google.android.finsky.activities.InlineAppDetailsDialog"
+328-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:153:60-134
+329            android:exported="true"
+329-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:153:19-42
+330            android:label=""
+330-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:153:43-59
+331            android:theme="@style/InlineAppDetailsDialog" >
+331-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:153:135-180
+332            <intent-filter>
+332-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:154:13-157:29
+333                <action android:name="com.android.finsky.APP_DETAILS_DIALOG" />
+333-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:155:17-79
+333-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:155:25-77
+334
+335                <category android:name="android.intent.category.DEFAULT" />
+335-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+335-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+336            </intent-filter>
+337        </activity>
+338        <activity
+338-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:159:9-188
+339            android:name="com.google.android.finsky.activities.InlineAppPostPurchaseDialog"
+339-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:159:36-115
+340            android:label=""
+340-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:159:19-35
+341            android:noHistory="true"
+341-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:159:116-140
+342            android:theme="@style/InlineAppDetailsDialog" />
+342-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:159:141-186
+343        <activity
+343-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:160:9-229
+344            android:name="com.google.android.finsky.activities.RateReviewActivity"
+344-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:160:63-133
+345            android:label="@string/review_dialog_title"
+345-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:160:19-62
+346            android:theme="@style/RateReviewTheme"
+346-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:160:134-172
+347            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+347-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:160:173-227
+348        <activity
+348-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:161:9-230
+349            android:name="com.google.android.finsky.activities.RateReviewActivity2"
+349-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:161:63-134
+350            android:label="@string/review_dialog_title"
+350-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:161:19-62
+351            android:theme="@style/RateReviewTheme"
+351-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:161:135-173
+352            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+352-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:161:174-228
+353        <activity
+353-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:162:9-205
+354            android:name="com.google.android.finsky.activities.PublicReviewsActivity"
+354-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:162:36-109
+355            android:label=""
+355-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:162:19-35
+356            android:theme="@style/RateReviewTheme"
+356-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:162:110-148
+357            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+357-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:162:149-203
+358        <activity
+358-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:163:9-185
+359            android:name="com.google.android.finsky.activities.SurveyActivity"
+359-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:163:71-137
+360            android:label="@string/survey_prompt_title_improve"
+360-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:163:19-70
+361            android:theme="@style/FinskyLightDialogTheme" />
+361-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:163:138-183
+362        <activity
+362-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:164:9-184
+363            android:name="com.google.android.finsky.activities.AppsPermissionsActivity"
+363-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:164:61-136
+364            android:label="@string/permissions_title"
+364-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:164:19-60
+365            android:theme="@style/FinskyLightDialogTheme" />
+365-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:164:137-182
+366        <activity
+366-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:165:9-207
+367            android:name="com.google.android.finsky.billing.lightpurchase.OfferResolutionActivity"
+367-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:165:73-159
+368            android:label="@string/offer_resolution_dialog_title"
+368-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:165:19-72
+369            android:theme="@style/FinskyLightDialogTheme" />
+369-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:165:160-205
+370        <activity
+370-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:166:9-303
+371            android:name="com.google.android.finsky.billing.lightpurchase.billingprofile.instruments.SetupWizardAddDcb3Activity"
+371-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:166:67-183
+372            android:label="@string/dcb_setup_title_generic"
+372-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:166:19-66
+373            android:screenOrientation="behind"
+373-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:166:184-218
+374            android:theme="@style/SetupWizardTheme"
+374-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:166:219-258
+375            android:windowSoftInputMode="adjustResize" />
+375-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:166:259-301
+376        <activity
+376-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:167:9-260
+377            android:name="com.google.android.finsky.billing.lightpurchase.billingprofile.instruments.AddDcb3Activity"
+377-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:167:67-172
+378            android:label="@string/dcb_setup_title_generic"
+378-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:167:19-66
+379            android:theme="@style/FinskyLightDialogTheme"
+379-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:167:173-218
+380            android:windowSoftInputMode="adjustPan" />
+380-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:167:219-258
+381        <activity
+381-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:168:9-216
+382            android:name="com.google.android.finsky.billing.instrumentmanager.InstrumentManagerActivity"
+382-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:168:36-128
+383            android:label=""
+383-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:168:19-35
+384            android:theme="@style/FinskyLightDialogTheme"
+384-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:168:129-174
+385            android:windowSoftInputMode="adjustPan" />
+385-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:168:175-214
+386        <activity
+386-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:169:9-210
+387            android:name="com.google.android.finsky.billing.lightpurchase.PurchaseManagerActivity"
+387-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:169:36-122
+388            android:label=""
+388-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:169:19-35
+389            android:theme="@style/FinskyLightDialogTheme"
+389-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:169:123-168
+390            android:windowSoftInputMode="adjustPan" />
+390-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:169:169-208
+391        <activity
+391-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:170:9-219
+392            android:name="com.google.android.finsky.billing.instrumentmanager.SetupWizardInstrumentManagerActivity"
+392-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:170:36-139
+393            android:label=""
+393-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:170:19-35
+394            android:screenOrientation="behind"
+394-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:170:140-174
+395            android:windowSoftInputMode="adjustResize" />
+395-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:170:175-217
+396        <activity
+396-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:171:9-315
+397            android:name="com.google.android.finsky.billing.lightpurchase.billingprofile.instruments.SetupWizardRedeemCodeActivity"
+397-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:171:63-182
+398            android:label="@string/redeem_screen_title"
+398-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:171:19-62
+399            android:screenOrientation="behind"
+399-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:171:183-217
+400            android:theme="@style/SetupWizardTheme"
+400-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:171:218-257
+401            android:windowSoftInputMode="adjustResize|stateVisible" />
+401-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:171:258-313
+402        <activity
+402-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:172:9-259
+403            android:name="com.google.android.finsky.billing.lightpurchase.billingprofile.instruments.RedeemCodeActivity"
+403-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:172:63-171
+404            android:label="@string/redeem_screen_title"
+404-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:172:19-62
+405            android:theme="@style/FinskyLightDialogTheme"
+405-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:172:172-217
+406            android:windowSoftInputMode="adjustPan" />
+406-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:172:218-257
+407        <activity
+407-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:173:9-194
+408            android:name="com.google.android.finsky.billing.refund.RefundActivity"
+408-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:173:36-106
+409            android:label=""
+409-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:173:19-35
+410            android:theme="@style/FinskyLightDialogTheme"
+410-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:173:107-152
+411            android:windowSoftInputMode="adjustPan" />
+411-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:173:153-192
+412        <activity android:name="com.google.android.finsky.download.MimeTypeActivity" >
+412-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:174:9-187:20
+412-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:174:19-85
+413            <intent-filter>
+413-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:175:13-180:29
+414                <action android:name="android.intent.action.VIEW" />
+414-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:17-68
+414-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:25-66
+415
+416                <category android:name="android.intent.category.DEFAULT" />
+416-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+416-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+417
+418                <data android:mimeType="application/vnd.android.obb" />
+418-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+418-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:178:23-69
+419                <data android:scheme="file" />
+419-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+419-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+420            </intent-filter>
+421            <intent-filter>
+421-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:181:13-186:29
+422                <action android:name="android.intent.action.VIEW" />
+422-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:17-68
+422-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:25-66
+423
+424                <category android:name="android.intent.category.DEFAULT" />
+424-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+424-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+425
+426                <data android:mimeType="application/vnd.android.package-delta" />
+426-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+426-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:178:23-69
+427                <data android:scheme="file" />
+427-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+427-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+428            </intent-filter>
+429        </activity>
+430        <activity
+430-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:188:9-194
+431            android:name="com.google.android.finsky.activities.ContentFilterActivity"
+431-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:188:64-137
+432            android:label="@string/content_filter_title"
+432-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:188:19-63
+433            android:theme="@style/FinskyLightDialogWithTitleTheme" />
+433-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:188:138-192
+434        <activity
+434-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:189:9-180
+435            android:name="com.google.android.finsky.activities.ContentFiltersActivity2"
+435-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:189:66-141
+436            android:label="@string/content_filters2_title"
+436-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:189:19-65
+437            android:theme="@style/SettingsTheme" />
+437-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:189:142-178
+438        <activity
+438-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:190:9-199
+439            android:name="com.google.android.finsky.activities.PurchaseAuthActivity"
+439-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:190:70-142
+440            android:label="@string/purchase_auth_dialog_label"
+440-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:190:19-69
+441            android:theme="@style/FinskyLightDialogWithTitleTheme" />
+441-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:190:143-197
+442        <activity
+442-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:191:9-141
+443            android:name="com.google.android.finsky.activities.WebViewDialog"
+443-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:191:19-84
+444            android:theme="@style/FinskyLightDialogWithTitleTheme" />
+444-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:191:85-139
+445        <activity
+445-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:192:9-237
+446            android:name="com.google.android.finsky.activities.PinEntryDialog"
+446-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:192:65-131
+447            android:icon="@drawable/ic_locked_holo_light"
+447-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:192:19-64
+448            android:theme="@style/FinskyLightDialogWithTitleTheme"
+448-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:192:132-186
+449            android:windowSoftInputMode="stateAlwaysVisible" />
+449-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:192:187-235
+450        <activity
+450-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:193:9-143
+451            android:name="com.google.android.finsky.activities.AccessRestrictedActivity"
+451-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:193:19-95
+452            android:theme="@style/FinskyLightDialogTheme" />
+452-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:193:96-141
+453        <activity
+453-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:194:9-205
+454            android:name="com.google.android.finsky.billing.storedvalue.StoredValueTopUpActivity"
+454-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:194:63-148
+455            android:label="@string/topup_choose_amount"
+455-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:194:19-62
+456            android:theme="@style/FinskyLightDialogWithTitleTheme" />
+456-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:194:149-203
+457        <activity
+457-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:195:9-227
+458            android:name="com.google.android.finsky.billing.switchfamilyinstrument.SwitchFamilyInstrumentActivity"
+458-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:195:68-170
+459            android:label="@string/switch_family_instrument"
+459-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:195:19-67
+460            android:theme="@style/FinskyLightDialogWithTitleTheme" />
+460-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:195:171-225
+461        <activity
+461-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:196:9-142
+462            android:name="com.google.android.finsky.uninstall.UninstallManagerActivity"
+462-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:196:19-94
+463            android:theme="@style/FinskyLightDialogTheme" />
+463-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:196:95-140
+464
+465        <provider
+465-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:197:9-202
+466            android:name="com.google.android.finsky.providers.RecentSuggestionsProvider"
+466-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:197:124-200
+467            android:authorities="com.deivid22srk.store.authority.RecentSuggestionsProvider"
+467-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:197:19-98
+468            android:exported="false" />
+468-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:197:99-123
+469
+470        <receiver
+470-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:198:9-204:20
+471            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+471-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:198:19-77
+472            android:permission="com.google.android.c2dm.permission.SEND" >
+472-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:198:78-138
+473            <intent-filter>
+473-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:199:13-203:29
+474                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+474-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:200:17-80
+474-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:200:25-78
+475                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+475-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:201:17-85
+475-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:201:25-83
+476
+477                <category android:name="com.deivid22srk.store" />
+477-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:202:17-65
+477-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:202:27-63
+478            </intent-filter>
+479        </receiver>
+480
+481        <service android:name="com.deivid22srk.store.GCMIntentService" />
+481-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:205:9-73
+481-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:205:18-71
+482
+483        <receiver
+483-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:206:9-210:20
+484            android:name="com.google.android.finsky.receivers.TosAckedReceiver"
+484-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:206:43-110
+485            android:exported="true"
+485-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:206:19-42
+486            android:permission="com.deivid22srk.store.TOS_ACKED" >
+486-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:206:111-163
+487            <intent-filter>
+487-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:207:13-209:29
+488                <action android:name="com.deivid22srk.store.TOS_ACKED" />
+488-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:208:17-73
+488-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:208:25-71
+489            </intent-filter>
+490        </receiver>
+491        <receiver
+491-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:211:9-217:20
+492            android:name="com.google.android.finsky.download.DownloadBroadcastReceiver"
+492-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:211:43-118
+493            android:exported="true"
+493-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:211:19-42
+494            android:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" >
+494-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:211:119-190
+495            <intent-filter>
+495-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:212:13-216:29
+496                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+496-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:213:17-81
+496-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:213:25-79
+497                <action android:name="android.intent.action.DOWNLOAD_COMPLETED" />
+497-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:214:17-82
+497-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:214:25-80
+498                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+498-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:215:17-93
+498-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:215:25-91
+499            </intent-filter>
+500        </receiver>
+501        <receiver
+501-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:218:9-223:20
+502            android:name="com.google.android.finsky.receivers.DeclineAssetReceiver"
+502-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:218:19-90
+503            android:permission="com.deivid22srk.store.INTENT_VENDING_ONLY" >
+503-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:218:91-153
+504            <intent-filter>
+504-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:219:13-222:29
+505                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+505-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:200:17-80
+505-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:200:25-78
+506
+507                <category android:name="DECLINE_ASSET" />
+507-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:221:17-57
+507-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:221:27-55
+508            </intent-filter>
+509        </receiver>
+510        <receiver android:name="com.google.android.finsky.receivers.ConsumptionAppDataChangedReceiver" >
+510-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:224:9-228:20
+510-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:224:19-103
+511            <intent-filter>
+511-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:225:13-227:29
+512                <action android:name="com.google.android.play.CONTENT_UPDATE" />
+512-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:226:17-80
+512-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:226:25-78
+513            </intent-filter>
+514        </receiver>
+515        <receiver android:name="com.google.android.finsky.receivers.ClearCacheReceiver" >
+515-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:229:9-234:20
+515-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:229:19-88
+516            <intent-filter>
+516-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:230:13-233:29
+517                <action android:name="android.intent.action.LOCALE_CHANGED" />
+517-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:231:17-78
+517-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:231:25-76
+518                <action android:name="android.net.conn.BACKGROUND_DATA_SETTING_CHANGED" />
+518-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:232:17-90
+518-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:232:25-88
+519            </intent-filter>
+520        </receiver>
+521        <receiver
+521-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:235:9-258:20
+522            android:name="com.google.android.finsky.receivers.PackageMonitorReceiver$RegisteredReceiver"
+522-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:235:43-135
+523            android:enabled="false" >
+523-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:235:19-42
+524            <intent-filter>
+524-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:236:13-239:29
+525                <action android:name="android.intent.action.PACKAGE_ADDED" />
+525-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:237:17-77
+525-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:237:25-75
+526
+527                <data android:scheme="package" />
+527-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+527-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+528            </intent-filter>
+529            <intent-filter>
+529-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:240:13-243:29
+530                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+530-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:241:17-79
+530-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:241:25-77
+531
+532                <data android:scheme="package" />
+532-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+532-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+533            </intent-filter>
+534            <intent-filter>
+534-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:244:13-247:29
+535                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+535-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:245:17-79
+535-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:245:25-77
+536
+537                <data android:scheme="package" />
+537-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+537-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+538            </intent-filter>
+539            <intent-filter>
+539-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:248:13-251:29
+540                <action android:name="android.intent.action.PACKAGE_FIRST_LAUNCH" />
+540-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:249:17-84
+540-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:249:25-82
+541
+542                <data android:scheme="package" />
+542-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+542-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+543            </intent-filter>
+544            <intent-filter>
+544-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:252:13-254:29
+545                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE" />
+545-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:253:17-95
+545-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:253:25-93
+546            </intent-filter>
+547            <intent-filter>
+547-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:255:13-257:29
+548                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE" />
+548-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:256:17-97
+548-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:256:25-95
+549            </intent-filter>
+550        </receiver>
+551
+552        <activity
+552-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:259:9-266:20
+553            android:name="com.google.android.finsky.activities.LaunchUrlHandlerActivity"
+553-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:259:19-95
+554            android:theme="@android:style/Theme.Translucent" >
+554-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:259:96-144
+555            <intent-filter>
+555-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:260:13-265:29
+556                <action android:name="android.intent.action.VIEW" />
+556-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:17-68
+556-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:25-66
+557
+558                <category android:name="android.intent.category.DEFAULT" />
+558-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+558-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+559                <category android:name="android.intent.category.BROWSABLE" />
+559-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:101:17-77
+559-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:101:27-75
+560
+561                <data
+561-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+562                    android:host="details"
+562-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:23-44
+563                    android:path=""
+563-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:45-60
+564                    android:scheme="market" />
+564-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+565            </intent-filter>
+566        </activity>
+567
+568        <receiver android:name="com.google.android.finsky.receivers.ExpireLaunchUrlReceiver" />
+568-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:267:9-95
+568-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:267:19-93
+569
+570        <activity
+570-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:268:9-273:20
+571            android:name="com.google.android.finsky.activities.AppCrashProxy"
+571-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:268:19-84
+572            android:noHistory="true"
+572-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:268:85-109
+573            android:taskAffinity=":feedback"
+573-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:268:110-142
+574            android:theme="@android:style/Theme.NoDisplay" >
+574-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:268:143-189
+575            <intent-filter>
+575-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:269:13-272:29
+576                <action android:name="android.intent.action.APP_ERROR" />
+576-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:270:17-73
+576-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:270:25-71
+577
+578                <category android:name="android.intent.category.DEFAULT" />
+578-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+578-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+579            </intent-filter>
+580        </activity>
+581        <activity
+581-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:274:9-173
+582            android:name="com.google.android.finsky.activities.TosActivity"
+582-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:274:19-82
+583            android:theme="@style/FinskyLightDialogTheme"
+583-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:274:83-128
+584            android:windowSoftInputMode="adjustResize" />
+584-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:274:129-171
+585        <activity
+585-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:275:9-184
+586            android:name="com.google.android.finsky.activities.AddressChallengeActivity"
+586-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:275:19-95
+587            android:theme="@style/LightDialogWhenLarge"
+587-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:275:96-139
+588            android:windowSoftInputMode="adjustResize" />
+588-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:275:140-182
+589        <activity
+589-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:276:9-175
+590            android:name="com.google.android.finsky.activities.GaiaAuthActivity"
+590-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:276:19-87
+591            android:theme="@style/FinskyLightDialogTheme"
+591-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:276:88-133
+592            android:windowSoftInputMode="adjustPan" />
+592-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:276:134-173
+593        <activity
+593-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:277:9-282:20
+594            android:name="com.google.android.finsky.activities.SettingsActivity"
+594-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:277:103-171
+595            android:configChanges="keyboardHidden|orientation"
+595-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:277:19-69
+596            android:label="@string/settings"
+596-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:277:70-102
+597            android:theme="@style/SettingsTheme" >
+597-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:277:172-208
+598            <intent-filter>
+598-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:278:13-281:29
+599                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+599-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:279:17-84
+599-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:279:25-82
+600
+601                <category android:name="android.intent.category.DEFAULT" />
+601-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+601-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+602            </intent-filter>
+603        </activity>
+604        <activity
+604-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:283:9-167
+605            android:name="com.google.android.finsky.activities.DebugActivity"
+605-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:283:63-128
+606            android:label="@string/menu_debug_settings"
+606-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:283:19-62
+607            android:theme="@style/SettingsTheme" />
+607-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:283:129-165
+608        <activity
+608-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:284:9-371
+609            android:name="com.google.android.finsky.setup.SetupWizardRestoreAppsActivity"
+609-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:284:100-177
+610            android:exported="true"
+610-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:284:19-42
+611            android:label="@string/setup_wizard_restore_apps_header"
+611-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:284:43-99
+612            android:permission="com.deivid22srk.store.setup.PLAY_SETUP_SERVICE"
+612-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:284:178-245
+613            android:screenOrientation="behind"
+613-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:284:246-280
+614            android:theme="@style/SetupWizardTheme.Light"
+614-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:284:281-326
+615            android:windowSoftInputMode="adjustResize" />
+615-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:284:327-369
+616        <activity
+616-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:285:9-293:20
+617            android:name="com.google.android.finsky.setup.VpaSelectionActivity"
+617-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:285:90-157
+618            android:exported="true"
+618-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:285:19-42
+619            android:icon="@drawable/ic_apps_googblue_48dp"
+619-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:285:43-89
+620            android:permission="com.deivid22srk.store.setup.PLAY_SETUP_SERVICE"
+620-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:285:158-225
+621            android:screenOrientation="behind"
+621-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:285:226-260
+622            android:theme="@style/SetupWizardTheme.Light"
+622-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:285:261-306
+623            android:windowSoftInputMode="adjustResize" >
+623-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:285:307-349
+624            <intent-filter android:priority="10" >
+624-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:286:13-290:29
+624-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:286:28-49
+625                <action android:name="android.intent.action.MAIN" />
+625-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:81:17-68
+625-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:81:25-66
+626
+627                <category android:name="android.intent.category.DEFAULT" />
+627-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+627-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+628                <category android:name="com.android.settings.suggested.category.DEFAULT" />
+628-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:289:17-91
+628-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:289:27-89
+629            </intent-filter>
+630
+631            <meta-data
+631-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:291:13-132
+632                android:name="com.android.settings.title"
+632-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:291:24-65
+633                android:resource="@string/setup_wizard_optional_apps_step_title" />
+633-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:291:66-130
+634            <meta-data
+634-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:292:13-136
+635                android:name="com.android.settings.summary"
+635-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:292:24-67
+636                android:resource="@string/setup_wizard_optional_apps_step_summary" />
+636-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:292:68-134
+637        </activity>
+638        <activity
+638-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:294:9-317
+639            android:name="com.google.android.finsky.setup.RestoreAppsActivity"
+639-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:294:43-109
+640            android:exported="true"
+640-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:294:19-42
+641            android:permission="com.deivid22srk.store.setup.PLAY_SETUP_SERVICE"
+641-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:294:110-177
+642            android:screenOrientation="behind"
+642-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:294:178-212
+643            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+643-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:294:213-272
+644            android:windowSoftInputMode="adjustResize" />
+644-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:294:273-315
+645        <activity
+645-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:295:9-312
+646            android:name="com.google.android.finsky.setup.SetupWizardFinalHoldActivity"
+646-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:295:43-118
+647            android:exported="true"
+647-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:295:19-42
+648            android:permission="com.deivid22srk.store.setup.PLAY_SETUP_SERVICE"
+648-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:295:119-186
+649            android:screenOrientation="behind"
+649-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:295:187-221
+650            android:theme="@style/SetupWizardTheme.Light"
+650-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:295:222-267
+651            android:windowSoftInputMode="adjustResize" />
+651-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:295:268-310
+652        <activity
+652-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:296:9-174
+653            android:name="com.google.android.finsky.activities.ScreenshotsActivity"
+653-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:296:19-90
+654            android:screenOrientation="behind"
+654-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:296:91-125
+655            android:theme="@style/Fullscreen.NoBackground" />
+655-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:296:126-172
+656        <activity
+656-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:297:9-177
+657            android:name="com.google.android.finsky.activities.ScreenshotsActivityV2"
+657-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:297:52-125
+658            android:label="@string/app_name"
+658-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:297:19-51
+659            android:theme="@style/PhotoViewTheme.NoActionBar" />
+659-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:297:126-175
+660        <activity
+660-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:298:9-131
+661            android:name="com.google.android.finsky.activities.FlagItemDialog"
+661-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:298:19-85
+662            android:theme="@style/LightDialogWhenLarge" />
+662-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:298:86-129
+663        <activity
+663-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:299:9-172
+664            android:name="com.google.android.finsky.activities.ReviewsActivity"
+664-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:299:59-126
+665            android:label="@string/details_reviews"
+665-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:299:19-58
+666            android:theme="@style/LightDialogWhenLarge" />
+666-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:299:127-170
+667        <activity
+667-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:300:9-139
+668            android:name="com.google.android.finsky.activities.MultiInstallActivity"
+668-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:300:19-91
+669            android:theme="@style/FinskyLightDialogTheme" />
+669-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:300:92-137
+670        <activity
+670-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:301:9-214
+671            android:name="com.google.android.finsky.activities.FamilyMemberSettingsActivity"
+671-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:301:96-176
+672            android:exported="true"
+672-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:301:19-42
+673            android:label="@string/family_member_settings_title"
+673-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:301:43-95
+674            android:theme="@style/UnicornTheme" />
+674-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:301:177-212
+675
+676        <receiver
+676-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:302:9-306:20
+677            android:name="com.google.android.finsky.receivers.BootCompletedReceiver"
+677-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:302:43-115
+678            android:enabled="false" >
+678-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:302:19-42
+679            <intent-filter>
+679-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:303:13-305:29
+680                <action android:name="android.intent.action.BOOT_COMPLETED" />
+680-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:304:17-78
+680-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:304:25-76
+681            </intent-filter>
+682        </receiver>
+683
+684        <service
+684-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:307:9-311:19
+685            android:name="com.google.android.finsky.services.LicensingService"
+685-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:307:18-84
+686            android:permission="com.deivid22srk.store.CHECK_LICENSE" >
+686-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:307:85-141
+687            <intent-filter>
+687-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:308:13-310:29
+688                <action android:name="com.deivid22srk.store.licensing.ILicensingService" />
+688-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:309:17-91
+688-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:309:25-89
+689            </intent-filter>
+690        </service>
+691        <service android:name="com.google.android.finsky.services.RestoreService" />
+691-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:312:9-84
+691-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:312:18-82
+692        <service android:name="com.google.android.finsky.services.VpaService" />
+692-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:313:9-80
+692-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:313:18-78
+693        <service android:name="com.google.android.finsky.services.ContentSyncService" />
+693-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:314:9-88
+693-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:314:18-86
+694        <service android:name="com.google.android.finsky.services.DailyHygiene" />
+694-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:315:9-82
+694-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:315:18-80
+695        <service android:name="com.google.android.finsky.services.LoadConsumptionDataService" />
+695-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:316:9-96
+695-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:316:18-94
+696        <service android:name="com.google.android.finsky.services.FetchConsumptionDataService" />
+696-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:317:9-97
+696-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:317:18-95
+697        <service android:name="com.google.android.finsky.wear.WearSupportService" />
+697-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:318:9-84
+697-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:318:18-82
+698        <service android:name="com.google.android.finsky.wear.WearChangeListenerService" >
+698-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:319:9-323:19
+698-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:319:18-89
+699            <intent-filter>
+699-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:320:13-322:29
+700                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+700-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:321:17-87
+700-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:321:25-85
+701            </intent-filter>
+702        </service>
+703
+704        <receiver
+704-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:324:9-328:20
+705            android:name="com.google.android.finsky.receivers.AccountsChangedReceiver"
+705-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:324:43-117
+706            android:enabled="false" >
+706-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:324:19-42
+707            <intent-filter>
+707-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:325:13-327:29
+708                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+708-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:326:17-81
+708-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:326:25-79
+709            </intent-filter>
+710        </receiver>
+711        <receiver android:name="com.google.android.finsky.receivers.LocationProviderChangedReceiver" >
+711-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:329:9-334:20
+711-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:329:19-101
+712            <intent-filter>
+712-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:330:13-333:29
+713                <action android:name="android.location.PROVIDERS_CHANGED" />
+713-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:331:17-76
+713-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:331:25-74
+714                <action android:name="android.location.MODE_CHANGED" />
+714-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:332:17-71
+714-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:332:25-69
+715            </intent-filter>
+716        </receiver>
+717        <receiver
+717-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:335:9-340:20
+718            android:name="com.google.android.finsky.receivers.RemoveAssetReceiver"
+718-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:335:19-89
+719            android:permission="com.deivid22srk.store.INTENT_VENDING_ONLY" >
+719-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:335:90-152
+720            <intent-filter>
+720-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:336:13-339:29
+721                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+721-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:200:17-80
+721-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:200:25-78
+722
+723                <category android:name="REMOVE_ASSET" />
+723-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:338:17-56
+723-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:338:27-54
+724            </intent-filter>
+725        </receiver>
+726        <receiver
+726-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:341:9-346:20
+727            android:name="com.google.android.finsky.receivers.ServerNotificationReceiver"
+727-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:341:19-96
+728            android:permission="com.deivid22srk.store.INTENT_VENDING_ONLY" >
+728-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:341:97-159
+729            <intent-filter>
+729-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:342:13-345:29
+730                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+730-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:200:17-80
+730-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:200:25-78
+731
+732                <category android:name="SERVER_NOTIFICATION" />
+732-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:344:17-63
+732-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:344:27-61
+733            </intent-filter>
+734        </receiver>
+735
+736        <service android:name="com.google.android.finsky.billing.iab.MarketBillingService" >
+736-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:347:9-351:19
+736-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:347:18-91
+737            <intent-filter>
+737-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:348:13-350:29
+738                <action android:name="com.deivid22srk.store.billing.MarketBillingService.BIND" />
+738-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:349:17-97
+738-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:349:25-95
+739            </intent-filter>
+740        </service>
+741        <service android:name="com.google.android.finsky.billing.iab.InAppBillingService" >
+741-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:352:9-356:19
+741-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:352:18-90
+742            <intent-filter>
+742-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:353:13-355:29
+743                <action android:name="com.deivid22srk.store.billing.InAppBillingService.BIND" />
+743-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:354:17-96
+743-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:354:25-94
+744            </intent-filter>
+745        </service>
+746        <service android:name="com.google.android.finsky.billing.iab.FirstPartyInAppBillingService" >
+746-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:357:9-361:19
+746-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:357:18-100
+747            <intent-filter>
+747-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:358:13-360:29
+748                <action android:name="com.deivid22srk.store.billing.FirstPartyInAppBillingService.BIND" />
+748-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:359:17-106
+748-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:359:25-104
+749            </intent-filter>
+750        </service>
+751        <service
+751-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:362:9-366:19
+752            android:name="com.google.android.finsky.billing.BillingAccountService"
+752-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:362:18-88
+753            android:permission="com.deivid22srk.store.billing.BILLING_ACCOUNT_SERVICE" >
+753-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:362:89-163
+754            <intent-filter>
+754-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:363:13-365:29
+755                <action android:name="com.deivid22srk.store.billing.IBillingAccountService.BIND" />
+755-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:364:17-99
+755-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:364:25-97
+756            </intent-filter>
+757        </service>
+758        <service
+758-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:367:9-371:19
+759            android:name="com.google.android.finsky.setup.PlaySetupService"
+759-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:367:18-81
+760            android:permission="com.deivid22srk.store.setup.PLAY_SETUP_SERVICE" >
+760-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:367:82-149
+761            <intent-filter>
+761-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:368:13-370:29
+762                <action android:name="com.deivid22srk.store.setup.IPlaySetupService.BIND" />
+762-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:369:17-92
+762-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:369:25-90
+763            </intent-filter>
+764        </service>
+765        <service android:name="com.google.android.finsky.services.MarketCatalogService" >
+765-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:372:9-376:19
+765-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:372:18-88
+766            <intent-filter>
+766-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:373:13-375:29
+767                <action android:name="com.google.android.finsky.services.IMarketCatalogService.BIND" />
+767-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:374:17-103
+767-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:374:25-101
+768            </intent-filter>
+769        </service>
+770        <service android:name="com.google.android.finsky.services.ReviewsService" >
+770-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:377:9-381:19
+770-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:377:18-82
+771            <intent-filter>
+771-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:378:13-380:29
+772                <action android:name="com.deivid22srk.store.reviews.IReviewsService.BIND" />
+772-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:379:17-92
+772-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:379:25-90
+773            </intent-filter>
+774        </service>
+775        <service android:name="com.google.android.finsky.services.ContentFiltersService" >
+775-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:382:9-386:19
+775-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:382:18-89
+776            <intent-filter>
+776-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:383:13-385:29
+777                <action android:name="com.deivid22srk.store.contentfilters.IContentFiltersService.BIND" />
+777-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:384:17-106
+777-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:384:25-104
+778            </intent-filter>
+779        </service>
+780        <service android:name="com.google.android.finsky.services.DetailsService" >
+780-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:387:9-391:19
+780-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:387:18-82
+781            <intent-filter>
+781-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:388:13-390:29
+782                <action android:name="com.deivid22srk.store.details.IDetailsService.BIND" />
+782-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:389:17-92
+782-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:389:25-90
+783            </intent-filter>
+784        </service>
+785        <service
+785-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:392:9-123
+786            android:name="com.google.android.finsky.services.DismissRecommendationService"
+786-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:392:43-121
+787            android:exported="false" />
+787-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:392:18-42
+788        <service
+788-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:393:9-121
+789            android:name="com.google.android.finsky.services.LoadRecommendationsService"
+789-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:393:43-119
+790            android:exported="false" />
+790-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:393:18-42
+791
+792        <receiver
+792-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:394:9-125
+793            android:name="com.google.android.finsky.receivers.FetchRecommendationsReceiver"
+793-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:394:44-123
+794            android:exported="false" />
+794-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:394:19-43
+795
+796        <service
+796-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:395:9-130
+797            android:name="com.google.android.finsky.receivers.FlushLogsReceiver$FlushLogsService"
+797-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:395:43-128
+798            android:exported="false" />
+798-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:395:18-42
+799
+800        <receiver
+800-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:396:9-114
+801            android:name="com.google.android.finsky.receivers.FlushLogsReceiver"
+801-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:396:44-112
+802            android:exported="false" />
+802-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:396:19-43
+803
+804        <service
+804-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:397:9-163
+805            android:name="com.google.android.finsky.safemode.SafeModeService"
+805-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:397:67-132
+806            android:enabled="false"
+806-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:397:18-41
+807            android:exported="false"
+807-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:397:42-66
+808            android:process=":safe_mode" />
+808-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:397:133-161
+809
+810        <activity
+810-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:398:9-252
+811            android:name="com.google.android.finsky.safemode.SafeModeActivity"
+811-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:398:79-145
+812            android:enabled="false"
+812-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:398:19-42
+813            android:launchMode="singleInstance"
+813-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:398:43-78
+814            android:process=":safe_mode"
+814-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:398:146-174
+815            android:stateNotNeeded="true"
+815-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:398:175-204
+816            android:theme="@style/FinskyLightDialogTheme" />
+816-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:398:205-250
+817
+818        <receiver
+818-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:399:9-404:20
+819            android:name="com.google.android.finsky.safemode.SafeModeDownloadBroadcastReceiver"
+819-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:399:67-150
+820            android:enabled="false"
+820-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:399:19-42
+821            android:exported="true"
+821-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:399:43-66
+822            android:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"
+822-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:399:151-222
+823            android:process=":safe_mode" >
+823-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:399:223-251
+824            <intent-filter>
+824-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:400:13-403:29
+825                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+825-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:213:17-81
+825-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:213:25-79
+826                <action android:name="android.intent.action.DOWNLOAD_COMPLETED" />
+826-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:214:17-82
+826-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:214:25-80
+827            </intent-filter>
+828        </receiver>
+829        <receiver
+829-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:405:9-411:20
+830            android:name="com.deivid22srk.store.MarketWidgetProvider"
+830-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:405:101-158
+831            android:icon="@mipmap/ic_launcher_play_store"
+831-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:405:19-64
+832            android:label="@string/widget_apps" >
+832-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:405:65-100
+833            <intent-filter>
+833-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:406:13-409:29
+834                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+834-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:407:17-83
+834-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:407:25-81
+835                <action android:name="com.android.launcher.action.APPWIDGET_DEFAULT_WORKSPACE_CONFIGURE" />
+835-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:408:17-107
+835-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:408:25-105
+836            </intent-filter>
+837
+838            <meta-data
+838-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:410:13-103
+839                android:name="android.appwidget.provider"
+839-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:410:24-65
+840                android:resource="@xml/widget_info" />
+840-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:410:66-101
+841        </receiver>
+842
+843        <activity
+843-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:412:9-231
+844            android:name="com.google.android.finsky.widget.WidgetConfigurationActivity"
+844-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:412:99-174
+845            android:configChanges="orientation|screenSize"
+845-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:412:19-65
+846            android:label="@string/app_name"
+846-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:412:66-98
+847            android:theme="@style/FinskyLightDialogWithTitleTheme" />
+847-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:412:175-229
+848        <activity
+848-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:413:9-417:20
+849            android:name="com.google.android.finsky.widget.MarketWidgetTrampolineActivity"
+849-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:413:66-144
+850            android:configChanges="orientation|screenSize"
+850-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:413:19-65
+851            android:theme="@style/TrampolineTheme" >
+851-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:413:145-183
+852            <intent-filter>
+852-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:414:13-416:29
+853                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+853-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:415:17-86
+853-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:415:25-84
+854            </intent-filter>
+855        </activity>
+856
+857        <receiver
+857-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:418:9-429:20
+858            android:name="com.google.android.finsky.widget.consumption.NowPlayingWidgetProvider"
+858-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:418:167-251
+859            android:enabled="@bool/now_playing_widgets_enabled"
+859-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:418:19-70
+860            android:icon="@mipmap/ic_launcher_play_store"
+860-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:418:71-116
+861            android:label="@string/widget_now_playing_family" >
+861-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:418:117-166
+862            <intent-filter>
+862-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:419:13-423:29
+863                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+863-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:407:17-83
+863-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:407:25-81
+864                <action android:name="com.android.launcher.action.APPWIDGET_DEFAULT_WORKSPACE_CONFIGURE" />
+864-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:408:17-107
+864-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:408:25-105
+865                <action android:name="com.deivid22srk.store.action.APPWIDGET_UPDATE_CONSUMPTION_DATA" />
+865-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:422:17-104
+865-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:422:25-102
+866            </intent-filter>
+867            <intent-filter>
+867-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:244:13-247:29
+868                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+868-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:245:17-79
+868-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:245:25-77
+869
+870                <data android:scheme="package" />
+870-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+870-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+871            </intent-filter>
+872
+873            <meta-data
+873-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:410:13-103
+874                android:name="android.appwidget.provider"
+874-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:410:24-65
+875                android:resource="@xml/now_playing_widget_info" />
+875-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:410:66-101
+876        </receiver>
+877        <receiver
+877-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:430:9-123
+878            android:name="com.google.android.finsky.widget.consumption.EnableAppReceiver"
+878-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:430:44-121
+879            android:exported="false" />
+879-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:430:19-43
+880
+881        <activity
+881-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:431:9-435:20
+882            android:name="com.google.android.finsky.widget.consumption.NowPlayingTrampoline"
+882-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:431:66-146
+883            android:configChanges="orientation|screenSize"
+883-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:431:19-65
+884            android:taskAffinity=":configureTrampoline"
+884-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:431:147-190
+885            android:theme="@style/TrampolineTheme" >
+885-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:431:191-229
+886            <intent-filter>
+886-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:414:13-416:29
+887                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+887-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:415:17-86
+887-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:415:25-84
+888            </intent-filter>
+889        </activity>
+890        <activity
+890-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:436:9-230
+891            android:name="com.google.android.finsky.widget.consumption.MyLibraryTrampoline"
+891-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:436:66-145
+892            android:configChanges="orientation|screenSize"
+892-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:436:19-65
+893            android:taskAffinity=":configureTrampoline"
+893-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:436:146-189
+894            android:theme="@style/TrampolineTheme" />
+894-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:436:190-228
+895
+896        <receiver
+896-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:437:9-443:20
+897            android:name="com.google.android.finsky.widget.recommendation.RecommendedWidgetProvider"
+897-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:437:163-251
+898            android:enabled="@bool/recommendation_widgets_enabled"
+898-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:437:19-73
+899            android:icon="@mipmap/ic_launcher_play_store"
+899-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:437:74-119
+900            android:label="@string/widget_recommended" >
+900-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:437:120-162
+901            <intent-filter>
+901-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:406:13-409:29
+902                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+902-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:407:17-83
+902-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:407:25-81
+903                <action android:name="com.android.launcher.action.APPWIDGET_DEFAULT_WORKSPACE_CONFIGURE" />
+903-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:408:17-107
+903-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:408:25-105
+904            </intent-filter>
+905
+906            <meta-data
+906-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:410:13-103
+907                android:name="android.appwidget.provider"
+907-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:410:24-65
+908                android:resource="@xml/recommendation_widget_info" />
+908-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:410:66-101
+909        </receiver>
+910
+911        <service
+911-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:444:9-166
+912            android:name="com.google.android.finsky.widget.recommendation.RecommendationsViewService"
+912-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:444:18-107
+913            android:permission="android.permission.BIND_REMOTEVIEWS" />
+913-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:444:108-164
+914
+915        <activity
+915-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:445:9-449:20
+916            android:name="com.google.android.finsky.widget.recommendation.RecommendedTrampoline"
+916-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:445:66-150
+917            android:configChanges="orientation|screenSize"
+917-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:445:19-65
+918            android:theme="@style/TrampolineTheme" >
+918-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:445:151-189
+919            <intent-filter>
+919-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:414:13-416:29
+920                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+920-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:415:17-86
+920-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:415:25-84
+921            </intent-filter>
+922        </activity>
+923
+924        <receiver android:name="com.google.android.finsky.widget.recommendation.OpenRecommendationReceiver" />
+924-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:450:9-110
+924-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:450:19-108
+925        <receiver android:name="com.google.android.finsky.receivers.UpdateWidgetsReceiver" >
+925-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:451:9-456:20
+925-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:451:19-91
+926            <intent-filter>
+926-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:452:13-455:29
+927                <action android:name="com.google.android.finsky.action.TOC_SET" />
+927-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:453:17-82
+927-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:453:25-80
+928                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+928-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:326:17-81
+928-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:326:25-79
+929            </intent-filter>
+930        </receiver>
+931        <receiver android:name="com.google.android.finsky.widget.AdvanceFlipperReceiver" />
+931-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:457:9-91
+931-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:457:19-89
+932        <receiver
+932-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:458:9-467:20
+933            android:name="com.google.android.vending.verifier.PackageVerificationReceiver"
+933-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:458:19-97
+934            android:permission="android.permission.BIND_PACKAGE_VERIFIER" >
+934-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:458:98-159
+935            <intent-filter>
+935-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:459:13-463:29
+936                <action android:name="android.intent.action.PACKAGE_NEEDS_VERIFICATION" />
+936-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:460:17-90
+936-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:460:25-88
+937                <action android:name="android.intent.action.PACKAGE_VERIFIED" />
+937-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:461:17-80
+937-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:461:25-78
+938
+939                <data android:mimeType="application/vnd.android.package-archive" />
+939-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+939-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:178:23-69
+940            </intent-filter>
+941            <intent-filter>
+941-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:464:13-466:29
+942                <action android:name="com.google.android.finsky.action.TOC_SET" />
+942-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:453:17-82
+942-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:453:25-80
+943            </intent-filter>
+944        </receiver>
+945        <receiver
+945-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:468:9-475:20
+946            android:name="com.google.android.vending.verifier.VerifyInstalledPackagesReceiver"
+946-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:468:44-126
+947            android:exported="false" >
+947-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:468:19-43
+948            <intent-filter>
+948-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:469:13-471:29
+949                <action android:name="com.google.android.vending.verifier.intent.action.VERIFY_INSTALLED_PACKAGES" />
+949-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:470:17-117
+949-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:470:25-115
+950            </intent-filter>
+951            <intent-filter>
+951-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:472:13-474:29
+952                <action android:name="com.google.android.vending.verifier.intent.action.REMOVAL_REQUEST_RESPONSE" />
+952-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:473:17-116
+952-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:473:25-114
+953            </intent-filter>
+954        </receiver>
+955
+956        <service
+956-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:476:9-122
+957            android:name="com.google.android.vending.verifier.PackageVerificationService"
+957-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:476:43-120
+958            android:exported="false" />
+958-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:476:18-42
+959        <service
+959-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:477:9-129
+960            android:name="com.google.android.vending.verifier.PackageVerificationLoggingService"
+960-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:477:43-127
+961            android:exported="false" />
+961-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:477:18-42
+962
+963        <activity
+963-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:478:9-492:20
+964            android:name="com.google.android.vending.verifier.PackageVerificationActivity"
+964-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:478:261-339
+965            android:configChanges="keyboardHidden|orientation|screenSize"
+965-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:478:19-80
+966            android:enabled="@bool/verification_activity_enable"
+966-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:478:81-133
+967            android:excludeFromRecents="true"
+967-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:478:134-167
+968            android:icon="@drawable/ic_google_settings"
+968-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:478:168-211
+969            android:label="@string/verify_app_chooser_label" >
+969-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:478:212-260
+970            <intent-filter>
+970-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:479:13-485:29
+971                <action android:name="android.intent.action.VIEW" />
+971-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:17-68
+971-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:103:25-66
+972                <action android:name="android.intent.action.INSTALL_PACKAGE" />
+972-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:481:17-79
+972-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:481:25-77
+973
+974                <category android:name="android.intent.category.DEFAULT" />
+974-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+974-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+975
+976                <data android:scheme="file" />
+976-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+976-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+977                <data android:mimeType="application/vnd.android.package-archive" />
+977-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+977-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:178:23-69
+978            </intent-filter>
+979            <intent-filter>
+979-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:486:13-491:29
+980                <action android:name="android.intent.action.INSTALL_PACKAGE" />
+980-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:481:17-79
+980-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:481:25-77
+981
+982                <category android:name="android.intent.category.DEFAULT" />
+982-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:17-75
+982-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:85:27-73
+983
+984                <data android:scheme="file" />
+984-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+984-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+985                <data android:scheme="package" />
+985-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:17-86
+985-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:104:61-84
+986            </intent-filter>
+987        </activity>
+988        <activity
+988-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:493:9-221
+989            android:name="com.google.android.vending.verifier.PackageWarningDialog"
+989-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:493:53-124
+990            android:excludeFromRecents="true"
+990-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:493:19-52
+991            android:noHistory="true"
+991-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:493:125-149
+992            android:taskAffinity=""
+992-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:493:150-173
+993            android:theme="@style/FinskyLightDialogTheme" />
+993-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:493:174-219
+994        <activity
+994-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:494:9-214
+995            android:name="com.google.android.vending.verifier.ConsentDialog"
+995-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:494:53-117
+996            android:excludeFromRecents="true"
+996-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:494:19-52
+997            android:noHistory="true"
+997-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:494:118-142
+998            android:taskAffinity=""
+998-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:494:143-166
+999            android:theme="@style/FinskyLightDialogTheme" />
+999-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:494:167-212
+1000
+1001        <service
+1001-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:495:9-149
+1002            android:name="com.google.android.finsky.installer.MultiUserCoordinatorService"
+1002-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:495:43-121
+1003            android:exported="false"
+1003-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:495:18-42
+1004            android:singleUser="true" />
+1004-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:495:122-147
+1005        <service
+1005-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:496:9-112
+1006            android:name="com.google.android.social.api.service.PlusApiService"
+1006-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:496:43-110
+1007            android:exported="false" />
+1007-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:496:18-42
+1008        <service
+1008-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:497:9-501:19
+1009            android:name="com.google.android.social.api.service.PlusInternalService"
+1009-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:497:43-115
+1010            android:exported="false" >
+1010-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:497:18-42
+1011            <intent-filter>
+1011-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:498:13-500:29
+1012                <action android:name="com.deivid22srk.store.GOOGLE_PLUS_API" />
+1012-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:499:17-79
+1012-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:499:25-77
+1013            </intent-filter>
+1014        </service>
+1015
+1016        <receiver
+1016-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:502:9-512:20
+1017            android:name="com.google.android.finsky.receivers.NotificationReceiver"
+1017-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:502:44-115
+1018            android:exported="false" >
+1018-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:502:19-43
+1019            <intent-filter>
+1019-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:503:13-511:29
+1020                <action android:name="com.deivid22srk.store.NEW_UPDATE_CLICKED" />
+1020-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:504:17-82
+1020-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:504:25-80
+1021                <action android:name="com.deivid22srk.store.SUCCESSFULLY_INSTALLED_CLICKED" />
+1021-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:505:17-94
+1021-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:505:25-92
+1022                <action android:name="com.deivid22srk.store.SUCCESSFULLY_UPDATED_CLICKED" />
+1022-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:506:17-92
+1022-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:506:25-90
+1023                <action android:name="com.deivid22srk.store.SUCCESSFULLY_UPDATED_DELETED" />
+1023-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:507:17-92
+1023-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:507:25-90
+1024                <action android:name="com.deivid22srk.store.OUTSTANDING_UPDATE_CLICKED" />
+1024-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:508:17-90
+1024-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:508:25-88
+1025                <action android:name="com.deivid22srk.store.NEW_UPDATE_NEED_APPROVAL_CLICKED" />
+1025-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:509:17-96
+1025-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:509:25-94
+1026                <action android:name="com.deivid22srk.store.PREREGISTRATION_RELEASED_CLICKED" />
+1026-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:510:17-96
+1026-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:510:25-94
+1027            </intent-filter>
+1028        </receiver>
+1029
+1030        <service
+1030-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:513:9-148
+1031            android:name="com.google.android.finsky.autoupdate.ReschedulerUsingAlarmManager$CheckWifiAndAutoUpdate"
+1031-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:513:43-146
+1032            android:exported="false" />
+1032-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:513:18-42
+1033        <service
+1033-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:514:9-224
+1034            android:name="com.google.android.finsky.autoupdate.ReschedulerUsingJobScheduler$CheckPreconditionsAndAutoUpdateJobService"
+1034-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:514:43-165
+1035            android:exported="false"
+1035-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:514:18-42
+1036            android:permission="android.permission.BIND_JOB_SERVICE" />
+1036-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:514:166-222
+1037
+1038        <receiver
+1038-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:515:9-519:20
+1039            android:name="com.google.android.finsky.autoupdate.ReschedulerUsingBroadcast$PowerBroadcastReceiver"
+1039-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:515:43-143
+1040            android:enabled="false" >
+1040-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:515:19-42
+1041            <intent-filter>
+1041-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:516:13-518:29
+1042                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+1042-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:517:17-86
+1042-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:517:25-84
+1043            </intent-filter>
+1044        </receiver>
+1045        <receiver
+1045-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:520:9-524:20
+1046            android:name="com.google.android.finsky.autoupdate.ReschedulerUsingBroadcast$WifiBroadcastReceiver"
+1046-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:520:43-142
+1047            android:enabled="false" >
+1047-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:520:19-42
+1048            <intent-filter>
+1048-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:521:13-523:29
+1049                <action android:name="android.net.wifi.STATE_CHANGE" />
+1049-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:522:17-71
+1049-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:522:25-69
+1050            </intent-filter>
+1051        </receiver>
+1052
+1053        <service
+1053-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:525:9-152
+1054            android:name="com.google.android.finsky.autoupdate.ReschedulerUsingBroadcast$AutoUpdateRecheckForBroadcast"
+1054-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:525:43-150
+1055            android:exported="false" />
+1055-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:525:18-42
+1056        <service
+1056-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:526:9-184
+1057            android:name="com.google.android.finsky.services.PlayGearheadService"
+1057-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:526:42-111
+1058            android:exported="true"
+1058-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:526:18-41
+1059            android:permission="com.deivid22srk.store.permission.GEARHEAD_SERVICE" />
+1059-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:526:112-182
+1060        <service
+1060-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:527:9-531:19
+1061            android:name="com.google.android.finsky.services.PlayAfwAppService"
+1061-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:527:42-109
+1062            android:exported="true" >
+1062-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:527:18-41
+1063            <intent-filter>
+1063-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:528:13-530:29
+1064                <action android:name="com.google.android.finsky.BIND_PLAY_AFW_APP_SERVICE" />
+1064-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:529:17-93
+1064-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:529:25-91
+1065            </intent-filter>
+1066        </service>
+1067        <service android:name="com.google.android.finsky.services.AdIdListener" >
+1067-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:532:9-536:19
+1067-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:532:18-80
+1068            <intent-filter>
+1068-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:533:13-535:29
+1069                <action android:name="com.google.android.gms.ads.identifier.BIND_LISTENER" />
+1069-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:534:17-93
+1069-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:534:25-91
+1070            </intent-filter>
+1071        </service>
+1072        <service
+1072-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:537:9-132
+1073            android:name="com.google.android.finsky.utils.ExternalReferrer$ExternalReferrerService"
+1073-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:537:43-130
+1074            android:exported="false" />
+1074-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:537:18-42
+1075        <service
+1075-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:538:9-134
+1076            android:name="com.google.android.finsky.utils.PermissionPolicies$PermissionPolicyService"
+1076-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:538:43-132
+1077            android:exported="false" />
+1077-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:538:18-42
+1078        <service
+1078-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:539:9-117
+1079            android:name="com.google.android.finsky.services.LocationUpdaterService"
+1079-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:539:43-115
+1080            android:exported="false" />
+1080-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:539:18-42
+1081        <service
+1081-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:540:9-544:19
+1082            android:name="com.google.android.finsky.zapp.PlayModuleService"
+1082-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:540:65-128
+1083            android:enabled="true"
+1083-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:540:18-40
+1084            android:exported="true" >
+1084-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:540:41-64
+1085            <intent-filter>
+1085-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:541:13-543:29
+1086                <action android:name="com.google.android.finsky.BIND_PLAY_MODULE_SERVICE" />
+1086-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:542:17-92
+1086-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:542:25-90
+1087            </intent-filter>
+1088        </service>
+1089
+1090        <activity
+1090-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:545:9-115
+1091            android:name="android.support.v7.widget.TestActivity"
+1091-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:545:60-113
+1092            android:label="RecyclerViewTestActivity" />
+1092-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:545:19-59
+1093        <activity
+1093-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:546:9-232
+1094            android:name="com.google.android.gms.ads.AdActivity"
+1094-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:546:129-181
+1095            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+1095-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:546:19-128
+1096            android:theme="@android:style/Theme.Translucent" />
+1096-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:546:182-230
+1097        <activity
+1097-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:547:9-131
+1098            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+1098-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:547:19-91
+1099            android:theme="@style/Theme.IAPTheme" />
+1099-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:547:92-129
+1100
+1101        <receiver
+1101-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:548:9-552:20
+1102            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+1102-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:548:42-114
+1103            android:enabled="true" >
+1103-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:548:19-41
+1104            <intent-filter>
+1104-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:549:13-551:29
+1105                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+1105-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:550:17-83
+1105-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:550:25-81
+1106            </intent-filter>
+1107        </receiver>
+1108
+1109        <service
+1109-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:553:9-139
+1110            android:name="com.google.android.gms.measurement.AppMeasurementService"
+1110-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:553:66-137
+1111            android:enabled="true"
+1111-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:553:18-40
+1112            android:exported="false" />
+1112-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:553:41-65
+1113
+1114        <activity
+1114-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:554:9-227
+1115            android:name="com.google.android.wallet.instrumentmanager.ui.redirect.PopupRedirectActivity"
+1115-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:554:66-158
+1116            android:configChanges="orientation|screenSize"
+1116-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:554:19-65
+1117            android:theme="@style/Theme.InstrumentManager.PopupRedirect.Light" />
+1117-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:554:159-225
+1118        <activity android:name="com.google.android.wallet.setupwizard.SetupWizardAddFopActivity" />
+1118-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:555:9-99
+1118-->/home/z/my-project/repo-build/app/src/main/AndroidManifest.xml:555:19-97
+1119    </application>
+1120
+1121</manifest>

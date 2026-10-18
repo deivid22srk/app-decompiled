@@ -86,7 +86,7 @@ public final class j {
         if (hVar == null) {
             return new byte[0];
         }
-        List<g> a2 = i.a(hVar.f7367b, 0);
+        List<g> a2 = com.google.android.wallet.nfc.apkg.i.a(hVar.f7367b, 0);
         int size = a2.size();
         int i2 = 0;
         for (int i3 = 0; i3 < size; i3++) {
@@ -102,7 +102,7 @@ public final class j {
     }
 
     public static byte[] a(f fVar) {
-        h a2 = i.a(fVar);
+        h a2 = com.google.android.wallet.nfc.apkg.i.a(fVar);
         if (a2 == null) {
             return new byte[0];
         }

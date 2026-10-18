@@ -139,9 +139,9 @@ public final class n {
             aVar2.put(aVar3.b(), a2);
         }
         lr lrVar = new lr(this.j, new ReentrantLock(), this.n, a3, this.o, this.p, aVar, this.q, this.r, aVar2, this.l, lr.a((Iterable<g>) aVar2.values()), arrayList);
-        set = m.f5578a;
+        set = com.google.android.gms.common.api.m.f5578a;
         synchronized (set) {
-            set2 = m.f5578a;
+            set2 = com.google.android.gms.common.api.m.f5578a;
             set2.add(lrVar);
         }
         if (this.l >= 0) {

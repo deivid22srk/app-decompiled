@@ -16,5 +16,8 @@ final class ce implements mj<Object> {
     public final void a() {
         this.f6604a.f6553b.a();
     }
+    @Override // com.google.android.gms.internal.mj
+    public final void a(Object obj) {
+    }
 
 }

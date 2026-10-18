@@ -14,7 +14,7 @@ public final class zzgj extends zzg<gp> {
     /* renamed from: a, reason: collision with root package name */
     private static final zzgj f6266a = new zzgj();
 
-    final class zza extends Exception {
+    final static class zza extends Exception {
         public zza(String str) {
             super(str);
         }

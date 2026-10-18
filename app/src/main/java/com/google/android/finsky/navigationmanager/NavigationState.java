@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /* loaded from: classes.dex */
-public static class NavigationState implements Parcelable {
+public class NavigationState implements Parcelable {
     public static final Parcelable.Creator<NavigationState> CREATOR = new k();
 
     /* renamed from: a, reason: collision with root package name */

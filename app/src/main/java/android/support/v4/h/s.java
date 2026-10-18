@@ -18,7 +18,7 @@ public final class s<E> implements Cloneable {
 
     private s(byte b2) {
         this.f303b = false;
-        int a2 = c.a(10);
+        int a2 = android.support.v4.h.c.a(10);
         this.c = new int[a2];
         this.d = new Object[a2];
         this.e = 0;
@@ -69,7 +69,7 @@ public final class s<E> implements Cloneable {
     }
 
     public final void a(int i, E e) {
-        int a2 = c.a(this.c, this.e, i);
+        int a2 = android.support.v4.h.c.a(this.c, this.e, i);
         if (a2 >= 0) {
             this.d[a2] = e;
             return;
@@ -82,10 +82,10 @@ public final class s<E> implements Cloneable {
         }
         if (this.f303b && this.e >= this.c.length) {
             e();
-            i2 = c.a(this.c, this.e, i) ^ (-1);
+            i2 = android.support.v4.h.c.a(this.c, this.e, i) ^ (-1);
         }
         if (this.e >= this.c.length) {
-            int a3 = c.a(this.e + 1);
+            int a3 = android.support.v4.h.c.a(this.e + 1);
             int[] iArr = new int[a3];
             Object[] objArr = new Object[a3];
             System.arraycopy(this.c, 0, iArr, 0, this.c.length);
@@ -127,7 +127,7 @@ public final class s<E> implements Cloneable {
         if (this.f303b) {
             e();
         }
-        return c.a(this.c, this.e, 2);
+        return android.support.v4.h.c.a(this.c, this.e, 2);
     }
 
     public final void c() {
@@ -164,7 +164,7 @@ public final class s<E> implements Cloneable {
     }
 
     public final E a(int i) {
-        int a2 = c.a(this.c, this.e, i);
+        int a2 = android.support.v4.h.c.a(this.c, this.e, i);
         if (a2 < 0 || this.d[a2] == f302a) {
             return null;
         }

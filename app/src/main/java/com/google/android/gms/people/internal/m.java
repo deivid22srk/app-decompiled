@@ -86,7 +86,7 @@ public final class m extends com.google.android.gms.common.internal.l<g> {
     private synchronized void a(Bundle bundle) {
         if (bundle != null) {
             com.google.android.gms.people.internal.apkg.d.a(bundle.getBoolean("use_contactables_api", true));
-            l.f6413a.a(bundle.getStringArray("config.url_uncompress.patterns"), bundle.getStringArray("config.url_uncompress.replacements"));
+            com.google.android.gms.people.internal.l.f6413a.a(bundle.getStringArray("config.url_uncompress.patterns"), bundle.getStringArray("config.url_uncompress.replacements"));
             j = bundle.getBundle("config.email_type_map");
             k = bundle.getBundle("config.phone_type_map");
         }
@@ -115,7 +115,7 @@ public final class m extends com.google.android.gms.common.internal.l<g> {
     /* JADX INFO: Access modifiers changed from: protected */
     @Override // com.google.android.gms.common.internal.l
     public final /* synthetic */ g a(IBinder iBinder) {
-        return h.a(iBinder);
+        return com.google.android.gms.people.internal.h.a(iBinder);
     }
 
     static /* synthetic */ Status a(int i, Bundle bundle) {

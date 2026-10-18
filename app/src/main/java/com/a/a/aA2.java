@@ -55,10 +55,10 @@ public final class aA2 {
     }
 
     public final boolean equals(Object obj) {
-        if (!(obj instanceof a)) {
+        if (!(obj instanceof aA2)) {
             return false;
         }
-        a aVar = (aA2) obj;
+        aA2 aVar = (aA2) obj;
         return com.a.a.apkg.l.a(this.f884a, aVar.f884a) && this.f885b.equals(aVar.f885b) && this.c == aVar.c && com.a.a.apkg.l.a(this.e, aVar.e) && com.a.a.apkg.l.a(this.f, aVar.f) && com.a.a.apkg.l.a(this.g, aVar.g) && com.a.a.apkg.l.a(this.h, aVar.h) && com.a.a.apkg.l.a(this.i, aVar.i) && com.a.a.apkg.l.a(this.j, aVar.j) && com.a.a.apkg.l.a(this.k, aVar.k);
     }
 

@@ -170,12 +170,12 @@ public final class z extends ba {
 
     z(ap apVar) {
         super(apVar);
-        this.j = i.a();
-        this.l = i.A();
+        this.j = com.google.android.gms.measurement.internal.i.a();
+        this.l = com.google.android.gms.measurement.internal.i.A();
         if (super.n().C()) {
-            this.k = i.B() ? 'P' : 'C';
+            this.k = com.google.android.gms.measurement.internal.i.B() ? 'P' : 'C';
         } else {
-            this.k = i.B() ? 'p' : 'c';
+            this.k = com.google.android.gms.measurement.internal.i.B() ? 'p' : 'c';
         }
         this.f6388a = new ab(this, 6, false, false);
         this.m = new ab(this, 6, true, false);

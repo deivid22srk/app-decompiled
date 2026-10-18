@@ -7,7 +7,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public static class AccountChangeEventsResponse implements SafeParcelable {
+public class AccountChangeEventsResponse implements SafeParcelable {
     public static final Parcelable.Creator<AccountChangeEventsResponse> CREATOR = new l();
 
     /* renamed from: a, reason: collision with root package name */

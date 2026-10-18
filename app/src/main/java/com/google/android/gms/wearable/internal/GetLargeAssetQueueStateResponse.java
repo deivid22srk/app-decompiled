@@ -6,7 +6,7 @@ import com.google.android.gms.common.api.Status;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static final class GetLargeAssetQueueStateResponse implements SafeParcelable {
+public final class GetLargeAssetQueueStateResponse implements SafeParcelable {
     public static final Parcelable.Creator<GetLargeAssetQueueStateResponse> CREATOR = new v();
 
     /* renamed from: a, reason: collision with root package name */

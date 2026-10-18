@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import android.text.TextUtils;
 
 /* loaded from: classes.dex */
-public static class GiftEmailParams implements Parcelable {
+public class GiftEmailParams implements Parcelable {
     public static final Parcelable.Creator<GiftEmailParams> CREATOR = new p();
 
     /* renamed from: a, reason: collision with root package name */

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.deivid22srk.store.app-mergeDebugResources-3:/values-land-v17/values-land-v17.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-land-v17/styles.xml",
+                    "from": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,229",
+                        "endLines": "4,7",
+                        "endColumns": "12,12",
+                        "endOffsets": "224,400"
+                    }
+                }
+            ]
+        }
+    ]
+}

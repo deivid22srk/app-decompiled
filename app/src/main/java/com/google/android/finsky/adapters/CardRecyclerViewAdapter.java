@@ -61,7 +61,7 @@ import java.util.List;
 import java.util.Map;
 
 /* loaded from: classes.dex */
-public static class CardRecyclerViewAdapter<T extends com.google.android.finsky.api.model.d<?>> extends ac<T> implements gy, com.google.android.finsky.layout.play.az {
+public class CardRecyclerViewAdapter<T extends com.google.android.finsky.api.model.d<?>> extends ac<T> implements gy, com.google.android.finsky.layout.play.az {
     private final boolean A;
     private final int B;
     private final boolean C;

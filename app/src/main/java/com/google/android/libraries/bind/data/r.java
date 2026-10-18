@@ -27,7 +27,7 @@ public class r extends k {
         if (this.h.h() || this.h.e.b()) {
             super.j();
         } else {
-            a(j.f6693a);
+            a(com.google.android.libraries.bind.data.j.f6693a);
         }
     }
 

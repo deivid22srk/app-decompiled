@@ -6,7 +6,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public static class RadioStationInfo implements SafeParcelable {
+public class RadioStationInfo implements SafeParcelable {
     public static final Parcelable.Creator<RadioStationInfo> CREATOR = new el();
 
     /* renamed from: a, reason: collision with root package name */

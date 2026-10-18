@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import android.util.SparseArray;
 
 /* loaded from: classes.dex */
-public static final class Data implements Parcelable {
+public final class Data implements Parcelable {
     public static final Parcelable.Creator<Data> CREATOR = new h();
 
     /* renamed from: a, reason: collision with root package name */

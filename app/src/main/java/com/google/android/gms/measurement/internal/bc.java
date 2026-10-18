@@ -102,17 +102,17 @@ public final class bc extends ba {
         }
     }
 
-    static /* synthetic */ void a(bc bcVar, String str, String str2, Object obj, long j) {
+    /* synthetic */ static void a(bc bcVar, String str, String str2, Object obj, long j) {
         com.google.android.gms.common.internal.av.a(str);
         com.google.android.gms.common.internal.av.a(str2);
-        super.e();
-        super.c();
+        bcVar.e();
+        bcVar.c();
         bcVar.u();
-        if (!super.m().r()) {
-            super.l().e.a("User attribute not set since app measurement is disabled");
+        if (!bcVar.m().r()) {
+            bcVar.l().e.a("User attribute not set since app measurement is disabled");
         } else if (bcVar.h.b()) {
-            super.l().f.a("Setting user attribute (FE)", str2, obj);
-            super.g().a(new UserAttributeParcel(str2, j, obj, str));
+            bcVar.l().f.a("Setting user attribute (FE)", str2, obj);
+            bcVar.g().a(new UserAttributeParcel(str2, j, obj, str));
         }
     }
 }

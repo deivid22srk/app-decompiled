@@ -84,6 +84,7 @@ public final class oq implements fc {
 
     @Override // com.google.android.gms.internal.fc
     public final gy a(jn<?> jnVar) {
+        IOException e;
         byte[] bArr;
         long elapsedRealtime = SystemClock.elapsedRealtime();
         while (true) {

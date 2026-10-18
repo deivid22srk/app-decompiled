@@ -99,14 +99,14 @@ public final class u {
                 String b2 = tVar.b(i);
                 int i2 = 0;
                 while (i2 < b2.length()) {
-                    int a2 = e.a(b2, i2, " ");
+                    int a2 = com.a.a.apkg.apkg.e.a(b2, i2, " ");
                     String trim = b2.substring(i2, a2).trim();
-                    int a3 = e.a(b2, a2);
+                    int a3 = com.a.a.apkg.apkg.e.a(b2, a2);
                     if (b2.regionMatches(true, a3, "realm=\"", 0, 7)) {
                         int i3 = a3 + 7;
-                        int a4 = e.a(b2, i3, "\"");
+                        int a4 = com.a.a.apkg.apkg.e.a(b2, i3, "\"");
                         String substring = b2.substring(i3, a4);
-                        i2 = e.a(b2, e.a(b2, a4 + 1, ",") + 1);
+                        i2 = com.a.a.apkg.apkg.e.a(b2, com.a.a.apkg.apkg.e.a(b2, a4 + 1, ",") + 1);
                         arrayList.add(new com.a.a.j(trim, substring));
                     }
                 }

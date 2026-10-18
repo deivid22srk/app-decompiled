@@ -120,7 +120,7 @@ public abstract class kt<R extends com.google.android.gms.common.api.x> extends 
             }
             com.google.android.gms.common.internal.av.a(!f(), "Results have already been set");
             com.google.android.gms.common.internal.av.a(this.j ? false : true, "Result has already been consumed");
-            c((kt<R>) r);
+            c(r);
         }
     }
 
@@ -148,7 +148,7 @@ public abstract class kt<R extends com.google.android.gms.common.api.x> extends 
     public final void c(Status status) {
         synchronized (this.f) {
             if (!f()) {
-                a((kt<R>) a(status));
+                a(a(status));
                 this.d = true;
             }
         }

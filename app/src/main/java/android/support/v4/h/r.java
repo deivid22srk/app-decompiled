@@ -19,7 +19,7 @@ public class r<K, V> {
         if (i2 == 0) {
             return -1;
         }
-        int a2 = c.a(this.f, i2, i);
+        int a2 = android.support.v4.h.c.a(this.f, i2, i);
         if (a2 >= 0 && !obj.equals(this.g[a2 << 1])) {
             int i3 = a2 + 1;
             while (i3 < i2 && this.f[i3] == i) {
@@ -43,7 +43,7 @@ public class r<K, V> {
         if (i == 0) {
             return -1;
         }
-        int a2 = c.a(this.f, i, 0);
+        int a2 = android.support.v4.h.c.a(this.f, i, 0);
         if (a2 >= 0 && this.g[a2 << 1] != null) {
             int i2 = a2 + 1;
             while (i2 < i && this.f[i2] == 0) {
@@ -125,15 +125,15 @@ public class r<K, V> {
     }
 
     public r() {
-        this.f = c.f281a;
-        this.g = c.c;
+        this.f = android.support.v4.h.c.f281a;
+        this.g = android.support.v4.h.c.c;
         this.h = 0;
     }
 
     public r(int i) {
         if (i == 0) {
-            this.f = c.f281a;
-            this.g = c.c;
+            this.f = android.support.v4.h.c.f281a;
+            this.g = android.support.v4.h.c.c;
         } else {
             e(i);
         }
@@ -143,8 +143,8 @@ public class r<K, V> {
     public void clear() {
         if (this.h != 0) {
             a(this.f, this.g, this.h);
-            this.f = c.f281a;
-            this.g = c.c;
+            this.f = android.support.v4.h.c.f281a;
+            this.g = android.support.v4.h.c.c;
             this.h = 0;
         }
     }
@@ -281,8 +281,8 @@ public class r<K, V> {
         V v = (V) this.g[(i << 1) + 1];
         if (this.h <= 1) {
             a(this.f, this.g, this.h);
-            this.f = c.f281a;
-            this.g = c.c;
+            this.f = android.support.v4.h.c.f281a;
+            this.g = android.support.v4.h.c.c;
             this.h = 0;
         } else if (this.f.length > 8 && this.h < this.f.length / 3) {
             int i2 = this.h > 8 ? this.h + (this.h >> 1) : 8;

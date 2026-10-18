@@ -30,7 +30,7 @@ public final class DataHolder implements SafeParcelable {
     Object j;
     private boolean k;
 
-    public class zzb extends RuntimeException {
+    public static class zzb extends RuntimeException {
         public zzb(String str) {
             super(str);
         }
@@ -151,7 +151,7 @@ public final class DataHolder implements SafeParcelable {
 
     @Override // android.os.Parcelable
     public final void writeToParcel(Parcel parcel, int i) {
-        e.a(this, parcel, i);
+        com.google.android.gms.common.data.e.a(this, parcel, i);
     }
 
     private DataHolder(d dVar, int i) {

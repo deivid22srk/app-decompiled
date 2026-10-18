@@ -26,13 +26,13 @@ final class az extends ax {
         this.e = z;
     }
 
-    private ba b(int i, Bundle bundle, ay<Object> ayVar) {
+    private ba b(int i, Bundle bundle, ay ayVar) {
         ba baVar = new ba(this, i, bundle, ayVar);
         baVar.d = ayVar.a(i, bundle);
         return baVar;
     }
 
-    private ba c(int i, Bundle bundle, ay<Object> ayVar) {
+    private ba c(int i, Bundle bundle, ay ayVar) {
         try {
             this.g = true;
             ba b2 = b(i, bundle, ayVar);
@@ -68,7 +68,7 @@ final class az extends ax {
             if (f187a) {
                 Log.v("LoaderManager", "  Re-using existing loader " + a2);
             }
-            a2.c = ayVar;
+            a2.c = (ay<Object>) ayVar;
         }
         if (a2.e && this.e) {
             a2.b(a2.d, a2.g);

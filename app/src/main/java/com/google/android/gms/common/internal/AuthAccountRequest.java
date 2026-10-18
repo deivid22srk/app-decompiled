@@ -8,7 +8,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.Set;
 
 /* loaded from: classes.dex */
-public static class AuthAccountRequest implements SafeParcelable {
+public class AuthAccountRequest implements SafeParcelable {
     public static final Parcelable.Creator<AuthAccountRequest> CREATOR = new f();
 
     /* renamed from: a, reason: collision with root package name */

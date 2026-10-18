@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public static class CarSensorEvent implements SafeParcelable {
+public class CarSensorEvent implements SafeParcelable {
     public static final Parcelable.Creator<CarSensorEvent> CREATOR = new fn();
 
     /* renamed from: a, reason: collision with root package name */

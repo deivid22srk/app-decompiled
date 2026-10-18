@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /* loaded from: classes.dex */
-public static class ConsumptionAppDoc implements Parcelable {
+public class ConsumptionAppDoc implements Parcelable {
     public static final Parcelable.Creator<ConsumptionAppDoc> CREATOR = new d();
 
     /* renamed from: a, reason: collision with root package name */

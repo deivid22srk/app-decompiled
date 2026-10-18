@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.deivid22srk.store.app-mergeDebugResources-3:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-night-v8/styles.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,133,225,317,421,531,641",
+                        "endColumns": "77,91,91,103,109,109,101",
+                        "endOffsets": "128,220,312,416,526,636,738"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,132,223,314,417,526,635",
+                        "endColumns": "76,90,90,102,108,108,100",
+                        "endOffsets": "127,218,309,412,521,630,731"
+                    }
+                }
+            ]
+        }
+    ]
+}

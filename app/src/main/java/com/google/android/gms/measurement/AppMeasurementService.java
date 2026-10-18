@@ -20,7 +20,7 @@ public final class AppMeasurementService extends Service {
     private static Boolean f6271b;
 
     /* renamed from: a, reason: collision with root package name */
-    private final Handler f6272a = new Handler();
+    public final Handler f6272a = new Handler();
 
     public static boolean a(Context context) {
         av.a(context);

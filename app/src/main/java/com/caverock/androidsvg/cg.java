@@ -36,7 +36,7 @@ public final class cg {
     w f1330b;
     w c;
     co d;
-    private Canvas e;
+    public Canvas e;
     private s f;
     private boolean g;
     private q h;
@@ -122,7 +122,7 @@ public final class cg {
                                 c();
                                 bt btVar = (bt) a2;
                                 if ((agVar == null || !agVar.a()) && (agVar2 == null || !agVar2.a())) {
-                                    n nVar = btVar.w != null ? btVar.w : n.e;
+                                    n nVar = btVar.w != null ? btVar.w : com.caverock.androidsvg.n.e;
                                     a(this.d, btVar);
                                     this.d.f = new s(0.0f, 0.0f, agVar != null ? agVar.a(this) : this.d.f.c, agVar2 != null ? agVar2.a(this) : this.d.f.d);
                                     if (!this.d.f1343a.v.booleanValue()) {
@@ -184,7 +184,7 @@ public final class cg {
             } else if (bnVar instanceof af) {
                 af afVar = (af) bnVar;
                 if (afVar.d != null && !afVar.d.a() && afVar.e != null && !afVar.e.a() && afVar.f1270a != null) {
-                    n nVar2 = afVar.w != null ? afVar.w : n.e;
+                    n nVar2 = afVar.w != null ? afVar.w : com.caverock.androidsvg.n.e;
                     String str = afVar.f1270a;
                     if (!str.startsWith("data:")) {
                         bitmap = null;
@@ -352,7 +352,7 @@ public final class cg {
                     float a6 = ahVar.f1274a == null ? 0.0f : ahVar.f1274a.a(this);
                     float b2 = ahVar.f1275b == null ? 0.0f : ahVar.f1275b.b(this);
                     float a7 = ahVar.c == null ? 0.0f : ahVar.c.a(this);
-                    r2 = ahVar.d != null ? ahVar.d.b(this) : 0.0f;
+                    float r2 = ahVar.d != null ? ahVar.d.b(this) : 0.0f;
                     if (ahVar.o == null) {
                         ahVar.o = new s(Math.min(a6, b2), Math.min(b2, r2), Math.abs(a7 - a6), Math.abs(r2 - b2));
                     }
@@ -489,7 +489,7 @@ public final class cg {
         this.k.push(this.e.getMatrix());
     }
 
-    private void e() {
+    public void e() {
         this.j.pop();
         this.k.pop();
     }
@@ -635,7 +635,7 @@ public final class cg {
                 if (f2 == 0.0f || f == 0.0f) {
                     return;
                 }
-                n nVar = apVar.w != null ? apVar.w : n.e;
+                n nVar = apVar.w != null ? apVar.w : com.caverock.androidsvg.n.e;
                 c();
                 this.e.clipPath(path);
                 co coVar = new co(this);
@@ -753,7 +753,7 @@ public final class cg {
         if (agVar == null || !agVar.a()) {
             if (agVar2 == null || !agVar2.a()) {
                 if (nVar == null) {
-                    nVar2 = bfVar.w != null ? bfVar.w : n.e;
+                    nVar2 = bfVar.w != null ? bfVar.w : com.caverock.androidsvg.n.e;
                 } else {
                     nVar2 = nVar;
                 }
@@ -1202,7 +1202,7 @@ public final class cg {
         float f2 = sVar.d / sVar2.d;
         float f3 = -sVar2.f1394a;
         float f4 = -sVar2.f1395b;
-        if (nVar.equals(n.d)) {
+        if (nVar.equals(com.caverock.androidsvg.n.d)) {
             matrix.preTranslate(sVar.f1394a, sVar.f1395b);
             matrix.preScale(f, f2);
             matrix.preTranslate(f3, f4);

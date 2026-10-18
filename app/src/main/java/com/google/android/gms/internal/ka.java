@@ -13,15 +13,15 @@ public final class ka implements com.google.android.gms.clearcut.f {
     private static final Object f6104a = new Object();
 
     /* renamed from: b, reason: collision with root package name */
-    private static final ki f6105b = new ki((byte) 0);
+    public static final ki f6105b = new ki((byte) 0);
     private static final long c = TimeUnit.MILLISECONDS.convert(2, TimeUnit.MINUTES);
-    private final com.google.android.gms.common.cpkg.a d;
+    public final com.google.android.gms.common.cpkg.a d;
     private final kd e;
-    private final Object f;
-    private long g;
+    public final Object f;
+    public long g;
     private final long h;
     private ScheduledFuture<?> i;
-    private com.google.android.gms.common.api.m j;
+    public com.google.android.gms.common.api.m j;
     private final Runnable k;
 
     public ka() {

@@ -30,7 +30,7 @@ final class ba extends ct<com.google.android.gms.wearable.v> {
 
     /* JADX INFO: Access modifiers changed from: protected */
     @Override // com.google.android.gms.internal.kt
-    public final /* synthetic */ com.google.android.gms.common.api.x a(Status status) {
+    public final com.google.android.gms.wearable.v a(Status status) {
         return new bb(status, -1);
     }
 }

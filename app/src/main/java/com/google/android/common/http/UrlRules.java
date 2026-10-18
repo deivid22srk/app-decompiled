@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 public final class UrlRules {
 
     /* renamed from: a, reason: collision with root package name */
-    private static final Pattern f1425a = Pattern.compile(" +");
+    public static final Pattern f1425a = Pattern.compile(" +");
 
     /* renamed from: b, reason: collision with root package name */
     private static final Pattern f1426b = Pattern.compile("\\W");

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.deivid22srk.store.app-mergeDebugResources-3:/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repo-build/app/src/main/res/values-xlarge-land-v4/dimens.xml",
+                    "from": {
+                        "startLines": "5,6,7,2,3,4",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "257,323,386,55,117,189",
+                        "endColumns": "65,62,86,61,71,67",
+                        "endOffsets": "318,381,468,112,184,252"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,121,184,271,333,405",
+                        "endColumns": "65,62,86,61,71,67",
+                        "endOffsets": "116,179,266,328,400,468"
+                    }
+                }
+            ]
+        }
+    ]
+}

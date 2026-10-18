@@ -71,7 +71,7 @@ public final class b extends com.google.protobuf.nano.c {
                             break;
                     }
                 case 32:
-                    int b2 = e.b(aVar, 32);
+                    int b2 = com.google.protobuf.nano.e.b(aVar, 32);
                     int[] iArr = new int[b2];
                     int i2 = 0;
                     int i3 = 0;
@@ -156,7 +156,7 @@ public final class b extends com.google.protobuf.nano.c {
                             break;
                     }
                 default:
-                    if (!e.a(aVar, a2)) {
+                    if (!com.google.protobuf.nano.e.a(aVar, a2)) {
                         break;
                     } else {
                         break;

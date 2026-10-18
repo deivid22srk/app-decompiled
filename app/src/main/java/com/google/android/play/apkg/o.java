@@ -19,7 +19,7 @@ public final class o extends com.google.protobuf.nano.c {
     public boolean i = false;
     public String j = "";
     public boolean k = false;
-    public m[] l = m.b();
+    public m[] l = com.google.android.play.apkg.m.b();
     public byte[][] m = com.google.protobuf.nano.e.g;
     public int n = 0;
     public boolean o = false;

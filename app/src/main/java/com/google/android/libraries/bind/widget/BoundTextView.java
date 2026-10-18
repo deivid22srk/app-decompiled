@@ -42,14 +42,14 @@ public class BoundTextView extends TextView implements f {
         super(context, attributeSet, i);
         String string;
         this.f6719a = new g(context, attributeSet, this);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, e.BoundTextView, i, i2);
-        if (isInEditMode() && (string = obtainStyledAttributes.getString(e.BoundTextView_bind__editModeText)) != null) {
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.google.android.libraries.bind.e.BoundTextView, i, i2);
+        if (isInEditMode() && (string = obtainStyledAttributes.getString(com.google.android.libraries.bind.e.BoundTextView_bind__editModeText)) != null) {
             setText(string);
         }
-        this.f6720b = g.a(obtainStyledAttributes, e.BoundTextView_bindText);
-        this.c = g.a(obtainStyledAttributes, e.BoundTextView_bindTextColor);
-        this.d = g.a(obtainStyledAttributes, e.BoundTextView_bindDrawableStart);
-        this.e = g.a(obtainStyledAttributes, e.BoundTextView_bindDrawableEnd);
+        this.f6720b = g.a(obtainStyledAttributes, com.google.android.libraries.bind.e.BoundTextView_bindText);
+        this.c = g.a(obtainStyledAttributes, com.google.android.libraries.bind.e.BoundTextView_bindTextColor);
+        this.d = g.a(obtainStyledAttributes, com.google.android.libraries.bind.e.BoundTextView_bindDrawableStart);
+        this.e = g.a(obtainStyledAttributes, com.google.android.libraries.bind.e.BoundTextView_bindDrawableEnd);
         obtainStyledAttributes.recycle();
     }
 

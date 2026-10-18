@@ -9,6 +9,10 @@ import com.google.android.gms.internal.gs;
 
 /* loaded from: classes.dex */
 class e extends ViewGroup {
+    public e(android.content.Context context) {
+        super(context);
+        this.f5279a = null;
+    }
 
     /* renamed from: a, reason: collision with root package name */
     private final x f5279a;

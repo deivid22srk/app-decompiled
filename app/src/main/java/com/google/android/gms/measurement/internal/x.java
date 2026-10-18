@@ -160,14 +160,14 @@ public final class x extends ba {
         String b2 = b();
         String str3 = this.c;
         String str4 = this.d;
-        long A = i.A();
+        long A = com.google.android.gms.measurement.internal.i.A();
         u();
         return new AppMetadata(str2, b2, str3, str4, A, this.f, str, super.m().r());
     }
 
     final String b() {
         u();
-        if (i.B()) {
+        if (com.google.android.gms.measurement.internal.i.B()) {
             return "";
         }
         if (this.g == null) {
