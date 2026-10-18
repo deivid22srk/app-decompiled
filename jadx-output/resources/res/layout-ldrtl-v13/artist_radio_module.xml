@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.ArtistRadioModuleLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/artist_radio_module"
+    android:background="@drawable/play_white_with_highlight"
+    android:padding="16dp"
+    android:focusable="true"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    finsky:mark_as_button="true"
+    finsky:hide_separator="true">
+    <TextView
+        android:textSize="@dimen/content_generic_small_size"
+        android:textColor="@color/play_primary_text"
+        android:gravity="center_vertical"
+        android:id="@+id/artist_radio_station_button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/ic_radio_start_black"
+        style="@style/PlayMediumBoldText"/>
+</com.google.android.finsky.detailspage.ArtistRadioModuleLayout>

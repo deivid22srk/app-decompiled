@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:play_common="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="64dp">
+    <com.google.android.play.image.FifeImageView
+        android:id="@+id/avatar"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        play_common:is_avatar_no_ring="true"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/play_fg_primary"
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

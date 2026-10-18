@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.ui.card.CardImagesView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:im="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/wallet_uic_card_logo_grid_spacing"
+    im:internalUicSpacingBetweenCardImages="@dimen/wallet_uic_card_logo_grid_spacing"
+    im:internalUicAllImagesStaticOnly="true"/>

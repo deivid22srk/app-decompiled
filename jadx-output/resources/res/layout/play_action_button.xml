@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.PlayActionButton xmlns:finsky="http://schemas.android.com/apk/res-auto"
+    finsky:action_style="secondary"
+    style="@style/Play_DetailsPage_ActionButton"/>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.SeparatorLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    finsky:separator_position="top">
+    <com.google.android.finsky.layout.DecoratedTextView
+        android:id="@+id/section_header"
+        android:background="@drawable/play_highlight_overlay_light"
+        android:paddingTop="24dp"
+        android:paddingBottom="20dp"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        finsky:decoration_position="end"
+        style="@style/PlayDetailsTextTitle"/>
+</com.google.android.finsky.layout.SeparatorLinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.InstrumentManager" parent="@style/Theme.Common.InstrumentManager">
+        <item name="imProgressBarTopMargin">-5dp</item>
+        <item name="uicCardLogoGridToggleButtonStartMargin">-8dp</item>
+        <item name="uicCardLogoGridToggleButtonStyle">@android:style/Widget.Material.Button.Borderless.Colored</item>
+        <item name="uicCardLogoGridToggleButtonTopMargin">0dp</item>
+        <item name="uicClickableBackground">?android:attr/selectableItemBackground</item>
+        <item name="uicDialogBodyStartEndMargin">24dp</item>
+        <item name="uicDialogBodyTopBottomMargin">24dp</item>
+        <item name="uicFormSpinnerStyle">@android:style/Widget.Material.Spinner.Underlined</item>
+    </style>
+    <style name="Theme.InstrumentManager.Light" parent="@style/Theme.Common.InstrumentManager.Light">
+        <item name="imProgressBarTopMargin">-5dp</item>
+        <item name="uicCardLogoGridToggleButtonStartMargin">-8dp</item>
+        <item name="uicCardLogoGridToggleButtonStyle">@android:style/Widget.Material.Light.Button.Borderless.Colored</item>
+        <item name="uicCardLogoGridToggleButtonTopMargin">0dp</item>
+        <item name="uicClickableBackground">?android:attr/selectableItemBackground</item>
+        <item name="uicDialogBodyStartEndMargin">24dp</item>
+        <item name="uicDialogBodyTopBottomMargin">24dp</item>
+        <item name="uicFormSpinnerStyle">@android:style/Widget.Material.Spinner.Underlined</item>
+    </style>
+    <style name="Theme.InstrumentManager.Light.Dialog" parent="@style/Theme.Common.InstrumentManager.Light.Dialog">
+    </style>
+</resources>

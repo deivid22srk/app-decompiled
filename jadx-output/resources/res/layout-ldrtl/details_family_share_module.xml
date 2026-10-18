@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.FamilyShareModuleLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending"
+    android:orientation="vertical"
+    android:background="@color/play_white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    finsky:separator_inset="@dimen/details_new_content_margin"/>

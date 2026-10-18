@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wishlist_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.finsky.layout.play.PlayRecyclerView
+        android:id="@+id/tab_recycler_view"
+        android:paddingBottom="4dp"
+        android:fadingEdgeLength="0dp"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/play_main_background"
+        android:divider="@null"/>
+    <com.google.android.finsky.layout.MarginBox
+        android:id="@+id/no_results_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="@dimen/content_generic_large_size"
+            android:textColor="@color/play_fg_secondary"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/my_wishlist_empty"
+            android:drawableTop="@drawable/ic_empty_wish"
+            android:drawablePadding="10dp"
+            style="@style/PlayLightText"/>
+    </com.google.android.finsky.layout.MarginBox>
+</FrameLayout>

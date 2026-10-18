@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.ForegroundRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="20dp"
+    android:paddingTop="@dimen/my_account_row_ypadding"
+    android:paddingRight="@dimen/my_account_row_xpadding"
+    android:paddingBottom="@dimen/my_account_row_ypadding"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/play_highlight_overlay_light"
+    android:minHeight="@dimen/my_account_row_height">
+    <com.google.android.play.image.FifeImageView
+        android:id="@+id/image_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image_icon"
+        android:layout_centerVertical="true"
+        android:textAlignment="viewStart"
+        style="@style/PlayCardTitle"/>
+</com.google.android.play.layout.ForegroundRelativeLayout>

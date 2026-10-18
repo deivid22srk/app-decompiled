@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MyAccountLandingPageRowView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/MyAccountRow">
+    <com.google.android.finsky.layout.CircledImageView
+        android:id="@+id/sub_page_icon"
+        android:padding="8dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/title_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyAccountLandingPageRowTitle"/>
+        <TextView
+            android:id="@+id/subtitle"
+            style="@style/MyAccountRowSubtitle"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/dot_notification"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:src="@drawable/play_dot_notification"
+        android:contentDescription="@string/play_dot_notification_content_description"/>
+</com.google.android.finsky.layout.MyAccountLandingPageRowView>

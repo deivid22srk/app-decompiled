@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending"
+    android:id="@+id/content_frame"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="@dimen/refund_dialog_width"
+    android:minHeight="@dimen/refund_dialog_height"
+    finsky:max_width="@dimen/refund_dialog_width"/>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FinskyInstrumentManagerButtonBarContainerSetupWizard" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    <style name="FinskyInstrumentManagerFormInputTextAppearanceSetupWizard" parent="">
+        <item name="android:textSize">@dimen/setup_wizard_content_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="FinskyInstrumentManagerFormTitleTextAppearanceSetupWizard" parent="@style/PlayMediumBoldText">
+        <item name="android:textSize">@dimen/play_purchase_secondary_size</item>
+    </style>
+    <style name="FinskyInstrumentManagerInfoMessageTextAppearanceSetupWizard" parent="">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorLink">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="FinskyInstrumentManagerLoginHelpTextAppearanceSetupWizard" parent="">
+        <item name="android:textSize">@dimen/play_purchase_secondary_size</item>
+        <item name="android:textColor">@color/play_fg_secondary</item>
+        <item name="android:textColorLink">@color/play_fg_secondary</item>
+    </style>
+    <style name="FinskyProgressSmallInverse" parent="@android:style/Widget.Holo.Light.ProgressBar.Small.Inverse">
+    </style>
+    <style name="LightPurchase_Password_Field_Restyled" parent="@style/PlayPlainText">
+        <item name="android:textSize">@dimen/play_purchase_auth_secondary_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/play_fg_tertiary</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+        <item name="android:layerType">hardware</item>
+    </style>
+    <style name="PlaySearchPlateNavigationButton" parent="">
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingBottom">13dp</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:transformPivotX">28dp</item>
+        <item name="android:transformPivotY">24dp</item>
+    </style>
+    <style name="SetupWizardButtonContainer" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:gravity">end</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:measureWithLargestChild">true</item>
+    </style>
+</resources>

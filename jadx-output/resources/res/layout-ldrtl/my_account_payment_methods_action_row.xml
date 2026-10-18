@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MyAccountPaymentMethodsActionRowView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/MyAccountRow">
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+    <TextView
+        android:textColor="@color/my_account_action_fg"
+        android:id="@+id/title"
+        style="@style/MyAccountPaymentMethodsActionTitle"/>
+</com.google.android.finsky.layout.MyAccountPaymentMethodsActionRowView>

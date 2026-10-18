@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.play.image.FifeImageView
+        android:id="@+id/my_avatar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitStart"
+        finsky:fixed_bounds="true"
+        finsky:is_avatar="true"/>
+    <TextView
+        android:textSize="@dimen/content_generic_small_size"
+        android:textColor="@color/play_fg_primary"
+        android:ellipsize="end"
+        android:id="@+id/my_display_name"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:singleLine="true"
+        style="@style/PlayMediumBoldText"/>
+    <TextView
+        android:textSize="@dimen/content_generic_xsmall_size"
+        android:textColor="@color/play_fg_secondary"
+        android:ellipsize="end"
+        android:id="@+id/my_rating_text"
+        android:paddingBottom="10dp"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        style="@style/PlayPlainText"/>
+</LinearLayout>

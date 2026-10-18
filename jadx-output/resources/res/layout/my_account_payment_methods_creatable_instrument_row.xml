@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MyAccountPaymentMethodsCreatableInstrumentRowView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/MyAccountRow">
+    <com.google.android.play.image.FifeImageView
+        android:id="@+id/image_icon"
+        style="@style/MyAccountPaymentMethodsIcon"/>
+    <TextView
+        android:id="@+id/title"
+        style="@style/MyAccountRowTitle"/>
+</com.google.android.finsky.layout.MyAccountPaymentMethodsCreatableInstrumentRowView>

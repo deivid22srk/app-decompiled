@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s круга</item>
+        <item quantity="one">%1$s круг</item>
+        <item quantity="few">%1$s кругі</item>
+        <item quantity="many">%1$s кругоў</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Ваш рэйтынг: %1$s зоркі</item>
+        <item quantity="one">Ваш рэйтынг: %1$s зорка</item>
+        <item quantity="few">Ваш рэйтынг: %1$s зоркі</item>
+        <item quantity="many">Ваш рэйтынг: %1$s зорак</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d агляда</item>
+        <item quantity="one">%1$d агляд</item>
+        <item quantity="few">%1$d агляды</item>
+        <item quantity="many">%1$d аглядаў</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d агляда для рэйтынгу ў зорках: %2$d</item>
+        <item quantity="one">%1$d агляд для рэйтынгу ў зорках: %2$d</item>
+        <item quantity="few">%1$d агляды для рэйтынгу ў зорках: %2$d</item>
+        <item quantity="many">%1$d аглядаў для рэйтынгу ў зорках: %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s ад %2$s агляду</item>
+        <item quantity="one">%1$s ад %2$s агляду</item>
+        <item quantity="few">%1$s ад %2$s аглядаў</item>
+        <item quantity="many">%1$s ад %2$s аглядаў</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d выбрана</item>
+        <item quantity="one">%1$d выбраны</item>
+        <item quantity="few">%1$d выбраныя</item>
+        <item quantity="many">%1$d выбраныя</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d абнаўлення патрабуе пацвярджэнне</item>
+        <item quantity="one">%1$d абнаўленне патрабуе пацвярджэнне</item>
+        <item quantity="few">%1$d абнаўленні патрабуюць пацвярджэнне</item>
+        <item quantity="many">%1$d абнаўленняў патрабуюць пацвярджэнне</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d новага абнаўлення</item>
+        <item quantity="one">%1$d новае абнаўленне</item>
+        <item quantity="few">%1$d новыя абнаўленні</item>
+        <item quantity="many">%1$d новых абнаўленняў</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d абнаўлення даступна</item>
+        <item quantity="one">%1$d абнаўленне даступна</item>
+        <item quantity="few">%1$d абнаўленні даступны</item>
+        <item quantity="many">%1$d абнаўленняў даступны</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Абнавіць усе</item>
+        <item quantity="one">Абнавіць усе</item>
+        <item quantity="few">Абнавіць усе</item>
+        <item quantity="many">Абнавіць усе</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d дадатка абноўлена</item>
+        <item quantity="one">%1$d дадатак абноўлены</item>
+        <item quantity="few">%1$d дадаткі абноўлены</item>
+        <item quantity="many">%1$d дадаткаў абноўлены</item>
+    </plurals>
+    <plurals name="number_of_apps">
+        <item quantity="other">%1$s дадатку</item>
+        <item quantity="one">%1$s дадатак</item>
+        <item quantity="few">%1$s дадаткі</item>
+        <item quantity="many">%1$s дадаткаў</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&lt;b&gt;%1$s&lt;/b&gt; %2$s зоркі</item>
+        <item quantity="one">&lt;b&gt;%1$s&lt;/b&gt; %2$s зорка</item>
+        <item quantity="few">&lt;b&gt;%1$s&lt;/b&gt; %2$s зоркі</item>
+        <item quantity="many">&lt;b&gt;%1$s&lt;/b&gt; %2$s зорак</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&lt;b&gt;%1$s&lt;/b&gt; %2$s зоркі – %3$s</item>
+        <item quantity="one">&lt;b&gt;%1$s&lt;/b&gt; %2$s зорка – %3$s</item>
+        <item quantity="few">&lt;b&gt;%1$s&lt;/b&gt; %2$s зоркі – %3$s</item>
+        <item quantity="many">&lt;b&gt;%1$s&lt;/b&gt; %2$s зорак – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&lt;b&gt;%1$s&lt;/b&gt; %2$s зоркі – %3$s – %4$s</item>
+        <item quantity="one">&lt;b&gt;%1$s&lt;/b&gt; %2$s зорка – %3$s – %4$s</item>
+        <item quantity="few">&lt;b&gt;%1$s&lt;/b&gt; %2$s зоркі – %3$s – %4$s</item>
+        <item quantity="many">&lt;b&gt;%1$s&lt;/b&gt; %2$s зорак – %3$s – %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d карыстальніка знайшлі гэты агляд карысным. Пазначыць каментарый як карысны</item>
+        <item quantity="one">%1$d карыстальнік знайшоў гэты агляд карысным.. Пазначыць каментарый як карысны</item>
+        <item quantity="few">%1$d карыстальнікі знайшлі гэты агляд карысным. Пазначыць каментарый як карысны</item>
+        <item quantity="many">%1$d карыстальнікаў знайшлі гэты агляд карысным. Пазначыць каментарый як карысны</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d карыстальніка знайшлі гэты агляд карысным. Адмяніць пазнаку каментарыя як карыснага</item>
+        <item quantity="one">%1$d карыстальнік знайшоў гэты агляд карысным. Адмяніць пазнаку каментарыя як карыснага</item>
+        <item quantity="few">%1$d карыстальнікі знайшлі гэты агляд карысным. Адмяніць пазнаку каментарыя як карыснага</item>
+        <item quantity="many">%1$d карыстальнікаў знайшлі гэты агляд карысным. Адмяніць пазнаку каментарыя як карыснага</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Гэта ацэнена ў &lt;b&gt;%1$s зоркі&lt;/b&gt;</item>
+        <item quantity="one">Гэта ацэнена ў &lt;b&gt;%1$s зорку&lt;/b&gt;</item>
+        <item quantity="few">Гэта ацэнена ў &lt;b&gt;%1$s зоркі&lt;/b&gt;</item>
+        <item quantity="many">Гэта ацэнена ў &lt;b&gt;%1$s зорак&lt;/b&gt;</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">у %1$s агляда</item>
+        <item quantity="one">у %1$s аглядзе</item>
+        <item quantity="few">у %1$s аглядах</item>
+        <item quantity="many">у %1$s аглядах</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&lt;b&gt;%1$s зоркі&lt;/b&gt; %2$s</item>
+        <item quantity="one">&lt;b&gt;%1$s зорка&lt;/b&gt; %2$s</item>
+        <item quantity="few">&lt;b&gt;%1$s зоркі&lt;/b&gt; %2$s</item>
+        <item quantity="many">&lt;b&gt;%1$s зорак&lt;/b&gt; %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Не ўдаецца загрузіць элементы. Паспрабуйце іншую рэзервовую копію.</item>
+        <item quantity="one">Не ўдаецца загрузіць элемент. Паспрабуйце іншую рэзервовую копію.</item>
+        <item quantity="few">Не ўдаецца загрузіць элементы. Паспрабуйце іншую рэзервовую копію.</item>
+        <item quantity="many">Не ўдаецца загрузіць элементы. Паспрабуйце іншую рэзервовую копію.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Апошні раз выкарыстана %1$d дня таму</item>
+        <item quantity="one">Апошні раз выкарыстана %1$d дзень таму</item>
+        <item quantity="few">Апошні раз выкарыстана %1$d дні таму</item>
+        <item quantity="many">Апошні раз выкарыстана %1$d дзён таму</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Выбраныя дадаткі</item>
+        <item quantity="one">Выбраны дадатак</item>
+        <item quantity="few">Выбраныя дадаткі</item>
+        <item quantity="many">Выбраныя дадаткі</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">зоркі</item>
+        <item quantity="one">зорка</item>
+        <item quantity="few">зоркі</item>
+        <item quantity="many">зорак</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s чалавека кажа гэта</item>
+        <item quantity="one">%1$s чалавек кажа гэта</item>
+        <item quantity="few">%1$s чалавекі кажуць гэта</item>
+        <item quantity="many">%1$s чалавек кажуць гэта</item>
+    </plurals>
+</resources>

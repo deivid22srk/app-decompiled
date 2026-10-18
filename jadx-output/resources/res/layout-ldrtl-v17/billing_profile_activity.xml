@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MaxWidthLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending"
+    android:orientation="vertical"
+    android:paddingBottom="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="@dimen/light_purchase_dialog_width"
+    android:minHeight="@dimen/light_purchase_dialog_tall_height"
+    finsky:max_width="@dimen/light_purchase_dialog_width">
+    <include layout="@layout/light_activity_header"/>
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <include
+            android:id="@+id/placeholder_loading"
+            android:visibility="gone"
+            layout="@layout/page_loading_indicator"/>
+        <include
+            android:id="@+id/placeholder_error"
+            android:visibility="gone"
+            layout="@layout/page_error_indicator"/>
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/logo"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/logo_googleplay"
+        android:layout_marginStart="@dimen/light_purchase_dialog_footer_left_right_padding"
+        android:layout_marginEnd="@dimen/light_purchase_dialog_footer_left_right_padding"/>
+</com.google.android.finsky.layout.MaxWidthLinearLayout>

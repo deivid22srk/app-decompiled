@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/people_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.finsky.layout.play.PlayRecyclerView
+        android:id="@+id/people_details_stream_list"
+        android:paddingBottom="4dp"
+        android:fadingEdgeLength="0dp"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/play_main_background"
+        android:divider="@null"/>
+    <include
+        android:id="@+id/loading_indicator"
+        layout="@layout/page_loading_indicator"/>
+    <include
+        android:id="@+id/error_indicator"
+        layout="@layout/page_error_indicator"/>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayHighlightsBannerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="@dimen/highlight_banner_margin_top"
+    android:paddingBottom="@dimen/highlight_banner_margin_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.finsky.layout.play.PlayClusterViewContentV2
+        android:id="@+id/cluster_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</com.google.android.finsky.layout.play.PlayHighlightsBannerView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.SetupWizardFopSeparator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="68dp">
+    <com.google.android.play.image.FifeImageView
+        android:id="@+id/image_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="18dp"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/SetupWizardPlainText"/>
+    <RadioButton
+        android:id="@+id/radio"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</com.google.android.finsky.layout.SetupWizardFopSeparator>

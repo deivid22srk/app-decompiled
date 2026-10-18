@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MyAccountInlineNotification xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/play_main_background"
+    android:paddingTop="8dp"
+    android:paddingBottom="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.finsky.layout.play.CardBubbleLinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:maxWidth="480dp"
+        finsky:playCardBubbleSize="8dp"
+        finsky:playCardBubbleGravity="80"
+        finsky:playCardBackgroundColor="@color/my_account_inline_notification_bg"
+        style="@style/PlayCardViewGroup">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:src="@drawable/ic_info_red_24px"/>
+        <TextView
+            android:textSize="@dimen/play_description_size"
+            android:textColor="@color/play_fg_primary"
+            android:id="@+id/notification"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PlayPlainText"/>
+    </com.google.android.finsky.layout.play.CardBubbleLinearLayout>
+</com.google.android.finsky.layout.MyAccountInlineNotification>

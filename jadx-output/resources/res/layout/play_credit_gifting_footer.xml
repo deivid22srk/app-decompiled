@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.PlayCreditGiftingFooter xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="24dp"
+    style="@style/GiftLandingDescriptionText"/>

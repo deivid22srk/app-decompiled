@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="start"
+    android:orientation="horizontal"
+    android:padding="14dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.play.image.FifeImageView
+        android:id="@+id/application_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <com.google.android.play.layout.PlayTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_install_success"
+        style="@style/LightPurchase_TitleText"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/SetupWizardStackedButtons">
+    <Button
+        android:id="@+id/positive_button"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/setup_wizard_button_vertical_spacing"
+        style="@style/SetupWizardButton"/>
+    <Button
+        android:id="@+id/negative_button"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="@dimen/setup_wizard_button_vertical_spacing"
+        style="@style/SetupWizardButton"/>
+</LinearLayout>

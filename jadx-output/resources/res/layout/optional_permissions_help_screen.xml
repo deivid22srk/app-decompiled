@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/optional_permissions_help_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="@dimen/content_entry_large_size"
+        android:textStyle="bold"
+        android:textColor="@color/play_fg_primary"
+        android:paddingLeft="24dp"
+        android:paddingTop="20dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/optional_permissions_help_screen_banner_text"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:textSize="@dimen/content_generic_large_size"
+            android:textColor="@color/play_fg_secondary"
+            android:id="@+id/optional_permissions_help_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp"/>
+    </ScrollView>
+    <include layout="@layout/button_bar"/>
+</LinearLayout>

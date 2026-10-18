@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.PlayTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending"
+    android:textSize="24sp"
+    android:textColor="@color/play_fg_primary"
+    android:gravity="start|center_vertical"
+    android:id="@+id/message"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    finsky:allowsCompactLineSpacing="true"
+    style="@style/PlayLightText"/>

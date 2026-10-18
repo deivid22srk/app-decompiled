@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/container"
+        android:paddingLeft="?attr/uicDialogBodyStartEndMargin"
+        android:paddingTop="?attr/uicDialogBodyTopBottomMargin"
+        android:paddingRight="?attr/uicDialogBodyStartEndMargin"
+        android:paddingBottom="?attr/uicDialogBodyTopBottomMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.wallet.ui.common.InfoMessageTextView
+            android:id="@+id/info_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?attr/uicDialogMessageTextAppearance"/>
+    </LinearLayout>
+</ScrollView>

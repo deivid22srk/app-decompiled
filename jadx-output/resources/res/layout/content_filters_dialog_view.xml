@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.activities.ContentFiltersDialogView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:scrollbarStyle="outsideOverlay"
+        android:id="@+id/content_filters_choice_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+</com.google.android.finsky.activities.ContentFiltersDialogView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending"
+    android:orientation="vertical"
+    android:background="@color/setupwizard_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.finsky.layout.ProportionalOuterFrame
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        finsky:proportion="@dimen/setup_wizard_content_width">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="bottom"
+                android:id="@+id/title"
+                android:paddingLeft="@dimen/setup_wizard_screen_margin_sides"
+                android:paddingRight="@dimen/setup_wizard_screen_margin_sides"
+                android:layout_marginBottom="6dp"
+                android:text="@string/setup_wizard_market_setup_title"
+                style="@style/SetupWizardTitle"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/setup_wizard_margin_bottom"
+                android:layout_width="match_parent"
+                style="@style/SetupWizardContentHeight">
+                <include layout="@layout/setup_wizard_divider_and_progress"/>
+                <FrameLayout
+                    android:id="@+id/content_frame"
+                    android:paddingTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <include
+                        android:visibility="gone"
+                        layout="@layout/page_loading_indicator"/>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.finsky.layout.ProportionalOuterFrame>
+</LinearLayout>
