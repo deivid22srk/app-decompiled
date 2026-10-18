@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.finsky.layout.FamilyShareToggle android:background="@drawable/play_highlight_overlay_light" android:padding="@dimen/details_content_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/family_icon" android:layout_width="@dimen/details_text_section_icon_size" android:layout_height="@dimen/details_text_section_icon_size" android:scaleType="fitStart" android:layout_centerVertical="true" />
-    <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_primary_text" android:ellipsize="end" android:id="@id/action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" />
-    <android.support.v7.widget.SwitchCompat android:id="@id/switch_button" android:layout_centerVertical="true" style="@style/PlayDrawerDownloadToggle" />
-</com.google.android.finsky.layout.FamilyShareToggle>
