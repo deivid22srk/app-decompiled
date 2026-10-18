@@ -35,14 +35,18 @@ android {
 
     sourceSets {
         main {
-            // Código Java decompilado (jadx) mantido no repo para leitura/referência.
-            // Saída jadx não recompila como está (generics perdidos, accessors sintéticos,
-            // artefatos semânticos) — o código EXECUTÁVEL vem do bytecode original,
-            // preservado via pipeline apktool -> smali -> dex -> jar (app/libs/),
-            // agora COM exception handlers (try/catch) restaurados.
-            // Compilamos apenas a camada offline nova (launcher sem login + catálogo).
+            // Código Java decompilado (jadx) mantido no repo em src/main/java
+            // apenas para leitura/referência — NÃO é compilado (saída jadx não
+            // recompila como está: generics perdidos, accessors sintéticos).
+            // O código EXECUTÁVEL vem do bytecode original preservado via
+            // apktool -> smali -> dex -> jar (app/libs/), com exception
+            // handlers (try/catch) restaurados.
+            // A camada offline nova (launcher sem login + catálogo de jogos)
+            // fica em src/main/java-offline e é o único Java compilado.
+            // srcDirs substitutivo evita qualquer filtragem por include/exclude
+            // (o AGP 7.4 não honra include no sourceSet java).
             java {
-                include 'com/deivid22srk/store/offline/**'
+                srcDirs = ['src/main/java-offline']
             }
         }
     }
