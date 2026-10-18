@@ -29,9 +29,11 @@ jobs:
         with:
           gradle-version: '7.6.4'
 
-      - name: Set up Android SDK (platform 23)
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install platform 23
         run: |
-          android-wait-for-emulator 2>/dev/null || true
           yes | sdkmanager --licenses > /dev/null 2>&1 || true
           sdkmanager "platforms;android-23" > /dev/null
 
