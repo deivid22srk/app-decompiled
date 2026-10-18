@@ -6,7 +6,7 @@
         <item name="uicCardLogoGridToggleButtonStartMargin">-8.0dip</item>
         <item name="uicCardLogoGridToggleButtonStyle">@android:style/Widget.Material.Button.Borderless.Colored</item>
         <item name="uicCardLogoGridToggleButtonTopMargin">0.0dip</item>
-        <item name="uicClickableBackground">?android:selectableItemBackground</item>
+        <item name="uicClickableBackground">?android:attr/selectableItemBackground</item>
         <item name="uicDialogBodyStartEndMargin">24.0dip</item>
         <item name="uicDialogBodyTopBottomMargin">24.0dip</item>
         <item name="uicFormSpinnerStyle">@android:style/Widget.Material.Spinner.Underlined</item>
@@ -16,7 +16,7 @@
         <item name="uicCardLogoGridToggleButtonStartMargin">-8.0dip</item>
         <item name="uicCardLogoGridToggleButtonStyle">@android:style/Widget.Material.Light.Button.Borderless.Colored</item>
         <item name="uicCardLogoGridToggleButtonTopMargin">0.0dip</item>
-        <item name="uicClickableBackground">?android:selectableItemBackground</item>
+        <item name="uicClickableBackground">?android:attr/selectableItemBackground</item>
         <item name="uicDialogBodyStartEndMargin">24.0dip</item>
         <item name="uicDialogBodyTopBottomMargin">24.0dip</item>
         <item name="uicFormSpinnerStyle">@android:style/Widget.Material.Spinner.Underlined</item>
