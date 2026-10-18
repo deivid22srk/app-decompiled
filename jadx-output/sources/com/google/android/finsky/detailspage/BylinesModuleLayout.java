@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.LinearLayout;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.layout.DecoratedTextView;
 
 /* loaded from: classes.dex */

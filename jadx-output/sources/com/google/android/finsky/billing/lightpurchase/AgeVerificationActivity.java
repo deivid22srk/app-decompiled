@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.ap;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 
 /* loaded from: classes.dex */

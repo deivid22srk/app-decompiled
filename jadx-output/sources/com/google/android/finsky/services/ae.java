@@ -6,12 +6,12 @@ import com.android.volley.VolleyError;
 final class ae implements com.android.volley.s {
 
     /* renamed from: a, reason: collision with root package name */
-    final /* synthetic */ com.android.vending.licensing.a f4569a;
+    final /* synthetic */ com.deivid22srk.store.licensing.a f4569a;
 
     /* renamed from: b, reason: collision with root package name */
     final /* synthetic */ aa f4570b;
 
-    ae(aa aaVar, com.android.vending.licensing.a aVar) {
+    ae(aa aaVar, com.deivid22srk.store.licensing.a aVar) {
         this.f4570b = aaVar;
         this.f4569a = aVar;
     }

@@ -5,7 +5,7 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.protos.ds;
 import com.google.android.play.image.FifeImageView;
@@ -34,7 +34,7 @@ public class WarmWelcomeCard extends com.google.android.finsky.layout.bp impleme
 
     public WarmWelcomeCard(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.WarmWelcomeCard);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.WarmWelcomeCard);
         this.h = obtainStyledAttributes.getBoolean(0, true);
         obtainStyledAttributes.recycle();
         this.i = context.getResources().getDimensionPixelSize(R.dimen.warm_welcome_title_top_padding);

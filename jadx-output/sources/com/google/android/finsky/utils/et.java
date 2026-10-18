@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public final class et {

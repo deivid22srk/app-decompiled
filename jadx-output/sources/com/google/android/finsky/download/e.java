@@ -173,7 +173,7 @@ public final class e implements b {
             return "obb-for-" + this.l.b();
         }
         if (this.e == null) {
-            return "com.android.vending";
+            return "com.deivid22srk.store";
         }
         return this.e;
     }

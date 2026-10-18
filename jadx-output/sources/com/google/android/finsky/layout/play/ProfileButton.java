@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.Button;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public class ProfileButton extends TextView {

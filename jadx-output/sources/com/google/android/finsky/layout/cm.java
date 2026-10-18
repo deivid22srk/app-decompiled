@@ -6,7 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public abstract class cm extends LinearLayout {

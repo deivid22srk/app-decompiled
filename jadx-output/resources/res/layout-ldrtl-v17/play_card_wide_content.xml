@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:playcommon="http://schemas.android.com/apk/res-auto" xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:playcommon="http://schemas.android.com/apk/res-auto" xmlns:finsky="http://schemas.android.com/apk/res/com.deivid22srk.store">
     <com.google.android.play.layout.PlayCardThumbnail
         android:id="@+id/li_thumbnail_frame"
         android:layout_width="0dp"

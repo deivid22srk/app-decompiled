@@ -13,7 +13,7 @@ import java.util.Collection;
 import java.util.concurrent.ExecutionException;
 
 /* loaded from: classes.dex */
-final class r extends com.android.vending.c.b {
+final class r extends com.deivid22srk.store.c.b {
 
     /* renamed from: a, reason: collision with root package name */
     final /* synthetic */ DetailsService f4632a;
@@ -22,7 +22,7 @@ final class r extends com.android.vending.c.b {
         this.f4632a = detailsService;
     }
 
-    @Override // com.android.vending.c.a
+    @Override // com.deivid22srk.store.c.a
     public final Bundle a(String str) {
         FinskyApp a2 = FinskyApp.a();
         Account i = a2.i();

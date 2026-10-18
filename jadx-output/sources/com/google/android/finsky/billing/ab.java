@@ -5,7 +5,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public final class ab extends android.support.v4.app.r {

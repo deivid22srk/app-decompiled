@@ -3,7 +3,7 @@ package com.google.android.finsky.billing;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.os.Bundle;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public final class ar extends android.support.v4.app.r {

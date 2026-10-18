@@ -28,8 +28,8 @@ public final class o extends android.support.v4.app.r {
 
     @Override // android.support.v4.app.Fragment
     public final View a(LayoutInflater layoutInflater, ViewGroup viewGroup, Bundle bundle) {
-        View inflate = layoutInflater.inflate(com.android.vending.R.layout.finsky_web_view_layout, (ViewGroup) null, false);
-        this.ai = (WebViewLayout) inflate.findViewById(com.android.vending.R.id.web_view_layout);
+        View inflate = layoutInflater.inflate(com.deivid22srk.store.R.layout.finsky_web_view_layout, (ViewGroup) null, false);
+        this.ai = (WebViewLayout) inflate.findViewById(com.deivid22srk.store.R.id.web_view_layout);
         this.ai.getWebView().setLayoutParams(new RelativeLayout.LayoutParams(-1, -1));
         return inflate;
     }

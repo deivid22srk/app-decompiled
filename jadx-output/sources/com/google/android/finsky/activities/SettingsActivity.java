@@ -12,7 +12,7 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
 import android.text.TextUtils;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.auth.AuthState;
 import com.google.android.finsky.protos.jm;

@@ -2,7 +2,7 @@ package com.google.android.finsky.detailspage;
 
 import android.content.res.Resources;
 import android.text.TextUtils;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.api.model.Document;
 import com.google.android.finsky.protos.oo;
 import com.google.android.finsky.utils.ik;

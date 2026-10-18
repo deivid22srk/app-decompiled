@@ -6,7 +6,7 @@ import android.text.TextUtils;
 import android.text.method.LinkMovementMethod;
 import android.widget.CheckBox;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.api.model.DfeToc;
 import com.google.android.finsky.layout.ButtonBar;
 import com.google.android.finsky.protos.jm;

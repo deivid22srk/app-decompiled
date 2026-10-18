@@ -6,7 +6,7 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.utils.ik;
 
 /* loaded from: classes.dex */

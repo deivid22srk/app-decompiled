@@ -9,7 +9,7 @@ import android.text.TextUtils;
 import android.util.Pair;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.protos.cd;
 import com.google.android.finsky.protos.db;
 import com.google.android.finsky.protos.io;

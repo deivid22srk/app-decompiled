@@ -8,7 +8,7 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public class DetailsTitleFlowLayout extends ViewGroup {
@@ -29,7 +29,7 @@ public class DetailsTitleFlowLayout extends ViewGroup {
     public DetailsTitleFlowLayout(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
         Resources resources = context.getResources();
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.DetailsTitleFlowLayout);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.DetailsTitleFlowLayout);
         this.f2971a = obtainStyledAttributes.getDimensionPixelSize(1, 0);
         this.f2972b = obtainStyledAttributes.getDimensionPixelSize(2, 0);
         this.d = obtainStyledAttributes.getInt(0, 8388611);

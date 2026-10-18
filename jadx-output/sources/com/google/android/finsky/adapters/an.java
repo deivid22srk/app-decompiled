@@ -6,7 +6,7 @@ import android.support.v4.view.by;
 import android.support.v7.widget.eq;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.api.model.DfeToc;
 import com.google.android.finsky.api.model.Document;

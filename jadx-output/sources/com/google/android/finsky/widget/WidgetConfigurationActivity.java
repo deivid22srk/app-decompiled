@@ -7,7 +7,7 @@ import android.support.v7.a.ae;
 import android.text.TextUtils;
 import android.widget.GridView;
 import android.widget.ListAdapter;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.api.model.DfeToc;
 import com.google.android.finsky.protos.pt;
 import com.google.android.finsky.utils.cz;

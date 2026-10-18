@@ -265,7 +265,7 @@ public final class v implements s {
             new Handler(Looper.getMainLooper()).post(new w(this, tVar));
         } else {
             x xVar = new x(this, str, sessionInfo.getSessionId(), tVar);
-            String str2 = "com.android.vending.INTENT_PACKAGE_INSTALL_COMMIT." + str;
+            String str2 = "com.deivid22srk.store.INTENT_PACKAGE_INSTALL_COMMIT." + str;
             IntentFilter intentFilter = new IntentFilter();
             intentFilter.addAction(str2);
             this.f2872a.registerReceiver(xVar, intentFilter);

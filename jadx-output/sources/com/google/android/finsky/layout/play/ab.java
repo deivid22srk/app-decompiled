@@ -7,7 +7,7 @@ import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.util.AttributeSet;
 import android.view.View;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 final class ab implements com.google.android.play.c.i {
@@ -20,7 +20,7 @@ final class ab implements com.google.android.play.c.i {
 
     @Override // com.google.android.play.c.i
     public final void a(View view, Context context, AttributeSet attributeSet, int i) {
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.PlayCardViewGroup, i, 0);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.PlayCardViewGroup, i, 0);
         float dimension = obtainStyledAttributes.getDimension(1, 0.0f);
         int dimensionPixelSize = obtainStyledAttributes.getDimensionPixelSize(3, 0);
         Resources resources = context.getResources();

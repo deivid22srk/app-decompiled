@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.utils.FinskyLog;
 import com.google.android.finsky.utils.SetupWizardUtils;
@@ -31,7 +31,7 @@ public class SetupWizardPromptForFopActivity extends a {
     @Override // com.google.android.finsky.billing.promptforfop.a, com.google.android.finsky.billing.lightpurchase.billingprofile.instruments.c, com.google.android.finsky.billing.lightpurchase.a, android.support.v4.app.t, android.support.v4.app.p, android.app.Activity
     protected void onCreate(Bundle bundle) {
         Intent intent = getIntent();
-        if (!intent.getBooleanExtra("via_create_intent", false) && "com.android.vending.billing.ADD_CREDIT_CARD".equals(intent.getAction())) {
+        if (!intent.getBooleanExtra("via_create_intent", false) && "com.deivid22srk.store.billing.ADD_CREDIT_CARD".equals(intent.getAction())) {
             if (!intent.hasExtra("authAccount")) {
                 FinskyLog.d("No account name passed.", new Object[0]);
                 setResult(-1);

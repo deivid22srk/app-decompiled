@@ -2,7 +2,7 @@ package com.google.android.finsky.billing.carrierbilling.b;
 
 import android.view.View;
 import android.widget.RadioGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 final class b implements View.OnClickListener {

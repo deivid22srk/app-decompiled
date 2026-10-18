@@ -7,7 +7,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.util.AttributeSet;
 import android.view.View;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.api.model.DfeToc;
 import com.google.android.finsky.api.model.Document;
 import com.google.android.finsky.protos.gc;

@@ -1,6 +1,6 @@
 package com.google.android.finsky.widget;
 
-import com.android.vending.MarketWidgetProvider;
+import com.deivid22srk.store.MarketWidgetProvider;
 
 /* loaded from: classes.dex */
 public class MarketWidgetTrampolineActivity extends q {

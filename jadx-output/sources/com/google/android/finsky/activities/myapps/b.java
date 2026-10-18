@@ -1,7 +1,7 @@
 package com.google.android.finsky.activities.myapps;
 
 import android.view.View;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.api.model.DfeToc;
 
 /* loaded from: classes.dex */

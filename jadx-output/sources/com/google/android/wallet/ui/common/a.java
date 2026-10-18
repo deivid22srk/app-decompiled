@@ -9,7 +9,7 @@ import android.content.res.TypedArray;
 import android.os.Build;
 import android.view.ContextThemeWrapper;
 import android.view.View;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public final class a {

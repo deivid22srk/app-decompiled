@@ -21,7 +21,7 @@ public class LabelEditText extends EditText {
 
     public LabelEditText(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
-        TypedArray obtainStyledAttributes = context.getTheme().obtainStyledAttributes(attributeSet, com.android.vending.b.LabelEditText, 0, 0);
+        TypedArray obtainStyledAttributes = context.getTheme().obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.LabelEditText, 0, 0);
         try {
             this.f3010a = obtainStyledAttributes.getResourceId(0, 0);
             obtainStyledAttributes.recycle();

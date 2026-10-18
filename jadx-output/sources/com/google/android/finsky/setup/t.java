@@ -2,7 +2,7 @@ package com.google.android.finsky.setup;
 
 import android.os.Bundle;
 import android.view.View;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.activities.gn;
 import com.google.android.finsky.utils.ParcelableProtoArray;

@@ -2,7 +2,7 @@ package com.google.android.finsky.adapters;
 
 import android.support.design.widget.Snackbar;
 import android.widget.Toast;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.activities.ff;
 import com.google.android.finsky.layout.ReviewItemLayout;
 import com.google.android.finsky.layout.dl;

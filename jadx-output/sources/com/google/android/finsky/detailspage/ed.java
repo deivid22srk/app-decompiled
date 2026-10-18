@@ -5,7 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.android.volley.VolleyError;
 import com.google.android.finsky.api.model.Document;
 import com.google.android.finsky.layout.PlaylistControlButtons;

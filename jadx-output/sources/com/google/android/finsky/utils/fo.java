@@ -3,7 +3,7 @@ package com.google.android.finsky.utils;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 final class fo implements com.google.android.play.layout.f {

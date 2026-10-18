@@ -3,7 +3,7 @@ package com.google.android.finsky.activities;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public class AccessRestrictedActivity extends android.support.v4.app.t implements gp {

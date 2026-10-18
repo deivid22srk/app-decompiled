@@ -1,7 +1,7 @@
 package com.google.android.finsky.utils;
 
 import android.widget.Toast;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 final class it implements Runnable {

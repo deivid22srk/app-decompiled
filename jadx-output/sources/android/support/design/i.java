@@ -1,6 +1,6 @@
 package android.support.design;
 
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public final class i {

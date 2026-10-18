@@ -6,7 +6,7 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.Button;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.api.model.DfeToc;
 import com.google.android.finsky.layout.ForegroundLinearLayout;
 import com.google.android.play.image.FifeImageView;

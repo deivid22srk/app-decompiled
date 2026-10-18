@@ -6,7 +6,7 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public class ProportionalOuterFrame extends ViewGroup {
@@ -19,7 +19,7 @@ public class ProportionalOuterFrame extends ViewGroup {
 
     public ProportionalOuterFrame(Context context, AttributeSet attributeSet, int i) {
         super(context, attributeSet, i);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.ProportionalOuterFrame);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.ProportionalOuterFrame);
         this.f3050a = obtainStyledAttributes.getFraction(0, 1, 1, 1.0f);
         obtainStyledAttributes.recycle();
     }

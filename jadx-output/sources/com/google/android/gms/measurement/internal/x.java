@@ -104,7 +104,7 @@ public final class x extends ba {
         String installerPackageName = packageManager.getInstallerPackageName(packageName);
         if (installerPackageName == null) {
             installerPackageName = "manual_install";
-        } else if ("com.android.vending".equals(installerPackageName)) {
+        } else if ("com.deivid22srk.store".equals(installerPackageName)) {
             installerPackageName = "";
         }
         try {

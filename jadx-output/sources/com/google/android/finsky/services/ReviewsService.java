@@ -15,7 +15,7 @@ public class ReviewsService extends Service {
     private static AtomicInteger f4556a = new AtomicInteger(0);
 
     /* renamed from: b, reason: collision with root package name */
-    private final com.android.vending.d.b f4557b = new aw(this);
+    private final com.deivid22srk.store.d.b f4557b = new aw(this);
 
     @Override // android.app.Service
     public IBinder onBind(Intent intent) {

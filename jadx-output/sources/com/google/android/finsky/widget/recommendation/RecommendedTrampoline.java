@@ -1,6 +1,6 @@
 package com.google.android.finsky.widget.recommendation;
 
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.widget.q;
 
 /* loaded from: classes.dex */

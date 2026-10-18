@@ -9,7 +9,7 @@ import android.os.Looper;
 import android.util.AttributeSet;
 import android.util.SparseArray;
 import android.widget.FrameLayout;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.api.model.Document;
 import com.google.android.finsky.utils.jm;
 import java.util.ArrayList;

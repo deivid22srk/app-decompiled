@@ -2,7 +2,7 @@ package com.google.android.finsky.detailspage;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.layout.ForegroundLinearLayout;
 import com.google.android.finsky.layout.HistogramView;
 

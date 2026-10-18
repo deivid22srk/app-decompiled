@@ -2,7 +2,7 @@ package com.google.android.finsky.activities;
 
 import android.content.Context;
 import android.widget.Toast;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.protos.rv;
 
 /* loaded from: classes.dex */

@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.play.layout.StarRatingBar;
 import java.text.NumberFormat;
 
@@ -39,7 +39,7 @@ public class HistogramView extends RelativeLayout {
     public HistogramView(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
         this.f = NumberFormat.getIntegerInstance();
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.HistogramView);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.HistogramView);
         this.g = obtainStyledAttributes.getBoolean(0, false);
         this.h = obtainStyledAttributes.getBoolean(1, false);
         obtainStyledAttributes.recycle();

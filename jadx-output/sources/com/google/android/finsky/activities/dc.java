@@ -2,7 +2,7 @@ package com.google.android.finsky.activities;
 
 import android.content.Context;
 import android.widget.Toast;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 final class dc implements com.android.volley.t<com.google.android.finsky.protos.ey> {

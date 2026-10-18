@@ -2,7 +2,7 @@ package com.google.android.finsky.utils;
 
 import android.accounts.Account;
 import android.os.SystemClock;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.api.model.Document;
 

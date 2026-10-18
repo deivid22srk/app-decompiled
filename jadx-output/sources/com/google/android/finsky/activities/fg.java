@@ -3,7 +3,7 @@ package com.google.android.finsky.activities;
 import android.app.Dialog;
 import android.content.ComponentCallbacks;
 import android.os.Bundle;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public final class fg extends android.support.v4.app.r {

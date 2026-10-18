@@ -9,7 +9,7 @@ import android.net.Uri;
 import android.support.v4.app.bn;
 import android.text.TextUtils;
 import android.util.Base64;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.android.volley.VolleyError;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.activities.MainActivity;

@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.a.ai;
 import com.google.android.finsky.a.aj;
 import com.google.android.finsky.protos.qt;

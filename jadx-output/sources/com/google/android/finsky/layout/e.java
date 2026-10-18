@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import java.util.List;
 
 /* loaded from: classes.dex */

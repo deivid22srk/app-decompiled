@@ -7,7 +7,7 @@ import android.support.v7.widget.eq;
 import android.text.format.Formatter;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.utils.FinskyLog;
 import java.util.ArrayList;
 import java.util.Collections;

@@ -10,7 +10,7 @@ import android.graphics.drawable.PaintDrawable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.play.layout.PlayCardThumbnail;
 import java.util.List;
 

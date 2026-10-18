@@ -11,7 +11,7 @@ import android.webkit.CookieSyncManager;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.SimpleDateFormat;

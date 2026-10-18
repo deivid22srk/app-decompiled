@@ -8,7 +8,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.WindowInsets;
 import android.widget.FrameLayout;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public class InsetsFrameLayout extends FrameLayout implements bt {

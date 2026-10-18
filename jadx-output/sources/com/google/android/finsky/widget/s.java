@@ -4,7 +4,7 @@ import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.util.SparseIntArray;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.g.ah;
 import com.google.android.finsky.utils.FinskyLog;
 import com.google.android.finsky.widget.recommendation.RecommendedWidgetProvider;

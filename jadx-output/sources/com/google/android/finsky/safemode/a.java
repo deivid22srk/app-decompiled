@@ -17,7 +17,7 @@ public final class a {
 
     /* JADX WARN: Code restructure failed: missing block: B:18:0x0048, code lost:
     
-        com.google.android.finsky.safemode.a.c = java.lang.Boolean.valueOf("com.android.vending:safe_mode".equals(r0.processName));
+        com.google.android.finsky.safemode.a.c = java.lang.Boolean.valueOf("com.deivid22srk.store:safe_mode".equals(r0.processName));
      */
     /*
         Code decompiled incorrectly, please refer to instructions dump.
@@ -57,7 +57,7 @@ public final class a {
             android.app.ActivityManager$RunningAppProcessInfo r0 = (android.app.ActivityManager.RunningAppProcessInfo) r0     // Catch: java.lang.Throwable -> L5d
             int r3 = r0.pid     // Catch: java.lang.Throwable -> L5d
             if (r3 != r1) goto L38
-            java.lang.String r1 = "com.android.vending:safe_mode"
+            java.lang.String r1 = "com.deivid22srk.store:safe_mode"
             java.lang.String r0 = r0.processName     // Catch: java.lang.Throwable -> L5d
             boolean r0 = r1.equals(r0)     // Catch: java.lang.Throwable -> L5d
             java.lang.Boolean r0 = java.lang.Boolean.valueOf(r0)     // Catch: java.lang.Throwable -> L5d

@@ -1,7 +1,7 @@
 package com.google.android.finsky.layout;
 
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 final class bh extends com.google.android.finsky.j.k {

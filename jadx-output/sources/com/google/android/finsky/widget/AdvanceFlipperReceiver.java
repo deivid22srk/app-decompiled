@@ -8,7 +8,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.widget.RemoteViews;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 @TargetApi(11)
 /* loaded from: classes.dex */

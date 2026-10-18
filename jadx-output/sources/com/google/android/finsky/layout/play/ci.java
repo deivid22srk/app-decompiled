@@ -4,7 +4,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.util.AttributeSet;
 import android.view.View;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.protos.ds;
 
 /* loaded from: classes.dex */

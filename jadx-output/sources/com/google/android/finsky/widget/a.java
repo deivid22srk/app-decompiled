@@ -11,7 +11,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.a.ar;
 import com.google.android.finsky.utils.FinskyLog;
@@ -110,7 +110,7 @@ public abstract class a extends AppWidgetProvider {
             r.a(context).a((Class<? extends a>) getClass(), intExtra2, intent.getStringExtra("type"));
             a(context, appWidgetManager2, intExtra2);
         }
-        if ("com.android.vending.action.APPWIDGET_UPDATE_CONSUMPTION_DATA".equals(action)) {
+        if ("com.deivid22srk.store.action.APPWIDGET_UPDATE_CONSUMPTION_DATA".equals(action)) {
             if (intent.hasExtra("backendId")) {
                 r a3 = r.a(context);
                 a(context, appWidgetManager, a3.a((Class<? extends a>) getClass(), s.a(intent.getIntExtra("backendId", 0)), false));

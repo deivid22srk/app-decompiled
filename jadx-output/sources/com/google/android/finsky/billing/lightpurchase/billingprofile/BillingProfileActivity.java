@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.support.v7.a.ae;
 import android.text.TextUtils;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.billing.giftcard.RedeemCodeResult;
 import com.google.android.finsky.billing.m;

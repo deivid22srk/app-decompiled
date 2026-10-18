@@ -1,7 +1,7 @@
 package com.google.android.finsky.billing.lightpurchase.c;
 
 import android.view.View;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.activities.gn;
 import com.google.android.finsky.utils.ik;
 

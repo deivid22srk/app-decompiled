@@ -1,7 +1,7 @@
 package com.google.android.finsky.placesapi;
 
 import android.text.TextUtils;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.protos.v;
 import java.util.LinkedList;
 import org.json.JSONException;

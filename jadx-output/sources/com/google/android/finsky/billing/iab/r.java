@@ -16,7 +16,7 @@ import java.util.Random;
 import java.util.Set;
 
 /* loaded from: classes.dex */
-final class r extends com.android.vending.a.h {
+final class r extends com.deivid22srk.store.a.h {
 
     /* renamed from: a, reason: collision with root package name */
     final /* synthetic */ MarketBillingService f2262a;
@@ -25,7 +25,7 @@ final class r extends com.android.vending.a.h {
         this.f2262a = marketBillingService;
     }
 
-    @Override // com.android.vending.a.g
+    @Override // com.deivid22srk.store.a.g
     public final Bundle a(Bundle bundle) {
         n nVar;
         Account a2;

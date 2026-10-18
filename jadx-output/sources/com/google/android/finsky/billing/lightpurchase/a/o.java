@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.protos.di;
 import com.google.android.finsky.utils.ParcelableProto;
 import com.google.android.finsky.utils.ik;

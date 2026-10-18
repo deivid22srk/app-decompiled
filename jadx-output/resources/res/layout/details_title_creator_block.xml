@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.finsky.layout.DetailsTitleCreatorBlock xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending"
+<com.google.android.finsky.layout.DetailsTitleCreatorBlock xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.deivid22srk.store"
     android:id="@+id/title_creator_block"
     android:background="@drawable/play_highlight_overlay_light"
     android:paddingRight="@dimen/details_new_content_margin"

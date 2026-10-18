@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.View;
 import android.widget.Button;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.utils.FinskyLog;
 import com.google.android.finsky.utils.SetupWizardUtils;
 

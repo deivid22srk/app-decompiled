@@ -9,7 +9,7 @@ import com.google.android.finsky.protos.ew;
 public class ContentFiltersService extends Service {
 
     /* renamed from: a, reason: collision with root package name */
-    private final com.android.vending.b.b f4542a = new e(this);
+    private final com.deivid22srk.store.b.b f4542a = new e(this);
 
     @Override // android.app.Service
     public IBinder onBind(Intent intent) {

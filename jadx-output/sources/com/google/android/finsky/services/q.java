@@ -2,7 +2,7 @@ package com.google.android.finsky.services;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.api.model.Document;
 import com.google.android.finsky.protos.ds;

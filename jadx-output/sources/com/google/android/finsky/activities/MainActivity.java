@@ -33,7 +33,7 @@ import android.view.ViewGroup;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.android.volley.AuthFailureError;
 import com.android.volley.VolleyError;
 import com.google.android.finsky.FinskyApp;

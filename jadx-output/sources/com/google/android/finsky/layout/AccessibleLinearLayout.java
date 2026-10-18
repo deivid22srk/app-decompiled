@@ -19,7 +19,7 @@ public class AccessibleLinearLayout extends SeparatorLinearLayout {
 
     public AccessibleLinearLayout(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.AccessibleLinearLayout);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.AccessibleLinearLayout);
         this.f2917a = obtainStyledAttributes.getBoolean(0, false);
         obtainStyledAttributes.recycle();
     }

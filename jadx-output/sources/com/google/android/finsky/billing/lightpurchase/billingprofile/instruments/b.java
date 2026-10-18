@@ -9,7 +9,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.billing.ar;
 import com.google.android.finsky.billing.f;
 import com.google.android.finsky.billing.g;

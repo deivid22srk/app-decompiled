@@ -2,7 +2,7 @@ package com.google.android.finsky.billing.lightpurchase;
 
 import android.accounts.Account;
 import android.os.Bundle;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.activities.AccessRestrictedActivity;
 import com.google.android.finsky.layout.play.cy;
 import com.google.android.finsky.utils.hj;

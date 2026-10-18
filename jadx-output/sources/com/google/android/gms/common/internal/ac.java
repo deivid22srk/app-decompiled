@@ -44,7 +44,7 @@ public final class ac {
             appendQueryParameter.appendQueryParameter("pcampaignid", str2);
         }
         intent.setData(appendQueryParameter.build());
-        intent.setPackage("com.android.vending");
+        intent.setPackage("com.deivid22srk.store");
         intent.addFlags(524288);
         return intent;
     }

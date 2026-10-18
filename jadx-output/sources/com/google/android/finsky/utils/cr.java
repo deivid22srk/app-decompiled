@@ -7,7 +7,7 @@ import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.text.TextUtils;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.activities.MainActivity;
 import com.google.android.finsky.api.model.DfeToc;
@@ -49,7 +49,7 @@ public final class cr {
             case 2:
                 return "com.google.android.music";
             case 3:
-                return "com.android.vending";
+                return "com.deivid22srk.store";
             case 4:
                 return "com.google.android.videos";
             case 5:
@@ -73,7 +73,7 @@ public final class cr {
         if ("com.google.android.apps.magazines".equals(str)) {
             return 6;
         }
-        if ("com.android.vending".equals(str)) {
+        if ("com.deivid22srk.store".equals(str)) {
             return 3;
         }
         return -1;
@@ -235,7 +235,7 @@ public final class cr {
         builder.appendQueryParameter("url", jm.a(str2));
         intent.setData(builder.build());
         intent.addCategory("android.intent.category.DEFAULT");
-        intent.setPackage("com.android.vending");
+        intent.setPackage("com.deivid22srk.store");
         return intent;
     }
 

@@ -209,7 +209,7 @@ public final class c {
             d.a();
             if (!com.google.android.gms.common.c.d.a(context)) {
                 try {
-                    i a2 = d.a(packageManager.getPackageInfo("com.android.vending", 8256), gb.f5657a);
+                    i a2 = d.a(packageManager.getPackageInfo("com.deivid22srk.store", 8256), gb.f5657a);
                     if (a2 == null) {
                         Log.w("GooglePlayServicesUtil", "Google Play Store signature invalid.");
                     } else if (d.a(packageInfo, a2) == null) {

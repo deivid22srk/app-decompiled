@@ -1,7 +1,7 @@
 package com.google.android.finsky.utils;
 
 import android.content.res.Resources;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.api.model.DfeToc;
 import com.google.android.finsky.api.model.Document;
 import java.util.ArrayList;

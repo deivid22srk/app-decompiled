@@ -46,7 +46,7 @@ public class PlayClusterViewContentV2 extends ah implements com.google.android.f
     public PlayClusterViewContentV2(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
         this.y = LayoutInflater.from(context);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.PlayClusterViewContent);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.PlayClusterViewContent);
         this.u = obtainStyledAttributes.getDimensionPixelSize(0, 0);
         this.v = obtainStyledAttributes.getDimensionPixelSize(1, 0);
         obtainStyledAttributes.recycle();

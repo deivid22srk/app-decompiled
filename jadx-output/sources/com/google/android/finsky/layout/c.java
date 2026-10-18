@@ -4,7 +4,7 @@ import android.content.Context;
 import android.widget.ArrayAdapter;
 import android.widget.Filter;
 import android.widget.Filterable;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import java.util.List;
 
 /* loaded from: classes.dex */

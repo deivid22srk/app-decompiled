@@ -13,7 +13,7 @@ import com.google.android.finsky.utils.FinskyLog;
 import com.google.android.finsky.utils.ib;
 
 /* loaded from: classes.dex */
-final class e extends com.android.vending.b.b {
+final class e extends com.deivid22srk.store.b.b {
 
     /* renamed from: a, reason: collision with root package name */
     final /* synthetic */ ContentFiltersService f4619a;
@@ -22,7 +22,7 @@ final class e extends com.android.vending.b.b {
         this.f4619a = contentFiltersService;
     }
 
-    @Override // com.android.vending.b.a
+    @Override // com.deivid22srk.store.b.a
     public final Bundle a(int[] iArr) {
         String a2;
         FinskyApp a3 = FinskyApp.a();

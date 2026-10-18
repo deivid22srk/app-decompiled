@@ -16,47 +16,47 @@ import com.google.android.finsky.utils.dt;
 /* loaded from: classes.dex */
 public class NotificationReceiver extends BroadcastReceiver {
     public static Intent a() {
-        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.android.vending.NEW_UPDATE_CLICKED");
+        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.deivid22srk.store.NEW_UPDATE_CLICKED");
     }
 
     public static Intent a(String str, String str2) {
-        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.android.vending.SUCCESSFULLY_INSTALLED_CLICKED").putExtra("package_name", str).putExtra("continue_url", str2);
+        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.deivid22srk.store.SUCCESSFULLY_INSTALLED_CLICKED").putExtra("package_name", str).putExtra("continue_url", str2);
     }
 
     public static Intent b() {
-        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.android.vending.SUCCESSFULLY_UPDATED_CLICKED");
+        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.deivid22srk.store.SUCCESSFULLY_UPDATED_CLICKED");
     }
 
     public static Intent c() {
-        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.android.vending.SUCCESSFULLY_UPDATED_DELETED");
+        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.deivid22srk.store.SUCCESSFULLY_UPDATED_DELETED");
     }
 
     public static Intent d() {
-        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.android.vending.OUTSTANDING_UPDATE_CLICKED");
+        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.deivid22srk.store.OUTSTANDING_UPDATE_CLICKED");
     }
 
     public static Intent e() {
-        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.android.vending.NEW_UPDATE_NEED_APPROVAL_CLICKED");
+        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.deivid22srk.store.NEW_UPDATE_NEED_APPROVAL_CLICKED");
     }
 
     public static Intent f() {
-        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.android.vending.UPDATE_ALL_CLICKED");
+        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.deivid22srk.store.UPDATE_ALL_CLICKED");
     }
 
     public static Intent b(String str, String str2) {
-        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.android.vending.PREREGISTRATION_RELEASED_CLICKED").putExtra("package_name", str).putExtra("account_name", str2);
+        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.deivid22srk.store.PREREGISTRATION_RELEASED_CLICKED").putExtra("package_name", str).putExtra("account_name", str2);
     }
 
     public static Intent a(String str) {
-        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.android.vending.PREREGISTRATION_RELEASED_DELETE").putExtra("package_name", str);
+        return new Intent(FinskyApp.a(), (Class<?>) NotificationReceiver.class).setAction("com.deivid22srk.store.PREREGISTRATION_RELEASED_DELETE").putExtra("package_name", str);
     }
 
     @Override // android.content.BroadcastReceiver
     public void onReceive(Context context, Intent intent) {
         String action = intent.getAction();
-        if (!"com.android.vending.UPDATE_ALL_CLICKED".equals(action)) {
-            if (!"com.android.vending.NEW_UPDATE_CLICKED".equals(action)) {
-                if ("com.android.vending.SUCCESSFULLY_INSTALLED_CLICKED".equals(action)) {
+        if (!"com.deivid22srk.store.UPDATE_ALL_CLICKED".equals(action)) {
+            if (!"com.deivid22srk.store.NEW_UPDATE_CLICKED".equals(action)) {
+                if ("com.deivid22srk.store.SUCCESSFULLY_INSTALLED_CLICKED".equals(action)) {
                     String stringExtra = intent.getStringExtra("package_name");
                     String stringExtra2 = intent.getStringExtra("continue_url");
                     a(901, stringExtra);
@@ -70,11 +70,11 @@ public class NotificationReceiver extends BroadcastReceiver {
                     context.startActivity(launchIntentForPackage.setFlags(268435456));
                     return;
                 }
-                if (!"com.android.vending.SUCCESSFULLY_UPDATED_CLICKED".equals(action)) {
-                    if (!"com.android.vending.SUCCESSFULLY_UPDATED_DELETED".equals(action)) {
-                        if (!"com.android.vending.OUTSTANDING_UPDATE_CLICKED".equals(action)) {
-                            if (!"com.android.vending.NEW_UPDATE_NEED_APPROVAL_CLICKED".equals(action)) {
-                                if ("com.android.vending.PREREGISTRATION_RELEASED_CLICKED".equals(action)) {
+                if (!"com.deivid22srk.store.SUCCESSFULLY_UPDATED_CLICKED".equals(action)) {
+                    if (!"com.deivid22srk.store.SUCCESSFULLY_UPDATED_DELETED".equals(action)) {
+                        if (!"com.deivid22srk.store.OUTSTANDING_UPDATE_CLICKED".equals(action)) {
+                            if (!"com.deivid22srk.store.NEW_UPDATE_NEED_APPROVAL_CLICKED".equals(action)) {
+                                if ("com.deivid22srk.store.PREREGISTRATION_RELEASED_CLICKED".equals(action)) {
                                     String stringExtra3 = intent.getStringExtra("package_name");
                                     String stringExtra4 = intent.getStringExtra("account_name");
                                     a(905, stringExtra3);
@@ -86,7 +86,7 @@ public class NotificationReceiver extends BroadcastReceiver {
                                     context.startActivity(flags);
                                     return;
                                 }
-                                if ("com.android.vending.PREREGISTRATION_RELEASED_DELETE".equals(action)) {
+                                if ("com.deivid22srk.store.PREREGISTRATION_RELEASED_DELETE".equals(action)) {
                                     FinskyApp.a().z.a(intent.getStringExtra("package_name"));
                                     return;
                                 }

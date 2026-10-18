@@ -46,8 +46,8 @@ public final class c extends gn implements ServiceConnection {
         } else {
             this.f5340b.setRequestedOrientation(com.google.android.gms.ads.internal.d.e().b());
         }
-        Intent intent = new Intent("com.android.vending.billing.InAppBillingService.BIND");
-        intent.setPackage("com.android.vending");
+        Intent intent = new Intent("com.deivid22srk.store.billing.InAppBillingService.BIND");
+        intent.setPackage("com.deivid22srk.store");
         this.f5340b.bindService(intent, this, 1);
     }
 

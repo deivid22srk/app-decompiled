@@ -3,7 +3,7 @@ package com.google.android.finsky.widget.recommendation;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.text.TextUtils;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.android.volley.a.ae;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.api.model.Document;

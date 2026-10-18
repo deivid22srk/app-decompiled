@@ -7,7 +7,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public class SeparatorLinearLayout extends LinearLayout {
@@ -33,7 +33,7 @@ public class SeparatorLinearLayout extends LinearLayout {
         this.f3079b = new Paint();
         this.f3079b.setColor(a(resources));
         this.f3079b.setStrokeWidth(dimensionPixelSize);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.SeparatorLinearLayout);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.SeparatorLinearLayout);
         this.d = obtainStyledAttributes.getBoolean(1, false) ? false : true;
         this.c = obtainStyledAttributes.getInt(0, 2);
         obtainStyledAttributes.recycle();

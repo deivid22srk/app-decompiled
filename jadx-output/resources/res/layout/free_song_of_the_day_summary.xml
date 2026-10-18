@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.finsky.layout.FreeSongOfTheDaySummary xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending"
+<com.google.android.finsky.layout.FreeSongOfTheDaySummary xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.deivid22srk.store"
     android:orientation="horizontal"
     android:id="@+id/song_container"
     android:background="@drawable/play_highlight_overlay_light"

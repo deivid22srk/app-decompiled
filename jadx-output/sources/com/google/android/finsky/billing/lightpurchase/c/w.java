@@ -3,7 +3,7 @@ package com.google.android.finsky.billing.lightpurchase.c;
 import android.graphics.drawable.Drawable;
 import android.view.ViewTreeObserver;
 import android.widget.ScrollView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.utils.ik;
 
 /* loaded from: classes.dex */

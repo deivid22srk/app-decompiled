@@ -4,7 +4,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.text.TextUtils;
 import android.widget.Toast;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 final class al implements com.android.volley.t<com.google.android.finsky.protos.fu> {

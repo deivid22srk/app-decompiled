@@ -58,7 +58,7 @@ public final class z extends w {
                 if (transitionName.startsWith("transition_card_details:cover:")) {
                     TransitionInflater from = TransitionInflater.from(a2);
                     zVar.aB = AnimationUtils.loadInterpolator(a2, R.interpolator.fast_out_slow_in);
-                    Transition inflateTransition = from.inflateTransition(com.android.vending.R.transition.details_transition);
+                    Transition inflateTransition = from.inflateTransition(com.deivid22srk.store.R.transition.details_transition);
                     inflateTransition.setInterpolator(zVar.aB);
                     inflateTransition.addListener(new aa(zVar));
                     inflateTransition.setDuration(400L);
@@ -74,7 +74,7 @@ public final class z extends w {
                     com.google.android.finsky.k.a aVar = new com.google.android.finsky.k.a(com.google.android.finsky.utils.ai.a(a2, i));
                     aVar.setInterpolator(zVar.aB);
                     aVar.setPathMotion(new ArcMotion());
-                    aVar.f2899a = a2.getResources().getDimensionPixelSize(com.android.vending.R.dimen.circle_transition_avatar_cap);
+                    aVar.f2899a = a2.getResources().getDimensionPixelSize(com.deivid22srk.store.R.dimen.circle_transition_avatar_cap);
                     aVar.addListener(new ac(zVar));
                     aVar.setDuration(400L);
                     zVar.ac = aVar;
@@ -160,7 +160,7 @@ public final class z extends w {
             fade2.setDuration(133L);
             lVar.setDuration(600L);
             Transition fade3 = new Fade();
-            fade3.addTarget(com.android.vending.R.id.title_background);
+            fade3.addTarget(com.deivid22srk.store.R.id.title_background);
             fade3.setDuration(133L);
             transitionSet.addTransition(fade3);
             transitionSet.addTransition(fade2);

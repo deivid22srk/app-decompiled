@@ -26,11 +26,11 @@ public final class b {
 
     public final Bundle a(String str, String str2, String str3) {
         try {
-            Class<?> loadClass = this.f5338b.getClassLoader().loadClass("com.android.vending.billing.IInAppBillingService");
+            Class<?> loadClass = this.f5338b.getClassLoader().loadClass("com.deivid22srk.store.billing.IInAppBillingService");
             return (Bundle) loadClass.getDeclaredMethod("getBuyIntent", Integer.TYPE, String.class, String.class, String.class, String.class).invoke(loadClass.cast(this.f5337a), 3, str, str2, "inapp", str3);
         } catch (Exception e) {
             if (this.c) {
-                com.google.android.gms.ads.internal.util.client.b.c("IInAppBillingService is not available, please add com.android.vending.billing.IInAppBillingService to project.", e);
+                com.google.android.gms.ads.internal.util.client.b.c("IInAppBillingService is not available, please add com.deivid22srk.store.billing.IInAppBillingService to project.", e);
             }
             return null;
         }

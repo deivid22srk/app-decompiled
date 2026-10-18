@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.play.image.FifeImageView;
 
 /* loaded from: classes.dex */
@@ -31,7 +31,7 @@ public class SetupWizardIllustration extends LinearLayout {
 
     public SetupWizardIllustration(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.SetupWizardIllustration, 0, 0);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.SetupWizardIllustration, 0, 0);
         this.f3080a = obtainStyledAttributes.getBoolean(0, false);
         this.c = obtainStyledAttributes.getFloat(1, 0.0f);
         obtainStyledAttributes.recycle();

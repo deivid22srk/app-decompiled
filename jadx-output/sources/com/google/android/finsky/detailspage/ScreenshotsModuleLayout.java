@@ -7,7 +7,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.layout.HorizontalStrip;
 
 /* loaded from: classes.dex */

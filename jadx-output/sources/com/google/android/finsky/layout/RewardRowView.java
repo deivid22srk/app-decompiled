@@ -5,7 +5,7 @@ import android.text.method.LinkMovementMethod;
 import android.util.AttributeSet;
 import android.view.animation.Animation;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.api.model.DfeToc;
 import com.google.android.finsky.api.model.Document;
 import com.google.android.finsky.protos.kb;

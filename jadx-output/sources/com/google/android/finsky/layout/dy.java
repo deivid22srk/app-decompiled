@@ -4,7 +4,7 @@ import android.graphics.Bitmap;
 import android.graphics.Matrix;
 import android.graphics.RectF;
 import android.widget.ImageView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.play.image.FifeImageView;
 
 /* loaded from: classes.dex */

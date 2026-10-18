@@ -1,7 +1,7 @@
 package com.google.android.finsky.billing.lightpurchase.a;
 
 import android.os.Bundle;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.android.volley.VolleyError;
 import com.android.volley.s;
 import com.android.volley.t;

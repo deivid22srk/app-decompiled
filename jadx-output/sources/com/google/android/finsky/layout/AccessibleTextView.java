@@ -24,7 +24,7 @@ public class AccessibleTextView extends TextView {
 
     public AccessibleTextView(Context context, AttributeSet attributeSet, int i) {
         super(context, attributeSet, i);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.AccessibleTextView);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.AccessibleTextView);
         this.f2918a = obtainStyledAttributes.getString(com.google.android.play.o.PlayAccessibilityHelper_playAccessibilityClassOverride);
         obtainStyledAttributes.recycle();
     }

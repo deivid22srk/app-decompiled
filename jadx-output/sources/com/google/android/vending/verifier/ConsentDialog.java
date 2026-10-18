@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.a.ae;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.layout.ButtonBar;
 
 /* loaded from: classes.dex */

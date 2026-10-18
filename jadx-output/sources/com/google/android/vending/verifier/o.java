@@ -2,7 +2,7 @@ package com.google.android.vending.verifier;
 
 import android.view.View;
 import android.widget.ImageView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 final class o implements View.OnClickListener {

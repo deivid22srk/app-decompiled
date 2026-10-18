@@ -13,7 +13,7 @@ public class EnableAppReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         int intExtra = intent.getIntExtra("backendId", 0);
         context.getPackageManager().setApplicationEnabledSetting(cr.a(intExtra), 1, 0);
-        Intent intent2 = new Intent("com.android.vending.action.APPWIDGET_UPDATE_CONSUMPTION_DATA");
+        Intent intent2 = new Intent("com.deivid22srk.store.action.APPWIDGET_UPDATE_CONSUMPTION_DATA");
         intent2.setClass(context, NowPlayingWidgetProvider.class);
         intent2.putExtra("backendId", intExtra);
         context.sendBroadcast(intent2);

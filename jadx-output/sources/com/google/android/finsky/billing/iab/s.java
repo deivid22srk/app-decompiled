@@ -28,7 +28,7 @@ final class s implements com.android.volley.t<rt> {
             String str = this.f2263a;
             String str2 = rtVar2.f4357a.f4390a;
             String str3 = rtVar2.f4357a.c;
-            Intent a2 = cr.a(pVar.f2259a.f2232a, str, new Intent("com.android.vending.billing.PURCHASE_STATE_CHANGED"));
+            Intent a2 = cr.a(pVar.f2259a.f2232a, str, new Intent("com.deivid22srk.store.billing.PURCHASE_STATE_CHANGED"));
             if (a2 != null) {
                 a2.putExtra("inapp_signed_data", str2);
                 a2.putExtra("inapp_signature", str3);

@@ -26,13 +26,18 @@ jobs:
       - name: Decode APK (resources + smali)
         run: java -jar apktool.jar d app.apk -o decoded -f
 
+      - name: Rename package (com.android.vending -> com.deivid22srk.store)
+        run: |
+          chmod +x rename_package.sh
+          ./rename_package.sh decoded com.android.vending com.deivid22srk.store
+
       - name: Rebuild APK
         run: |
           mkdir -p dist
-          java -jar apktool.jar b decoded --use-aapt1 -o dist/app-rebuilt-unsigned.apk
+          java -jar apktool.jar b decoded --use-aapt1 -o dist/com.deivid22srk.store-unsigned.apk
 
       - name: Sign APK (debug key)
-        run: java -jar uber-apk-signer.jar -a dist/app-rebuilt-unsigned.apk --out dist/signed
+        run: java -jar uber-apk-signer.jar -a dist/com.deivid22srk.store-unsigned.apk --out dist/signed
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4

@@ -5,7 +5,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.play.layout.CardLinearLayout;
 
 /* loaded from: classes.dex */

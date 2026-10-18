@@ -2,7 +2,7 @@ package com.google.android.finsky.billing.lightpurchase.billingprofile.instrumen
 
 import android.content.Intent;
 import android.os.Bundle;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.billing.giftcard.RedeemCodeResult;
 import com.google.android.finsky.protos.dp;
 import com.google.android.finsky.utils.ParcelableProto;

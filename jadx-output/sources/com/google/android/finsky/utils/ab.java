@@ -1,7 +1,7 @@
 package com.google.android.finsky.utils;
 
 import android.widget.Toast;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.android.volley.VolleyError;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.api.model.Document;

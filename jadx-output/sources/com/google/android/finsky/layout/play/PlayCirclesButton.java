@@ -5,7 +5,7 @@ import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.View;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.api.model.Document;
 import com.google.android.finsky.utils.ik;
@@ -26,7 +26,7 @@ public class PlayCirclesButton extends ProfileButton implements View.OnClickList
 
     public PlayCirclesButton(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.PlayCirclesButton);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.PlayCirclesButton);
         this.d = obtainStyledAttributes.getBoolean(0, false);
         obtainStyledAttributes.recycle();
     }

@@ -1,6 +1,6 @@
 package com.google.android.finsky.utils;
 
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 
 /* loaded from: classes.dex */

@@ -1,7 +1,7 @@
 package com.google.android.finsky.activities;
 
 import android.content.Context;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 final class fv extends com.google.android.finsky.layout.play.x {

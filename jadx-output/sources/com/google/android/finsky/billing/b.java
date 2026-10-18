@@ -10,7 +10,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 /* loaded from: classes.dex */
-final class b extends com.android.vending.a.b {
+final class b extends com.deivid22srk.store.a.b {
 
     /* renamed from: a, reason: collision with root package name */
     final /* synthetic */ BillingAccountService f2171a;
@@ -19,7 +19,7 @@ final class b extends com.android.vending.a.b {
         this.f2171a = billingAccountService;
     }
 
-    @Override // com.android.vending.a.a
+    @Override // com.deivid22srk.store.a.a
     public final int a(String str) {
         jm.b();
         int[] iArr = new int[1];
@@ -41,7 +41,7 @@ final class b extends com.android.vending.a.b {
         }
     }
 
-    @Override // com.android.vending.a.a
+    @Override // com.deivid22srk.store.a.a
     public final Bundle b(String str) {
         Bundle a2;
         Bundle a3;

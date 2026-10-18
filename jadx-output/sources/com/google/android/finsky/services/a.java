@@ -56,7 +56,7 @@ public final class a {
     }
 
     public static void a(Context context, int i) {
-        Intent intent = new Intent("com.android.vending.action.APPWIDGET_UPDATE_CONSUMPTION_DATA");
+        Intent intent = new Intent("com.deivid22srk.store.action.APPWIDGET_UPDATE_CONSUMPTION_DATA");
         intent.setClass(context, NowPlayingWidgetProvider.class);
         intent.putExtra("backendId", i);
         context.sendBroadcast(intent);

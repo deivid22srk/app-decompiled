@@ -14,7 +14,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.text.Html;
 import android.text.TextUtils;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.activities.MainActivity;
 import com.google.android.finsky.api.model.Document;

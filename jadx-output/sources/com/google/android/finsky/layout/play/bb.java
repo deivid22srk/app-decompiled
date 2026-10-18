@@ -3,7 +3,7 @@ package com.google.android.finsky.layout.play;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.play.layout.PlayTextView;
 
 /* loaded from: classes.dex */

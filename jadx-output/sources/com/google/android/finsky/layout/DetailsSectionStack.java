@@ -9,7 +9,7 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public class DetailsSectionStack extends LinearLayout {
@@ -32,7 +32,7 @@ public class DetailsSectionStack extends LinearLayout {
     public DetailsSectionStack(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
         Resources resources = context.getResources();
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.DetailsSectionStack);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.DetailsSectionStack);
         this.f2959b = obtainStyledAttributes.getDimensionPixelSize(0, 0);
         obtainStyledAttributes.recycle();
         this.e = new Paint();

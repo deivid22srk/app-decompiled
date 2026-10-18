@@ -7,7 +7,7 @@ import android.os.Build;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.view.View;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.layout.SetupWizardIllustration;
 import com.google.android.finsky.setup.SetupWizardNavBar;

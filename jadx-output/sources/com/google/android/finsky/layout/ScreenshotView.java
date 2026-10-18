@@ -8,7 +8,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.play.image.FifeImageView;
 
 /* loaded from: classes.dex */

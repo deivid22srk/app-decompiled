@@ -8,7 +8,7 @@ import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.util.Pair;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.protos.ds;
 import com.google.android.finsky.protos.jd;
 import com.google.android.finsky.utils.FinskyLog;

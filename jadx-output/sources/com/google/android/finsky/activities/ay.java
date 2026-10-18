@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.MenuItem;
 import android.widget.Toast;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public abstract class ay extends android.support.v7.a.e implements com.google.android.finsky.billing.g, com.google.android.finsky.billing.j {

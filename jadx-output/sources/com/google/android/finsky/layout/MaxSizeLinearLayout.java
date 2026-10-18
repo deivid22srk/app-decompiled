@@ -17,7 +17,7 @@ public class MaxSizeLinearLayout extends MaxWidthLinearLayout {
 
     public MaxSizeLinearLayout(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.MaxSizeLayoutHeight);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.MaxSizeLayoutHeight);
         this.f3018a = obtainStyledAttributes.getDimensionPixelSize(0, 0);
         obtainStyledAttributes.recycle();
     }

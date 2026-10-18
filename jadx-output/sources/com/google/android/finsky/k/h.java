@@ -11,7 +11,7 @@ import android.transition.TransitionValues;
 import android.util.Property;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.utils.ai;
 
 @TargetApi(21)

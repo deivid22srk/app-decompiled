@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.widget.LinearLayout;
 import android.widget.ListAdapter;
 import android.widget.ListView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.activities.go;
 import com.google.android.finsky.protos.nu;
 import com.google.android.finsky.utils.ParcelableProtoArray;

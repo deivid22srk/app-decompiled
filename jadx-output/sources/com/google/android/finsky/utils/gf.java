@@ -3,7 +3,7 @@ package com.google.android.finsky.utils;
 import android.content.Context;
 import android.text.TextUtils;
 import android.widget.Toast;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.android.volley.VolleyError;
 
 /* loaded from: classes.dex */

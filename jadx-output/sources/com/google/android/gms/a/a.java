@@ -16,7 +16,7 @@ import java.io.IOException;
 public final class a {
     public static f a(Context context) {
         try {
-            context.getPackageManager().getPackageInfo("com.android.vending", 0);
+            context.getPackageManager().getPackageInfo("com.deivid22srk.store", 0);
             try {
                 c.b(context);
                 f fVar = new f();

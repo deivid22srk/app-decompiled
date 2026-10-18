@@ -3,7 +3,7 @@ package com.google.android.finsky.activities;
 import android.app.Dialog;
 import android.content.ComponentCallbacks;
 import android.os.Bundle;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.utils.hl;
 
 /* loaded from: classes.dex */

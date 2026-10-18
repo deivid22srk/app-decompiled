@@ -22,7 +22,7 @@ public class SingleLineContainer extends LinearLayout {
 
     public SingleLineContainer(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.SingleLineContainer);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.SingleLineContainer);
         this.f3376a = obtainStyledAttributes.getResourceId(0, 0);
         obtainStyledAttributes.recycle();
     }

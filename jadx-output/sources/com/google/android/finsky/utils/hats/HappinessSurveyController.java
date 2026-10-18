@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.c.o;
 import com.google.android.finsky.e.q;
 import com.google.android.finsky.utils.bg;

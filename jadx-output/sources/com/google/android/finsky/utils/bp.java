@@ -2,7 +2,7 @@ package com.google.android.finsky.utils;
 
 import android.app.Activity;
 import android.content.res.Resources;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.gms.common.people.data.AudienceMember;
 import java.util.List;

@@ -9,7 +9,7 @@ import android.support.v4.app.ap;
 import android.support.v7.a.ae;
 import android.view.MotionEvent;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.a.ai;
 import com.google.android.finsky.a.i;

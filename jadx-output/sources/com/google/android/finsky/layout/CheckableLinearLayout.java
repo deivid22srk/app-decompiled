@@ -18,7 +18,7 @@ public class CheckableLinearLayout extends LinearLayout implements Checkable {
 
     public CheckableLinearLayout(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.CheckableLinearLayout);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.CheckableLinearLayout);
         this.f2939b = obtainStyledAttributes.getResourceId(0, 0);
         obtainStyledAttributes.recycle();
     }

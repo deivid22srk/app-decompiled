@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.activities.go;
 import com.google.android.finsky.api.model.Document;

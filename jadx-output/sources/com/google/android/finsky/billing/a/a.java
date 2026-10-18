@@ -2,7 +2,7 @@ package com.google.android.finsky.billing.a;
 
 import android.os.Bundle;
 import android.util.Base64;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.protos.cj;
 import com.google.android.finsky.protos.v;
 import com.google.android.finsky.utils.ParcelableProto;

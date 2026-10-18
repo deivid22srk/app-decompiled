@@ -5,7 +5,7 @@ import android.content.ComponentCallbacks;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.ContextThemeWrapper;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.protos.ny;
 
 /* loaded from: classes.dex */

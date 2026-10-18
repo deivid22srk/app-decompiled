@@ -30,7 +30,7 @@ public final class ea {
 
     public static void a(Context context, Uri uri, ek ekVar, int i) {
         try {
-            PackageManager.class.getMethod("installPackage", Uri.class, IPackageInstallObserver.class, Integer.TYPE, String.class).invoke(context.getPackageManager(), uri, new eb(ekVar), Integer.valueOf(i), "com.android.vending");
+            PackageManager.class.getMethod("installPackage", Uri.class, IPackageInstallObserver.class, Integer.TYPE, String.class).invoke(context.getPackageManager(), uri, new eb(ekVar), Integer.valueOf(i), "com.deivid22srk.store");
         } catch (IllegalAccessException e) {
             FinskyLog.b(e, "Cannot install packages due to reflection access exception", new Object[0]);
         } catch (NoSuchMethodException e2) {

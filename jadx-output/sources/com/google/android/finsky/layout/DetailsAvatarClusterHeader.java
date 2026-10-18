@@ -6,7 +6,7 @@ import android.graphics.Color;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.layout.play.PlayCardClusterViewHeader;
 import com.google.android.play.image.FifeImageView;
 

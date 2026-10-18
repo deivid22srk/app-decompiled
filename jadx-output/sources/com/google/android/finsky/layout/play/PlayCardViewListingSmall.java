@@ -5,7 +5,7 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public class PlayCardViewListingSmall extends com.google.android.play.layout.a {
@@ -20,7 +20,7 @@ public class PlayCardViewListingSmall extends com.google.android.play.layout.a {
 
     public PlayCardViewListingSmall(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.PlayCardViewListingSmall);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.PlayCardViewListingSmall);
         this.E = obtainStyledAttributes.getBoolean(0, false);
         obtainStyledAttributes.recycle();
     }

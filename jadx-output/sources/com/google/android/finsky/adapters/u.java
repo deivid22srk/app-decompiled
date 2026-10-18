@@ -1,6 +1,6 @@
 package com.google.android.finsky.adapters;
 
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.layout.play.PlayQuickLinksBannerCircleItemViewLarge;
 import com.google.android.finsky.layout.play.cy;
 

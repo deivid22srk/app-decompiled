@@ -2,7 +2,7 @@ package com.google.android.finsky.safemode;
 
 import android.os.Bundle;
 import android.support.v4.app.t;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.activities.gn;
 import com.google.android.finsky.activities.gp;
 

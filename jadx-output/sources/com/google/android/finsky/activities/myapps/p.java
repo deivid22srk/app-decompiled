@@ -1,7 +1,7 @@
 package com.google.android.finsky.activities.myapps;
 
 import android.os.Bundle;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.activities.gn;
 import com.google.android.finsky.api.model.Document;
 import com.google.android.finsky.layout.play.cc;

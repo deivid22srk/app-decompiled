@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.finsky.layout.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending"
+<com.google.android.finsky.layout.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.deivid22srk.store"
     android:orientation="vertical"
     android:paddingLeft="@dimen/setup_wizard_device_row_xpadding"
     android:paddingTop="10dp"

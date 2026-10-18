@@ -9,7 +9,7 @@ import android.text.format.Formatter;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.a.ai;
 import com.google.android.finsky.adapters.ab;

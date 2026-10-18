@@ -6,7 +6,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.telephony.TelephonyManager;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.android.volley.o;
 import java.util.HashMap;
 import java.util.Locale;

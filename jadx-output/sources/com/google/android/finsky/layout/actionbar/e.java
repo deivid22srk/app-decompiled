@@ -14,7 +14,7 @@ import android.support.v4.view.as;
 import android.support.v7.widget.SearchView;
 import android.text.TextUtils;
 import android.view.MenuItem;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.activities.MainActivity;
 import com.google.android.finsky.activities.hb;

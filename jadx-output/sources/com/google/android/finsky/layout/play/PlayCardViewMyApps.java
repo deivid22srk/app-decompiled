@@ -42,8 +42,8 @@ public class PlayCardViewMyApps extends com.google.android.play.layout.a impleme
     @Override // com.google.android.play.layout.a, android.view.View
     public void onFinishInflate() {
         super.onFinishInflate();
-        this.f3341a = findViewById(com.android.vending.R.id.li_archive);
-        this.E = findViewById(com.android.vending.R.id.rating_badge_container);
+        this.f3341a = findViewById(com.deivid22srk.store.R.id.li_archive);
+        this.E = findViewById(com.deivid22srk.store.R.id.rating_badge_container);
     }
 
     /* JADX INFO: Access modifiers changed from: protected */
@@ -69,7 +69,7 @@ public class PlayCardViewMyApps extends com.google.android.play.layout.a impleme
         }
         this.f3341a.setVisibility(0);
         this.f3341a.setFocusable(true);
-        this.f3341a.setNextFocusLeftId(com.android.vending.R.id.accessibility_overlay);
+        this.f3341a.setNextFocusLeftId(com.deivid22srk.store.R.id.accessibility_overlay);
         setNextFocusRightId(this.f3341a.getId());
         this.f3341a.setOnClickListener(new cb(this, ccVar));
     }

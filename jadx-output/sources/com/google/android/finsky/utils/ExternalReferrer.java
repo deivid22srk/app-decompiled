@@ -270,7 +270,7 @@ public final class ExternalReferrer {
         abVar.a(a7.f2132a);
         if (!TextUtils.isEmpty(str8)) {
             FinskyApp a8 = FinskyApp.a();
-            Intent intent = new Intent("com.android.vending.INSTALL_REFERRER");
+            Intent intent = new Intent("com.deivid22srk.store.INSTALL_REFERRER");
             if (z5 && Build.VERSION.SDK_INT >= 13) {
                 intent.addFlags(32);
                 FinskyLog.a("Forcing %s to wake up", str);

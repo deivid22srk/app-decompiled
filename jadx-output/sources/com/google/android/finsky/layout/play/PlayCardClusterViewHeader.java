@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.protos.ds;
 import com.google.android.play.layout.ForegroundRelativeLayout;
 
@@ -41,7 +41,7 @@ public class PlayCardClusterViewHeader extends ForegroundRelativeLayout implemen
         super(context, attributeSet);
         this.l = -1;
         Resources resources = context.getResources();
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.PlayCardClusterViewHeader);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.PlayCardClusterViewHeader);
         this.g = obtainStyledAttributes.getDimensionPixelSize(0, 0);
         this.h = obtainStyledAttributes.getDimensionPixelSize(1, 0);
         this.i = resources.getDimensionPixelSize(R.dimen.play_cluster_header_icon_size);

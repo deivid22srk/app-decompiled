@@ -2,7 +2,7 @@ package com.google.android.finsky.auth;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.a.o;
 
 /* loaded from: classes.dex */

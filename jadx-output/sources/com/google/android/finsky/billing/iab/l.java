@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /* loaded from: classes.dex */
-final class l extends com.android.vending.a.f {
+final class l extends com.deivid22srk.store.a.f {
 
     /* renamed from: a, reason: collision with root package name */
     final /* synthetic */ InAppBillingService f2255a;
@@ -22,7 +22,7 @@ final class l extends com.android.vending.a.f {
         this(inAppBillingService);
     }
 
-    @Override // com.android.vending.a.e
+    @Override // com.deivid22srk.store.a.e
     public final int a(int i, String str, String str2) {
         n a2;
         a2 = m.a(str, this.f2255a.getPackageManager(), Binder.getCallingUid());
@@ -36,7 +36,7 @@ final class l extends com.android.vending.a.f {
         return a2.l;
     }
 
-    @Override // com.android.vending.a.e
+    @Override // com.deivid22srk.store.a.e
     public final Bundle a(int i, String str, String str2, Bundle bundle) {
         n a2;
         a2 = m.a(str, this.f2255a.getPackageManager(), Binder.getCallingUid());
@@ -50,7 +50,7 @@ final class l extends com.android.vending.a.f {
         return InAppBillingService.c(this.f2255a, b2).a(i, str, str2, bundle);
     }
 
-    @Override // com.android.vending.a.e
+    @Override // com.deivid22srk.store.a.e
     public final Bundle a(int i, String str, String str2, String str3, String str4) {
         n a2;
         a2 = m.a(str, this.f2255a.getPackageManager(), Binder.getCallingUid());
@@ -64,7 +64,7 @@ final class l extends com.android.vending.a.f {
         return InAppBillingService.c(this.f2255a, b2).a(i, str, str2, str3, str4);
     }
 
-    @Override // com.android.vending.a.e
+    @Override // com.deivid22srk.store.a.e
     public final Bundle a(int i, String str, String str2, String str3) {
         n a2;
         a2 = m.a(str, this.f2255a.getPackageManager(), Binder.getCallingUid());
@@ -78,7 +78,7 @@ final class l extends com.android.vending.a.f {
         return InAppBillingService.c(this.f2255a, b2).a(i, str, str2, str3);
     }
 
-    @Override // com.android.vending.a.e
+    @Override // com.deivid22srk.store.a.e
     public final int b(int i, String str, String str2) {
         n a2;
         a2 = m.a(str, this.f2255a.getPackageManager(), Binder.getCallingUid());
@@ -92,7 +92,7 @@ final class l extends com.android.vending.a.f {
         return a2.l;
     }
 
-    @Override // com.android.vending.a.e
+    @Override // com.deivid22srk.store.a.e
     public final int c(int i, String str, String str2) {
         n a2;
         a2 = m.a(str, this.f2255a.getPackageManager(), Binder.getCallingUid());
@@ -106,7 +106,7 @@ final class l extends com.android.vending.a.f {
         return a2.l;
     }
 
-    @Override // com.android.vending.a.e
+    @Override // com.deivid22srk.store.a.e
     public final Bundle a(int i, String str, List<String> list, String str2, String str3, String str4) {
         n a2;
         a2 = m.a(str, this.f2255a.getPackageManager(), Binder.getCallingUid());
@@ -120,7 +120,7 @@ final class l extends com.android.vending.a.f {
         return InAppBillingService.c(this.f2255a, b2).a(i, str, list, str2, str3, str4);
     }
 
-    @Override // com.android.vending.a.e
+    @Override // com.deivid22srk.store.a.e
     public final Bundle a(int i, String str, String str2, String str3, String str4, Bundle bundle) {
         n a2;
         a2 = m.a(str, this.f2255a.getPackageManager(), Binder.getCallingUid());
@@ -171,7 +171,7 @@ final class l extends com.android.vending.a.f {
         return bundle2;
     }
 
-    @Override // com.android.vending.a.e
+    @Override // com.deivid22srk.store.a.e
     public final Bundle a(int i, String str, String str2, String str3, Bundle bundle) {
         n a2;
         a2 = m.a(str, this.f2255a.getPackageManager(), Binder.getCallingUid());

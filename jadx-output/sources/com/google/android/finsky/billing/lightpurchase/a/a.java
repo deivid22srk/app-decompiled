@@ -18,7 +18,7 @@ import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.billing.u;
 import com.google.android.finsky.protos.ck;
 import com.google.android.finsky.protos.cy;

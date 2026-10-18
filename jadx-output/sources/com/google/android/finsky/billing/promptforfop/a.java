@@ -4,7 +4,7 @@ import android.accounts.Account;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.billing.v;
 import com.google.android.finsky.c.o;
 import com.google.android.finsky.utils.bg;

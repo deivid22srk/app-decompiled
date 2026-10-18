@@ -9,7 +9,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.api.model.Document;
 import com.google.android.finsky.g.p;

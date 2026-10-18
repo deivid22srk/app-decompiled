@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.BaseAdapter;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.api.model.Document;
 import com.google.android.finsky.layout.play.FinskyHeaderListLayout;
 import com.google.android.finsky.layout.play.PlayCardViewMyApps;

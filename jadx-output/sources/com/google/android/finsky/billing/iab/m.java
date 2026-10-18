@@ -276,7 +276,7 @@ public final class m {
 
     public static void a(Activity activity, String str) {
         if (FinskyApp.a().v.a(str) != null) {
-            Intent intent = new Intent("com.android.vending.billing.PURCHASES_UPDATED");
+            Intent intent = new Intent("com.deivid22srk.store.billing.PURCHASES_UPDATED");
             intent.setPackage(str);
             activity.sendBroadcast(intent);
         }

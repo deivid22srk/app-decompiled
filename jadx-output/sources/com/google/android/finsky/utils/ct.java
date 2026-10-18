@@ -23,7 +23,7 @@ final class ct extends cx {
     }
 
     private static Intent a(Context context, Document document, String str, String str2) {
-        Intent launchIntentForPackage = context.getPackageManager().getLaunchIntentForPackage("com.android.vending");
+        Intent launchIntentForPackage = context.getPackageManager().getLaunchIntentForPackage("com.deivid22srk.store");
         launchIntentForPackage.setAction(str);
         launchIntentForPackage.setFlags(268435456);
         a(launchIntentForPackage, "account", str2);
@@ -54,6 +54,6 @@ final class ct extends cx {
 
     @Override // com.google.android.finsky.utils.cx
     public final String a() {
-        return "com.android.vending";
+        return "com.deivid22srk.store";
     }
 }

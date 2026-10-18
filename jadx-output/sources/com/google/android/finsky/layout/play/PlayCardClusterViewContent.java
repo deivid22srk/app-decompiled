@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.api.model.Document;
 import com.google.android.finsky.utils.et;
 import com.google.android.finsky.utils.fe;
@@ -45,7 +45,7 @@ public class PlayCardClusterViewContent extends ViewGroup implements com.google.
     public PlayCardClusterViewContent(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
         this.f3310a = LayoutInflater.from(context);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.PlayCardClusterViewContent);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.PlayCardClusterViewContent);
         this.i = obtainStyledAttributes.getDimensionPixelSize(0, 0);
         this.j = obtainStyledAttributes.getDimensionPixelSize(1, 0);
         obtainStyledAttributes.recycle();

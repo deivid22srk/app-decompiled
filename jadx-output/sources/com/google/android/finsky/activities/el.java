@@ -1,6 +1,6 @@
 package com.google.android.finsky.activities;
 
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 final class el implements Runnable {

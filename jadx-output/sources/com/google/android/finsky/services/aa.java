@@ -11,7 +11,7 @@ import com.google.android.finsky.utils.FinskyLog;
 import java.util.List;
 
 /* loaded from: classes.dex */
-final class aa extends com.android.vending.licensing.d {
+final class aa extends com.deivid22srk.store.licensing.d {
 
     /* renamed from: a, reason: collision with root package name */
     final /* synthetic */ LicensingService f4562a;
@@ -33,8 +33,8 @@ final class aa extends com.android.vending.licensing.d {
     /* JADX WARN: Type inference failed for: r7v7 */
     /* JADX WARN: Type inference failed for: r7v8 */
     /* JADX WARN: Type inference failed for: r7v9 */
-    @Override // com.android.vending.licensing.ILicensingService
-    public final void a(long j, String str, com.android.vending.licensing.a aVar) {
+    @Override // com.deivid22srk.store.licensing.ILicensingService
+    public final void a(long j, String str, com.deivid22srk.store.licensing.a aVar) {
         ?? r7 = 258;
         r7 = 258;
         r7 = 258;
@@ -86,7 +86,7 @@ final class aa extends com.android.vending.licensing.d {
         }
     }
 
-    private void a(long j, String str, com.android.vending.licensing.a aVar, int i, String str2) {
+    private void a(long j, String str, com.deivid22srk.store.licensing.a aVar, int i, String str2) {
         boolean z = str2 != null && str2.endsWith("@android-for-work.gserviceaccount.com");
         boolean a2 = FinskyApp.a().e().a(12607225L);
         if (z || a2) {

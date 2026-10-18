@@ -2,7 +2,7 @@ package com.google.android.finsky.billing.carrierbilling.a;
 
 import android.telephony.PhoneNumberUtils;
 import android.text.TextUtils;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.android.volley.t;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.billing.carrierbilling.b.o;

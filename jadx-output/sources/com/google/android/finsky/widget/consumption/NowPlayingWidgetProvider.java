@@ -14,7 +14,7 @@ import android.text.Html;
 import android.text.TextUtils;
 import android.util.SparseIntArray;
 import android.widget.RemoteViews;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.activities.MainActivity;
 import com.google.android.finsky.api.model.DfeToc;

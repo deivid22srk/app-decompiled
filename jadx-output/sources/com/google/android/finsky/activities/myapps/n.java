@@ -3,7 +3,7 @@ package com.google.android.finsky.activities.myapps;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.adapters.aj;
 import com.google.android.finsky.api.model.DfeToc;

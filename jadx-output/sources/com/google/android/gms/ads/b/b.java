@@ -59,7 +59,7 @@ public final class b {
 
     private static com.google.android.gms.common.f b(Context context) {
         try {
-            context.getPackageManager().getPackageInfo("com.android.vending", 0);
+            context.getPackageManager().getPackageInfo("com.deivid22srk.store", 0);
             if (h) {
                 Log.d("Ads", "Skipping gmscore version check");
                 com.google.android.gms.common.b.a();

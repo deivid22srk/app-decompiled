@@ -428,7 +428,7 @@ public class FinskyApp extends Application {
             try {
                 this.P = getPackageManager().getPackageInfo(getPackageName(), 0).versionCode;
             } catch (PackageManager.NameNotFoundException e) {
-                FinskyLog.d("Could not find com.android.vending package", e);
+                FinskyLog.d("Could not find com.deivid22srk.store package", e);
             }
         }
         return this.P;

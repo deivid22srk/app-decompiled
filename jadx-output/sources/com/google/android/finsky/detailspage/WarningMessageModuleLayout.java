@@ -5,7 +5,7 @@ import android.util.AttributeSet;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public class WarningMessageModuleLayout extends LinearLayout implements bp, bq, com.google.android.finsky.layout.am, com.google.android.finsky.layout.an {

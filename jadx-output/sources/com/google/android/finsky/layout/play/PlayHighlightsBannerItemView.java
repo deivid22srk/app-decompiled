@@ -18,7 +18,7 @@ import android.view.ViewTreeObserver;
 import android.view.animation.Interpolator;
 import android.view.animation.PathInterpolator;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.layout.DocImageView;
 import com.google.android.finsky.layout.InsetsFrameLayout;
 import com.google.android.finsky.utils.ik;

@@ -19,7 +19,7 @@ public class BucketRow extends IdentifiableLinearLayout implements com.google.an
     public BucketRow(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
         setOrientation(0);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.BucketRow);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.BucketRow);
         this.f2931a = obtainStyledAttributes.getBoolean(0, false);
         obtainStyledAttributes.recycle();
     }

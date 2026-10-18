@@ -1,7 +1,7 @@
 package com.google.android.finsky.activities;
 
 import android.widget.Toast;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.android.volley.VolleyError;
 
 /* loaded from: classes.dex */

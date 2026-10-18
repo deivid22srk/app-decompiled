@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import java.text.NumberFormat;
 import java.util.List;
 
@@ -33,7 +33,7 @@ public class HistogramTable extends TableLayout {
     public HistogramTable(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
         this.e = com.google.android.finsky.utils.cz.a(5);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.HistogramTable);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.HistogramTable);
         this.f3001a = obtainStyledAttributes.getBoolean(0, false);
         this.f3002b = obtainStyledAttributes.getDimensionPixelSize(1, 0);
         this.c = obtainStyledAttributes.getDimensionPixelSize(2, -1);

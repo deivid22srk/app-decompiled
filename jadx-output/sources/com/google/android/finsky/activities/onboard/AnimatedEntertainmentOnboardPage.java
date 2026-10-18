@@ -20,7 +20,7 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.a.i;
 import com.google.android.finsky.layout.ControlsContainerBackground;
 import com.google.android.finsky.layout.play.ad;

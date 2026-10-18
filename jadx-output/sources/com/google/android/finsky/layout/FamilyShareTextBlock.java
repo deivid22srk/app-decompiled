@@ -5,7 +5,7 @@ import android.content.res.ColorStateList;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.play.layout.PlayTextView;
 
 /* loaded from: classes.dex */

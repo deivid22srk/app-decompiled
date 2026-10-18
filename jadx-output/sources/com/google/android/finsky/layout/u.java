@@ -2,7 +2,7 @@ package com.google.android.finsky.layout;
 
 import android.content.Context;
 import android.content.res.Resources;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.utils.ik;
 import java.util.HashMap;
 import java.util.Map;

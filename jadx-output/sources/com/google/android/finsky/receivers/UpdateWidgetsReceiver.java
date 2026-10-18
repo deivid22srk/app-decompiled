@@ -5,7 +5,7 @@ import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import com.android.vending.MarketWidgetProvider;
+import com.deivid22srk.store.MarketWidgetProvider;
 import com.google.android.finsky.utils.FinskyLog;
 import com.google.android.finsky.widget.consumption.NowPlayingWidgetProvider;
 import com.google.android.finsky.widget.recommendation.RecommendedWidgetProvider;

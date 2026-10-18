@@ -4,7 +4,7 @@ import android.text.Html;
 import android.text.TextUtils;
 import android.widget.Button;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.a.ai;
 import com.google.android.finsky.a.aj;
 import com.google.android.finsky.billing.at;

@@ -5,7 +5,7 @@ import android.support.v7.widget.eq;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.play.image.FifeImageView;
 
 /* loaded from: classes.dex */

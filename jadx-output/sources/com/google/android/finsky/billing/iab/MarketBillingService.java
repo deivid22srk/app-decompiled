@@ -20,7 +20,7 @@ public class MarketBillingService extends Service {
 
     /* renamed from: b, reason: collision with root package name */
     p f2233b = new p(this);
-    private final com.android.vending.a.h e = new r(this);
+    private final com.deivid22srk.store.a.h e = new r(this);
 
     @Override // android.app.Service
     public void onCreate() {
@@ -39,7 +39,7 @@ public class MarketBillingService extends Service {
     }
 
     public static boolean a(Context context, String str, long j, n nVar) {
-        Intent a2 = cr.a(context.getPackageManager(), str, new Intent("com.android.vending.billing.RESPONSE_CODE"));
+        Intent a2 = cr.a(context.getPackageManager(), str, new Intent("com.deivid22srk.store.billing.RESPONSE_CODE"));
         if (a2 == null) {
             FinskyLog.a("Response %s cannot be delivered to %s. Intent does not resolve.", nVar.name(), str);
             return false;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.finsky.layout.play.DiscoveryBadgeSocialPlusOne xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending" style="@style/DiscoveryBadge">
+<com.google.android.finsky.layout.play.DiscoveryBadgeSocialPlusOne xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res/com.deivid22srk.store" style="@style/DiscoveryBadge">
     <RelativeLayout
         android:gravity="center_horizontal"
         android:id="@+id/icon_container"

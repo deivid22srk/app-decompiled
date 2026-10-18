@@ -16,7 +16,7 @@ final class bb extends ArrayAdapter<String> {
 
     @Override // android.widget.ArrayAdapter, android.widget.Adapter
     public final View getView(int i, View view, ViewGroup viewGroup) {
-        View inflate = LayoutInflater.from(getContext()).inflate(com.android.vending.R.layout.search_spinner_selected_item, viewGroup, false);
+        View inflate = LayoutInflater.from(getContext()).inflate(com.deivid22srk.store.R.layout.search_spinner_selected_item, viewGroup, false);
         ((TextView) inflate).setText(getItem(i));
         return inflate;
     }

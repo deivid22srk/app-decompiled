@@ -6,7 +6,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.TransitionDrawable;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import java.util.List;
 
 /* loaded from: classes.dex */

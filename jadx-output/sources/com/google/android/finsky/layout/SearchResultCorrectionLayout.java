@@ -2,7 +2,7 @@ package com.google.android.finsky.layout;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public class SearchResultCorrectionLayout extends IdentifiableLinearLayout {

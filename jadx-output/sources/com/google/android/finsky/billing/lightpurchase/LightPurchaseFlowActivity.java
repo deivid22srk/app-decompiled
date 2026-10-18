@@ -75,7 +75,7 @@ public class LightPurchaseFlowActivity extends com.google.android.finsky.activit
 
     public static Intent a(Document document) {
         Intent intent = new Intent(FinskyApp.a(), (Class<?>) LightPurchaseFlowActivity.class);
-        intent.setAction("com.android.vending.billing.PURCHASE");
+        intent.setAction("com.deivid22srk.store.billing.PURCHASE");
         intent.addCategory("android.intent.category.DEFAULT");
         intent.putExtra("backend", document.f1963a.g);
         intent.putExtra("document_type", document.f1963a.e);
@@ -212,7 +212,7 @@ public class LightPurchaseFlowActivity extends com.google.android.finsky.activit
     }
 
     private boolean o() {
-        return "com.android.vending.billing.PURCHASE".equals(getIntent().getAction());
+        return "com.deivid22srk.store.billing.PURCHASE".equals(getIntent().getAction());
     }
 
     /* JADX WARN: Code restructure failed: missing block: B:31:0x00bd, code lost:

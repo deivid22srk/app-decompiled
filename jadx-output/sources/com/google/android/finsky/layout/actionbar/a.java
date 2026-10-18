@@ -8,7 +8,7 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.view.Window;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.play.headerlist.PlayHeaderListLayout;
 import com.google.android.play.search.ah;
 

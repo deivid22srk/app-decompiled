@@ -3,7 +3,7 @@ package com.google.android.finsky.layout.play;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.layout.HeroGraphicView;
 import com.google.android.finsky.layout.InsetsFrameLayout;
 import com.google.android.finsky.utils.ik;

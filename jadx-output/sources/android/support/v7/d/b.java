@@ -4,7 +4,7 @@ import android.R;
 
 /* loaded from: classes.dex */
 public final class b {
-    public static final int[] RecyclerView = {R.attr.orientation, com.android.vending.R.attr.layoutManager, com.android.vending.R.attr.spanCount, com.android.vending.R.attr.reverseLayout, com.android.vending.R.attr.stackFromEnd};
+    public static final int[] RecyclerView = {R.attr.orientation, com.deivid22srk.store.R.attr.layoutManager, com.deivid22srk.store.R.attr.spanCount, com.deivid22srk.store.R.attr.reverseLayout, com.deivid22srk.store.R.attr.stackFromEnd};
     public static final int RecyclerView_android_orientation = 0;
     public static final int RecyclerView_layoutManager = 1;
     public static final int RecyclerView_reverseLayout = 3;

@@ -3,7 +3,7 @@ package com.google.android.finsky.utils;
 import android.content.pm.PackageManager;
 import android.content.pm.PermissionInfo;
 import android.text.TextUtils;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import java.util.Collections;
 import java.util.HashMap;

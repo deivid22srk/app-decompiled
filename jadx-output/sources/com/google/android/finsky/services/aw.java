@@ -22,7 +22,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /* loaded from: classes.dex */
-final class aw extends com.android.vending.d.b {
+final class aw extends com.deivid22srk.store.d.b {
 
     /* renamed from: a, reason: collision with root package name */
     final /* synthetic */ ReviewsService f4600a;
@@ -31,7 +31,7 @@ final class aw extends com.android.vending.d.b {
         this.f4600a = reviewsService;
     }
 
-    @Override // com.android.vending.d.a
+    @Override // com.deivid22srk.store.d.a
     public final Bundle a(String str, String str2) {
         Account account;
         AtomicInteger atomicInteger;

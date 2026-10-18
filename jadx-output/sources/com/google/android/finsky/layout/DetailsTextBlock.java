@@ -15,7 +15,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.play.layout.PlayTextView;
 
 /* loaded from: classes.dex */
@@ -36,7 +36,7 @@ public class DetailsTextBlock extends RelativeLayout {
 
     public DetailsTextBlock(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.DetailsTextBlock);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.DetailsTextBlock);
         this.d = obtainStyledAttributes.getDimensionPixelSize(0, 0);
         this.e = obtainStyledAttributes.getDimensionPixelSize(1, 0);
         obtainStyledAttributes.recycle();

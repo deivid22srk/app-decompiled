@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.SystemClock;
-import com.android.vending.setup.RestoreConfig;
+import com.deivid22srk.store.setup.RestoreConfig;
 import com.android.volley.a.ae;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.protos.gk;

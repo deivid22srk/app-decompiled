@@ -3,7 +3,7 @@ package com.google.android.finsky.detailspage;
 import android.content.Context;
 import android.content.res.Resources;
 import android.util.AttributeSet;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.utils.ik;
 
 /* loaded from: classes.dex */

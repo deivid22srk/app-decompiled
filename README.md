@@ -1,28 +1,33 @@
 # app-decompiled
 
-Engenharia reversa de um APK descontinuado (cópia pessoal, sem funcionamento há tempos).
+Engenharia reversa de um APK descontinuado (cópia pessoal, sem funcionamento há tempos), com **renome de pacote** para distribuição independente.
 
 **APK original:** `com.android.vending` 6.2.02.A-all (minAPI 9, nodpi)
+**Pacote renomeado:** `com.deivid22srk.store`
 
 ## Estrutura
 
 | Caminho | Conteúdo |
 |---|---|
 | `app.apk` | APK original de referência |
+| `rename_package.sh` | Script que renomeia o pacote no decode (smali, manifest, res) |
 | `jadx-output/sources/` | Código Java legível decompilado do bytecode Dalvik (DEX) via [jadx 1.5.1](https://github.com/skylot/jadx) — 7.476 arquivos |
 | `jadx-output/resources/` | Recursos extraídos (XMLs, imagens, assets) |
-| `.github/workflows/build.yml` | Workflow de CI que reconstrói e assina o APK |
+| `.github/workflows/build.yml` | Workflow de CI que renomeia, reconstrói e assina o APK |
 
 ## Como o build funciona
 
 O workflow (GitHub Actions) roda a cada push na `main` e também manualmente via **Run workflow**:
 
 1. **apktool 2.10.0** decodifica o `app.apk` em recursos + smali
-2. **apktool** reconstrói o APK (`--use-aapt1`, necessário para os recursos legados deste app)
-3. **uber-apk-signer 1.3.0** alinha e assina com chave de debug (v1 + v2 + v3)
-4. O APK assinado sobe como artifact `app-rebuilt-apk`
+2. **rename_package.sh** troca o pacote `com.android.vending` → `com.deivid22srk.store` (referências L-classe e pontilhadas no smali/manifest/res + movimentação dos diretórios de classes)
+3. **apktool** reconstrói o APK (`--use-aapt1`, necessário para os recursos legados deste app)
+4. **uber-apk-signer 1.3.0** alinha e assina com chave de debug (v1 + v2 + v3)
+5. O APK assinado sobe como artifact `app-rebuilt-apk`
 
 Download do APK compilado: aba **Actions** → run desejado → **Artifacts**.
+
+Para usar outro nome de pacote, troque o argumento do script no `build.yml` (passo *Rename package*).
 
 ## Nota sobre o jadx
 

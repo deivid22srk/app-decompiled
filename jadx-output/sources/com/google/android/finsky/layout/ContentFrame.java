@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 
 /* loaded from: classes.dex */
 public class ContentFrame extends InsetsFrameLayout {
@@ -32,7 +32,7 @@ public class ContentFrame extends InsetsFrameLayout {
         View inflate2 = this.c.inflate(R.layout.page_error_indicator, (ViewGroup) this, false);
         inflate2.setVisibility(8);
         addView(inflate2);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.ContentFrame);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.ContentFrame);
         int resourceId = obtainStyledAttributes.getResourceId(0, 0);
         int resourceId2 = obtainStyledAttributes.getResourceId(1, 0);
         obtainStyledAttributes.recycle();

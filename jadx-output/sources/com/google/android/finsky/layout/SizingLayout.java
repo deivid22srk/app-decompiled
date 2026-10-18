@@ -30,7 +30,7 @@ public class SizingLayout extends FrameLayout {
 
     public SizingLayout(Context context, AttributeSet attributeSet, int i) {
         super(context, attributeSet, i);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.SizingLayout);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.SizingLayout);
         setWidthSource(a(obtainStyledAttributes.getString(0)));
         setHeightSource(a(obtainStyledAttributes.getString(1)));
         this.c = obtainStyledAttributes.getFloat(2, 1.0f);

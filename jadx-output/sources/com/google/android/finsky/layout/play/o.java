@@ -2,7 +2,7 @@ package com.google.android.finsky.layout.play;
 
 import android.support.v4.app.Fragment;
 import android.view.View;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.activities.gv;
 import com.google.android.finsky.api.model.DfeToc;
 

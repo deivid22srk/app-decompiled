@@ -5,7 +5,7 @@ import android.support.v7.widget.eq;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import java.util.HashSet;
 
 /* loaded from: classes.dex */

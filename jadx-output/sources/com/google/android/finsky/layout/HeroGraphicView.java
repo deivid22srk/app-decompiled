@@ -16,7 +16,7 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.FinskyApp;
 import com.google.android.finsky.api.model.Document;
 import com.google.android.finsky.layout.actionbar.FinskySearchToolbar;
@@ -58,7 +58,7 @@ public class HeroGraphicView extends ForegroundRelativeLayout implements am, an,
 
     public HeroGraphicView(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
-        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.android.vending.b.HeroGraphicView);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, com.deivid22srk.store.b.HeroGraphicView);
         this.q = obtainStyledAttributes.getBoolean(0, false);
         this.s = obtainStyledAttributes.getBoolean(1, false);
         this.l = this.q;

@@ -8,7 +8,7 @@ import android.widget.AdapterView;
 import android.widget.LinearLayout;
 import android.widget.ListAdapter;
 import android.widget.ListView;
-import com.android.vending.R;
+import com.deivid22srk.store.R;
 import com.google.android.finsky.utils.FinskyLog;
 import com.google.protobuf.nano.InvalidProtocolBufferNanoException;
 
