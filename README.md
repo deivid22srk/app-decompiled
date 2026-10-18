@@ -11,6 +11,7 @@ Engenharia reversa de um APK descontinuado (cópia pessoal, sem funcionamento h�
 |---|---|
 | `app.apk` | APK original de referência |
 | `rename_package.sh` | Script que renomeia o pacote no decode (smali, manifest, res) |
+| `fix_permissions.py` | Dedup de permissões declaradas e provider authorities (evita `INSTALL_FAILED_DUPLICATE_PERMISSION` / `CONFLICTING_PROVIDER` quando o app original já está no device) |
 | `jadx-output/sources/` | Código Java legível decompilado do bytecode Dalvik (DEX) via [jadx 1.5.1](https://github.com/skylot/jadx) — 7.476 arquivos |
 | `jadx-output/resources/` | Recursos extraídos (XMLs, imagens, assets) |
 | `.github/workflows/build.yml` | Workflow de CI que renomeia, reconstrói e assina o APK |
@@ -21,9 +22,10 @@ O workflow (GitHub Actions) roda a cada push na `main` e também manualmente via
 
 1. **apktool 2.10.0** decodifica o `app.apk` em recursos + smali
 2. **rename_package.sh** troca o pacote `com.android.vending` → `com.deivid22srk.store` (referências L-classe e pontilhadas no smali/manifest/res + movimentação dos diretórios de classes)
-3. **apktool** reconstrói o APK (`--use-aapt1`, necessário para os recursos legados deste app)
-4. **uber-apk-signer 1.3.0** alinha e assina com chave de debug (v1 + v2 + v3)
-5. O APK assinado sobe como artifact `app-rebuilt-apk`
+3. **fix_permissions.py** renomeia permissões declaradas e authorities que colidiriam com a Play Store instalada no device
+4. **apktool** reconstrói o APK (`--use-aapt1`, necessário para os recursos legados deste app)
+5. **uber-apk-signer 1.3.0** alinha e assina com chave de debug (v1 + v2 + v3)
+6. O APK assinado sobe como artifact `app-rebuilt-apk`
 
 Download do APK compilado: aba **Actions** → run desejado → **Artifacts**.
 

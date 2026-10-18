@@ -31,6 +31,9 @@ jobs:
           chmod +x rename_package.sh
           ./rename_package.sh decoded com.android.vending com.deivid22srk.store
 
+      - name: Dedup permissions/authorities (evita DUPLICATE_PERMISSION/CONFLICTING_PROVIDER)
+        run: python3 fix_permissions.py decoded com.deivid22srk.store
+
       - name: Rebuild APK
         run: |
           mkdir -p dist
