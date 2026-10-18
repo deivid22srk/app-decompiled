@@ -38,9 +38,11 @@ android {
             // Código Java decompilado (jadx) mantido no repo para leitura/referência.
             // Saída jadx não recompila como está (generics perdidos, accessors sintéticos,
             // artefatos semânticos) — o código EXECUTÁVEL vem do bytecode original,
-            // preservado via pipeline apktool -> smali -> dex -> jar (app/libs/).
+            // preservado via pipeline apktool -> smali -> dex -> jar (app/libs/),
+            // agora COM exception handlers (try/catch) restaurados.
+            // Compilamos apenas a camada offline nova (launcher sem login + catálogo).
             java {
-                exclude '**'
+                include 'com/deivid22srk/store/offline/**'
             }
         }
     }

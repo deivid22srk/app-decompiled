@@ -73,14 +73,18 @@
     <uses-permission android:name="android.permission.READ_SMS"/>
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-feature android:name="android.hardware.nfc" android:required="false"/>
-    <application android:backupAgent="com.deivid22srk.store.VendingBackupAgent" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_play_store" android:killAfterRestore="false" android:label="@string/app_long_name" android:name="com.google.android.finsky.FinskyApp" android:requiredForAllUsers="true" android:restoreAnyVersion="true" android:restoreNeedsApplication="true" android:restrictedAccountType="com.google" android:supportsRtl="@bool/is_rtl_enabled">
+    <application android:backupAgent="com.deivid22srk.store.VendingBackupAgent" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_play_store" android:killAfterRestore="false" android:label="@string/app_long_name" android:name="com.deivid22srk.store.offline.StoreApplication" android:requiredForAllUsers="true" android:restoreAnyVersion="true" android:restoreNeedsApplication="true" android:restrictedAccountType="com.google" android:supportsRtl="@bool/is_rtl_enabled">
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
         <meta-data android:name="com.google.android.gms.car.application" android:resource="@xml/automotive_app_desc"/>
-        <activity android:enabled="true" android:exported="true" android:icon="@mipmap/ic_launcher_play_store" android:label="@string/launcher_name" android:launchMode="singleTop" android:name="com.deivid22srk.store.AssetBrowserActivity" android:theme="@style/MainActivityTheme">
+        <activity android:enabled="true" android:exported="true" android:icon="@mipmap/ic_launcher_play_store" android:label="Loja Offline" android:launchMode="singleTop" android:name="com.deivid22srk.store.offline.OfflineMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                <action android:name="android.intent.action.SEARCH"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="true" android:exported="true" android:icon="@mipmap/ic_launcher_play_store" android:label="@string/launcher_name" android:launchMode="singleTop" android:name="com.deivid22srk.store.AssetBrowserActivity" android:theme="@style/MainActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
                 <category android:name="android.intent.category.APP_MARKET"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
