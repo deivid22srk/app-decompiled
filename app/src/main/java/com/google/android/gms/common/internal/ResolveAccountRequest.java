@@ -7,7 +7,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class ResolveAccountRequest implements SafeParcelable {
+public static class ResolveAccountRequest implements SafeParcelable {
     public static final Parcelable.Creator<ResolveAccountRequest> CREATOR = new aw();
 
     /* renamed from: a, reason: collision with root package name */

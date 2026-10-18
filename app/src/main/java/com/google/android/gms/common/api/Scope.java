@@ -6,7 +6,7 @@ import com.google.android.gms.common.internal.av;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public final class Scope implements SafeParcelable {
+public static final class Scope implements SafeParcelable {
     public static final Parcelable.Creator<Scope> CREATOR = new ad();
 
     /* renamed from: a, reason: collision with root package name */

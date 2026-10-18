@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class CarUiInfo implements SafeParcelable {
+public static class CarUiInfo implements SafeParcelable {
     public static final Parcelable.Creator<CarUiInfo> CREATOR = new fo();
 
     /* renamed from: a, reason: collision with root package name */

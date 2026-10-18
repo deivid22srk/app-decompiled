@@ -6,7 +6,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public class RadioState implements SafeParcelable {
+public static class RadioState implements SafeParcelable {
     public static final Parcelable.Creator<RadioState> CREATOR = new ek();
 
     /* renamed from: a, reason: collision with root package name */

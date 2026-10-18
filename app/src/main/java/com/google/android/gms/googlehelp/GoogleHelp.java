@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public final class GoogleHelp implements SafeParcelable {
+public static final class GoogleHelp implements SafeParcelable {
     public static final Parcelable.Creator<GoogleHelp> CREATOR = new g();
 
     /* renamed from: a, reason: collision with root package name */

@@ -5,7 +5,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /* loaded from: classes.dex */
-final class FragmentState implements Parcelable {
+static final class FragmentState implements Parcelable {
     public static final Parcelable.Creator<FragmentState> CREATOR = new ao();
 
     /* renamed from: a, reason: collision with root package name */

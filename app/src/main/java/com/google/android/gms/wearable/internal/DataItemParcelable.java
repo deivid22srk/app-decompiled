@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /* loaded from: classes.dex */
-public class DataItemParcelable implements SafeParcelable, com.google.android.gms.wearable.l {
+public static class DataItemParcelable implements SafeParcelable, com.google.android.gms.wearable.l {
     public static final Parcelable.Creator<DataItemParcelable> CREATOR = new f();
 
     /* renamed from: a, reason: collision with root package name */

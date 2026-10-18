@@ -8,7 +8,7 @@ import com.google.android.finsky.utils.ex;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public class Recommendation implements Parcelable {
+public static class Recommendation implements Parcelable {
 
     /* renamed from: a, reason: collision with root package name */
     public final Document f5226a;

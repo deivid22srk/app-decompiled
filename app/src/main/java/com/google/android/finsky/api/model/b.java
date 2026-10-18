@@ -11,11 +11,6 @@ final class b<T> extends AsyncTask<VolleyError, Void, T> {
     VolleyError f1967a;
 
     /* renamed from: b, reason: collision with root package name */
-    final /* synthetic */ a f1968b;
-
-    b(a aVar) {
-        this.f1968b = aVar;
-    }
 
     @Override // android.os.AsyncTask
     protected final /* synthetic */ Object doInBackground(VolleyError[] volleyErrorArr) {

@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public final class OverflowMenuItem implements SafeParcelable {
+public static final class OverflowMenuItem implements SafeParcelable {
     public static final Parcelable.Creator<OverflowMenuItem> CREATOR = new aa();
 
     /* renamed from: a, reason: collision with root package name */

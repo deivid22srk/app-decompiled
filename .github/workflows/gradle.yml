@@ -36,10 +36,26 @@ jobs:
           "$SDKM" "platforms;android-23" > /dev/null
           ls $ANDROID_HOME/platforms/
 
-      - name: Substitui android.jar por framework completo (hidden APIs)
+      - name: Monta framework completo (robolectric + java.* do platform)
         run: |
           curl -sSL -o /tmp/android-all.jar "https://repo1.maven.org/maven2/org/robolectric/android-all/6.0.1_r3-robolectric-r1/android-all-6.0.1_r3-robolectric-r1.jar"
-          cp /tmp/android-all.jar "$ANDROID_HOME/platforms/android-23/android.jar"
+          python3 - <<'PYEOF'
+          import zipfile
+          out = zipfile.ZipFile('/tmp/android-merged.jar', 'w', zipfile.ZIP_DEFLATED)
+          robo = zipfile.ZipFile('/tmp/android-all.jar')
+          plat = zipfile.ZipFile('$ANDROID_HOME/platforms/android-23/android.jar')
+          seen = set()
+          for n in robo.namelist():
+              if not n.endswith('/'):
+                  seen.add(n)
+                  out.writestr(n, robo.read(n))
+          for n in plat.namelist():
+              if not n.endswith('/') and n not in seen and n.startswith(('java/', 'javax/', 'org/xml/', 'org/w3c/', 'org/ietf/')):
+                  out.writestr(n, plat.read(n))
+          out.close()
+          print('framework fundido ok')
+          PYEOF
+          cp /tmp/android-merged.jar "$ANDROID_HOME/platforms/android-23/android.jar"
 
       - name: Build (assembleDebug)
         run: gradle assembleDebug --stacktrace --no-daemon

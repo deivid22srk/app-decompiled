@@ -8,7 +8,7 @@ import com.google.android.gms.common.api.Scope;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class ValidateAccountRequest implements SafeParcelable {
+public static class ValidateAccountRequest implements SafeParcelable {
     public static final Parcelable.Creator<ValidateAccountRequest> CREATOR = new d();
 
     /* renamed from: a, reason: collision with root package name */

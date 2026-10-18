@@ -218,12 +218,4 @@ public final class a {
         }
     }
 
-    static /* synthetic */ void a(Object obj, String str, Object[] objArr) {
-        Field b2 = b(obj, str);
-        Object[] objArr2 = (Object[]) b2.get(obj);
-        Object[] objArr3 = (Object[]) Array.newInstance(objArr2.getClass().getComponentType(), objArr2.length + objArr.length);
-        System.arraycopy(objArr2, 0, objArr3, 0, objArr2.length);
-        System.arraycopy(objArr, 0, objArr3, objArr2.length, objArr.length);
-        b2.set(obj, objArr3);
-    }
 }

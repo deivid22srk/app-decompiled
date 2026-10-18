@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class MessageEventParcelable implements SafeParcelable, com.google.android.gms.wearable.w {
+public static class MessageEventParcelable implements SafeParcelable, com.google.android.gms.wearable.w {
     public static final Parcelable.Creator<MessageEventParcelable> CREATOR = new bc();
 
     /* renamed from: a, reason: collision with root package name */

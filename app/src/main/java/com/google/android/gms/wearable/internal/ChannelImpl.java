@@ -6,7 +6,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import com.google.android.gms.wearable.Channel;
 
 /* loaded from: classes.dex */
-public class ChannelImpl implements SafeParcelable, Channel {
+public static class ChannelImpl implements SafeParcelable, Channel {
     public static final Parcelable.Creator<ChannelImpl> CREATOR = new cy();
 
     /* renamed from: a, reason: collision with root package name */

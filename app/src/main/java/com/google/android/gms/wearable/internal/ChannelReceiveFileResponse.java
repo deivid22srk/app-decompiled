@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class ChannelReceiveFileResponse implements SafeParcelable {
+public static class ChannelReceiveFileResponse implements SafeParcelable {
     public static final Parcelable.Creator<ChannelReceiveFileResponse> CREATOR = new cz();
 
     /* renamed from: a, reason: collision with root package name */

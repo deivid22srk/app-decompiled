@@ -22,7 +22,4 @@ final class q implements mj<Object> {
     public final void a() {
     }
 
-    @Override // com.google.android.gms.internal.mj
-    public final /* synthetic */ void a(Object obj) {
-    }
 }

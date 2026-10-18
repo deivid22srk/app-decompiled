@@ -945,7 +945,7 @@ public class CoordinatorLayout extends ViewGroup implements android.support.v4.v
         return savedState;
     }
 
-    public class SavedState extends View.BaseSavedState {
+    public static class SavedState extends View.BaseSavedState {
         public static final Parcelable.Creator<SavedState> CREATOR = android.support.v4.os.b.a(new n());
 
         /* renamed from: a, reason: collision with root package name */

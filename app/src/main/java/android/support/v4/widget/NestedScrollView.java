@@ -1171,7 +1171,7 @@ public class NestedScrollView extends FrameLayout implements android.support.v4.
         return savedState;
     }
 
-    class SavedState extends View.BaseSavedState {
+    static class SavedState extends View.BaseSavedState {
         public static final Parcelable.Creator<SavedState> CREATOR = new ar();
 
         /* renamed from: a, reason: collision with root package name */

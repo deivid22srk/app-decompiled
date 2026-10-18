@@ -6,7 +6,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public class RadioProperties implements SafeParcelable {
+public static class RadioProperties implements SafeParcelable {
     public static final Parcelable.Creator<RadioProperties> CREATOR = new ej();
 
     /* renamed from: a, reason: collision with root package name */
@@ -28,7 +28,7 @@ public class RadioProperties implements SafeParcelable {
     public boolean n;
     public int o;
 
-    public class ChannelRange implements SafeParcelable {
+    public static class ChannelRange implements SafeParcelable {
         public static final Parcelable.Creator<ChannelRange> CREATOR = new fp();
 
         /* renamed from: a, reason: collision with root package name */

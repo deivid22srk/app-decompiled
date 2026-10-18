@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /* loaded from: classes.dex */
-public class VoucherParams implements Parcelable {
+public static class VoucherParams implements Parcelable {
     public static final Parcelable.Creator<VoucherParams> CREATOR = new ai();
 
     /* renamed from: a, reason: collision with root package name */

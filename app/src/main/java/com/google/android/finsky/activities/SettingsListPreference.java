@@ -60,7 +60,7 @@ public class SettingsListPreference extends ListPreference {
         return savedState;
     }
 
-    class SavedState extends Preference.BaseSavedState {
+    static class SavedState extends Preference.BaseSavedState {
         public static final Parcelable.Creator<SavedState> CREATOR = new gh();
 
         /* renamed from: a, reason: collision with root package name */

@@ -7,7 +7,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class AddListenerRequest implements SafeParcelable {
+public static class AddListenerRequest implements SafeParcelable {
     public static final Parcelable.Creator<AddListenerRequest> CREATOR = new bp();
 
     /* renamed from: a, reason: collision with root package name */

@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class AmsEntityUpdateParcelable implements SafeParcelable {
+public static class AmsEntityUpdateParcelable implements SafeParcelable {
     public static final Parcelable.Creator<AmsEntityUpdateParcelable> CREATOR = new cq();
 
     /* renamed from: a, reason: collision with root package name */

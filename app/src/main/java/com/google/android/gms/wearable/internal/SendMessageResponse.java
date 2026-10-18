@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class SendMessageResponse implements SafeParcelable {
+public static class SendMessageResponse implements SafeParcelable {
     public static final Parcelable.Creator<SendMessageResponse> CREATOR = new bn();
 
     /* renamed from: a, reason: collision with root package name */

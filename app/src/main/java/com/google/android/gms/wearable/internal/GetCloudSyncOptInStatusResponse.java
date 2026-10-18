@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class GetCloudSyncOptInStatusResponse implements SafeParcelable {
+public static class GetCloudSyncOptInStatusResponse implements SafeParcelable {
     public static final Parcelable.Creator<GetCloudSyncOptInStatusResponse> CREATOR = new o();
 
     /* renamed from: a, reason: collision with root package name */

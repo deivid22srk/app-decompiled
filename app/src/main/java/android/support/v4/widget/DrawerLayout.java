@@ -1009,7 +1009,7 @@ public class DrawerLayout extends ViewGroup implements ac {
         }
     }
 
-    public class SavedState extends View.BaseSavedState {
+    public static class SavedState extends View.BaseSavedState {
         public static final Parcelable.Creator<SavedState> CREATOR = new x();
 
         /* renamed from: a, reason: collision with root package name */

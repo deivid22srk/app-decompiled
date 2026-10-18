@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class RemoveListenerRequest implements SafeParcelable {
+public static class RemoveListenerRequest implements SafeParcelable {
     public static final Parcelable.Creator<RemoveListenerRequest> CREATOR = new bl();
 
     /* renamed from: a, reason: collision with root package name */

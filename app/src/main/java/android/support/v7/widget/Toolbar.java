@@ -1108,7 +1108,7 @@ public class Toolbar extends ViewGroup {
         requestLayout();
     }
 
-    public class SavedState extends View.BaseSavedState {
+    public static class SavedState extends View.BaseSavedState {
         public static final Parcelable.Creator<SavedState> CREATOR = new ge();
 
         /* renamed from: a, reason: collision with root package name */

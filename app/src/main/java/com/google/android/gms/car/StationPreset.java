@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class StationPreset implements SafeParcelable {
+public static class StationPreset implements SafeParcelable {
     public static final Parcelable.Creator<StationPreset> CREATOR = new ep();
 
     /* renamed from: a, reason: collision with root package name */

@@ -781,7 +781,7 @@ public class LinearLayoutManager extends ec {
         return this.n == null && this.f624b == this.d;
     }
 
-    public class SavedState implements Parcelable {
+    public static class SavedState implements Parcelable {
         public static final Parcelable.Creator<SavedState> CREATOR = new cs();
 
         /* renamed from: a, reason: collision with root package name */

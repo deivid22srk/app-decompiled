@@ -12,9 +12,6 @@ final class ai implements ak {
     private final ad<?> d;
     private final x<?> e;
 
-    /* synthetic */ ai(Object obj, com.google.gson.cpkg.a aVar, boolean z, byte b2) {
-        this(obj, aVar, z);
-    }
 
     private ai(Object obj, com.google.gson.cpkg.a<?> aVar, boolean z) {
         this.d = obj instanceof ad ? (ad) obj : null;

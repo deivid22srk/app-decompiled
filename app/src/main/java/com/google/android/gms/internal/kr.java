@@ -33,9 +33,6 @@ public abstract class kr<R extends com.google.android.gms.common.api.x, A extend
 
     /* JADX WARN: Multi-variable type inference failed */
     @Override // com.google.android.gms.internal.ks
-    public final /* synthetic */ void a(Object obj) {
-        super.a((kr<R, A>) obj);
-    }
 
     @Override // com.google.android.gms.internal.ly
     public final void b(Status status) {

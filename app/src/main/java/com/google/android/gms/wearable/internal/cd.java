@@ -6,17 +6,9 @@ import com.google.android.gms.internal.mj;
 final class cd implements mj<Object> {
 
     /* renamed from: a, reason: collision with root package name */
-    final /* synthetic */ AncsNotificationParcelable f6603a;
-
-    cd(AncsNotificationParcelable ancsNotificationParcelable) {
-        this.f6603a = ancsNotificationParcelable;
-    }
 
     @Override // com.google.android.gms.internal.mj
     public final void a() {
     }
 
-    @Override // com.google.android.gms.internal.mj
-    public final /* synthetic */ void a(Object obj) {
-    }
 }

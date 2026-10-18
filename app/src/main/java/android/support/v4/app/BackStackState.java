@@ -7,7 +7,7 @@ import android.util.Log;
 import java.util.ArrayList;
 
 /* loaded from: classes.dex */
-final class BackStackState implements Parcelable {
+static final class BackStackState implements Parcelable {
     public static final Parcelable.Creator<BackStackState> CREATOR = new o();
 
     /* renamed from: a, reason: collision with root package name */

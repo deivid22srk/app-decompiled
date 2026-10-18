@@ -688,7 +688,7 @@ public class ViewPager extends ViewGroup {
         this.U = false;
     }
 
-    public class SavedState extends View.BaseSavedState {
+    public static class SavedState extends View.BaseSavedState {
         public static final Parcelable.Creator<SavedState> CREATOR = android.support.v4.os.b.a(new Cdo());
 
         /* renamed from: a, reason: collision with root package name */

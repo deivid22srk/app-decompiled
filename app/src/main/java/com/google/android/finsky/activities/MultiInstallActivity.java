@@ -221,7 +221,7 @@ public class MultiInstallActivity extends android.support.v7.a.ae implements Vie
         }
     }
 
-    public class InstallDetails implements Parcelable {
+    public static class InstallDetails implements Parcelable {
         public static final Parcelable.Creator<InstallDetails> CREATOR = new eo();
 
         /* renamed from: a, reason: collision with root package name */

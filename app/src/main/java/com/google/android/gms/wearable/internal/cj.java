@@ -6,11 +6,6 @@ import com.google.android.gms.internal.mj;
 final class cj implements mj<Object> {
 
     /* renamed from: a, reason: collision with root package name */
-    final /* synthetic */ NodeParcelable f6609a;
-
-    cj(NodeParcelable nodeParcelable) {
-        this.f6609a = nodeParcelable;
-    }
 
     @Override // com.google.android.gms.internal.mj
     public final void a() {

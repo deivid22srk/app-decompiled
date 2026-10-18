@@ -6,7 +6,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import com.google.android.gms.wearable.ConnectionConfiguration;
 
 /* loaded from: classes.dex */
-public class GetConfigsResponse implements SafeParcelable {
+public static class GetConfigsResponse implements SafeParcelable {
     public static final Parcelable.Creator<GetConfigsResponse> CREATOR = new r();
 
     /* renamed from: a, reason: collision with root package name */

@@ -6,7 +6,7 @@ import com.google.android.gms.car.CarMediaBrowserSourceNode;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class CarMediaBrowserListNode implements SafeParcelable {
+public static class CarMediaBrowserListNode implements SafeParcelable {
     public static final Parcelable.Creator<CarMediaBrowserListNode> CREATOR = new fe();
 
     /* renamed from: a, reason: collision with root package name */
@@ -18,7 +18,7 @@ public class CarMediaBrowserListNode implements SafeParcelable {
     public int d;
     public CarMediaSong[] e;
 
-    public class CarMediaSong implements SafeParcelable {
+    public static class CarMediaSong implements SafeParcelable {
         public static final Parcelable.Creator<CarMediaSong> CREATOR = new fj();
 
         /* renamed from: a, reason: collision with root package name */

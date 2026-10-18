@@ -12,7 +12,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public class RecommendationList implements Parcelable, Collection<Recommendation> {
+public static class RecommendationList implements Parcelable, Collection<Recommendation> {
     public static final Parcelable.Creator<RecommendationList> CREATOR = new b();
 
     /* renamed from: a, reason: collision with root package name */

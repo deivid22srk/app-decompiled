@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class GetChannelOutputStreamResponse implements SafeParcelable {
+public static class GetChannelOutputStreamResponse implements SafeParcelable {
     public static final Parcelable.Creator<GetChannelOutputStreamResponse> CREATOR = new m();
 
     /* renamed from: a, reason: collision with root package name */

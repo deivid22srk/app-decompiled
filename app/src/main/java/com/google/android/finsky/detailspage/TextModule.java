@@ -27,7 +27,7 @@ import java.util.List;
 public abstract class TextModule extends bd<ek> implements View.OnClickListener, com.google.android.play.utils.k {
     protected abstract ek a(Document document, boolean z);
 
-    public class DetailsExtraCredits implements Parcelable {
+    public static class DetailsExtraCredits implements Parcelable {
         public static final Parcelable.Creator<DetailsExtraCredits> CREATOR = new el();
 
         /* renamed from: a, reason: collision with root package name */
@@ -53,7 +53,7 @@ public abstract class TextModule extends bd<ek> implements View.OnClickListener,
         }
     }
 
-    public class DetailsExtraPrimary implements Parcelable {
+    public static class DetailsExtraPrimary implements Parcelable {
         public static final Parcelable.Creator<DetailsExtraPrimary> CREATOR = new em();
 
         /* renamed from: a, reason: collision with root package name */
@@ -88,7 +88,7 @@ public abstract class TextModule extends bd<ek> implements View.OnClickListener,
         }
     }
 
-    public class DetailsExtraSecondary implements Parcelable {
+    public static class DetailsExtraSecondary implements Parcelable {
         public static final Parcelable.Creator<DetailsExtraSecondary> CREATOR = new en();
 
         /* renamed from: a, reason: collision with root package name */
@@ -114,7 +114,7 @@ public abstract class TextModule extends bd<ek> implements View.OnClickListener,
         }
     }
 
-    public class ExpandedData implements Parcelable {
+    public static class ExpandedData implements Parcelable {
         public static final Parcelable.Creator<ExpandedData> CREATOR = new eo();
 
         /* renamed from: a, reason: collision with root package name */

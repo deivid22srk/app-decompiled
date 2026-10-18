@@ -7,7 +7,7 @@ import com.google.android.gms.common.api.Scope;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class RecordConsentRequest implements SafeParcelable {
+public static class RecordConsentRequest implements SafeParcelable {
     public static final Parcelable.Creator<RecordConsentRequest> CREATOR = new l();
 
     /* renamed from: a, reason: collision with root package name */

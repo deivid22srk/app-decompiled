@@ -7,7 +7,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class ResolveAccountResponse implements SafeParcelable {
+public static class ResolveAccountResponse implements SafeParcelable {
     public static final Parcelable.Creator<ResolveAccountResponse> CREATOR = new ax();
 
     /* renamed from: a, reason: collision with root package name */

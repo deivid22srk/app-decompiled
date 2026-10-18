@@ -7,7 +7,7 @@ import com.google.android.finsky.protos.mq;
 import com.google.android.finsky.utils.ParcelableProto;
 
 /* loaded from: classes.dex */
-public class CheckoutPurchaseError implements Parcelable {
+public static class CheckoutPurchaseError implements Parcelable {
     public static final Parcelable.Creator<CheckoutPurchaseError> CREATOR = new d();
 
     /* renamed from: a, reason: collision with root package name */

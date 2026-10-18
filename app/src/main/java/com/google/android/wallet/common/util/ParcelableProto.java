@@ -8,7 +8,7 @@ import com.google.protobuf.nano.c;
 import java.util.ArrayList;
 
 /* loaded from: classes.dex */
-public class ParcelableProto<T extends com.google.protobuf.nano.c> implements Parcelable {
+public static class ParcelableProto<T extends com.google.protobuf.nano.c> implements Parcelable {
     public static final Parcelable.Creator<ParcelableProto<com.google.protobuf.nano.c>> CREATOR = new h();
 
     /* renamed from: a, reason: collision with root package name */

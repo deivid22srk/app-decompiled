@@ -154,7 +154,7 @@ public class PlayHeaderListLayout extends FrameLayout implements bp {
         n = new WeakHashMap();
     }
 
-    class SavedState extends View.BaseSavedState {
+    static class SavedState extends View.BaseSavedState {
         public static final Parcelable.Creator<SavedState> CREATOR = new m();
 
         /* renamed from: a, reason: collision with root package name */

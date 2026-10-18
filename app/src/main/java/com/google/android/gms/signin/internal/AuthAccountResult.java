@@ -8,7 +8,7 @@ import com.google.android.gms.common.api.x;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class AuthAccountResult implements x, SafeParcelable {
+public static class AuthAccountResult implements x, SafeParcelable {
     public static final Parcelable.Creator<AuthAccountResult> CREATOR = new a();
 
     /* renamed from: a, reason: collision with root package name */

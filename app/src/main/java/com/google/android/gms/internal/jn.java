@@ -121,8 +121,8 @@ public abstract class jn<T> implements Comparable<jn<T>> {
     }
 
     @Override // java.lang.Comparable
-    public /* synthetic */ int compareTo(Object obj) {
-        jn jnVar = (jn) obj;
+    public int compareTo(jn<T> another) {
+        jn jnVar = another;
         jp jpVar = jp.NORMAL;
         jp jpVar2 = jp.NORMAL;
         return jpVar == jpVar2 ? this.g.intValue() - jnVar.g.intValue() : jpVar2.ordinal() - jpVar.ordinal();

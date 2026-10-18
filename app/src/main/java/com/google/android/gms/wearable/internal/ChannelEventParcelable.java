@@ -6,7 +6,7 @@ import android.util.Log;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public final class ChannelEventParcelable implements SafeParcelable {
+public static final class ChannelEventParcelable implements SafeParcelable {
     public static final Parcelable.Creator<ChannelEventParcelable> CREATOR = new cx();
 
     /* renamed from: a, reason: collision with root package name */

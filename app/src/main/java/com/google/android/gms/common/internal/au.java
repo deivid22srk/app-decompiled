@@ -17,9 +17,6 @@ public final class au {
         this.f5705a = new ArrayList();
     }
 
-    /* synthetic */ au(Object obj, byte b2) {
-        this(obj);
-    }
 
     public final au a(String str, Object obj) {
         this.f5705a.add(((String) av.a(str)) + "=" + String.valueOf(obj));

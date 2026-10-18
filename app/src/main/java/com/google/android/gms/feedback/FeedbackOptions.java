@@ -10,7 +10,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.ArrayList;
 
 /* loaded from: classes.dex */
-public class FeedbackOptions implements SafeParcelable {
+public static class FeedbackOptions implements SafeParcelable {
     public static final Parcelable.Creator<FeedbackOptions> CREATOR = new c();
 
     /* renamed from: a, reason: collision with root package name */

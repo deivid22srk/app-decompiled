@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /* loaded from: classes.dex */
-public class CreditCardEntryAction implements Parcelable {
+public static class CreditCardEntryAction implements Parcelable {
     public static final Parcelable.Creator<CreditCardEntryAction> CREATOR = new c();
 
     /* renamed from: a, reason: collision with root package name */

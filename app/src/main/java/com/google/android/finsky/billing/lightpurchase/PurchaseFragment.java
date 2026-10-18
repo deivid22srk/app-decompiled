@@ -450,7 +450,7 @@ public final class PurchaseFragment extends com.google.android.finsky.billing.li
         }
     }
 
-    public class PurchaseError implements Parcelable {
+    public static class PurchaseError implements Parcelable {
         public static final Parcelable.Creator<PurchaseError> CREATOR = new af();
 
         /* renamed from: a, reason: collision with root package name */

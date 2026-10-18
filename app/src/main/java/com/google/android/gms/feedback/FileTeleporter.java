@@ -13,7 +13,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /* loaded from: classes.dex */
-public class FileTeleporter implements SafeParcelable {
+public static class FileTeleporter implements SafeParcelable {
     public static final Parcelable.Creator<FileTeleporter> CREATOR = new d();
 
     /* renamed from: a, reason: collision with root package name */

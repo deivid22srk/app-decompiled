@@ -13,7 +13,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public class ConsumptionAppDocList extends ArrayList<ConsumptionAppDoc> implements Parcelable {
+public static class ConsumptionAppDocList extends ArrayList<ConsumptionAppDoc> implements Parcelable {
     public static final Parcelable.Creator<ConsumptionAppDocList> CREATOR = new h();
 
     /* renamed from: b, reason: collision with root package name */

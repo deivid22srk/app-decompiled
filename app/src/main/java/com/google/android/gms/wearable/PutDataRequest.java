@@ -16,7 +16,7 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 /* loaded from: classes.dex */
-public class PutDataRequest implements SafeParcelable {
+public static class PutDataRequest implements SafeParcelable {
     public static final Parcelable.Creator<PutDataRequest> CREATOR = new av();
     private static final long f = TimeUnit.MINUTES.toMillis(30);
     private static final Random g = new SecureRandom();

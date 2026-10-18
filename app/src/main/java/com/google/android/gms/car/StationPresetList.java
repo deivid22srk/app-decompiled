@@ -6,7 +6,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public class StationPresetList implements SafeParcelable {
+public static class StationPresetList implements SafeParcelable {
     public static final Parcelable.Creator<StationPresetList> CREATOR = new eq();
 
     /* renamed from: a, reason: collision with root package name */

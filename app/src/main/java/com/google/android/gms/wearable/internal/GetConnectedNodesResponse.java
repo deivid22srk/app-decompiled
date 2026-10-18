@@ -6,7 +6,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public class GetConnectedNodesResponse implements SafeParcelable {
+public static class GetConnectedNodesResponse implements SafeParcelable {
     public static final Parcelable.Creator<GetConnectedNodesResponse> CREATOR = new s();
 
     /* renamed from: a, reason: collision with root package name */

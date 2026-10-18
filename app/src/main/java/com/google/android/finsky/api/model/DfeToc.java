@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 /* loaded from: classes.dex */
-public class DfeToc extends j implements Parcelable {
+public static class DfeToc extends j implements Parcelable {
     public static final Parcelable.Creator<DfeToc> CREATOR = new n();
 
     /* renamed from: a, reason: collision with root package name */

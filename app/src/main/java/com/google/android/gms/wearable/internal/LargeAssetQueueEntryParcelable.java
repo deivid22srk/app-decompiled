@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public final class LargeAssetQueueEntryParcelable implements SafeParcelable {
+public static final class LargeAssetQueueEntryParcelable implements SafeParcelable {
     public static final Parcelable.Creator<LargeAssetQueueEntryParcelable> CREATOR = new as();
 
     /* renamed from: a, reason: collision with root package name */

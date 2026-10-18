@@ -115,7 +115,7 @@ public final class SetupWizardUtils {
         throw new IllegalStateException("Unknown context: " + context);
     }
 
-    public class SetupWizardParams implements Parcelable {
+    public static class SetupWizardParams implements Parcelable {
         public static final Parcelable.Creator<SetupWizardParams> CREATOR = new hx();
 
         /* renamed from: a, reason: collision with root package name */

@@ -2082,7 +2082,7 @@ public class RecyclerView extends ViewGroup implements android.support.v4.view.b
         return this.aj.a(f, f2);
     }
 
-    public class SavedState extends View.BaseSavedState {
+    public static class SavedState extends View.BaseSavedState {
         public static final Parcelable.Creator<SavedState> CREATOR = new ek();
 
         /* renamed from: a, reason: collision with root package name */

@@ -7,7 +7,7 @@ import com.google.android.gms.wearable.ConnectionConfiguration;
 
 @Deprecated
 /* loaded from: classes.dex */
-public class GetConfigResponse implements SafeParcelable {
+public static class GetConfigResponse implements SafeParcelable {
     public static final Parcelable.Creator<GetConfigResponse> CREATOR = new q();
 
     /* renamed from: a, reason: collision with root package name */

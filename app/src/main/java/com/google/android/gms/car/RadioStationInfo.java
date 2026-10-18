@@ -6,7 +6,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public class RadioStationInfo implements SafeParcelable {
+public static class RadioStationInfo implements SafeParcelable {
     public static final Parcelable.Creator<RadioStationInfo> CREATOR = new el();
 
     /* renamed from: a, reason: collision with root package name */
@@ -18,7 +18,7 @@ public class RadioStationInfo implements SafeParcelable {
     public int d;
     public MetaData e;
 
-    public class HdData implements SafeParcelable {
+    public static class HdData implements SafeParcelable {
         public static final Parcelable.Creator<HdData> CREATOR = new em();
 
         /* renamed from: a, reason: collision with root package name */
@@ -43,7 +43,7 @@ public class RadioStationInfo implements SafeParcelable {
         }
     }
 
-    public class MetaData implements SafeParcelable {
+    public static class MetaData implements SafeParcelable {
         public static final Parcelable.Creator<MetaData> CREATOR = new en();
 
         /* renamed from: a, reason: collision with root package name */
@@ -74,7 +74,7 @@ public class RadioStationInfo implements SafeParcelable {
         }
     }
 
-    public class RdsData implements SafeParcelable {
+    public static class RdsData implements SafeParcelable {
         public static final Parcelable.Creator<RdsData> CREATOR = new eo();
 
         /* renamed from: a, reason: collision with root package name */

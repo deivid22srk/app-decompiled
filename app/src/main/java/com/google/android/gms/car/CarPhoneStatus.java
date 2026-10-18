@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 
 /* loaded from: classes.dex */
-public class CarPhoneStatus implements SafeParcelable {
+public static class CarPhoneStatus implements SafeParcelable {
     public static final Parcelable.Creator<CarPhoneStatus> CREATOR = new fm();
 
     /* renamed from: a, reason: collision with root package name */
@@ -15,7 +15,7 @@ public class CarPhoneStatus implements SafeParcelable {
     public CarCall[] f5424b;
     public int c;
 
-    public class CarCall implements SafeParcelable {
+    public static class CarCall implements SafeParcelable {
         public static final Parcelable.Creator<CarCall> CREATOR = new fl();
 
         /* renamed from: a, reason: collision with root package name */

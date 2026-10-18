@@ -9,8 +9,6 @@ import com.google.android.vending.verifier.bpkg.m;
 public final class i extends a<k, m> {
     /* JADX INFO: Access modifiers changed from: protected */
     @Override // com.android.volley.l
-    public final /* bridge */ /* synthetic */ void a(Object obj) {
-    }
 
     public i(String str, s sVar, m mVar) {
         super(str, sVar, mVar);

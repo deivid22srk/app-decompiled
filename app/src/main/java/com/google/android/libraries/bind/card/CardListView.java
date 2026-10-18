@@ -350,7 +350,7 @@ public class CardListView extends ListView {
         }
     }
 
-    class SavedState extends View.BaseSavedState {
+    static class SavedState extends View.BaseSavedState {
         public static final Parcelable.Creator<SavedState> CREATOR = new f();
 
         /* renamed from: a, reason: collision with root package name */

@@ -6,7 +6,7 @@ import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import java.util.List;
 
 /* loaded from: classes.dex */
-public class StorageInfoResponse implements SafeParcelable {
+public static class StorageInfoResponse implements SafeParcelable {
     public static final Parcelable.Creator<StorageInfoResponse> CREATOR = new bq();
 
     /* renamed from: a, reason: collision with root package name */
