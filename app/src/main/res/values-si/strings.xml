@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>American Express</b>"
+CVC යනු කාඩ්පතේ දකුණු පස ඉදිරියේ පිහිටා ඇති අංක හතර වේ."</string>
+    <string name="wallet_im_cvc_code_popup_content_description">CVC පිළිබඳ වැඩිදුර විස්තර.</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover, MasterCard, Visa, සහ Visa Electron</b>"
+CVC යනු අත්සන් තීරුව තුළ ඔබේ කාඩ්පත පිටුපස පෙනෙන අවසන් අංක තුන වේ."</string>
+    <string name="wallet_im_error_title">දෝෂය</string>
+    <string name="wallet_im_send_sms_for_dcb_error">ගිණුම තහවුරු කිරීමේ කෙටි පණිවුඩය යැවීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.</string>
+    <string name="wallet_im_unknown_error">අපට ඔබගේ ඉල්ලීම සම්පූර්ණ කළ නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න හෝ පසුව නැවත උත්සාහ කරන්න.</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">ක්ෂේත්‍රය: %1$s, දෝෂය: %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">වීථි ලිපිනය</string>
+    <string name="wallet_uic_address_field_address_line_2">මහල් නිවාසය</string>
+    <string name="wallet_uic_address_field_admin_area_area">ප්‍රදේශය</string>
+    <string name="wallet_uic_address_field_admin_area_county">ප්‍රාන්තය</string>
+    <string name="wallet_uic_address_field_admin_area_department">දෙපාර්තමේන්තුව</string>
+    <string name="wallet_uic_address_field_admin_area_district">දිස්ත්‍රික්කය</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">දෝ සි</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">එමිරේටය</string>
+    <string name="wallet_uic_address_field_admin_area_island">දූපත</string>
+    <string name="wallet_uic_address_field_admin_area_parish">වසම</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">ප්‍රාන්තය</string>
+    <string name="wallet_uic_address_field_admin_area_province">පළාත</string>
+    <string name="wallet_uic_address_field_admin_area_region">කලාපය</string>
+    <string name="wallet_uic_address_field_admin_area_state">ජනපදය</string>
+    <string name="wallet_uic_address_field_country">රට</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">නගරය</string>
+    <string name="wallet_uic_address_field_organization">සංවිධානය</string>
+    <string name="wallet_uic_address_field_postal_code">තැපැල් කේතය</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">ZIP කේතය</string>
+    <string name="wallet_uic_card_number">කාඩ්පත් අංකය</string>
+    <string name="wallet_uic_close">වසන්න</string>
+    <string name="wallet_uic_content_description_edit_address">ලිපිනය සංස්කරණය කරන්න</string>
+    <string name="wallet_uic_content_description_expand_credit_card">ණය කාඩ්පත් තොරතුරු දිග හරින්න</string>
+    <string name="wallet_uic_error_address_field_invalid">අවලංගු %s</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">අවලංගු ණය කාඩ්පත් අංකය</string>
+    <string name="wallet_uic_error_cvc_invalid">අවලංගු CVC</string>
+    <string name="wallet_uic_error_email_address_invalid">අවලංගු ඊ-තැපැල් ලිපිනය</string>
+    <string name="wallet_uic_error_expired_credit_card">කල් ඉකුත් වූ ණය කාඩ්පත</string>
+    <string name="wallet_uic_error_field_must_be_complete">අසම්පූර්ණ ක්ෂේත්‍රය</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">අවශ්‍ය ක්ෂේත්‍රය</string>
+    <string name="wallet_uic_error_loading_page">පිටුව පූරණය දෝෂ සහගතය.</string>
+    <string name="wallet_uic_error_month_invalid">අවලංගු මාසය</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">සංඛ්‍යාත්මක සංඛ්‍යා වලට පමණක් ඉඩ දෙනු ලැබේ.</string>
+    <string name="wallet_uic_error_year_invalid">අවලංගු වසර</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">අවුරුද්ද අවශ්‍යයි</string>
+    <string name="wallet_uic_exp_date">MM/YY</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">පිළිගත් කාඩ්පත් සඟවන්න</string>
+    <string name="wallet_uic_network_error_message">මෙම කාර්යය සම්පූර්ණ කිරීමට ජාල සම්බන්ධතාවයක් අවශ්‍ය වේ. කරුණාකර Wi-Fi හෝ දත්ත ජාලයක් වෙත සම්බන්ධ වන්න.</string>
+    <string name="wallet_uic_network_error_title">අන්තර්ජාල සම්බන්ධතාවයක් නැත</string>
+    <string name="wallet_uic_nfc_credit_card">ඔබගේ කාඩ්පත කියවීමට තට්ටු කරන්න.</string>
+    <string name="wallet_uic_nfc_enable_button">NFC දමන්න</string>
+    <string name="wallet_uic_nfc_enable_title">NFC දමන්න</string>
+    <string name="wallet_uic_nfc_error_title">ඔබේ කාඩ්පත් තතු නොකියැවිණි</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"තනි තට්ටුවක් සමග ඔබගේ ණය කාඩ්පත් තතු ඇතුළු කරන්න.
+මුලින්ම ඔබගේ සැකසීම් තුළ NFC ක්‍රියාත්මක කරන්න, ඉන්පසු ඔබේ උපාංගය වෙත ඔබේ කාඩ්පත තට්ටු කරන්න."</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">ඔබගේ උපාංගය පිටිපස්සට ඔබේ කාඩ්පත තට්ටු කර අල්ලා සිටින්න. ඔබේ කාඩ්පත් තතු ස්වයංක්‍රීයව කියවනු ඇත.</string>
+    <string name="wallet_uic_nfc_popup_title">ඔබේ කාඩ්පත තට්ටු කරන්න</string>
+    <string name="wallet_uic_nfc_timeout_error_message">ඔබේ කාඩ්පත නැවත තට්ටු කරන්න හෝ ඔබගේ කාඩ්පත් අංකය ටයිප් කරන්න.</string>
+    <string name="wallet_uic_nfc_transceive_error_message">කියවන අතරේ ඔබේ කාඩ්පත නිශ්චලව තබා ගන්න.</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">මෙම කාඩ්පත තවමත් NFC විසින් සහාය දක්වන්නේ නැත. කාඩ්පත් අංකය හස්තීයව ටයිප් කරන්න.</string>
+    <string name="wallet_uic_ocr_drop_down_button">ඔබේ කාඩ්පත පිරික්සන්න</string>
+    <string name="wallet_uic_phone_number">දුරකථන අංකය</string>
+    <string name="wallet_uic_retry">නැවත උත්සාහ කරන්න</string>
+    <string name="wallet_uic_scan_credit_card">ඔබේ කැමරාව සමග ණය කාඩ්පත පරිලෝකනය කරන්න</string>
+    <string name="wallet_uic_select_location">ස්ථානය තෝරන්න</string>
+    <string name="wallet_uic_summary_clear_button_description">පෝරමය හිස් කරන්න</string>
+    <string name="wallet_uic_summary_edit_button_description">පෝරමය සංස්කරණය කරන්න</string>
+    <string name="wallet_uic_view_card_logos">පිළිගත් කාඩ්පත් බලන්න</string>
+</resources>

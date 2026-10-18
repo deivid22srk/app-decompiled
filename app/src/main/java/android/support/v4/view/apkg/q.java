@@ -1,0 +1,7 @@
+package android.support.v4.view.apkg;
+
+/* loaded from: classes.dex */
+public class q extends p {
+    q() {
+    }
+}

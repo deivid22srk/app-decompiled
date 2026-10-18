@@ -1,0 +1,52 @@
+package com.google.android.play;
+
+/* loaded from: classes.dex */
+public final class m {
+    public static final int abc_action_bar_home_description = 2131361792;
+    public static final int abc_action_bar_home_description_format = 2131361793;
+    public static final int abc_action_bar_home_subtitle_description_format = 2131361794;
+    public static final int abc_action_bar_up_description = 2131361795;
+    public static final int abc_action_menu_overflow_description = 2131361796;
+    public static final int abc_action_mode_done = 2131361797;
+    public static final int abc_activity_chooser_view_see_all = 2131361798;
+    public static final int abc_activitychooserview_choose_application = 2131361799;
+    public static final int abc_capital_off = 2131361800;
+    public static final int abc_capital_on = 2131361801;
+    public static final int abc_search_hint = 2131361802;
+    public static final int abc_searchview_description_clear = 2131361803;
+    public static final int abc_searchview_description_query = 2131361804;
+    public static final int abc_searchview_description_search = 2131361805;
+    public static final int abc_searchview_description_submit = 2131361806;
+    public static final int abc_searchview_description_voice = 2131361807;
+    public static final int abc_shareactionprovider_share_with = 2131361808;
+    public static final int abc_shareactionprovider_share_with_application = 2131361809;
+    public static final int abc_toolbar_collapse_description = 2131361810;
+    public static final int expando_hero = 2131363018;
+    public static final int expando_splash = 2131363019;
+    public static final int header_list_layout_background = 2131363027;
+    public static final int header_list_layout_tabbar = 2131363028;
+    public static final int header_list_layout_toolbar = 2131363029;
+    public static final int play_accessibility_search_plate_back_button = 2131362580;
+    public static final int play_accessibility_search_plate_clear = 2131362581;
+    public static final int play_accessibility_search_plate_navigate_up_button = 2131362582;
+    public static final int play_accessibility_search_plate_search_button = 2131362583;
+    public static final int play_accessibility_search_plate_voice_search_button = 2131362584;
+    public static final int play_article_view_error_message = 2131362586;
+    public static final int play_content_description_page_indicator = 2131362590;
+    public static final int play_dot_my_account_notification_content_description = 2131362591;
+    public static final int play_dot_notification_content_description = 2131362592;
+    public static final int play_download_is_requested = 2131362593;
+    public static final int play_download_not_requested = 2131362594;
+    public static final int play_drawer_close = 2131362595;
+    public static final int play_drawer_content_description_hide_account_list_button = 2131362596;
+    public static final int play_drawer_content_description_show_account_list_button = 2131362597;
+    public static final int play_drawer_content_description_switch_account = 2131362598;
+    public static final int play_drawer_open = 2131362599;
+    public static final int play_drawer_title = 2131362600;
+    public static final int play_onboard_button_next = 2131362603;
+    public static final int play_onboard_interstitial_grid_cell = 2131363034;
+    public static final int play_percent_downloaded = 2131362604;
+    public static final int play_search_box_hint = 2131362605;
+    public static final int play_star_rating_content_description = 2131362613;
+    public static final int status_bar_notification_info_overflow = 2131362796;
+}

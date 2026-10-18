@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>American Express</b>"
+CVC ແມ່ນໂຕເລກສີ່ໂຕທີ່ຢູ່ດ້ານໜ້າຂອງບັດທາງຂວາມື."</string>
+    <string name="wallet_im_cvc_code_popup_content_description">ຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບ CVC.</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover, MasterCard, Visa ແລະ Visa Electron</b>"
+CVC ແມ່ນໂຕເລກສາມໂຕສຸດທ້າຍທີ່ປາກົດຢູ່ຫຼັງບັດໃນແຖບລາຍເຊັນ"</string>
+    <string name="wallet_im_error_title">ຜິດພາດ</string>
+    <string name="wallet_im_send_sms_for_dcb_error">ບໍ່ສາມາດສົ່ງ SMS ຢືນຢັນບັນຊີໄດ້. ກະລຸນາລອງໃໝ່ອີກເທື່ອນຶ່ງ.</string>
+    <string name="wallet_im_unknown_error">ບໍ່ສາມາດສຳເລັດຄຳຮ້ອງຂໍຂອງທ່ານໄດ້. ກະລຸນາລອງໃໝ່ ຫຼືລອງເຮັດຄືນໃນພາຍຫຼັງ.</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">ຊ່ອງຂໍ້ມູນ: %1$s, ຜິດພາດ: %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">ທີ່ຢູ່ຖະໜົນ</string>
+    <string name="wallet_uic_address_field_address_line_2">ອາພາດເມັນ / ຫ້ອງ</string>
+    <string name="wallet_uic_address_field_admin_area_area">ເຂດ</string>
+    <string name="wallet_uic_address_field_admin_area_county">ເຂດເມືອງ</string>
+    <string name="wallet_uic_address_field_admin_area_department">ພະແນກ</string>
+    <string name="wallet_uic_address_field_admin_area_district">ເມືອງ</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">Do Si</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">ອະມິເຣດ</string>
+    <string name="wallet_uic_address_field_admin_area_island">ເກາະ</string>
+    <string name="wallet_uic_address_field_admin_area_parish">ຕາແສງ</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">ແຂວງ</string>
+    <string name="wallet_uic_address_field_admin_area_province">ແຂວງ</string>
+    <string name="wallet_uic_address_field_admin_area_region">ພາກພື້ນ</string>
+    <string name="wallet_uic_address_field_admin_area_state">ລັດ</string>
+    <string name="wallet_uic_address_field_country">ປະ​ເທດ</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">ເມືອງ</string>
+    <string name="wallet_uic_address_field_organization">ອົງ​ກອນ</string>
+    <string name="wallet_uic_address_field_postal_code">ລະຫັດໄປສະນິ</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">ລະຫັດ ZIP</string>
+    <string name="wallet_uic_card_number">ເລກບັດ</string>
+    <string name="wallet_uic_close">ປິດ</string>
+    <string name="wallet_uic_content_description_edit_address">ແກ້ໄຂທີ່ຢູ່</string>
+    <string name="wallet_uic_content_description_expand_credit_card">ຂະຫຍາຍຂໍ້ມູນເລກບັດເຄຣດິດ</string>
+    <string name="wallet_uic_error_address_field_invalid">%s ບໍ່ຖືກຕ້ອງ</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">ເລກບັດເຄຣດິດບໍ່ຖືກຕ້ອງ</string>
+    <string name="wallet_uic_error_cvc_invalid">CVC ບໍ່ຖືກຕ້ອງ</string>
+    <string name="wallet_uic_error_email_address_invalid">ທີ່​ຢູ່​ອີ​ເມວ​​ບໍ່​ຖືກ​ຕ້ອງ</string>
+    <string name="wallet_uic_error_expired_credit_card">ບັດເຄຣດິດໝົດອາຍຸ</string>
+    <string name="wallet_uic_error_field_must_be_complete">ຊ່ອງຂໍ້ມູນທີ່ຍັງບໍ່ແລ້ວເທື່ອ</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">ຊ່ອງຂໍ້ມູນທີ່ຕ້ອງລະບຸ</string>
+    <string name="wallet_uic_error_loading_page">ເກີດຄວາມຜິດພາດໃນການໂຫລດໜ້າ</string>
+    <string name="wallet_uic_error_month_invalid">ເດືອນບໍ່ຖືກຕ້ອງ</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">ອະນຸຍາດໃຫ້ໃຊ້ໂຕເລກເທົ່ານັ້ນ.</string>
+    <string name="wallet_uic_error_year_invalid">ປີບໍ່ຖືກຕ້ອງ</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">ຕ້ອງລະບຸປີ</string>
+    <string name="wallet_uic_exp_date">ດດ/ປປ</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">ເຊື່ອງບັດທີ່ຮອງຮັບ</string>
+    <string name="wallet_uic_network_error_message">ຕ້ອງໃຊ້ການເຊື່ອມຕໍ່ອິນເຕີເນັດເພື່ອສຳເລັດການດຳເນີນການນີ້. ກະລຸນາເຊື່ອມຕໍ່ຫາເຄືອຂ່າຍ Wi-Fi ຫຼືຂໍ້ມູນມືຖື.</string>
+    <string name="wallet_uic_network_error_title">ບໍ່ມີການເຊື່ອມຕໍ່ອິນເຕີເນັດ</string>
+    <string name="wallet_uic_nfc_credit_card">ແຕະເພື່ອອ່ານບັດຂອງທ່ານ.</string>
+    <string name="wallet_uic_nfc_enable_button">ເປີດໃຊ້ NFC</string>
+    <string name="wallet_uic_nfc_enable_title">ເປີດໃຊ້ NFC</string>
+    <string name="wallet_uic_nfc_error_title">ບໍ່ໄດ້ອ່ານຂໍ້ມູນບັດຂອງທ່ານ</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"ໃສ່ຂໍ້ມູນບັດເຄຣດິດຂອງທ່ານດ້ວຍການແຕະພຽງເທື່ອດຽວ.
+ທຳອິດ, ໃຫ້ເປີດໃຊ້ NFC ໃນການຕັ້ງຄ່າຂອງທ່ານກ່ອນ, ຈາກນັ້ນແຕະບັດຂອງທ່ານໃສ່ທີ່ອຸປະກອນທີ່ທ່ານໃຊ້ຢູ່."</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">ແຕະບັດຂອງທ່ານໃສ່ຫຼັງອຸປະກອນຄ້າງໄວ້. ຂໍ້ມູນບັດຂອງທ່ານຈະຖືກອ່ານໂດຍອັດຕະໂນມັດ.</string>
+    <string name="wallet_uic_nfc_popup_title">ແຕະບັດຂອງທ່ານ</string>
+    <string name="wallet_uic_nfc_timeout_error_message">ແຕະບັດຂອງທ່ານອີກເທື່ອນຶ່ງ ຫຼືພິມໝາຍເລກບັດຂອງທ່ານ.</string>
+    <string name="wallet_uic_nfc_transceive_error_message">ຖືບັດຂອງທ່ານໄວ້ບ່ອນເກົ່າໃນຂະນະທີ່ລະບົບກຳລັງອ່ານຂໍ້ມູນບັດ.</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">ບັດນີ້ບໍ່ຮອງຮັບ NFC ເທື່ອ. ກະລຸນາພິມໝາຍເລກບັດດ້ວຍຕົນເອງ.</string>
+    <string name="wallet_uic_ocr_drop_down_button">ສະແກນບັດຂອງທ່ານ</string>
+    <string name="wallet_uic_phone_number">ເບີ​ໂທລະ​ສັບ</string>
+    <string name="wallet_uic_retry">ລອງໃໝ່</string>
+    <string name="wallet_uic_scan_credit_card">ສະແກນບັດເຄຣດິດດ້ວຍກ້ອງຖ່າຍຮູບຂອງທ່ານ</string>
+    <string name="wallet_uic_select_location">ເລືອກສະຖານທີ່</string>
+    <string name="wallet_uic_summary_clear_button_description">ລຶບລ້າງແບບຟອມ</string>
+    <string name="wallet_uic_summary_edit_button_description">ແກ້ໄຂແບບຟອມ</string>
+    <string name="wallet_uic_view_card_logos">ເບິ່ງບັດທີ່ລະບົບຮອງຮັບ</string>
+</resources>

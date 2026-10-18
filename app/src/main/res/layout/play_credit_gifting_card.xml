@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/card_bg_play" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.layout.SquareImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <TextView android:textSize="@dimen/play_purchase_primary_size" android:textColor="@color/play_primary_text" android:layout_gravity="center_horizontal" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="14.0dip" />
+</LinearLayout>

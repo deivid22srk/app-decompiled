@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>American Express</b>"
+CVC е четирицифрениот број што се наоѓа на предната страна на картичката, на десната страна."</string>
+    <string name="wallet_im_cvc_code_popup_content_description">Повеќе информации за CVC.</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover, MasterCard, Visa и Visa Electron</b>"
+CVC се последните три цифри од бројот што се наоѓа на задната страна на картичката во полето за потпис."</string>
+    <string name="wallet_im_error_title">Грешка</string>
+    <string name="wallet_im_send_sms_for_dcb_error">SMS пораката за потврда на сметката не може да се испрати. Обидете се повторно.</string>
+    <string name="wallet_im_unknown_error">Не можевме да го комплетираме вашето барање. Обидете се повторно или обидете се повторно подоцна.</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">Поле: %1$s, грешка: %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">Адреса на улица</string>
+    <string name="wallet_uic_address_field_address_line_2">апартман/стан</string>
+    <string name="wallet_uic_address_field_admin_area_area">Област</string>
+    <string name="wallet_uic_address_field_admin_area_county">Округ</string>
+    <string name="wallet_uic_address_field_admin_area_department">Департман</string>
+    <string name="wallet_uic_address_field_admin_area_district">Област</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">Do Si</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">Емират</string>
+    <string name="wallet_uic_address_field_admin_area_island">Остров</string>
+    <string name="wallet_uic_address_field_admin_area_parish">Епархија</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">Префектура</string>
+    <string name="wallet_uic_address_field_admin_area_province">Провинција</string>
+    <string name="wallet_uic_address_field_admin_area_region">Регион</string>
+    <string name="wallet_uic_address_field_admin_area_state">Држава</string>
+    <string name="wallet_uic_address_field_country">Држава</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">Град</string>
+    <string name="wallet_uic_address_field_organization">Организација</string>
+    <string name="wallet_uic_address_field_postal_code">Поштенски број</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">Поштенски број</string>
+    <string name="wallet_uic_card_number">Број на картичка</string>
+    <string name="wallet_uic_close">Затвори</string>
+    <string name="wallet_uic_content_description_edit_address">Уредете ја адресата</string>
+    <string name="wallet_uic_content_description_expand_credit_card">Ги проширува информациите за кредитната картичка</string>
+    <string name="wallet_uic_error_address_field_invalid">Неважечки %s</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">Неважечки број на кредитна картичка</string>
+    <string name="wallet_uic_error_cvc_invalid">Погрешен CVC број</string>
+    <string name="wallet_uic_error_email_address_invalid">Неважечка адреса на е-пошта</string>
+    <string name="wallet_uic_error_expired_credit_card">Истечена кредитна картичка</string>
+    <string name="wallet_uic_error_field_must_be_complete">Нецелосно поле</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">Задолжително поле</string>
+    <string name="wallet_uic_error_loading_page">Грешка при вчитување на страницата.</string>
+    <string name="wallet_uic_error_month_invalid">Погрешен месец</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">Дозволени се само нумерички цифри.</string>
+    <string name="wallet_uic_error_year_invalid">Погрешна година</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">Наведете ја годината</string>
+    <string name="wallet_uic_exp_date">ММ/ГГ</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">Сокриј ги прифатените картички</string>
+    <string name="wallet_uic_network_error_message">Потребна е мрежна врска за да се заврши оваа задача. Поврзете се со Wi-Fi или податочна мрежа.</string>
+    <string name="wallet_uic_network_error_title">Нема интернет врска</string>
+    <string name="wallet_uic_nfc_credit_card">Допрете за да ја вчитате картичката.</string>
+    <string name="wallet_uic_nfc_enable_button">Вклучи NFC</string>
+    <string name="wallet_uic_nfc_enable_title">Го вклучува NFC</string>
+    <string name="wallet_uic_nfc_error_title">Информациите од картичката не се вчитаа</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"Внесете ги информациите од вашата кредитна картичка со еден допир.
+Прво вклучете го NFC во поставките, а потоа допрете ја картичката до вашиот уред."</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">Допрете ја и задржете ја картичката на задната страна на уредот. Информациите на картичката ќе се вчитаат автоматски.</string>
+    <string name="wallet_uic_nfc_popup_title">Допрете со картичката</string>
+    <string name="wallet_uic_nfc_timeout_error_message">Повторно допрете ја картичката или впишете го бројот на картичката.</string>
+    <string name="wallet_uic_nfc_transceive_error_message">Држете ја картичката мирно додека се вчитува.</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">Оваа картичка сѐ уште не е поддржана од NFC. Внесете го бројот на картичката рачно.</string>
+    <string name="wallet_uic_ocr_drop_down_button">Скенирај картичка</string>
+    <string name="wallet_uic_phone_number">Телефонски број</string>
+    <string name="wallet_uic_retry">Повторен обид</string>
+    <string name="wallet_uic_scan_credit_card">Скенирајте ја кредитната картичка со камерата</string>
+    <string name="wallet_uic_select_location">Изберете локација</string>
+    <string name="wallet_uic_summary_clear_button_description">Избришете ги податоците од формуларот</string>
+    <string name="wallet_uic_summary_edit_button_description">Уредете го формуларот</string>
+    <string name="wallet_uic_view_card_logos">Прикажи ги прифатените картички</string>
+</resources>

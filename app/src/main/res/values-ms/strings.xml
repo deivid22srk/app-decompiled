@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>American Express</b>"
+CVC ialah empat digit yang terletak di bahagian depan kad, di sebelah kanan."</string>
+    <string name="wallet_im_cvc_code_popup_content_description">Ketahui lebih lanjut mengenai CVC.</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover, MasterCard, Visa dan Visa Electron</b>"
+CVC ialah tiga digit terakhir pada nombor yang muncul di belakang kad anda dalam bar tandatangan."</string>
+    <string name="wallet_im_error_title">Ralat</string>
+    <string name="wallet_im_send_sms_for_dcb_error">SMS pengesahan akaun tidak dapat dihantar. Sila cuba lagi.</string>
+    <string name="wallet_im_unknown_error">Kami tidak dapat melengkapkan permintaan anda. Sila cuba semula atau cuba sekali lagi kemudian.</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">Medan: %1$s, ralat: %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">Alamat jalan</string>
+    <string name="wallet_uic_address_field_address_line_2">Pangsapuri/Suite</string>
+    <string name="wallet_uic_address_field_admin_area_area">Kawasan</string>
+    <string name="wallet_uic_address_field_admin_area_county">Mukim</string>
+    <string name="wallet_uic_address_field_admin_area_department">Jabatan</string>
+    <string name="wallet_uic_address_field_admin_area_district">Daerah</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">Do Si</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">Emiriah</string>
+    <string name="wallet_uic_address_field_admin_area_island">Pulau</string>
+    <string name="wallet_uic_address_field_admin_area_parish">Kariah</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">Wilayah</string>
+    <string name="wallet_uic_address_field_admin_area_province">Wilayah</string>
+    <string name="wallet_uic_address_field_admin_area_region">Rantau</string>
+    <string name="wallet_uic_address_field_admin_area_state">Negeri</string>
+    <string name="wallet_uic_address_field_country">Negara</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">Bandar</string>
+    <string name="wallet_uic_address_field_organization">Organisasi</string>
+    <string name="wallet_uic_address_field_postal_code">Poskod</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">Poskod</string>
+    <string name="wallet_uic_card_number">Nombor kad</string>
+    <string name="wallet_uic_close">Tutup</string>
+    <string name="wallet_uic_content_description_edit_address">Edit alamat</string>
+    <string name="wallet_uic_content_description_expand_credit_card">Kembangkan maklumat kad kredit</string>
+    <string name="wallet_uic_error_address_field_invalid">%s tidak sah</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">Nombor kad kredit tidak sah</string>
+    <string name="wallet_uic_error_cvc_invalid">CVC tidak sah</string>
+    <string name="wallet_uic_error_email_address_invalid">Alamat e-mel tidak sah</string>
+    <string name="wallet_uic_error_expired_credit_card">Kad kredit telah tamat tempoh</string>
+    <string name="wallet_uic_error_field_must_be_complete">Medan tidak lengkap</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">Medan wajib</string>
+    <string name="wallet_uic_error_loading_page">Ralat memuatkan halaman.</string>
+    <string name="wallet_uic_error_month_invalid">Bulan tidak sah</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">Hanya digit angka dibenarkan.</string>
+    <string name="wallet_uic_error_year_invalid">Tahun tidak sah</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">Tahun diperlukan</string>
+    <string name="wallet_uic_exp_date">BB/TT</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">Sembunyikan kad yang diterima</string>
+    <string name="wallet_uic_network_error_message">Sambungan rangkaian diperlukan untuk menyelesaikan tugas ini. Sila sambung ke rangkaian Wi-Fi atau data.</string>
+    <string name="wallet_uic_network_error_title">Tiada Sambungan Internet</string>
+    <string name="wallet_uic_nfc_credit_card">Ketik untuk membaca kad anda.</string>
+    <string name="wallet_uic_nfc_enable_button">Hidupkan NFC</string>
+    <string name="wallet_uic_nfc_enable_title">Hidupkan NFC</string>
+    <string name="wallet_uic_nfc_error_title">Maklumat kad anda tidak dibaca</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"Masukkan maklumat kad kredit anda dengan satu ketikan.
+Hidupkan NFC dalam tetapan anda terlebih dahulu, kemudian ketik kad pada peranti anda."</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">Ketik dan tahan kad anda pada bahagian belakang peranti. Maklumat kad anda akan dibaca secara automatik.</string>
+    <string name="wallet_uic_nfc_popup_title">Ketik kad anda</string>
+    <string name="wallet_uic_nfc_timeout_error_message">Ketik kad sekali lagi atau taipkan nombor kad anda.</string>
+    <string name="wallet_uic_nfc_transceive_error_message">Jangan gerakkan kad anda sewaktu kad dibaca.</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">Kad ini tidak disokong oleh NFC. Sila taipkan nombor kad.</string>
+    <string name="wallet_uic_ocr_drop_down_button">Imbas kad anda</string>
+    <string name="wallet_uic_phone_number">Nombor telefon</string>
+    <string name="wallet_uic_retry">Cuba semula</string>
+    <string name="wallet_uic_scan_credit_card">Imbas kad kredit dengan kamera anda</string>
+    <string name="wallet_uic_select_location">Pilih lokasi</string>
+    <string name="wallet_uic_summary_clear_button_description">Kosongkan borang</string>
+    <string name="wallet_uic_summary_edit_button_description">Edit borang</string>
+    <string name="wallet_uic_view_card_logos">Lihat kad yang diterima</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>അമേരിക്കൻ എക്സ്‌പ്രസ്</b>"
+കാർഡിന്റെ മുൻവശത്ത്, വലത് ഭാഗത്ത് സ്ഥിതിചെയ്യുന്ന നാലക്കമാണ് CVC."</string>
+    <string name="wallet_im_cvc_code_popup_content_description">CVC സംബന്ധിച്ച കൂടുതൽ വിവരങ്ങൾ.</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>ഡിസ്കവർ, മാസ്റ്റർകാർഡ്, വിസ, വിസ ഇലക്ട്രോൺ</b>"
+നിങ്ങളുടെ കാർഡിന്റെ പിൻഭാഗത്ത്, ഒപ്പിടാനുള്ള ബാറിൽ ദൃശ്യമാകുന്ന നമ്പറിന്റെ അവസാന മൂന്നക്കമാണ് CVC."</string>
+    <string name="wallet_im_error_title">പിശക്</string>
+    <string name="wallet_im_send_sms_for_dcb_error">അക്കൗണ്ട് പരിശോധിച്ചുറപ്പിക്കൽ SMS അയയ്ക്കാൻ കഴിഞ്ഞില്ല. വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="wallet_im_unknown_error">നിങ്ങളുടെ അഭ്യർത്ഥന പൂർത്തിയാക്കാൻ കഴിഞ്ഞില്ല. വീണ്ടും ശ്രമിക്കുക അല്ലെങ്കിൽ പിന്നീട് വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">ഫീൽഡ്: %1$s, പിശക്: %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">സ്‌ട്രീറ്റ് വിലാസം</string>
+    <string name="wallet_uic_address_field_address_line_2">അപ്പാർട്ട്‌മെന്റ്/സ്യൂട്ട്</string>
+    <string name="wallet_uic_address_field_admin_area_area">ഏരിയ</string>
+    <string name="wallet_uic_address_field_admin_area_county">രാജ്യം</string>
+    <string name="wallet_uic_address_field_admin_area_department">ഡിപ്പാര്‍ട്ട്മെന്റ്</string>
+    <string name="wallet_uic_address_field_admin_area_district">ജില്ല</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">ഡൊ സി</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">എമിറേറ്റ്</string>
+    <string name="wallet_uic_address_field_admin_area_island">ഐലന്‍ഡ്</string>
+    <string name="wallet_uic_address_field_admin_area_parish">പാരിഷ്</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">പ്രിഫെക്‌ച്വർ</string>
+    <string name="wallet_uic_address_field_admin_area_province">പ്രവിശ്യ</string>
+    <string name="wallet_uic_address_field_admin_area_region">പ്രവിശ്യ</string>
+    <string name="wallet_uic_address_field_admin_area_state">സംസ്ഥാനം</string>
+    <string name="wallet_uic_address_field_country">രാജ്യം</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">നഗരം</string>
+    <string name="wallet_uic_address_field_organization">ഓര്‍ഗനൈസേഷന്‍</string>
+    <string name="wallet_uic_address_field_postal_code">തപാല്‍ കോഡ്</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">തപാൽ കോഡ്</string>
+    <string name="wallet_uic_card_number">കാർഡ് നമ്പർ</string>
+    <string name="wallet_uic_close">അടയ്ക്കൂ</string>
+    <string name="wallet_uic_content_description_edit_address">വിലാസം എഡിറ്റുചെയ്യുക</string>
+    <string name="wallet_uic_content_description_expand_credit_card">ക്രെഡിറ്റ് കാർഡ് വിവരങ്ങൾ വികസിപ്പിക്കുക</string>
+    <string name="wallet_uic_error_address_field_invalid">അസാധുവായ %s</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">ക്രെഡിറ്റ് കാർഡ് നമ്പർ അസാധുവാണ്</string>
+    <string name="wallet_uic_error_cvc_invalid">CVC അസാധുവാണ്</string>
+    <string name="wallet_uic_error_email_address_invalid">ഇമെയില്‍ വിലാസം അസാധുവാണ്</string>
+    <string name="wallet_uic_error_expired_credit_card">ക്രെഡിറ്റ് കാർഡ് കാലഹരണപ്പെട്ടതാണ്</string>
+    <string name="wallet_uic_error_field_must_be_complete">ഫീൽഡ് അപൂർണമാണ്</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">നിർബന്ധമായും പൂരിപ്പിക്കണം</string>
+    <string name="wallet_uic_error_loading_page">പേജ് ലോഡുചെയ്യുന്നതിൽ പിശക്.</string>
+    <string name="wallet_uic_error_month_invalid">മാസം അസാധുവാണ്</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">സംഖ്യയിലുള്ള അക്കങ്ങൾ മാത്രം അനുവദിച്ചിരിക്കുന്നു.</string>
+    <string name="wallet_uic_error_year_invalid">വര്‍ഷം അസാധുവാണ്</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">വർഷം നൽകണം</string>
+    <string name="wallet_uic_exp_date">MM/YY</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">അംഗീകൃത കാർഡുകൾ മറയ്ക്കുക</string>
+    <string name="wallet_uic_network_error_message">ഈ ചുമതല പൂർത്തിയാക്കാൻ ഒരു നെറ്റ്‌വർക്ക് കണക്ഷൻ ആവശ്യമാണ്. ഒരു Wi-Fi അല്ലെങ്കിൽ ഡാറ്റ നെറ്റ്‌വർക്കിൽ ബന്ധിപ്പിക്കുക.</string>
+    <string name="wallet_uic_network_error_title">ഇന്റർനെറ്റ് കണക്ഷൻ ഇല്ല</string>
+    <string name="wallet_uic_nfc_credit_card">നിങ്ങളുടെ കാർഡ് വായിക്കാൻ ടാപ്പുചെയ്യുക.</string>
+    <string name="wallet_uic_nfc_enable_button">NFC ഓണാക്കുക</string>
+    <string name="wallet_uic_nfc_enable_title">NFC ഓണാക്കുക</string>
+    <string name="wallet_uic_nfc_error_title">നിങ്ങളുടെ കാർഡ് വിവരം വായിച്ചില്ല</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"ഒറ്റ ടാപ്പിൽ നിങ്ങളുടെ ക്രെഡിറ്റ് കാർഡ് വിവരങ്ങൾ നൽകുക.
+ആദ്യം ക്രമീകരണത്തിൽ NFC ഓണാക്കുക, തുടർന്ന് ഉപകരണത്തിലേക്ക് നിങ്ങളുടെ കാർഡ് ടാപ്പുചെയ്യുക."</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">കാർഡ് നിങ്ങളുടെ ഉപകരണത്തിന്റെ പിറകുവശത്ത് ടാപ്പുചെയ്ത് പിടിക്കുക. നിങ്ങളുടെ കാർഡ് വിവരം സ്വയമേവ വായിക്കപ്പെടും.</string>
+    <string name="wallet_uic_nfc_popup_title">നിങ്ങളുടെ കാർഡ് ടാപ്പുചെയ്യുക</string>
+    <string name="wallet_uic_nfc_timeout_error_message">കാർഡ് വീണ്ടും ടാപ്പുചെയ്യുകയോ കാർഡ് നമ്പർ ടൈപ്പുചെയ്യുകയോ ചെയ്യുക.</string>
+    <string name="wallet_uic_nfc_transceive_error_message">വായിക്കുന്നതിനിടെ കാർഡ് നീക്കരുത്.</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">ഈ കാർഡിനെ NFC ഇപ്പോഴും പിന്തുണയ്ക്കുന്നില്ല. കാർഡ് നമ്പർ നേരിട്ട് ടൈപ്പുചെയ്യുക.</string>
+    <string name="wallet_uic_ocr_drop_down_button">നിങ്ങളുടെ കാർഡ് സ്കാൻ ചെയ്യുക</string>
+    <string name="wallet_uic_phone_number">ഫോൺ നമ്പർ</string>
+    <string name="wallet_uic_retry">വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="wallet_uic_scan_credit_card">നിങ്ങളുടെ ക്യാമറ ഉപയോഗിച്ച് ക്രെഡിറ്റ് കാർഡ് സ്കാൻ ചെയ്യുക</string>
+    <string name="wallet_uic_select_location">ലൊക്കേഷൻ തിരഞ്ഞെടുക്കുക</string>
+    <string name="wallet_uic_summary_clear_button_description">ഫോം മായ്ക്കുക</string>
+    <string name="wallet_uic_summary_edit_button_description">ഫോം എഡിറ്റുചെയ്യുക</string>
+    <string name="wallet_uic_view_card_logos">അംഗീകൃത കാർഡുകൾ കാണുക</string>
+</resources>

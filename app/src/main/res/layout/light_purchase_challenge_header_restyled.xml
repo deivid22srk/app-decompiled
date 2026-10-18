@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/challenge_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.play.layout.PlayTextView android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/LightPurchase_TitleText" />
+        <TextView android:id="@id/item_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:drawablePadding="3.0dip" style="@style/LightPurchase_Price" />
+    </LinearLayout>
+    <TextView android:ellipsize="end" android:id="@id/instrument_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/LightPurchase_Auth_InstrumentTitle_Restyled" />
+    <com.google.android.play.layout.PlayTextView android:id="@id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/LightPurchase_TitleText" />
+    <com.google.android.finsky.layout.AccessibleTextView android:gravity="end" android:id="@id/ask_to_buy_item_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="3.0dip" style="@style/LightPurchase_Price" />
+    <TextView android:id="@id/account" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LightPurchase_AccountName_Restyled" />
+</LinearLayout>

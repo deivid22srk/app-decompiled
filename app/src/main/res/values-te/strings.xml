@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>American Express</b>"
+కార్డ్ ముందు భాగంలో కుడివైపున ఉండే నాలుగు అంకెలను CVC అంటారు."</string>
+    <string name="wallet_im_cvc_code_popup_content_description">CVC గురించి మరింత సమాచారం.</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover, MasterCard, Visa మరియు Visa Electron</b>"
+మీ కార్డ్ వెనుక భాగంలో సంతకం బార్‌లో కనిపించే చివరి మూడు అంకెలను CVC అంటారు."</string>
+    <string name="wallet_im_error_title">లోపం</string>
+    <string name="wallet_im_send_sms_for_dcb_error">ఖాతా ధృవీకరణ SMSను పంపడం సాధ్యపడలేదు. దయచేసి మళ్లీ ప్రయత్నించండి.</string>
+    <string name="wallet_im_unknown_error">మేము అభ్యర్థనను పూర్తి చేయలేకపోయాము. దయచేసి తిరిగి ప్రయత్నించండి లేదా తర్వాత మళ్లీ ప్రయత్నించండి.</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">ఫీల్డ్: %1$s, లోపం: %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">వీధి చిరునామా</string>
+    <string name="wallet_uic_address_field_address_line_2">అపార్ట్./సూట్</string>
+    <string name="wallet_uic_address_field_admin_area_area">ప్రాంతం</string>
+    <string name="wallet_uic_address_field_admin_area_county">కౌంటి</string>
+    <string name="wallet_uic_address_field_admin_area_department">విభాగం</string>
+    <string name="wallet_uic_address_field_admin_area_district">జిల్లా</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">Do Si</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">ఎమిరేట్</string>
+    <string name="wallet_uic_address_field_admin_area_island">దీవి</string>
+    <string name="wallet_uic_address_field_admin_area_parish">పారిష్</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">ప్రిఫెక్చర్</string>
+    <string name="wallet_uic_address_field_admin_area_province">ప్రావిన్స్</string>
+    <string name="wallet_uic_address_field_admin_area_region">ప్రాంతం</string>
+    <string name="wallet_uic_address_field_admin_area_state">రాష్ట్రం</string>
+    <string name="wallet_uic_address_field_country">దేశం</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">నగరం</string>
+    <string name="wallet_uic_address_field_organization">సంస్థ</string>
+    <string name="wallet_uic_address_field_postal_code">పోస్టల్ కోడ్</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">జిప్ కోడ్</string>
+    <string name="wallet_uic_card_number">కార్డ్ సంఖ్య</string>
+    <string name="wallet_uic_close">మూసివేయి</string>
+    <string name="wallet_uic_content_description_edit_address">చిరునామాను సవరించండి</string>
+    <string name="wallet_uic_content_description_expand_credit_card">క్రెడిట్ కార్డ్ సమాచారాన్ని విస్తరించండి</string>
+    <string name="wallet_uic_error_address_field_invalid">చెల్లని %s</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">క్రెడిట్ కార్డ్ సంఖ్య చెల్లదు</string>
+    <string name="wallet_uic_error_cvc_invalid">చెల్లని CVC</string>
+    <string name="wallet_uic_error_email_address_invalid">చెల్లని ఇమెయిల్ చిరునామా</string>
+    <string name="wallet_uic_error_expired_credit_card">క్రెడిట్ కార్డ్ గడువు ముగిసింది</string>
+    <string name="wallet_uic_error_field_must_be_complete">అసంపూర్ణ ఫీల్డ్</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">అవసరమైన ఫీల్డ్</string>
+    <string name="wallet_uic_error_loading_page">పేజీని లోడ్ చేయడంలో లోపం ఉంది.</string>
+    <string name="wallet_uic_error_month_invalid">చెల్లని నెల</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">కేవలం అంకెలు మాత్రమే అనుమతించబడతాయి.</string>
+    <string name="wallet_uic_error_year_invalid">చెల్లని సంవత్సరం</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">సంవత్సరం అవసరం</string>
+    <string name="wallet_uic_exp_date">MM/YY</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">ఆమోదించిన కార్డ్‌లను దాచు</string>
+    <string name="wallet_uic_network_error_message">ఈ విధిని పూర్తి చేయాలంటే నెట్‌వర్క్ కనెక్షన్ అవసరం. దయచేసి Wi-Fi లేదా డేటా నెట్‌‍వర్క్‌కు కనెక్ట్ చేయండి.</string>
+    <string name="wallet_uic_network_error_title">ఇంటర్నెట్ కనెక్షన్ లేదు</string>
+    <string name="wallet_uic_nfc_credit_card">మీ కార్డ్‌ను చదవడానికి నొక్కండి.</string>
+    <string name="wallet_uic_nfc_enable_button">NFCని ఆన్ చేయి</string>
+    <string name="wallet_uic_nfc_enable_title">NFCని ఆన్ చేయి</string>
+    <string name="wallet_uic_nfc_error_title">మీ కార్డ్ యొక్క సమాచారాన్ని చదవలేదు</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"ఒక్కసారి నొక్కడం ద్వారా మీ క్రెడిట్ కార్డ్ సమాచారాన్ని నమోదు చేయండి.
+ముందు మీ సెట్టింగ్‌లలో NFCని ఆన్ చేసి, ఆపై మీ కార్డ్‌ను మీ పరికరానికి తాకించండి."</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">మీ పరికరం వెనుక భాగంలో మీ కార్డ్‌ను నొక్కి, పట్టుకోండి. మీ కార్డ్ సమాచారం స్వయంచాలకంగా చదవబడుతుంది.</string>
+    <string name="wallet_uic_nfc_popup_title">మీ కార్డ్‌ను తాకించండి</string>
+    <string name="wallet_uic_nfc_timeout_error_message">మీ కార్డ్‌ను మళ్లీ తాకించండి లేదా మీ కార్డ్ నంబర్‌ను టైప్ చేయండి.</string>
+    <string name="wallet_uic_nfc_transceive_error_message">మీ కార్డ్‌ను చదువుతున్నప్పుడు దానిని స్థిరంగా పట్టుకోండి.</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">ఇప్పటికీ NFCలో ఈ కార్డ్‌కు మద్దతు లేదు. దయచేసి కార్డ్ నంబర్‌ను మాన్యువల్‌గా నమోదు చేయండి.</string>
+    <string name="wallet_uic_ocr_drop_down_button">మీ కార్డ్ స్కాన్ చేయండి</string>
+    <string name="wallet_uic_phone_number">ఫోన్ నంబర్</string>
+    <string name="wallet_uic_retry">మళ్లీ ప్రయత్నించు</string>
+    <string name="wallet_uic_scan_credit_card">మీ కెమెరాతో క్రెడిట్ కార్డ్‌ను స్కాన్ చేయండి</string>
+    <string name="wallet_uic_select_location">స్థానాన్ని ఎంచుకోండి</string>
+    <string name="wallet_uic_summary_clear_button_description">ఫారమ్‌ను క్లియర్ చేయండి</string>
+    <string name="wallet_uic_summary_edit_button_description">ఫారమ్‌ను సవరించండి</string>
+    <string name="wallet_uic_view_card_logos">ఆమోదించిన కార్డ్‌లను వీక్షించండి</string>
+</resources>

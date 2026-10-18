@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>American Express</b>"
+CVC என்பது கார்டின் முன்பக்கத்தில் வலதுபுறம் உள்ள நான்கு இலக்க எண்ணாகும்."</string>
+    <string name="wallet_im_cvc_code_popup_content_description">CVC பற்றிய கூடுதல் தகவல்.</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover, MasterCard, Visa, மற்றும் Visa Electron</b>"
+CVC என்பது உங்கள் கார்டின் பின் பக்கத்தில் உள்ள கையொப்பப் பட்டையில் தோன்றும் கடைசி மூன்று இலக்க எண்ணாகும்."</string>
+    <string name="wallet_im_error_title">பிழை</string>
+    <string name="wallet_im_send_sms_for_dcb_error">கணக்குச் சரிபார்ப்பு SMSஐ அனுப்ப முடியவில்லை. மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="wallet_im_unknown_error">உங்கள் கோரிக்கையை நிறைவு செய்ய முடியவில்லை. மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">கலம்: %1$s, பிழை: %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">தெரு முகவரி</string>
+    <string name="wallet_uic_address_field_address_line_2">அபார்ட்மென்ட்/சூட்</string>
+    <string name="wallet_uic_address_field_admin_area_area">பகுதி</string>
+    <string name="wallet_uic_address_field_admin_area_county">மாகாணம்</string>
+    <string name="wallet_uic_address_field_admin_area_department">துறை</string>
+    <string name="wallet_uic_address_field_admin_area_district">மாவட்டம்</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">டோ சி</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">எமிரேட்</string>
+    <string name="wallet_uic_address_field_admin_area_island">தீவு</string>
+    <string name="wallet_uic_address_field_admin_area_parish">பாரிஷ்</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">ப்ரீஃபெக்சர்</string>
+    <string name="wallet_uic_address_field_admin_area_province">பிராந்தியம்</string>
+    <string name="wallet_uic_address_field_admin_area_region">வட்டாரம்</string>
+    <string name="wallet_uic_address_field_admin_area_state">மாநிலம்</string>
+    <string name="wallet_uic_address_field_country">நாடு</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">நகரம்</string>
+    <string name="wallet_uic_address_field_organization">நிறுவனம்</string>
+    <string name="wallet_uic_address_field_postal_code">அஞ்சல் குறியீடு</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">ஜிப் குறியீடு</string>
+    <string name="wallet_uic_card_number">கார்டு எண்</string>
+    <string name="wallet_uic_close">மூடு</string>
+    <string name="wallet_uic_content_description_edit_address">முகவரியைத் திருத்து</string>
+    <string name="wallet_uic_content_description_expand_credit_card">கிரெடிட் கார்டு தகவலை விரி</string>
+    <string name="wallet_uic_error_address_field_invalid">தவறான %s</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">தவறான கிரெடிட் கார்டு எண்</string>
+    <string name="wallet_uic_error_cvc_invalid">தவறான CVC</string>
+    <string name="wallet_uic_error_email_address_invalid">தவறான மின்னஞ்சல் முகவரி</string>
+    <string name="wallet_uic_error_expired_credit_card">காலாவதியான கிரெடிட் கார்டு</string>
+    <string name="wallet_uic_error_field_must_be_complete">முழுமையாக நிரப்புக</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">காலியாக விடக்கூடாது</string>
+    <string name="wallet_uic_error_loading_page">பக்கத்தை ஏற்றுவதில் பிழை.</string>
+    <string name="wallet_uic_error_month_invalid">தவறான மாதம்</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">எண்களுக்கு மட்டுமே அனுமதி.</string>
+    <string name="wallet_uic_error_year_invalid">தவறான ஆண்டு</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">ஆண்டு தேவை</string>
+    <string name="wallet_uic_exp_date">MM/YY</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">ஏற்கப்படும் கார்டுகளை மறை</string>
+    <string name="wallet_uic_network_error_message">இந்தப் பணியை முடிக்க நெட்வொர்க் இணைப்பு வேண்டும். Wi-Fi அல்லது தரவு நெட்வொர்க்குடன் இணைக்கவும்.</string>
+    <string name="wallet_uic_network_error_title">இணைய இணைப்பு இல்லை</string>
+    <string name="wallet_uic_nfc_credit_card">உங்கள் கார்டைப் படிக்க தட்டவும்.</string>
+    <string name="wallet_uic_nfc_enable_button">NFCஐ இயக்கு</string>
+    <string name="wallet_uic_nfc_enable_title">NFCஐ இயக்கு</string>
+    <string name="wallet_uic_nfc_error_title">கார்டின் தகவலைப் படிக்க முடியவில்லை</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"ஒருமுறை மட்டும் தட்டி உங்கள் கிரெடிட் கார்டு தகவலை உள்ளிடலாம்.
+முதலில் அமைப்புகளில் NFCஐ இயக்கி, பிறகு கார்டினால் சாதனத்தில் தட்டவும்."</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">சாதனத்தின் பின்புறத்தில் கார்டைத் தட்டிப் பிடிக்கவும். கார்டின் தகவல் தானாகவே படிக்கப்படும்.</string>
+    <string name="wallet_uic_nfc_popup_title">கார்டைத் தட்டவும்</string>
+    <string name="wallet_uic_nfc_timeout_error_message">கார்டை மீண்டும் தட்டவும் அல்லது கார்டின் எண்ணை உள்ளிடவும்.</string>
+    <string name="wallet_uic_nfc_transceive_error_message">முழுமையாகப் படிக்கும் வரை கார்டை வைத்திருக்கவும்.</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">இந்தக் கார்டில் NFC அம்சம் இல்லை. கார்டு எண்ணை நேரடியாக உள்ளிடவும்.</string>
+    <string name="wallet_uic_ocr_drop_down_button">கார்டை ஸ்கேன் செய்க</string>
+    <string name="wallet_uic_phone_number">ஃபோன் எண்</string>
+    <string name="wallet_uic_retry">மீண்டும் முயற்சிசெய்</string>
+    <string name="wallet_uic_scan_credit_card">உங்கள் கேமரா மூலம் கிரெடிட் கார்டை ஸ்கேன் செய்யவும்</string>
+    <string name="wallet_uic_select_location">இருப்பிடத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="wallet_uic_summary_clear_button_description">படிவ விவரங்களை அழி</string>
+    <string name="wallet_uic_summary_edit_button_description">படிவத்தைத் திருத்து</string>
+    <string name="wallet_uic_view_card_logos">ஏற்கப்படும் கார்டுகளைக் காட்டு</string>
+</resources>

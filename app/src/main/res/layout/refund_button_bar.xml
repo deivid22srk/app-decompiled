@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:id="@id/continue_button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/refund_whitespace_large" android:layout_marginTop="@dimen/refund_whitespace_medium" android:layout_marginRight="@dimen/refund_whitespace_large" android:layout_marginBottom="@dimen/refund_whitespace_medium"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.play.layout.PlayActionButton android:id="@id/secondary_button" android:layout_marginRight="@dimen/refund_whitespace_small" style="@style/Play_Purchase_SecondaryButton" />
+    <com.google.android.play.layout.PlayActionButton android:id="@id/continue_button" style="@style/Play_Purchase_ActionButton" />
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>American Express</b>"
+CVC হল কার্ডের সামনের ডান দিকে অবস্থিত চারটি সংখ্যা।"</string>
+    <string name="wallet_im_cvc_code_popup_content_description">CVC সম্পর্কে আরো তথ্য।</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover, MasterCard, Visa এবং Visa Electron</b>"
+CVC হল আপনার কার্ডের পিছনে স্বাক্ষর বারে উপস্থিত হওয়া নম্বরের শেষ তিনটি সংখ্যা।"</string>
+    <string name="wallet_im_error_title">ত্রুটি</string>
+    <string name="wallet_im_send_sms_for_dcb_error">অ্যাকাউন্ট যাচাইকরণ SMS পাঠানো যায়নি৷ দয়া করে আবার চেষ্টা করুন।</string>
+    <string name="wallet_im_unknown_error">আমরা আপনার অনুরোধ সম্পূর্ণ করতে পারি নি। দয়া করে পুনঃচেষ্টা করুন বা পরে আবার চেষ্টা করুন।</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">ক্ষেত্র: %1$s, ত্রুটি: %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">রাস্তার ঠিকানা</string>
+    <string name="wallet_uic_address_field_address_line_2">অ্যাপার্টমেন্ট/স্যুট</string>
+    <string name="wallet_uic_address_field_admin_area_area">এলাকা</string>
+    <string name="wallet_uic_address_field_admin_area_county">দেশ</string>
+    <string name="wallet_uic_address_field_admin_area_department">বিভাগ</string>
+    <string name="wallet_uic_address_field_admin_area_district">জেলা</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">দো সি</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">এমিরেট</string>
+    <string name="wallet_uic_address_field_admin_area_island">আইল্যান্ড</string>
+    <string name="wallet_uic_address_field_admin_area_parish">পারিশ</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">প্রিফেকচার</string>
+    <string name="wallet_uic_address_field_admin_area_province">প্রদেশ</string>
+    <string name="wallet_uic_address_field_admin_area_region">অঞ্চল</string>
+    <string name="wallet_uic_address_field_admin_area_state">রাজ্য</string>
+    <string name="wallet_uic_address_field_country">দেশ</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">শহর</string>
+    <string name="wallet_uic_address_field_organization">সংগঠন</string>
+    <string name="wallet_uic_address_field_postal_code">পোস্টাল কোড</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">পিন কোড</string>
+    <string name="wallet_uic_card_number">কার্ড নম্বর</string>
+    <string name="wallet_uic_close">বন্ধ করুন</string>
+    <string name="wallet_uic_content_description_edit_address">ঠিকানা সম্পাদনা করুন</string>
+    <string name="wallet_uic_content_description_expand_credit_card">ক্রেডিট কার্ডের তথ্য প্রসারিত করুন</string>
+    <string name="wallet_uic_error_address_field_invalid">অবৈধ %s</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">ক্রেডিট কার্ড নম্বর অবৈধ</string>
+    <string name="wallet_uic_error_cvc_invalid">CVC অবৈধ</string>
+    <string name="wallet_uic_error_email_address_invalid">অবৈধ ইমেল ঠিকানা</string>
+    <string name="wallet_uic_error_expired_credit_card">মেয়াদোত্তীর্ণ ক্রেডিট কার্ড</string>
+    <string name="wallet_uic_error_field_must_be_complete">অসম্পূর্ণ ক্ষেত্র</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">আবশ্যক ক্ষেত্র</string>
+    <string name="wallet_uic_error_loading_page">পৃষ্ঠা লোড করার সময় ত্রুটি।</string>
+    <string name="wallet_uic_error_month_invalid">অবৈধ মাস</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">শুধুমাত্র সংখ্যা অনুমোদিত।</string>
+    <string name="wallet_uic_error_year_invalid">অবৈধ বছর</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">বছর আবশ্যক</string>
+    <string name="wallet_uic_exp_date">MM/YY</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">স্বীকৃত কার্ডগুলি লুকান</string>
+    <string name="wallet_uic_network_error_message">এই কাজটি সম্পূর্ণ করতে একটি নেটওয়ার্ক সংযোগ আবশ্যক। দয়া করে একটি Wi-Fi এ অথবা ডেটা নেটওয়ার্কে সংযোগ করুন।</string>
+    <string name="wallet_uic_network_error_title">কোনো ইন্টারনেট সংযোগ নেই</string>
+    <string name="wallet_uic_nfc_credit_card">আপনার কার্ড পড়তে ট্যাপ করুন।</string>
+    <string name="wallet_uic_nfc_enable_button">NFC চালু করুন</string>
+    <string name="wallet_uic_nfc_enable_title">NFC চালু করুন</string>
+    <string name="wallet_uic_nfc_error_title">আপনার কার্ডের তথ্য পড়া হয়নি</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"একবার ট্যাপ করে আপনার ক্রেডিট কার্ড তথ্য লিখুন।
+প্রথমে আপনার সেটিংসে NFC চালু করুন, তারপর আপনার ডিভাইসে আপনার কার্ড ট্যাপ করুন।"</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">আপনার ডিভাইসের পিছনে আপনার কার্ডটি ট্যাপ করে ধরে থাকুন। আপনার কার্ডের তথ্য স্বয়ংক্রিয় ভাবে পড়া হবে।</string>
+    <string name="wallet_uic_nfc_popup_title">আপনার কার্ড ট্যাপ করুন</string>
+    <string name="wallet_uic_nfc_timeout_error_message">আপনার কার্ডটি আবার ট্যাপ করুন বা আপনার কার্ডের নম্বর টাইপ করুন।</string>
+    <string name="wallet_uic_nfc_transceive_error_message">আপনার কার্ডটি পড়ার সময় এটি স্থির রাখুন।</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">এই কার্ডটিতে এখনো NFC সমর্থন করে না। দয়া করে কার্ড নম্বর ম্যানুয়ালি টাইপ করুন।</string>
+    <string name="wallet_uic_ocr_drop_down_button">আপনার কার্ড স্ক্যান করুন</string>
+    <string name="wallet_uic_phone_number">ফোন নম্বর</string>
+    <string name="wallet_uic_retry">পুনঃচেষ্টা করুন</string>
+    <string name="wallet_uic_scan_credit_card">আপনার ক্যামেরা দিয়ে ক্রেডিট কার্ড স্ক্যান করুন</string>
+    <string name="wallet_uic_select_location">অবস্থান নির্বাচন করুন</string>
+    <string name="wallet_uic_summary_clear_button_description">ফর্ম সাফ করুন</string>
+    <string name="wallet_uic_summary_edit_button_description">ফর্ম সম্পাদনা করুন</string>
+    <string name="wallet_uic_view_card_logos">স্বীকৃত কার্ডগুলি দেখান</string>
+</resources>

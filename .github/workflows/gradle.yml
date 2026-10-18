@@ -1,0 +1,51 @@
+name: Build APK (Gradle)
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'app/**'
+      - 'build.gradle'
+      - 'settings.gradle'
+      - 'gradle.properties'
+      - '.github/workflows/gradle.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Gradle 7.6.4
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '7.6.4'
+
+      - name: Set up Android SDK (platform 23)
+        run: |
+          android-wait-for-emulator 2>/dev/null || true
+          yes | sdkmanager --licenses > /dev/null 2>&1 || true
+          sdkmanager "platforms;android-23" > /dev/null
+
+      - name: Substitui android.jar por framework completo (hidden APIs)
+        run: |
+          curl -sSL -o /tmp/android-all.jar "https://repo1.maven.org/maven2/org/robolectric/android-all/6.0.1_r3-robolectric-r1/android-all-6.0.1_r3-robolectric-r1.jar"
+          cp /tmp/android-all.jar "$ANDROID_HOME/platforms/android-23/android.jar"
+
+      - name: Build (assembleDebug)
+        run: gradle assembleDebug --stacktrace --no-daemon
+
+      - name: Upload APK
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gradle-debug-apk
+          path: app/build/outputs/apk/debug/*.apk

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC կոդը</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>American Express</b>"
+CVC կոդը քարտի երեսի աջ կողմում նշված չորս թիվն է:"</string>
+    <string name="wallet_im_cvc_code_popup_content_description">Լրացուցիչ տեղեկություններ CVC կոդի մասին</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover, MasterCard, Visa և Visa Electron</b>"
+CVC կոդը քարտի հետևի մասում՝ ստորագրության դաշտում նշված երեք թիվն է:"</string>
+    <string name="wallet_im_error_title">Սխալ</string>
+    <string name="wallet_im_send_sms_for_dcb_error">Չհաջողվեց ուղարկել հաշվի հաստատման SMS-ը: Կրկին փորձեք:</string>
+    <string name="wallet_im_unknown_error">Չհաջողվեց կատարել հարցումը: Կրկին փորձեք կամ փորձեք ավելի ուշ:</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">Դաշտ` %1$s, սխալ` %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">Փողոց</string>
+    <string name="wallet_uic_address_field_address_line_2">Բնակարան/գրասենյակ</string>
+    <string name="wallet_uic_address_field_admin_area_area">Տարածք</string>
+    <string name="wallet_uic_address_field_admin_area_county">Կոմսություն</string>
+    <string name="wallet_uic_address_field_admin_area_department">Դեպարտամենտ</string>
+    <string name="wallet_uic_address_field_admin_area_district">Թաղամաս</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">Գավառ</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">Էմիրություն</string>
+    <string name="wallet_uic_address_field_admin_area_island">Կղզի</string>
+    <string name="wallet_uic_address_field_admin_area_parish">Վարչաշրջան</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">Նահանգապետություն</string>
+    <string name="wallet_uic_address_field_admin_area_province">Գավառ</string>
+    <string name="wallet_uic_address_field_admin_area_region">Մարզ</string>
+    <string name="wallet_uic_address_field_admin_area_state">Նահանգ</string>
+    <string name="wallet_uic_address_field_country">Երկիր</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">Քաղաք</string>
+    <string name="wallet_uic_address_field_organization">Կազմակերպություն</string>
+    <string name="wallet_uic_address_field_postal_code">Փոստային դասիչ</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">Փոստային կոդ</string>
+    <string name="wallet_uic_card_number">Քարտի համարը</string>
+    <string name="wallet_uic_close">Փակել</string>
+    <string name="wallet_uic_content_description_edit_address">Փոփոխել հասցեն</string>
+    <string name="wallet_uic_content_description_expand_credit_card">Ընդարձակել վարկային քարտի տեղեկությունները</string>
+    <string name="wallet_uic_error_address_field_invalid">«%s» դաշտը սխալ է լրացված</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">Սխալ վարկային քարտի համար</string>
+    <string name="wallet_uic_error_cvc_invalid">Սխալ CVC</string>
+    <string name="wallet_uic_error_email_address_invalid">Սխալ էլփոստի հասցե</string>
+    <string name="wallet_uic_error_expired_credit_card">Ժամկետանց վարկային քարտ</string>
+    <string name="wallet_uic_error_field_must_be_complete">Թերի լրացված դաշտ</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">Պարտադիր դաշտ</string>
+    <string name="wallet_uic_error_loading_page">Էջը բեռնելիս սխալ առաջացավ:</string>
+    <string name="wallet_uic_error_month_invalid">Սխալ ամիս</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">Թույլատրված են միայն թվանշաններ:</string>
+    <string name="wallet_uic_error_year_invalid">Սխալ տարի</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">Պետք է նշվի տարին</string>
+    <string name="wallet_uic_exp_date">ԱԱ/ՏՏ</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">Թաքցնել թույլատրվող քարտերը</string>
+    <string name="wallet_uic_network_error_message">Խնդիրը կատարելու համար պահանջվում է ցանցային կապակցում: Կապակցվեք Wi-Fi կամ տվյալների փոխանցման ցանցի:</string>
+    <string name="wallet_uic_network_error_title">Համացանցի կապակցում չկա</string>
+    <string name="wallet_uic_nfc_credit_card">Հպեք՝ քարտն ընթերցելու համար:</string>
+    <string name="wallet_uic_nfc_enable_button">Միացնել NFC-ն</string>
+    <string name="wallet_uic_nfc_enable_title">Միացնել NFC-ն</string>
+    <string name="wallet_uic_nfc_error_title">Չհաջողվեց ընթերցել քարտի տվյալները</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"Մուտքագրեք վարկային քարտի տվյալները մեկ հպումով:
+Նախ միացրեք NFC-ն կարգավորումներում, այնուհետև հպեք քարտը ձեր սարքին:"</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">Հպեք և պահեք քարտը սարքի ետևի մասում: Քարտային տվյալները ավտոմատ կերպով կընթերցվեն:</string>
+    <string name="wallet_uic_nfc_popup_title">Հպեք քարտը</string>
+    <string name="wallet_uic_nfc_timeout_error_message">Նորից հպեք քարտը կամ մուտքագրեք քարտի համարը:</string>
+    <string name="wallet_uic_nfc_transceive_error_message">Ընթերցման ժամանակ քարտն անշարժ պահեք:</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">Այս քարտը դեռ չի աջակցվում NFC-ի կողմից: Ձեռքով մուտքագրեք քարտի համարը:</string>
+    <string name="wallet_uic_ocr_drop_down_button">Սկանավորեք քարտը</string>
+    <string name="wallet_uic_phone_number">Հեռախոսահամար</string>
+    <string name="wallet_uic_retry">Կրկին փորձել</string>
+    <string name="wallet_uic_scan_credit_card">Սկանավորեք վարկային քարտը տեսախցիկի միջոցով</string>
+    <string name="wallet_uic_select_location">Ընտրեք տեղադրություն</string>
+    <string name="wallet_uic_summary_clear_button_description">Դատարկ ձև</string>
+    <string name="wallet_uic_summary_edit_button_description">Փոփոխել ձևը</string>
+    <string name="wallet_uic_view_card_logos">Դիտել թույլատրվող քարտերը</string>
+</resources>

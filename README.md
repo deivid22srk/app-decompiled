@@ -31,6 +31,18 @@ Download do APK compilado: aba **Actions** → run desejado → **Artifacts**.
 
 Para usar outro nome de pacote, troque o argumento do script no `build.yml` (passo *Rename package*).
 
+## Build via Gradle (em andamento)
+
+O branch main também contém um projeto Gradle (`app/`) tentando compilar as fontes
+decompiladas diretamente: 7.475 arquivos Java + recursos do apktool. O workflow
+`gradle.yml` roda o `assembleDebug` com AGP 7.4.2 / compileSdk 23 (framework
+completo com hidden APIs via robolectric android-all).
+
+Estado atual: a maior parte da árvore compila (okhttp/okio renomeados para
+okio2/ba2/aA2 para resolver colisões de nomes ofuscados); restam erros
+concentrados nas camadas com.google.android.gms (colisões static/pacote do
+renamer e inner-classes genéricas do jadx). Os scripts usados estão em `tools/`.
+
 ## Nota sobre o jadx
 
 A saída em `jadx-output/` serve para **leitura e análise** do código. Java decompilado por jadx não volta a compilar como está (generics perdidos, accessors sintéticos, referências quebradas). A reconstrução real do APK é feita no nível de smali/recursos via apktool — por isso o workflow usa apktool, não o código Java do jadx.

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">КБК</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>American Express</b>"
+КБК нь картын нүүрэн талын баруун хэсэгт байрлах дөрвөн оронтой тоо юм."</string>
+    <string name="wallet_im_cvc_code_popup_content_description">КБК-н талаарх дэлгэрэнгүй мэдээлэл.</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover, MasterCard, Visa, болон Visa Electron</b>"
+КБК нь таны картын ар талд, гарын үсэг зурдаг талбар доторх сүүлийн гурван оронтой тоо юм."</string>
+    <string name="wallet_im_error_title">Алдаа</string>
+    <string name="wallet_im_send_sms_for_dcb_error">Данс шалгах SMS-г илгээж чадсангүй. Дахин оролдоно уу.</string>
+    <string name="wallet_im_unknown_error">Бид таны хүсэлтийг биелүүлж чадсангүй. Дахих эсвэл дараа дахин оролдоно уу.</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">Талбар: %1$s, алдаа: %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">Гудамжны хаяг</string>
+    <string name="wallet_uic_address_field_address_line_2">Байр/Өрөө</string>
+    <string name="wallet_uic_address_field_admin_area_area">Бүс</string>
+    <string name="wallet_uic_address_field_admin_area_county">Муж</string>
+    <string name="wallet_uic_address_field_admin_area_department">Бүс</string>
+    <string name="wallet_uic_address_field_admin_area_district">Дүүрэг</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">Do Si</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">Эмират</string>
+    <string name="wallet_uic_address_field_admin_area_island">Арал</string>
+    <string name="wallet_uic_address_field_admin_area_parish">Париш</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">Муж</string>
+    <string name="wallet_uic_address_field_admin_area_province">Аймаг</string>
+    <string name="wallet_uic_address_field_admin_area_region">Бүс</string>
+    <string name="wallet_uic_address_field_admin_area_state">Муж</string>
+    <string name="wallet_uic_address_field_country">Улс</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">Хот</string>
+    <string name="wallet_uic_address_field_organization">Байгууллага</string>
+    <string name="wallet_uic_address_field_postal_code">Шуудангийн код</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">ЗИП код</string>
+    <string name="wallet_uic_card_number">Картын дугаар</string>
+    <string name="wallet_uic_close">Хаах</string>
+    <string name="wallet_uic_content_description_edit_address">Хаяг засах</string>
+    <string name="wallet_uic_content_description_expand_credit_card">Кредит картын мэдээллийг дэлгэж харуулах</string>
+    <string name="wallet_uic_error_address_field_invalid">Буруу %s</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">Буруу кредит картын дугаар</string>
+    <string name="wallet_uic_error_cvc_invalid">Буруу CVC</string>
+    <string name="wallet_uic_error_email_address_invalid">Имэйл хаяг буруу</string>
+    <string name="wallet_uic_error_expired_credit_card">Хугацаа нь дууссан кредит карт</string>
+    <string name="wallet_uic_error_field_must_be_complete">Бүрэн бус талбар</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">Заавал бөглөх талбар</string>
+    <string name="wallet_uic_error_loading_page">Хуудас ачаалах үед алдаа гарлаа.</string>
+    <string name="wallet_uic_error_month_invalid">Сар буруу</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">Зөвхөн цифр бичнэ.</string>
+    <string name="wallet_uic_error_year_invalid">Жил буруу</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">Он заавал бичнэ</string>
+    <string name="wallet_uic_exp_date">САР/ЖИЛ</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">Зөвшөөрсөн картуудыг нуух</string>
+    <string name="wallet_uic_network_error_message">Энэ даалгаврыг биелүүлэхэд, сүлжээний холболт шаардлагатай. Wi-Fi эсвэл өгөгдлийн сүлжээнд холбогдоно уу.</string>
+    <string name="wallet_uic_network_error_title">Интернэтийн холболт алга</string>
+    <string name="wallet_uic_nfc_credit_card">Картаа уншихын тулд товш.</string>
+    <string name="wallet_uic_nfc_enable_button">NFC-г асаана</string>
+    <string name="wallet_uic_nfc_enable_title">NFC-г асаана</string>
+    <string name="wallet_uic_nfc_error_title">Таны картын мэдээллийг уншаагүй байна</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"Нэг товшилтоор өөрийн кредит картны мэдээллээ оруулна уу.
+Эхлээд өөрийн тохиргооноос NFC-г асаагаад, дараа нь төхөөрөмжин дээрээ картаа товшино уу."</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">Төхөөрөмжнийхөө ар хэсэгт картаараа товшоод хэсэг барина уу. Таны картын мэдээлэл автоматаар уншигдах болно.</string>
+    <string name="wallet_uic_nfc_popup_title">Картаа тогш</string>
+    <string name="wallet_uic_nfc_timeout_error_message">Картаа дахин товш эсвэл картын дугаараа бичнэ үү.</string>
+    <string name="wallet_uic_nfc_transceive_error_message">Картыг унших хүртэл хөдөлгөөнгүй барина уу.</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">Энэ картыг NFC хараахан дэмжээгүй байна. Картын дугаарыг гараар оруулна уу.</string>
+    <string name="wallet_uic_ocr_drop_down_button">Картаа уншуулах</string>
+    <string name="wallet_uic_phone_number">Утасны дугаар</string>
+    <string name="wallet_uic_retry">Дахих</string>
+    <string name="wallet_uic_scan_credit_card">Камераа ашиглан кредит карт сканнердах</string>
+    <string name="wallet_uic_select_location">Байршил сонгох</string>
+    <string name="wallet_uic_summary_clear_button_description">Маягтыг арилгах</string>
+    <string name="wallet_uic_summary_edit_button_description">Маягтыг засах</string>
+    <string name="wallet_uic_view_card_logos">Зөвшөөрсөн картуудыг харуулах</string>
+</resources>

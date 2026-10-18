@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>ការ​ដឹកជញ្ជូន​លឿន​អាមេរិក</b>"
+CVC គឺ​មាន​លេខ​​បួន​ខ្ទង់​ដែល​ស្ថិត​នៅ​​​លើ​កាត​ផ្នែក​ខាង​មុខ នៅ​ខាងស្ដាំ​។"</string>
+    <string name="wallet_im_cvc_code_popup_content_description">ព័ត៌មាន​បន្ថែម​អំពី CVC ។</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>រក​​ឃើញ, កាត​ម៉ាស្ទើរ, វីសា និង​វីសា​អេឡិចត្រុង</b>"
+CVC គឺ​ជា​លេខ​បី​ខ្ទង់​ចុងក្រោយ​ដែល​បង្ហាញ​លើ​ខ្នង​កាត​របស់​អ្នក​នៅ​ក្នុង​របារ​ហត្ថលេខា។"</string>
+    <string name="wallet_im_error_title">កំហុស</string>
+    <string name="wallet_im_send_sms_for_dcb_error">មិន​អាច​ផ្ញើ​សារ SMS ផ្ទៀងផ្ទាត់​គណនី។ សូម​ព្យាយាម​ម្ដង​ទៀត។</string>
+    <string name="wallet_im_unknown_error">យើង​មិន​អាច​បញ្ចប់​សំណើ​របស់​អ្នក។ សូម​ព្យាយាម​ម្ដង​ទៀត ឬ​ព្យាយាម​ម្ដង​ទៀត​ពេល​ក្រោយ។</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">វាល៖ %1$s, កំហុស៖ %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">អាសយដ្ឋាន​ផ្លូវ</string>
+    <string name="wallet_uic_address_field_address_line_2">ខុន​ដូរ/បន្ទប់</string>
+    <string name="wallet_uic_address_field_admin_area_area">តំបន់</string>
+    <string name="wallet_uic_address_field_admin_area_county">ផ្នែក​នៃ​រដ្ឋ</string>
+    <string name="wallet_uic_address_field_admin_area_department">ផ្នែក/នាយកដ្ឋាន</string>
+    <string name="wallet_uic_address_field_admin_area_district">ស្រុក</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">ខេត្ត/ក្រុង</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">អេមីរ៉ាត</string>
+    <string name="wallet_uic_address_field_admin_area_island">កោះ</string>
+    <string name="wallet_uic_address_field_admin_area_parish">ខណ្ឌ/ស្រុក</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">អាណាខេត្ត</string>
+    <string name="wallet_uic_address_field_admin_area_province">ខេត្ត</string>
+    <string name="wallet_uic_address_field_admin_area_region">តំបន់</string>
+    <string name="wallet_uic_address_field_admin_area_state">រដ្ឋ</string>
+    <string name="wallet_uic_address_field_country">ប្រទេស​</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">ទីក្រុង</string>
+    <string name="wallet_uic_address_field_organization">អង្គ​ភាព</string>
+    <string name="wallet_uic_address_field_postal_code">លេខ​កូដ​​ប្រៃសណីយ៍</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">កូដ​តំបន់</string>
+    <string name="wallet_uic_card_number">លេខ​កាត</string>
+    <string name="wallet_uic_close">បិទ</string>
+    <string name="wallet_uic_content_description_edit_address">កែសម្រួល​អាសយដ្ឋាន</string>
+    <string name="wallet_uic_content_description_expand_credit_card">ពង្រីក​ព័ត៌មាន​កាត​ឥណទាន</string>
+    <string name="wallet_uic_error_address_field_invalid">%s មិន​ត្រឹមត្រូវ</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">លេខ​កាត​ឥណទាន​មិន​ត្រឹមត្រូវ</string>
+    <string name="wallet_uic_error_cvc_invalid">CVC មិន​ត្រឹមត្រូវ</string>
+    <string name="wallet_uic_error_email_address_invalid">អាសយដ្ឋាន​អ៊ីមែល​មិន​ត្រឹមត្រូវ</string>
+    <string name="wallet_uic_error_expired_credit_card">កាត​ឥណទាន​​បាន​ផុត​កំណត់</string>
+    <string name="wallet_uic_error_field_must_be_complete">វាល​មិនពេញលេញ</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">ទាមទារ​ត្រូវតែ​​បញ្ចូល</string>
+    <string name="wallet_uic_error_loading_page">កំហុស​ក្នុង​ការ​ផ្ទុក​ទំព័រ។</string>
+    <string name="wallet_uic_error_month_invalid">ខែ​មិន​ត្រឹមត្រូវ</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">អនុញ្ញាត​តែ​តួលេខ​ប៉ុណ្ណោះ។</string>
+    <string name="wallet_uic_error_year_invalid">ឆ្នាំ​មិន​ត្រឹមត្រូវ</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">ទាមទារ​បញ្ចូល​ឆ្នាំ</string>
+    <string name="wallet_uic_exp_date">MM/YY</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">លាក់​កាត​ដែល​​​បាន​ទទួល</string>
+    <string name="wallet_uic_network_error_message">ទាមទារ​ការ​តភ្ជាប់​បណ្ដាញ​ដើម្បី​អាច​បញ្ចប់​ការងារ​នេះ​បាន។ សូម​ភ្ជាប់​ទៅ​វ៉ាយហ្វាយ ឬ​​បណ្ដាញ​ទិន្នន័យ​ចល័ត។</string>
+    <string name="wallet_uic_network_error_title">គ្មាន​ការ​ត​ភ្ជាប់​អ៊ីនធឺណិត</string>
+    <string name="wallet_uic_nfc_credit_card">ប៉ះ​ដើម្បី​អាន​កាត​របស់​អ្នក។</string>
+    <string name="wallet_uic_nfc_enable_button">បើក NFC</string>
+    <string name="wallet_uic_nfc_enable_title">បើក NFC</string>
+    <string name="wallet_uic_nfc_error_title">ព័ត៌មានកាត​របស់​អ្នក​មិន​ត្រូវ​បាន​អាន</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"បញ្ចូល​ព័ត៌មាន​កាត​ឥណទាន​របស់​អ្នក​ដោយ​ប៉ះ​ម្ដង។
+ដំបូង​បើក NFC ក្នុង​ការ​កំណត់​របស់​អ្នក បន្ទាប់​មក​​ដាក់​កាត​របស់​អ​្នក​ឲ្យ​ប៉ះ​ជា​មួយ​ឧបករណ៍។"</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">ប៉ះ និង​សង្កត់​កាត​របស់​​អ្នក​​​​​ផ្នែក​ខា​ង​ក្រោយ​ឧបករណ៍​​របស់​អ្នក។ ព័ត៌មាន​កាត​របស់​អ្នក​នឹង​ត្រូវ​បាន​អាន​ដោយ​ស្វ័យ​ប្រវត្តិ។</string>
+    <string name="wallet_uic_nfc_popup_title">ប៉ះ​កាត​របស់​អ្នក</string>
+    <string name="wallet_uic_nfc_timeout_error_message">ប៉ះ​កាត​របស់​អ្នក​ម្តង​ទៀត​ឬ​វាយ​លេខ​កាត​របស់​អ្នក​។</string>
+    <string name="wallet_uic_nfc_transceive_error_message">ទុក​កាត​របស់​អ្នក​ឲ្យ​ស្ងៀម​​ពេល​វា​កំពុង​អាន។</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">កាត​នេះ​មិន​ត្រូវ​បាន​គាំទ្រ​ដោយ NFC នៅ​ឡើយ​ទេ។ សូម​បញ្ចូល​លេខ​កាត​ដោយ​ដៃ។</string>
+    <string name="wallet_uic_ocr_drop_down_button">ស្កេន​កាត​របស់​អ្នក</string>
+    <string name="wallet_uic_phone_number">លេខ​ទូរសព្ទ</string>
+    <string name="wallet_uic_retry">ព្យាយាម​ម្ដង​ទៀត</string>
+    <string name="wallet_uic_scan_credit_card">ស្កេន​កាត​ឥណទាន​ជាមួយ​កាមេរ៉ា​របស់​អ្នក</string>
+    <string name="wallet_uic_select_location">ជ្រើស​ទីតាំង</string>
+    <string name="wallet_uic_summary_clear_button_description">សម្អាត​​សំណុំ​បែបបទ​</string>
+    <string name="wallet_uic_summary_edit_button_description">កែ​សំណុំ​បែបបទ</string>
+    <string name="wallet_uic_view_card_logos">មើល​កាត​ដែល​បាន​​ទទួល</string>
+</resources>

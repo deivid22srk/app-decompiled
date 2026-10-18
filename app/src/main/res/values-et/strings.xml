@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>American Express</b>"
+CVC-kood on kaardi esiküljel paremal asuv neljakohaline kood."</string>
+    <string name="wallet_im_cvc_code_popup_content_description">Lisateavet CVC kohta.</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover, MasterCard, Visa ja Visa Electron</b>"
+CVC-kood on kaardi tagaküljel allkirjaribal asuva numbri lõpus olev kolmekohaline kood."</string>
+    <string name="wallet_im_error_title">Viga</string>
+    <string name="wallet_im_send_sms_for_dcb_error">Konto kinnitamise SMSi ei õnnestunud saata. Proovige uuesti.</string>
+    <string name="wallet_im_unknown_error">Teie taotlust ei saanud täita. Proovige kohe või hiljem uuesti.</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">Väli: %1$s, viga: %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">Tänav</string>
+    <string name="wallet_uic_address_field_address_line_2">Korter/maja</string>
+    <string name="wallet_uic_address_field_admin_area_area">Piirkond</string>
+    <string name="wallet_uic_address_field_admin_area_county">Maakond</string>
+    <string name="wallet_uic_address_field_admin_area_department">Departemang</string>
+    <string name="wallet_uic_address_field_admin_area_district">Rajoon</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">Do Si</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">Emiraat</string>
+    <string name="wallet_uic_address_field_admin_area_island">Saar</string>
+    <string name="wallet_uic_address_field_admin_area_parish">Vald</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">Prefektuur</string>
+    <string name="wallet_uic_address_field_admin_area_province">Provints</string>
+    <string name="wallet_uic_address_field_admin_area_region">Regioon</string>
+    <string name="wallet_uic_address_field_admin_area_state">Osariik</string>
+    <string name="wallet_uic_address_field_country">Riik</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">Linn</string>
+    <string name="wallet_uic_address_field_organization">Organisatsioon</string>
+    <string name="wallet_uic_address_field_postal_code">Sihtnumber</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">Sihtnumber</string>
+    <string name="wallet_uic_card_number">Kaardi number</string>
+    <string name="wallet_uic_close">Sulge</string>
+    <string name="wallet_uic_content_description_edit_address">Aadressi muutmine</string>
+    <string name="wallet_uic_content_description_expand_credit_card">Laienda krediitkaardi teavet</string>
+    <string name="wallet_uic_error_address_field_invalid">Vale %s</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">Kehtetu krediitkaardinumber</string>
+    <string name="wallet_uic_error_cvc_invalid">Sobimatu CVC</string>
+    <string name="wallet_uic_error_email_address_invalid">Vale e-posti aadress</string>
+    <string name="wallet_uic_error_expired_credit_card">Aegunud krediitkaart</string>
+    <string name="wallet_uic_error_field_must_be_complete">Täitmata väli</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">Kohustuslik väli</string>
+    <string name="wallet_uic_error_loading_page">Lehe laadimisel ilmnes viga.</string>
+    <string name="wallet_uic_error_month_invalid">Vale kuu</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">Lubatud on ainult numbrid.</string>
+    <string name="wallet_uic_error_year_invalid">Vale aasta</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">Vaja on aastaarvu</string>
+    <string name="wallet_uic_exp_date">KK/AA</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">Peida kinnitatud kaardid</string>
+    <string name="wallet_uic_network_error_message">Selle toimingu tegemiseks on vaja võrguühendust. Looge ühendus Wi-Fi või mobiilse andmesidevõrguga.</string>
+    <string name="wallet_uic_network_error_title">Internetiühendus puudub</string>
+    <string name="wallet_uic_nfc_credit_card">Puudutage kaardiga, et kaarti lugeda.</string>
+    <string name="wallet_uic_nfc_enable_button">Lülitage NFC sisse</string>
+    <string name="wallet_uic_nfc_enable_title">NFCi sisselülitamine</string>
+    <string name="wallet_uic_nfc_error_title">Teie kaardi teavet ei loetud</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"Saate üheainsa puudutusega oma krediitkaardi teabe sisestada.
+Esmalt lülitage seadetes NFC sisse ja seejärel puudutage kaardiga oma seadet."</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">Hoidke kaarti seadme tagakülje vastas. Kaardi teave loetakse automaatselt.</string>
+    <string name="wallet_uic_nfc_popup_title">Puudutage seadet kaardiga</string>
+    <string name="wallet_uic_nfc_timeout_error_message">Puudutage uuesti oma kaardiga seadet või sisestage oma kaardi number.</string>
+    <string name="wallet_uic_nfc_transceive_error_message">Hoidke kaarti lugemise ajal paigal.</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">NFC ei toeta veel seda kaarti. Sisestage kaardi number käsitsi.</string>
+    <string name="wallet_uic_ocr_drop_down_button">Kaardi skannimine</string>
+    <string name="wallet_uic_phone_number">Telefoninumber</string>
+    <string name="wallet_uic_retry">Proovi uuesti</string>
+    <string name="wallet_uic_scan_credit_card">Krediitkaardi skannimine kaameraga</string>
+    <string name="wallet_uic_select_location">Valige asukoht</string>
+    <string name="wallet_uic_summary_clear_button_description">Tühjenda vorm</string>
+    <string name="wallet_uic_summary_edit_button_description">Redigeeri vormi</string>
+    <string name="wallet_uic_view_card_logos">Kuva kinnitatud kaardid</string>
+</resources>

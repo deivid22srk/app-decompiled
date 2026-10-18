@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdk 23
+
+    defaultConfig {
+        applicationId 'com.deivid22srk.store'
+        minSdkVersion 9
+        targetSdkVersion 23
+        versionCode 80620200
+        versionName '6.2.02-open'
+        multiDexEnabled true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dexOptions {
+        javaMaxHeapSize '4g'
+    }
+
+    lint {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:multidex:1.0.3'
+}

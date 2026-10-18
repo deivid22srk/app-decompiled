@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>"American Express
+"</b>"CVC ဆိုသည်မှာ ကတ်၏ ရှေ့မျက်နှာစာ  ညာအခြမ်းတွင်ရှိသော ဂဏန်း ၄ လုံးဖြစ်သည်။"</string>
+    <string name="wallet_im_cvc_code_popup_content_description">CVC နှင့် ပတ်သက်သော နောက်ထပ် အချက်အလက်</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover ကတ်၊ မာစတာကတ်၊ ဗီဇာကတ်နှင့် ဗီဇာ အီလက်ထရွန်ကတ်</b>"
+CVC ဆိုသည်မှာ သင့်ကတ်၏ နောက်ကျောဘက် လက်မှတ်ဘားပေါ်ရှိနေသော နံပါတ်မှ နောက်ဆုံးဂဏန်း ၃ လုံးဖြစ်သည်။"</string>
+    <string name="wallet_im_error_title">အမှား</string>
+    <string name="wallet_im_send_sms_for_dcb_error">အကောင့် မှန်ကြောင်း အတည်ပြုသော SMS ကို မပို့နိုင်ခဲ့ပါ။ ကျေးဇူးပြု၍ ထပ်ကြိုးစားပါ။</string>
+    <string name="wallet_im_unknown_error">သင့်တောင်းဆိုချက်ကို ကျွန်ုပ်တို့ ဖြည့်ဆည်းမပေးနိုင်ခဲ့ပါ။ ပြန်ကြိုးစားပါ (သို့) နောက်မှ ထပ်ကြိုးစားပါ။</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_address_field_address_line_1">လမ်းလိပ်စာ</string>
+    <string name="wallet_uic_address_field_address_line_2">တိုက်ခန်း/တိုက်ခန်းဆောင်</string>
+    <string name="wallet_uic_address_field_admin_area_area">နယ်မြေ</string>
+    <string name="wallet_uic_address_field_admin_area_county">စီရင်စု</string>
+    <string name="wallet_uic_address_field_admin_area_department">ပိုင်နက်</string>
+    <string name="wallet_uic_address_field_admin_area_district">ခရိုင်</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">အုပ်ချုပ်မှုနယ်မြေ</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">စော်ဘွားများနိုင်ငံ</string>
+    <string name="wallet_uic_address_field_admin_area_island">ကျွန်း</string>
+    <string name="wallet_uic_address_field_admin_area_parish">ဒေသအုပ်ချုပ်ရေးအဖွဲ့</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">စီရင်စုနယ်</string>
+    <string name="wallet_uic_address_field_admin_area_province">နယ်ပယ်</string>
+    <string name="wallet_uic_address_field_admin_area_region">ဒေသ</string>
+    <string name="wallet_uic_address_field_admin_area_state">ပြည်နယ်</string>
+    <string name="wallet_uic_address_field_country">နိုင်ငံ</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">မြို့</string>
+    <string name="wallet_uic_address_field_organization">အဖွဲ့အစည်း</string>
+    <string name="wallet_uic_address_field_postal_code">စာပို့ကုဒ်</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">စာပို့ကုဒ်</string>
+    <string name="wallet_uic_card_number">ကတ်နံပါတ်</string>
+    <string name="wallet_uic_close">ပိတ်</string>
+    <string name="wallet_uic_content_description_edit_address">လိပ်စာ ပြင်ရန်</string>
+    <string name="wallet_uic_content_description_expand_credit_card">ခရက်ဒစ်ကတ် အချက်အလက်များကို ဖြန့်ပါ</string>
+    <string name="wallet_uic_error_address_field_invalid">မမှန်သော %s</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">မမှန်သော ခရက်ဒစ်ကတ်နံပါတ်</string>
+    <string name="wallet_uic_error_cvc_invalid">မမှန်သော CVC</string>
+    <string name="wallet_uic_error_email_address_invalid">မမှန်သော အီးမေးလ်လိပ်စာ</string>
+    <string name="wallet_uic_error_expired_credit_card">သက်တမ်းကုန်နေသော ခရက်တစ်ကတ်</string>
+    <string name="wallet_uic_error_field_must_be_complete">မပြည့်စုံသော အကွက်</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">ဖြည့်ရန်လိုအပ်သော ဖြည့်ကွက်</string>
+    <string name="wallet_uic_error_loading_page">စာမျက်နှာ ဆွဲချစဉ် အမှား။</string>
+    <string name="wallet_uic_error_month_invalid">မမှန်သော လ</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">ကိန်းဂဏန်းများကိုသာ ခွင့်ပြုသည်။</string>
+    <string name="wallet_uic_error_year_invalid">မမှန်သော ခုနှစ်</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">ခုနှစ် လိုအပ်သည်</string>
+    <string name="wallet_uic_exp_date">လလ/နှစ်နှစ်</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">လက်ခံထားသော ကတ်များကို ဝှက်ရန်</string>
+    <string name="wallet_uic_network_error_message">ဤအလုပ်ပြီးမြောက်ရန် ကွန်ရက်ချိတ်ဆက်မှုတစ်ခု လိုအပ်သည်။ ကျေးဇူးပြု၍ ဝိုင်-ဖိုင် သို့မဟုတ် ဒေတာကွန်ရက်တစ်ခုသို့ ချိတ်ဆက်ပါ။</string>
+    <string name="wallet_uic_network_error_title">အင်တာနက်ချိတ်ဆက်မှု မရှိပါ</string>
+    <string name="wallet_uic_nfc_credit_card">ကတ်ကိုဖတ်ရန် စက်ဖြင့် ထိပေးပါ။</string>
+    <string name="wallet_uic_nfc_enable_button">NFC ကိုဖွင့်ရန်</string>
+    <string name="wallet_uic_nfc_enable_title">NFC ကိုဖွင့်ရန်</string>
+    <string name="wallet_uic_nfc_error_title">သင့်ကတ် အချက်အလက်ကို မဖတ်ခဲ့ပါ</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"တစ်ချက် ထိလိုက်ရုံဖြင့် သင့်ခရက်ဒစ်ကတ် အချက်အလက်များကို ထည့်သွင်းလိုက်ပါ။
+ရှေးဦးစွာ ဆက်တင်ထဲရှိ NFC ကိုဖွင့်ပြီးနောက် သင့်ကတ်ကို သင့်စက်နှင့် ထိလိုက်ပါ။"</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">သင့်ကတ်ကို သင့်စက်၏ နောက်ကျောဘက်နှင့် ထိလျက်ကိုင်ထားပါ။ သင့်ကတ်၏ အချက်အလက်များကို အလိုအလျောက် ဖတ်ရှုပါလိမ့်မည်။</string>
+    <string name="wallet_uic_nfc_popup_title">သင့်ကတ်ကို ထိလိုက်ပါ</string>
+    <string name="wallet_uic_nfc_timeout_error_message">သင့်ကတ်ကို ထပ်ထိလိုက်ပါ သို့မဟုတ် ကတ်နံပါတ်ကို ရိုက်ထည့်ပါ။</string>
+    <string name="wallet_uic_nfc_transceive_error_message">ဖတ်နေစဉ် သင့်ကတ်ကို ငြိမ်ငြိမ်ကိုင်ထားပါ။</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">ဤကတ်ကို NFC မှ မဖတ်နိုင်သေးပါ။ ကတ်နံပါတ်ထဲတွင် ကိုယ်တိုင် ရိုက်ထည့်ပေးပါ။</string>
+    <string name="wallet_uic_ocr_drop_down_button">သင့်ကတ်ကို စကန်ဖတ်ပါ</string>
+    <string name="wallet_uic_phone_number">ဖုန်းနံပါတ်</string>
+    <string name="wallet_uic_retry">ပြန်ကြိုးစားပါ</string>
+    <string name="wallet_uic_scan_credit_card">သင့်ကင်မရာဖြင့် ခရက်ဒစ်ကတ်ကို စကန်ဖတ်ပါ</string>
+    <string name="wallet_uic_select_location">တည်နေရာကို ရွေးပါ</string>
+    <string name="wallet_uic_summary_clear_button_description">ဖောင်ကို ရှင်းပစ်ရန်</string>
+    <string name="wallet_uic_summary_edit_button_description">ဖောင်ကို ပြုပြင်ရန်</string>
+    <string name="wallet_uic_view_card_logos">လက်ခံထားသော ကတ်များကို ကြည့်ရန်</string>
+</resources>

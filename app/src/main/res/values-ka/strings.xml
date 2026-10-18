@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>American Express</b>"
+CVC არის ბარათის წინა მხარეს, მარჯვნივ განთავსებული 4 ციფრი."</string>
+    <string name="wallet_im_cvc_code_popup_content_description">მეტი ინფორმაცია CVC-ზე.</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover, MasterCard, Visa და Visa Electron</b>"
+CVC არის ნომრის ბოლო სამი ციფრი, რომელიც თქვენი ბარათის უკანა მხარესაა მოთავსებული, ხელმოწერის ზოლზე."</string>
+    <string name="wallet_im_error_title">შეცდომა</string>
+    <string name="wallet_im_send_sms_for_dcb_error">ანგარიშის გადამოწმების SMS ვერ გაიგზავნა. გთხოვთ, კვლავ სცადოთ.</string>
+    <string name="wallet_im_unknown_error">თქვენი მოთხოვნის დასრულება ვერ მოხერხდა. გთხოვთ, სცადოთ ხელახლა ან მოგვიანებით.</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">ველი: %1$s, შეცდომა: %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">ქუჩის მისამართი</string>
+    <string name="wallet_uic_address_field_address_line_2">ბინა</string>
+    <string name="wallet_uic_address_field_admin_area_area">რეგიონი</string>
+    <string name="wallet_uic_address_field_admin_area_county">საგრაფო</string>
+    <string name="wallet_uic_address_field_admin_area_department">განყოფილება</string>
+    <string name="wallet_uic_address_field_admin_area_district">რაიონი</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">Do Si</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">საამირო</string>
+    <string name="wallet_uic_address_field_admin_area_island">კუნძული</string>
+    <string name="wallet_uic_address_field_admin_area_parish">ოლქი</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">პრეფექტურა</string>
+    <string name="wallet_uic_address_field_admin_area_province">პროვინცია</string>
+    <string name="wallet_uic_address_field_admin_area_region">რეგიონი</string>
+    <string name="wallet_uic_address_field_admin_area_state">შტატი</string>
+    <string name="wallet_uic_address_field_country">ქვეყანა</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">ქალაქი</string>
+    <string name="wallet_uic_address_field_organization">ორგანიზაცია</string>
+    <string name="wallet_uic_address_field_postal_code">საფოსტო ინდექსი</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">ZIP კოდი</string>
+    <string name="wallet_uic_card_number">ბარათის ნომერი</string>
+    <string name="wallet_uic_close">დახურვა</string>
+    <string name="wallet_uic_content_description_edit_address">მისამართის რედაქტირება</string>
+    <string name="wallet_uic_content_description_expand_credit_card">საკრედიტო ბარათის ინფორმაციის გაფართოება</string>
+    <string name="wallet_uic_error_address_field_invalid">%s არასწორია</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">საკრედიტო ბარათის ნომერი არასწორია</string>
+    <string name="wallet_uic_error_cvc_invalid">CVC არასწორია</string>
+    <string name="wallet_uic_error_email_address_invalid">ელფოსტის მისამართი არასწორია</string>
+    <string name="wallet_uic_error_expired_credit_card">ვადაგასული საკრედიტო ბარათი</string>
+    <string name="wallet_uic_error_field_must_be_complete">ველი არასრულია</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">საჭირო ველი</string>
+    <string name="wallet_uic_error_loading_page">გვერდის ჩატვირთვის შეცდომა.</string>
+    <string name="wallet_uic_error_month_invalid">თვე არასწორია</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">ნებადართულია მხოლოდ ციფრები.</string>
+    <string name="wallet_uic_error_year_invalid">წელი არასწორია</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">წელი საჭიროა</string>
+    <string name="wallet_uic_exp_date">თთ/წწ</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">მისაღები ბარათების დამალვა</string>
+    <string name="wallet_uic_network_error_message">ამ დავალების შესასრულებლად საჭიროა ქსელთან კავშირი. გთხოვთ, დაუკავშირდეთ Wi-Fi-ს ან მობილურ ინტერნეტს.</string>
+    <string name="wallet_uic_network_error_title">ინტერნეტთან კავშირი არ არის</string>
+    <string name="wallet_uic_nfc_credit_card">შეეხეთ თქვენი ბარათის წასაკითხად.</string>
+    <string name="wallet_uic_nfc_enable_button">NFC-ს ჩართვა</string>
+    <string name="wallet_uic_nfc_enable_title">NFC-ს ჩართვა</string>
+    <string name="wallet_uic_nfc_error_title">ბარათის ინფორმაციის წაკითხვა არ მომხდარა</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"შეიყვანეთ თქვენი საკრედიტო ბარათის ინფორმაცია ერთი შეხებით. 
+ჯერ ჩართეთ NFC თქვენი პარამეტრებიდან, შემდეგ შეახეთ ბარათი მოწყობილობას."</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">მოწყობილობას უკანა მხარეს ხანგრძლივად შეახეთ თქვენი ბარათი. ბარათის ინფორმაცია ავტომატურად წაიკითხება.</string>
+    <string name="wallet_uic_nfc_popup_title">შეახეთ ბარათი</string>
+    <string name="wallet_uic_nfc_timeout_error_message">ხელახლა შეახეთ ბარათი ან აკრიფეთ ბარათის ნომერი.</string>
+    <string name="wallet_uic_nfc_transceive_error_message">გააჩერეთ ბარათი უძრავად, სანამ მიმდინარეობს წაკითხვა.</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">ბარათს NFC მხარდაჭერა ჯერ არ აქვს. გთხოვთ, ხელით აკრიფოთ ბარათის ნომერი.</string>
+    <string name="wallet_uic_ocr_drop_down_button">ბარათის სკანირება</string>
+    <string name="wallet_uic_phone_number">ტელეფონ.ნომერი</string>
+    <string name="wallet_uic_retry">ხელახლა ცდა</string>
+    <string name="wallet_uic_scan_credit_card">დაასკანირეთ საკრედიტო ბარათი თქვენი კამერით</string>
+    <string name="wallet_uic_select_location">აირჩიეთ მდებარეობა</string>
+    <string name="wallet_uic_summary_clear_button_description">ფორმის გასუფთავება</string>
+    <string name="wallet_uic_summary_edit_button_description">ფორმის რედაქტირება</string>
+    <string name="wallet_uic_view_card_logos">მისაღები ბარათების ნახვა</string>
+</resources>

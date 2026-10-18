@@ -1,0 +1,233 @@
+package com.google.android.finsky.utils;
+
+/* loaded from: classes.dex */
+public final class bg {
+    public static final com.google.android.finsky.cpkg.n<Integer> A;
+    public static final com.google.android.finsky.cpkg.n<String> B;
+    public static final com.google.android.finsky.cpkg.o<Boolean> C;
+    public static final com.google.android.finsky.cpkg.o<String> D;
+    public static final com.google.android.finsky.cpkg.o<Long> E;
+    public static final com.google.android.finsky.cpkg.n<Integer> F;
+    public static final com.google.android.finsky.cpkg.n<Boolean> G;
+    public static final com.google.android.finsky.cpkg.n<Long> H;
+    public static final com.google.android.finsky.cpkg.n<Integer> I;
+    public static final com.google.android.finsky.cpkg.n<Integer> J;
+    public static final com.google.android.finsky.cpkg.n<Long> K;
+    public static final com.google.android.finsky.cpkg.n<Integer> L;
+    public static final com.google.android.finsky.cpkg.n<Integer> M;
+    public static final com.google.android.finsky.cpkg.n<Boolean> N;
+    public static final com.google.android.finsky.cpkg.n<Long> O;
+
+    @Deprecated
+    public static final com.google.android.finsky.cpkg.n<Boolean> P;
+    public static final com.google.android.finsky.cpkg.n<Integer> Q;
+    public static final com.google.android.finsky.cpkg.n<Integer> R;
+    public static final com.google.android.finsky.cpkg.n<String> S;
+    public static final com.google.android.finsky.cpkg.n<String> T;
+    public static com.google.android.finsky.cpkg.n<String> U;
+    public static final com.google.android.finsky.cpkg.n<String> V;
+    public static final com.google.android.finsky.cpkg.o<String> W;
+    public static final com.google.android.finsky.cpkg.n<Long> X;
+    public static final com.google.android.finsky.cpkg.o<String> Y;
+    public static final com.google.android.finsky.cpkg.o<String> Z;
+
+    /* renamed from: a, reason: collision with root package name */
+    public static final com.google.android.finsky.cpkg.o<Integer> f4773a;
+    public static final com.google.android.finsky.cpkg.o<String> aA;
+    public static final com.google.android.finsky.cpkg.n<Long> aB;
+    public static final com.google.android.finsky.cpkg.o<Long> aC;
+    public static com.google.android.finsky.cpkg.n<String> aD;
+    public static final com.google.android.finsky.cpkg.n<Integer> aE;
+    public static com.google.android.finsky.cpkg.n<String> aF;
+    public static final com.google.android.finsky.cpkg.o<Boolean> aG;
+    public static com.google.android.finsky.cpkg.o<String> aH;
+    public static com.google.android.finsky.cpkg.o<Boolean> aI;
+    public static com.google.android.finsky.cpkg.n<String> aJ;
+    public static com.google.android.finsky.cpkg.o<String> aK;
+    public static com.google.android.finsky.cpkg.n<String> aL;
+    public static com.google.android.finsky.cpkg.n<Integer> aM;
+    public static com.google.android.finsky.cpkg.n<String> aN;
+    public static final com.google.android.finsky.cpkg.o<String> aO;
+    public static final com.google.android.finsky.cpkg.o<Boolean> aP;
+    public static final com.google.android.finsky.cpkg.o<Long> aQ;
+    public static final com.google.android.finsky.cpkg.n<Boolean> aR;
+    public static com.google.android.finsky.cpkg.o<Long> aS;
+    public static final com.google.android.finsky.cpkg.o<Boolean> aT;
+    public static final com.google.android.finsky.cpkg.o<Boolean> aU;
+    public static final com.google.android.finsky.cpkg.n<Integer> aV;
+    public static final com.google.android.finsky.cpkg.n<Integer> aW;
+    public static final com.google.android.finsky.cpkg.n<Integer> aX;
+    private static final com.google.android.finsky.cpkg.e aY;
+    public static final com.google.android.finsky.cpkg.o<String> aa;
+    public static final com.google.android.finsky.cpkg.o<String> ab;
+    public static final com.google.android.finsky.cpkg.o<Boolean> ac;
+    public static final com.google.android.finsky.cpkg.n<Boolean> ad;
+    public static final com.google.android.finsky.cpkg.o<Integer> ae;
+    public static final com.google.android.finsky.cpkg.o<Boolean> af;
+    public static final com.google.android.finsky.cpkg.o<Boolean> ag;
+    public static final com.google.android.finsky.cpkg.n<String> ah;
+    public static final com.google.android.finsky.cpkg.n<String> ai;
+    public static final com.google.android.finsky.cpkg.o<String> aj;
+    public static final com.google.android.finsky.cpkg.o<Long> ak;
+    public static final com.google.android.finsky.cpkg.o<Long> al;
+    public static final com.google.android.finsky.cpkg.o<Boolean> am;
+    public static final com.google.android.finsky.cpkg.o<Boolean> an;
+    public static final com.google.android.finsky.cpkg.o<Boolean> ao;
+    public static final com.google.android.finsky.cpkg.o<Boolean> ap;
+    public static final com.google.android.finsky.cpkg.o<Boolean> aq;
+    public static final com.google.android.finsky.cpkg.o<Boolean> ar;
+    public static final com.google.android.finsky.cpkg.n<Boolean> as;
+    public static final com.google.android.finsky.cpkg.n<Long> at;
+    public static final com.google.android.finsky.cpkg.o<Boolean> au;
+    public static final com.google.android.finsky.cpkg.n<Boolean> av;
+    public static final com.google.android.finsky.cpkg.o<Boolean> aw;
+    public static final com.google.android.finsky.cpkg.o<Boolean> ax;
+    public static final com.google.android.finsky.cpkg.o<Long> ay;
+    public static final com.google.android.finsky.cpkg.n<Long> az;
+
+    /* renamed from: b, reason: collision with root package name */
+    public static final com.google.android.finsky.cpkg.o<Integer> f4774b;
+    public static final com.google.android.finsky.cpkg.o<String> c;
+    public static final com.google.android.finsky.cpkg.o<String> d;
+    public static final com.google.android.finsky.cpkg.o<Boolean> e;
+    public static final com.google.android.finsky.cpkg.o<String> f;
+    public static final com.google.android.finsky.cpkg.o<String> g;
+    public static final com.google.android.finsky.cpkg.o<Boolean> h;
+    public static final com.google.android.finsky.cpkg.o<Boolean> i;
+    public static final com.google.android.finsky.cpkg.o<Integer> j;
+    public static final com.google.android.finsky.cpkg.o<Long> k;
+    public static final com.google.android.finsky.cpkg.o<Long> l;
+    public static final com.google.android.finsky.cpkg.o<Integer> m;
+    public static final com.google.android.finsky.cpkg.o<Long> n;
+    public static final com.google.android.finsky.cpkg.o<String> o;
+    public static final com.google.android.finsky.cpkg.o<String> p;
+    public static final com.google.android.finsky.cpkg.o<Integer> q;
+    public static final com.google.android.finsky.cpkg.o<Long> r;
+    public static final com.google.android.finsky.cpkg.o<Boolean> s;
+    public static final com.google.android.finsky.cpkg.o<Boolean> t;
+    public static final com.google.android.finsky.cpkg.o<Boolean> u;
+    public static final com.google.android.finsky.cpkg.o<Integer> v;
+    public static final com.google.android.finsky.cpkg.o<Boolean> w;
+    public static final com.google.android.finsky.cpkg.o<Integer> x;
+    public static final com.google.android.finsky.cpkg.o<String> y;
+    public static final com.google.android.finsky.cpkg.o<Integer> z;
+
+    static {
+        com.google.android.finsky.cpkg.e eVar = new com.google.android.finsky.cpkg.e("finsky");
+        aY = eVar;
+        f4773a = eVar.a("last_version_code", (Integer) (-1));
+        f4774b = aY.a("content-filter-level", (Integer) (-1));
+        c = aY.a("content-filters-2", "");
+        d = aY.a("content-filters-selections", (String) null);
+        e = aY.a("content-filter-2-visited-once", (Boolean) false);
+        f = aY.a("account", (String) null);
+        g = aY.a("pin_code", (String) null);
+        h = aY.a("had-pre-js-auto-update-settings", (Boolean) false);
+        i = aY.a("update-migration-dialog-accepted", (Boolean) false);
+        j = aY.a("update-migration-dialog-times-shown-count", (Integer) 0);
+        k = aY.a("last-update-migration-dialog-times-shown", (Long) 0L);
+        l = aY.a("last-device-feature-logged-timestamp-ms", (Long) 0L);
+        m = aY.a("play-games-install-suggestion-shown-count", (Integer) 0);
+        n = aY.a("play-games-install-suggestion-last-time-shown", (Long) 0L);
+        o = aY.a("device-config-token", (String) null);
+        p = aY.a("gcm-registration-id-on-server", (String) null);
+        q = aY.a("dailyhygiene-failed", (Integer) 0);
+        r = aY.a("dailyhygiene-lastsuccess", (Long) 0L);
+        s = aY.a("dailyhygiene-holdoff-complete", (Boolean) false);
+        t = aY.a("auto_update_enabled", (Boolean) true);
+        u = aY.a("update_over_wifi_only", (Boolean) true);
+        v = aY.a("download_network_preference", (Integer) 1);
+        w = aY.a("download_network_settings_message_shown", (Boolean) false);
+        x = aY.a("installation-replication-retries", (Integer) 0);
+        y = aY.a("dfe-notification-pending-acks", (String) null);
+        z = aY.a("last-replicated-database-version", (Integer) (-1));
+        A = aY.b("replicated-system-apps-hash", (Integer) 0);
+        B = aY.b("last-tos-token", "");
+        C = aY.a("accepted-anti-malware-consent", (Boolean) false);
+        D = aY.a("anti-malware-consent-model", "PreferenceConsent");
+        E = aY.a("verify-installed-apps-last-success-ms", (Long) 0L);
+        F = aY.b("replicated-account-apps-hash:", (Integer) 0);
+        G = aY.b("has-fop", (Boolean) null);
+        H = aY.b("has-fop-last-update-ms", (Long) 0L);
+        I = aY.b("prompt-for-fop-num-snoozed", (Integer) 0);
+        J = aY.b("prompt-for-fop-num-snoozed-2", (Integer) 0);
+        K = aY.b("prompt-for-fop-last-snooze-timestamp-ms", (Long) 0L);
+        L = aY.b("prompt-for-fop-num-dialog-impressions", (Integer) 0);
+        M = aY.b("prompt-for-fop-num-fop-selector-impressions", (Integer) 0);
+        N = aY.b("prompt-for-fop-fop-added", (Boolean) false);
+        O = aY.b("last-gaia-auth-timestamp", (Long) 0L);
+        P = aY.b("gaia-auth-opt-out", (Boolean) null);
+        Q = aY.b("purchase-auth-type", (Integer) (-1));
+        R = aY.b("purchase-auth-version-code", (Integer) null);
+        S = aY.b("target-list", (String) null);
+        T = aY.b("target-override-list", (String) null);
+        U = aY.b("dismissed-surveys-list", (String) null);
+        V = aY.b("autoAcquireTags", (String) null);
+        W = aY.a("preregistration-released-docs", (String) null);
+        X = aY.b("preregistration-released-ms", (Long) 0L);
+        Y = aY.a("my-library-widget-top-affinities", "");
+        Z = aY.a("my-library-widget-bottom-affinities", "");
+        aa = aY.a("my-library-widget-left-affinities", "");
+        ab = aY.a("my-library-widget-right-affinities", "");
+        ac = aY.a("download-manager-uses-froyo-strings", (Boolean) false);
+        ad = aY.b("accepted-plus-reviews", (Boolean) false);
+        ae = aY.a("nlp-cleanup-config-id", (Integer) 0);
+        af = aY.a("nlp-cleanup-config-holdoff-until-boot", (Boolean) false);
+        ag = aY.a("nlp-cleanup-config-holdoff-after-install", (Boolean) false);
+        ah = aY.b("widgetUrl", (String) null);
+        ai = aY.b("libraryWidgetData", (String) null);
+        aj = aY.a("successful-update-notification-app-list", "");
+        ak = aY.a("last-update-avail-notification-timestamp-ms", (Long) 0L);
+        al = aY.a("auto-update-discovered-at-ms", (Long) 0L);
+        am = aY.a("warm-welcome-own-profile-acknowledged", (Boolean) false);
+        an = aY.a("internal-show-all-surveys", (Boolean) false);
+        ao = aY.a("internal-fake-item-rater-enabled", (Boolean) false);
+        ap = aY.a("internal-event-log-debugging-enabled", (Boolean) false);
+        aq = aY.a("internal-enable-self-update-on-debug-build", (Boolean) false);
+        ar = aY.a("auto-update-first-time-for-accounts", (Boolean) true);
+        as = aY.b("has-seen-purchase-session-message", (Boolean) false);
+        at = aY.b("last-automatic-hero-sequence-on-details-time-shown", (Long) 0L);
+        au = aY.a("directed-restore-started", (Boolean) false);
+        av = aY.b("early-update-skip-package", (Boolean) false);
+        aw = aY.a("setup-wizard-start-downloads", (Boolean) false);
+        ax = aY.a("vpa-triggered", (Boolean) false);
+        ay = aY.a("last-time-back-stack-updated-ms", (Long) Long.MAX_VALUE);
+        az = aY.b("last-survey-action-ms", (Long) null);
+        aA = aY.a("wear-known-devices", (String) null);
+        aB = aY.b("wear-device-last-seen", (Long) 0L);
+        aC = aY.a("device-data-partition-bytes", (Long) (-1L));
+        aD = aY.b("wear-device-config-token", (String) null);
+        aE = aY.b("user-setting-seen-count", (Integer) 0);
+        aF = aY.b("toc-cookie", (String) null);
+        aG = aY.a("dismissed-my-account-newsstand-message", (Boolean) false);
+        aH = aY.a("location-override", (String) null);
+        aI = aY.a("optional-permissions-help-screen-shown", (Boolean) false);
+        aJ = aY.b("user-settings-cache", (String) null);
+        aK = aY.a("last-used-location", (String) null);
+        aL = aY.b("server-cookies", (String) null);
+        aM = aY.b("user-settings-cache-dirty-type", (Integer) null);
+        aN = aY.b("user-settings-consistency-tokens", (String) null);
+        aO = aY.a("adid-cached-value", (String) null);
+        aP = aY.a("adid-limit-tracking-cached-value", (Boolean) null);
+        aQ = aY.a("adid-cached-timestamp-ms", (Long) 0L);
+        aR = aY.b("use-fingerprint-for-purchase", (Boolean) false);
+        aS = aY.a("logs-flush-schedule-expired-timestamp", (Long) 0L);
+        aT = aY.a("has_shown_entertainment_onboarding", (Boolean) false);
+        aU = aY.a("has-stale-process-stable-targets", (Boolean) false);
+        aV = aY.b("account-completion-main-menu-tap-count", (Integer) 0);
+        aW = aY.b("account-completion-my-account-tap-count", (Integer) 0);
+        aX = aY.b("account-completion-payments-card-show-count", (Integer) 0);
+    }
+
+    public static com.google.android.finsky.cpkg.e a() {
+        return aY;
+    }
+
+    public static void b() {
+        aY.b();
+    }
+
+    public static com.google.android.finsky.cpkg.n<String> a(String str) {
+        return aY.b("server_token:" + str + ":", "");
+    }
+}

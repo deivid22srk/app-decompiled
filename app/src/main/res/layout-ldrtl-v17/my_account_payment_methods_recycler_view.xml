@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.layout.play.PlayRecyclerView android:id="@id/recycler_view" android:background="@color/play_white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/floating_action_button" android:background="@color/my_account_floating_action_button_bg" android:visibility="gone" android:layout_width="@dimen/my_account_floating_action_button_size" android:layout_height="@dimen/my_account_floating_action_button_size" android:layout_marginBottom="@dimen/my_account_floating_action_button_margin_bottom" android:src="@drawable/ic_add_white_24px" android:scaleType="center" android:contentDescription="@string/my_account_payment_methods_row_subtitle" android:layout_marginEnd="@dimen/my_account_floating_action_button_margin_right" />
+</FrameLayout>

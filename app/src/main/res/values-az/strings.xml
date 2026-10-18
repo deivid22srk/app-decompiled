@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>American Express</b>"
+CVC kartın ön tərəfində sağda yerləşən 4 rəqəmdir."</string>
+    <string name="wallet_im_cvc_code_popup_content_description">CVC haqqında əlavə məlumat.</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover, MasterCard, Visa və Visa Electron</b>"
+CVC kartın arxa tərəfində imza panelində son 3 rəqəmdir."</string>
+    <string name="wallet_im_error_title">Xəta</string>
+    <string name="wallet_im_send_sms_for_dcb_error">Hesab doğrulama mesajı göndərilmədi. Lütfən, yenidən cəhd edin.</string>
+    <string name="wallet_im_unknown_error">Sorğunuzu tamamlaya bilmədik. Lütfən, daha sonra yenidən cəhd edin.</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">Sahə: %1$s, xəta: %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">Küçə ünvanı</string>
+    <string name="wallet_uic_address_field_address_line_2">Mənzil</string>
+    <string name="wallet_uic_address_field_admin_area_area">Ərazi</string>
+    <string name="wallet_uic_address_field_admin_area_county">Ölkə</string>
+    <string name="wallet_uic_address_field_admin_area_department">Şöbə</string>
+    <string name="wallet_uic_address_field_admin_area_district">Rayon</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">Do Si</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">Əmirlik</string>
+    <string name="wallet_uic_address_field_admin_area_island">Ada</string>
+    <string name="wallet_uic_address_field_admin_area_parish">Məhəllə</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">Prefektura</string>
+    <string name="wallet_uic_address_field_admin_area_province">Əyalət</string>
+    <string name="wallet_uic_address_field_admin_area_region">Region</string>
+    <string name="wallet_uic_address_field_admin_area_state">Ştat</string>
+    <string name="wallet_uic_address_field_country">Ölkə</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">Şəhər</string>
+    <string name="wallet_uic_address_field_organization">Təşkilat</string>
+    <string name="wallet_uic_address_field_postal_code">Poçt kodu</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">Poçt indeksi</string>
+    <string name="wallet_uic_card_number">Kart nömrəsi</string>
+    <string name="wallet_uic_close">Qapadın</string>
+    <string name="wallet_uic_content_description_edit_address">Ünvana düzəliş edin</string>
+    <string name="wallet_uic_content_description_expand_credit_card">Kredit kart məlumatını geniş göstərin</string>
+    <string name="wallet_uic_error_address_field_invalid">Yanlış %s</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">Yanlış kredit kart nömrəsi</string>
+    <string name="wallet_uic_error_cvc_invalid">Yanlış CVC</string>
+    <string name="wallet_uic_error_email_address_invalid">Yanlış e-poçt ünvanı</string>
+    <string name="wallet_uic_error_expired_credit_card">Vaxtı bitmiş kredit kartı</string>
+    <string name="wallet_uic_error_field_must_be_complete">Natamam sahə</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">Tələb olunan sahə</string>
+    <string name="wallet_uic_error_loading_page">Səhifəni yükləmə xətası.</string>
+    <string name="wallet_uic_error_month_invalid">Yanlış ay</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">Yalnız rəqəm işlədilə bilər.</string>
+    <string name="wallet_uic_error_year_invalid">Yanlış il</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">İl tələb olunur</string>
+    <string name="wallet_uic_exp_date">AA/İİ</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">Qəbul edilmiş kartları gizlədin</string>
+    <string name="wallet_uic_network_error_message">Bu tapşırığı tamamlamaq üçün şəbəkəyə qoşulmaq tələb olunur. Lütfən, Wi-Fi və ya data şəbəsinə qoşulun.</string>
+    <string name="wallet_uic_network_error_title">İnternet Bağlantısı Yoxdur</string>
+    <string name="wallet_uic_nfc_credit_card">Kartınızı oxumaq üçün tıklayın.</string>
+    <string name="wallet_uic_nfc_enable_button">NFC aktiv edin</string>
+    <string name="wallet_uic_nfc_enable_title">NFC aktiv edin</string>
+    <string name="wallet_uic_nfc_error_title">Kartınızın məlumatları oxunmadı</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"Kredit kart məlumatlarınızı bir tıklama ilə daxil edin.
+Əvvəlcə ayarlarda NFC aktiv edin, sonra kartı cihaza tıklayın."</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">Kartınızı cihazın arxasına tıklayaraq saxlayın. Kart məlumatlarınız avtomatik oxunacaq.</string>
+    <string name="wallet_uic_nfc_popup_title">Katınıza tıklayın</string>
+    <string name="wallet_uic_nfc_timeout_error_message">Kartınızı yenidən tıklayın və ya kart nömrənizi daxil edin.</string>
+    <string name="wallet_uic_nfc_transceive_error_message">Kartınız oxunarkən onu hələ də saxlayın.</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">Bu kart hələ NFC tərəfindən dəstəklənmir. Lütfən, kart nömrəsini əl ilə daxil edin.</string>
+    <string name="wallet_uic_ocr_drop_down_button">Kartınızı skan edin</string>
+    <string name="wallet_uic_phone_number">Telefon nömrəsi</string>
+    <string name="wallet_uic_retry">Yenidən cəhd edin</string>
+    <string name="wallet_uic_scan_credit_card">Kredit kartınızı kamera ilə skan edin</string>
+    <string name="wallet_uic_select_location">Məkan seçin</string>
+    <string name="wallet_uic_summary_clear_button_description">Təmiz forma</string>
+    <string name="wallet_uic_summary_edit_button_description">Formanı redaktə edin</string>
+    <string name="wallet_uic_view_card_logos">Qəbul edilmiş kartlara baxın</string>
+</resources>

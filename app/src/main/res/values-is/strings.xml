@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_im_cvc">CVC</string>
+    <string name="wallet_im_cvc_code_popup_amex_description"><b>American Express</b>"
+CVC-númerið er tölustafirnir fjórir á framhlið kortsins, til hægri."</string>
+    <string name="wallet_im_cvc_code_popup_content_description">Frekari upplýsingar um CVC-númer.</string>
+    <string name="wallet_im_cvc_code_popup_default_description"><b>Discover, MasterCard, Visa og Visa Electron</b>"
+CVC-númerið er síðustu þrír tölustafirnir í undirskriftarreitnum aftan á kortinu þínu."</string>
+    <string name="wallet_im_error_title">Villa</string>
+    <string name="wallet_im_send_sms_for_dcb_error">Ekki var hægt að senda staðfestingarskilaboð vegna reiknings með SMS. Reyndu aftur.</string>
+    <string name="wallet_im_unknown_error">Ekki tókst að ljúka beiðninni þinni. Reyndu aftur eða reyndu síðar.</string>
+    <string name="wallet_uic_accessibility_event_form_field_description">%1$s %2$s %3$s</string>
+    <string name="wallet_uic_accessibility_event_form_field_error">Reitur: %1$s, villa: %2$s</string>
+    <string name="wallet_uic_address_field_address_line_1">Gata og húsnúmer</string>
+    <string name="wallet_uic_address_field_address_line_2">Íbúðarnúmer</string>
+    <string name="wallet_uic_address_field_admin_area_area">Svæði</string>
+    <string name="wallet_uic_address_field_admin_area_county">Sýsla</string>
+    <string name="wallet_uic_address_field_admin_area_department">Deild</string>
+    <string name="wallet_uic_address_field_admin_area_district">Umdæmi</string>
+    <string name="wallet_uic_address_field_admin_area_do_si">Do Si</string>
+    <string name="wallet_uic_address_field_admin_area_emirate">Furstadæmi</string>
+    <string name="wallet_uic_address_field_admin_area_island">Eyja</string>
+    <string name="wallet_uic_address_field_admin_area_parish">Sókn</string>
+    <string name="wallet_uic_address_field_admin_area_prefecture">Héraðsstjóraumdæmi</string>
+    <string name="wallet_uic_address_field_admin_area_province">Hérað</string>
+    <string name="wallet_uic_address_field_admin_area_region">Svæði</string>
+    <string name="wallet_uic_address_field_admin_area_state">Ríki</string>
+    <string name="wallet_uic_address_field_country">Land</string>
+    <string name="wallet_uic_address_field_dependent_locality" />
+    <string name="wallet_uic_address_field_locality">Borg</string>
+    <string name="wallet_uic_address_field_organization">Félag</string>
+    <string name="wallet_uic_address_field_postal_code">Póstnúmer</string>
+    <string name="wallet_uic_address_field_sorting_code">CEDEX</string>
+    <string name="wallet_uic_address_field_zip_code">Póstnúmer (bandarískt)</string>
+    <string name="wallet_uic_card_number">Kortanúmer</string>
+    <string name="wallet_uic_close">Loka</string>
+    <string name="wallet_uic_content_description_edit_address">Breyta heimilisfangi</string>
+    <string name="wallet_uic_content_description_expand_credit_card">Stækka kreditkortaupplýsingar</string>
+    <string name="wallet_uic_error_address_field_invalid">Ógilt %s</string>
+    <string name="wallet_uic_error_creditcard_number_invalid">Ógilt kreditkortanúmer</string>
+    <string name="wallet_uic_error_cvc_invalid">Ógilt CVC-númer</string>
+    <string name="wallet_uic_error_email_address_invalid">Ógilt netfang</string>
+    <string name="wallet_uic_error_expired_credit_card">Útrunnið kreditkort</string>
+    <string name="wallet_uic_error_field_must_be_complete">Ókláraður reitur</string>
+    <string name="wallet_uic_error_field_must_not_be_empty">Nauðsynlegur reitur</string>
+    <string name="wallet_uic_error_loading_page">Villa við að hlaða síðuna.</string>
+    <string name="wallet_uic_error_month_invalid">Ógildur mánuður</string>
+    <string name="wallet_uic_error_only_numeric_digits_allowed">Aðeins tölustafir eru leyfðir.</string>
+    <string name="wallet_uic_error_year_invalid">Ógilt ártal</string>
+    <string name="wallet_uic_error_year_must_not_be_empty">Ár er áskilið</string>
+    <string name="wallet_uic_exp_date">MM/ÁÁ</string>
+    <string name="wallet_uic_exp_date_separator">/</string>
+    <string name="wallet_uic_hide_card_logos">Fela samþykkt kort</string>
+    <string name="wallet_uic_network_error_message">Nettengingu þarf til að ljúka þessu verkefni. Tengstu við Wi-Fi eða gagnanet.</string>
+    <string name="wallet_uic_network_error_title">Engin nettenging</string>
+    <string name="wallet_uic_nfc_credit_card">Snertu til að láta lesa kortið þitt.</string>
+    <string name="wallet_uic_nfc_enable_button">Kveikja á NFC</string>
+    <string name="wallet_uic_nfc_enable_title">Kveikja á NFC</string>
+    <string name="wallet_uic_nfc_error_title">Kortaupplýsingarnar þínar voru ekki lesnar</string>
+    <string name="wallet_uic_nfc_popup_disabled_information">"Færðu inn kreditkortaupplýsingarnar þínar með því að snerta einu sinni.
+Kveiktu fyrst á NFC í stillingum og láttu síðan kortið þitt snerta tækið."</string>
+    <string name="wallet_uic_nfc_popup_enabled_information">Snertu og haltu kortinu að bakhlið tækisins. Kortaupplýsingarnar verða lesnar sjálfvirkt.</string>
+    <string name="wallet_uic_nfc_popup_title">Láttu kortið þitt snerta</string>
+    <string name="wallet_uic_nfc_timeout_error_message">Láttu kortið þitt snerta aftur eða sláðu inn kortanúmerið þitt.</string>
+    <string name="wallet_uic_nfc_transceive_error_message">Haltu kortinu þínu kyrru meðan verið er að lesa það.</string>
+    <string name="wallet_uic_nfc_unsupported_error_message">NFC styður ekki við þetta kort enn sem komið er. Sláðu kortaupplýsingarnar inn handvirkt.</string>
+    <string name="wallet_uic_ocr_drop_down_button">Skannaðu kortið þitt</string>
+    <string name="wallet_uic_phone_number">Símanúmer</string>
+    <string name="wallet_uic_retry">Reyna aftur</string>
+    <string name="wallet_uic_scan_credit_card">Skanna kreditkort með myndavél</string>
+    <string name="wallet_uic_select_location">Veldu staðsetningu</string>
+    <string name="wallet_uic_summary_clear_button_description">Hreinsa eyðublað</string>
+    <string name="wallet_uic_summary_edit_button_description">Breyta eyðublaði</string>
+    <string name="wallet_uic_view_card_logos">Sýna samþykkt kort</string>
+</resources>
