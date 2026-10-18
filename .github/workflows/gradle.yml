@@ -29,13 +29,12 @@ jobs:
         with:
           gradle-version: '7.6.4'
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
       - name: Install platform 23
         run: |
-          yes | sdkmanager --licenses > /dev/null 2>&1 || true
-          sdkmanager "platforms;android-23" > /dev/null
+          SDKM=$(ls $ANDROID_HOME/cmdline-tools/*/bin/sdkmanager | head -1)
+          yes | "$SDKM" --licenses > /dev/null 2>&1 || true
+          "$SDKM" "platforms;android-23" > /dev/null
+          ls $ANDROID_HOME/platforms/
 
       - name: Substitui android.jar por framework completo (hidden APIs)
         run: |
