@@ -17,7 +17,7 @@
                 <com.google.android.wallet.instrumentmanager.ui.common.ImInfoMessageTextView android:id="@id/top_info_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/wallet_im_info_message_bottom_margin" android:layout_marginStart="?attr/internalUicNonFormFieldTextStartMargin" style="?attr/imInfoMessageTextAppearance" />
                 <FrameLayout android:id="@id/sub_form_holder" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
                 <com.google.android.wallet.instrumentmanager.ui.common.ImInfoMessageTextView android:id="@id/info_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" style="?attr/uicDialogMessageTextAppearance" />
-                <TextView android:id="@id/details" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:textIsSelectable="true" style="?android:attr/attr/textAppearanceSmall" />
+                <TextView android:id="@id/details" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:textIsSelectable="true" style="?android:attr/textAppearanceSmall" />
             </LinearLayout>
         </com.google.android.wallet.ui.common.FocusedViewToTopScrollView>
     </FrameLayout>

@@ -3,6 +3,6 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="vertical" android:paddingLeft="?attr/uicDialogBodyStartEndMargin" android:paddingTop="?attr/uicDialogBodyTopBottomMargin" android:paddingRight="?attr/uicDialogBodyStartEndMargin" android:paddingBottom="?attr/uicDialogBodyTopBottomMargin" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <com.google.android.wallet.ui.common.InfoMessageTextView android:id="@id/info_message" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/uicDialogMessageTextAppearance" />
-        <TextView android:id="@id/details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="?android:attr/attr/textAppearanceSmall" />
+        <TextView android:id="@id/details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="?android:attr/textAppearanceSmall" />
     </LinearLayout>
 </ScrollView>

@@ -5,5 +5,5 @@
         <TextView android:id="@id/nfc_popup_message" android:paddingTop="?attr/uicDialogBodyTopBottomMargin" android:paddingBottom="?attr/uicDialogBodyTopBottomMargin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?attr/uicDialogBodyStartEndMargin" android:paddingEnd="?attr/uicDialogBodyStartEndMargin" style="?attr/uicInfoDialogTextAppearance" />
         <com.google.android.wallet.ui.common.FifeNetworkImageView android:id="@id/nfc_instruction_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerInside" im:internalUicAspectRatio="1.2218411" im:internalUicDominantDimension="width" />
     </LinearLayout>
-    <ProgressBar android:layout_gravity="center" android:id="@id/nfc_instruction_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/attr/progressBarStyle" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/nfc_instruction_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle" />
 </FrameLayout>
