@@ -9,6 +9,7 @@ on:
       - 'settings.gradle'
       - 'gradle.properties'
       - '.github/workflows/gradle.yml'
+      - 'tools/**'
   workflow_dispatch:
 
 jobs:
@@ -36,8 +37,54 @@ jobs:
           "$SDKM" "platforms;android-23" > /dev/null
           ls $ANDROID_HOME/platforms/
 
-      - name: Build (assembleDebug)
-        run: gradle assembleDebug --stacktrace --no-daemon
+      - name: Download build tools (apktool + dex2jar)
+        run: |
+          curl -sL -o /tmp/apktool.jar https://github.com/iBotPeaches/Apktool/releases/download/v2.10.0/apktool_2.10.0.jar
+          curl -sL -o /tmp/dex-tools.zip https://github.com/pxb1988/dex2jar/releases/download/v2.4/dex-tools-v2.4.zip
+          unzip -q -o /tmp/dex-tools.zip -d /tmp
+          echo "APKTOOL=/tmp/apktool.jar" >> $GITHUB_ENV
+          echo "D2J_DIR=/tmp/dex-tools-v2.4" >> $GITHUB_ENV
+          AAPT=$(ls $ANDROID_HOME/build-tools/*/aapt | sort -V | tail -1)
+          AAPT2=$(ls $ANDROID_HOME/build-tools/*/aapt2 | sort -V | tail -1)
+          echo "AAPT=$AAPT" >> $GITHUB_ENV
+          echo "AAPT2=$AAPT2" >> $GITHUB_ENV
+
+      # FASE 1: gera o APK desta execução — define o mapa REAL de IDs de
+      # recursos (aapt2 não é determinístico entre execuções de CI e o
+      # --stable-ids não é honrado, então o bytecode precisa ser rebasado
+      # contra o arsc produzido NESTE job).
+      - name: Fase 1 — assembleDebug (mapear IDs reais)
+        run: gradle assembleDebug --no-daemon --stacktrace
+        env:
+          CI: true
+
+      - name: Salvar mapa de IDs da fase 1
+        run: |
+          "$AAPT2" dump resources app/build/outputs/apk/debug/app-debug.apk > /tmp/arsc-fase1.txt
+          wc -l /tmp/arsc-fase1.txt
+
+      # FASE 2: regenera os jars de bytecode (apktool -> smali -> dex ->
+      # dex2jar SEM --skip-exceptions, preservando try/catch) rebasados para
+      # os IDs da fase 1, e reconstrói. O cache do Gradle garante que o
+      # resources.arsc da fase 2 é idêntico ao da fase 1.
+      - name: Fase 2 — regenerar jars com IDs reais + exception handlers
+        run: bash tools/make_code_jars.sh app.apk
+
+      - name: Fase 2 — assembleDebug final
+        run: gradle assembleDebug --no-daemon --stacktrace
+        env:
+          CI: true
+
+      - name: Verificar alinhamento de IDs (fase 1 == fase 2)
+        run: |
+          "$AAPT2" dump resources app/build/outputs/apk/debug/app-debug.apk > /tmp/arsc-fase2.txt
+          if ! diff -q /tmp/arsc-fase1.txt /tmp/arsc-fase2.txt > /dev/null; then
+            echo "ERRO: resources.arsc mudou entre as fases — bytecode desalinhado!"
+            diff /tmp/arsc-fase1.txt /tmp/arsc-fase2.txt | head -20
+            exit 1
+          fi
+          echo "OK: arsc idêntico entre fases — bytecode alinhado aos IDs reais"
+          "$AAPT2" dump badging app/build/outputs/apk/debug/app-debug.apk | head -2
 
       - name: Upload APK
         if: success()

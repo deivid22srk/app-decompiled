@@ -52,8 +52,8 @@ echo "[5/6] extrai dexes"
 echo "[6/6] dex -> jar"
 D2J_MAIN=com.googlecode.dex2jar.tools.Dex2jarCmd
 CP=$(ls "$D2J_DIR"/lib/*.jar | tr '\n' ':')
-java -Xmx2g -cp "$CP" "$D2J_MAIN" -f --skip-exceptions "$WORK/classes.dex" -o "$WORK/code1.jar" > /dev/null
-java -Xmx2g -cp "$CP" "$D2J_MAIN" -f --skip-exceptions "$WORK/classes2.dex" -o "$WORK/code2.jar" > /dev/null
+java -Xmx2g -cp "$CP" "$D2J_MAIN" -f "$WORK/classes.dex" -o "$WORK/code1.jar" > /dev/null
+java -Xmx2g -cp "$CP" "$D2J_MAIN" -f "$WORK/classes2.dex" -o "$WORK/code2.jar" > /dev/null
 
 cp "$WORK/code1.jar" app/libs/app-code-1.jar
 cp "$WORK/code2.jar" app/libs/app-code-2.jar
