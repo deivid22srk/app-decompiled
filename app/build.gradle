@@ -8,8 +8,8 @@ android {
         applicationId 'com.deivid22srk.store'
         minSdkVersion 9
         targetSdkVersion 23
-        versionCode 80620200
-        versionName '6.2.02-open'
+        versionCode 80620201
+        versionName '6.2.03-open'
         multiDexEnabled true
     }
 
